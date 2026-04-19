@@ -15,19 +15,20 @@ RLHF, RLAIF, RLVR, DPO, SFT, LoRA, on-policy distillation, reward modeling, pref
 - Google Research: 1
 - Google DeepMind: 1
 
+**Subcategories:**
+
+- [RLVR & verifiable-reward RL](#rlvr-verifiable-rewards) (3)
+- [Classic RLHF (PPO, reward models)](#rlhf-classic) (7)
+- [Direct preference (DPO, KTO, ORPO, SimPO)](#direct-preference) (1)
+- [SFT & instruction tuning](#sft-and-instruction-tuning) (6)
+- [Distillation](#distillation) (3)
+- [Other post-training](#fallback-post-training) (14)
+
 ---
 
-### MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory
+## <a id="rlvr-verifiable-rewards"></a>RLVR & verifiable-reward RL
 
-- **ID:** `dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/memalign-building-better-llm-judges-human-feedback-scalable-memory
-- **Date:** 2026-02-03
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
+_3 posts_
 
 ### The Power of RLVR: Training a Leading SQL Reasoning Model on Databricks
 
@@ -67,17 +68,9 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Introducing the Synthetic Data Generator - Build Datasets with Natural Language
+## <a id="rlhf-classic"></a>Classic RLHF (PPO, reward models)
 
-- **ID:** `hf-r-synthetic-data-generator`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/synthetic-data-generator
-- **Date:** 2024-12-16
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
+_7 posts_
 
 ### Putting RL back in RLHF
 
@@ -91,87 +84,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models
-
-- **ID:** `hf-r-cosmopedia`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/cosmopedia
-- **Date:** 2024-03-20
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Fine-Grained Human Feedback
-
-- **ID:** `dbx-r-fine-grained-human-feedback`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/fine-grained-human-feedback
-- **Date:** 2024-02-27
-- **Authors:** Prithviraj (Raj) Ammanabrolu
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Synthetic data: save money, time and carbon with open source
-
-- **ID:** `hf-r-synthetic-data-save-costs`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/synthetic-data-save-costs
-- **Date:** 2024-02-16
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### LIMIT: Less Is More for Instruction Tuning
-
-- **ID:** `dbx-r-limit-less-more-instruction-tuning`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/limit-less-more-instruction-tuning
-- **Date:** 2024-02-10
-- **Authors:** Aditi Jha|Jacob Portes
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** fine-tuning
-
-_Summary pending — see link for details._
-
-
 ### The N Implementation Details of RLHF with PPO
 
 - **ID:** `hf-r-the_n_implementation_details_of_rlhf_with_ppo`
 - **Company:** Hugging Face
 - **Link:** https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo
 - **Date:** 2023-10-24
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Fine-tune Llama 2 with DPO
-
-- **ID:** `hf-r-dpo-trl`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/dpo-trl
-- **Date:** 2023-08-08
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny
-
-- **ID:** `hf-r-sd_distillation`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/sd_distillation
-- **Date:** 2023-08-01
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -226,11 +144,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Third-person imitation learning
+### Learning to summarize with human feedback
 
-- **ID:** `oai-r-third-person-imitation-learning`
+- **ID:** `oai-r-learning-to-summarize-with-human-feedback`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/third-person-imitation-learning/
+- **Link:** https://openai.com/index/learning-to-summarize-with-human-feedback/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -238,11 +156,210 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Learning to summarize with human feedback
+## <a id="direct-preference"></a>Direct preference (DPO, KTO, ORPO, SimPO)
 
-- **ID:** `oai-r-learning-to-summarize-with-human-feedback`
+_1 posts_
+
+### Fine-tune Llama 2 with DPO
+
+- **ID:** `hf-r-dpo-trl`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/dpo-trl
+- **Date:** 2023-08-08
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="sft-and-instruction-tuning"></a>SFT & instruction tuning
+
+_6 posts_
+
+### LIMIT: Less Is More for Instruction Tuning
+
+- **ID:** `dbx-r-limit-less-more-instruction-tuning`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/limit-less-more-instruction-tuning
+- **Date:** 2024-02-10
+- **Authors:** Aditi Jha|Jacob Portes
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** fine-tuning
+
+_Summary pending — see link for details._
+
+
+### Camels In A Changing Climate Enhancing Lm Adaptation With Tulu 2 0Eb692698A78
+
+- **ID:** `ai2-r-camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Dr Tulu
+
+- **ID:** `ai2-r-dr-tulu`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/dr-tulu
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Tulu 2
+
+- **ID:** `ai2-r-tulu-2`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/tulu-2
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Tulu 3
+
+- **ID:** `ai2-r-tulu-3`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/tulu-3
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Tulu 3 Technical
+
+- **ID:** `ai2-r-tulu-3-technical`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/tulu-3-technical
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="distillation"></a>Distillation
+
+_3 posts_
+
+### Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny
+
+- **ID:** `hf-r-sd_distillation`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/sd_distillation
+- **Date:** 2023-08-01
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Training Machine Learning Models More Efficiently with Dataset Distillation
+
+- **ID:** `gr-r-training-machine-learning-models-more-efficiently-with-dataset-distillation`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/training-machine-learning-models-more-efficiently-with-dataset-distillation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Data Distillation Makes Omni Supervised Learning Possible
+
+- **ID:** `meta-r-data-distillation-makes-omni-supervised-learning-possible`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/data-distillation-makes-omni-supervised-learning-possible/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-post-training"></a>Other post-training
+
+_14 posts_
+
+### MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory
+
+- **ID:** `dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/memalign-building-better-llm-judges-human-feedback-scalable-memory
+- **Date:** 2026-02-03
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Introducing the Synthetic Data Generator - Build Datasets with Natural Language
+
+- **ID:** `hf-r-synthetic-data-generator`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/synthetic-data-generator
+- **Date:** 2024-12-16
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models
+
+- **ID:** `hf-r-cosmopedia`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/cosmopedia
+- **Date:** 2024-03-20
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Fine-Grained Human Feedback
+
+- **ID:** `dbx-r-fine-grained-human-feedback`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/fine-grained-human-feedback
+- **Date:** 2024-02-27
+- **Authors:** Prithviraj (Raj) Ammanabrolu
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Synthetic data: save money, time and carbon with open source
+
+- **ID:** `hf-r-synthetic-data-save-costs`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/synthetic-data-save-costs
+- **Date:** 2024-02-16
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Third-person imitation learning
+
+- **ID:** `oai-r-third-person-imitation-learning`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-to-summarize-with-human-feedback/
+- **Link:** https://openai.com/index/third-person-imitation-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -322,30 +439,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Training Machine Learning Models More Efficiently with Dataset Distillation
-
-- **ID:** `gr-r-training-machine-learning-models-more-efficiently-with-dataset-distillation`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/training-machine-learning-models-more-efficiently-with-dataset-distillation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Data Distillation Makes Omni Supervised Learning Possible
-
-- **ID:** `meta-r-data-distillation-makes-omni-supervised-learning-possible`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/data-distillation-makes-omni-supervised-learning-possible/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Open Sourcing Polygames A New Framework For Training Ai Bots Through Self Play
 
 - **ID:** `meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play`
@@ -363,66 +456,6 @@ _Summary pending — see link for details._
 - **ID:** `dm-r-learning-through-human-feedback`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/learning-through-human-feedback/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Camels In A Changing Climate Enhancing Lm Adaptation With Tulu 2 0Eb692698A78
-
-- **ID:** `ai2-r-camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Dr Tulu
-
-- **ID:** `ai2-r-dr-tulu`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/dr-tulu
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Tulu 2
-
-- **ID:** `ai2-r-tulu-2`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/tulu-2
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Tulu 3
-
-- **ID:** `ai2-r-tulu-3`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/tulu-3
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Tulu 3 Technical
-
-- **ID:** `ai2-r-tulu-3-technical`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/tulu-3-technical
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_

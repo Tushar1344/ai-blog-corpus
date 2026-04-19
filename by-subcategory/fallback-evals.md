@@ -1,0 +1,57 @@
+# Other evaluations & benchmarks
+
+**Post count:** 51  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#fallback-evals))
+
+| Date | Company | Title | ID |
+|---|---|---|---|
+| 2026-02-04 | Hugging Face | [Community Evals: Because we're done trusting black-box leaderboards over the community](../by-focus-area/evals-and-benchmarks.md#hf-r-community-evals) | `hf-r-community-evals` |
+| 2026-01-27 | Vercel | [AGENTS.md outperforms skills in our agent evals](../by-focus-area/evals-and-benchmarks.md#vcl-e-agents-md-outperforms-skills-in-our-agent-evals) | `vcl-e-agents-md-outperforms-skills-in-our-agent-evals` |
+| 2025-11-21 | Hugging Face | [Open ASR Leaderboard: Trends and Insights with New Multilingual & Long-Form Tracks](../by-focus-area/evals-and-benchmarks.md#hf-r-open-asr-leaderboard) | `hf-r-open-asr-leaderboard` |
+| 2025-07-23 | Hugging Face | [TimeScope: How Long Can Your Video Large Multimodal Model Go?](../by-focus-area/evals-and-benchmarks.md#hf-r-timescope-video-lmm-benchmark) | `hf-r-timescope-video-lmm-benchmark` |
+| 2025-04-08 | Hugging Face | [Arabic Leaderboards: Introducing Arabic Instruction Following, Updating AraGen, and More](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-3c3h-aragen-ifeval) | `hf-r-leaderboard-3c3h-aragen-ifeval` |
+| 2025-02-14 | Hugging Face | [Fixing Open LLM Leaderboard with Math-Verify](../by-focus-area/evals-and-benchmarks.md#hf-r-math_verify_leaderboard) | `hf-r-math_verify_leaderboard` |
+| 2025-02-10 | Hugging Face | [The Open Arabic LLM Leaderboard 2](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-arabic-v2) | `hf-r-leaderboard-arabic-v2` |
+| 2025-01-09 | Hugging Face | [CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-emissions-analysis) | `hf-r-leaderboard-emissions-analysis` |
+| 2024-12-04 | Hugging Face | [Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-3c3h-aragen) | `hf-r-leaderboard-3c3h-aragen` |
+| 2024-11-20 | Hugging Face | [Introducing the Open Leaderboard for Japanese LLMs!](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-japanese) | `hf-r-leaderboard-japanese` |
+| 2024-11-19 | Anthropic | [A statistical approach to model evaluations](../by-focus-area/evals-and-benchmarks.md#ant-r-statistical-approach-to-model-evals) | `ant-r-statistical-approach-to-model-evals` |
+| 2024-10-04 | Hugging Face | [Introducing the Open FinLLM Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-finbench) | `hf-r-leaderboard-finbench` |
+| 2024-05-14 | Hugging Face | [Introducing the Open Arabic LLM Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-arabic) | `hf-r-leaderboard-arabic` |
+| 2024-05-05 | Hugging Face | [Introducing the Open Leaderboard for Hebrew LLMs!](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-hebrew) | `hf-r-leaderboard-hebrew` |
+| 2024-05-03 | Hugging Face | [Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-artificial-analysis) | `hf-r-leaderboard-artificial-analysis` |
+| 2024-04-30 | Databricks Mosaic AI | [Calibrating the Mosaic Evaluation Gauntlet](../by-focus-area/evals-and-benchmarks.md#dbx-r-calibrating-mosaic-evaluation-gauntlet) | `dbx-r-calibrating-mosaic-evaluation-gauntlet` |
+| 2024-04-23 | Hugging Face | [Introducing the Open Chain of Thought Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-cot) | `hf-r-leaderboard-cot` |
+| 2024-04-19 | Hugging Face | [The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-medicalllm) | `hf-r-leaderboard-medicalllm` |
+| 2024-03-05 | Hugging Face | [Introducing ConTextual: How well can your Multimodal model jointly reason over text and image in text-rich scenes?](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-contextual) | `hf-r-leaderboard-contextual` |
+| 2024-02-23 | Hugging Face | [Introducing the Red-Teaming Resistance Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-haizelab) | `hf-r-leaderboard-haizelab` |
+| 2024-02-20 | Hugging Face | [Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-upstage) | `hf-r-leaderboard-upstage` |
+| 2024-02-02 | Hugging Face | [NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language Models through Complexity Classes and Dynamic Updates](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-nphardeval) | `hf-r-leaderboard-nphardeval` |
+| 2024-01-31 | Hugging Face | [Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World Use Cases](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-patronus) | `hf-r-leaderboard-patronus` |
+| 2024-01-29 | Hugging Face | [The Hallucinations Leaderboard, an Open Effort to Measure Hallucinations in Large Language Models](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-hallucinations) | `hf-r-leaderboard-hallucinations` |
+| 2024-01-26 | Hugging Face | [An Introduction to AI Secure LLM Safety Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-decodingtrust) | `hf-r-leaderboard-decodingtrust` |
+| 2024-01-12 | Hugging Face | [A guide to setting up your own Hugging Face leaderboard: an end-to-end example with Vectara's hallucination leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-vectara) | `hf-r-leaderboard-vectara` |
+| 2023-12-01 | Hugging Face | [Open LLM Leaderboard: DROP deep dive](../by-focus-area/evals-and-benchmarks.md#hf-r-open-llm-leaderboard-drop) | `hf-r-open-llm-leaderboard-drop` |
+| 2023-09-26 | Hugging Face | [Llama 2 on Amazon SageMaker a Benchmark](../by-focus-area/evals-and-benchmarks.md#hf-r-llama-sagemaker-benchmark) | `hf-r-llama-sagemaker-benchmark` |
+| 2023-09-18 | Hugging Face | [Object Detection Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-object-detection-leaderboard) | `hf-r-object-detection-leaderboard` |
+| 2023-08-10 | Databricks Mosaic AI | [End-to-End Secure Evaluation of Code Generation Models](../by-focus-area/evals-and-benchmarks.md#dbx-r-secure-code-evaluation) | `dbx-r-secure-code-evaluation` |
+| 2023-06-12 | Hugging Face | [Can foundation models label data like humans?](../by-focus-area/evals-and-benchmarks.md#hf-r-open-llm-leaderboard-rlhf) | `hf-r-open-llm-leaderboard-rlhf` |
+| 2023-02-02 | Databricks Mosaic AI | [Blazingly Fast LLM Evaluation for In-Context Learning](../by-focus-area/evals-and-benchmarks.md#dbx-r-llm-evaluation-for-icl) | `dbx-r-llm-evaluation-for-icl` |
+| 2022-12-14 | Hugging Face | [Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB](../by-focus-area/evals-and-benchmarks.md#hf-r-habana-gaudi-2-benchmark) | `hf-r-habana-gaudi-2-benchmark` |
+| 2022-10-19 | Hugging Face | [MTEB: Massive Text Embedding Benchmark](../by-focus-area/evals-and-benchmarks.md#hf-r-mteb) | `hf-r-mteb` |
+| 2022-10-03 | Hugging Face | [Very Large Language Models and How to Evaluate Them](../by-focus-area/evals-and-benchmarks.md#hf-r-zero-shot-eval-on-the-hub) | `hf-r-zero-shot-eval-on-the-hub` |
+| 2022-06-28 | Hugging Face | [Announcing Evaluation on the Hub](../by-focus-area/evals-and-benchmarks.md#hf-r-eval-on-the-hub) | `hf-r-eval-on-the-hub` |
+| ? | OpenAI | [Measuring the performance of our models on real-world tasks](../by-focus-area/evals-and-benchmarks.md#oai-r-gdpval) | `oai-r-gdpval` |
+| ? | OpenAI | [Gotta Learn Fast: A new benchmark for generalization in RL](../by-focus-area/evals-and-benchmarks.md#oai-r-gotta-learn-fast) | `oai-r-gotta-learn-fast` |
+| ? | OpenAI | [Scaling laws for reward model overoptimization](../by-focus-area/evals-and-benchmarks.md#oai-r-scaling-laws-for-reward-model-overoptimization) | `oai-r-scaling-laws-for-reward-model-overoptimization` |
+| ? | OpenAI | [Introducing the SWE-Lancer benchmark](../by-focus-area/evals-and-benchmarks.md#oai-r-swe-lancer) | `oai-r-swe-lancer` |
+| ? | Google Research | [From Waveforms to Wisdom: The New Benchmark for Auditory Intelligence](../by-focus-area/evals-and-benchmarks.md#gr-r-from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence) | `gr-r-from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence` |
+| ? | Meta AI / FAIR | [A New Open Benchmark For Speech Recognition With Limited Or No Supervision](../by-focus-area/evals-and-benchmarks.md#meta-r-a-new-open-benchmark-for-speech-recognition-with-limited-or-no-supervision) | `meta-r-a-new-open-benchmark-for-speech-recognition-with-limited-or-no-supervision` |
+| ? | Meta AI / FAIR | [Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning](../by-focus-area/evals-and-benchmarks.md#meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning) | `meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning` |
+| ? | Meta AI / FAIR | [Introducing Kilt A New Unified Benchmark For Knowledge Intensive Nlp Tasks](../by-focus-area/evals-and-benchmarks.md#meta-r-introducing-kilt-a-new-unified-benchmark-for-knowledge-intensive-nlp-tasks) | `meta-r-introducing-kilt-a-new-unified-benchmark-for-knowledge-intensive-nlp-tasks` |
+| ? | Meta AI / FAIR | [Introducing The Temporal Data Set A Benchmark For Recognizing Actions In Videos](../by-focus-area/evals-and-benchmarks.md#meta-r-introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos) | `meta-r-introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos` |
+| ? | Meta AI / FAIR | [Introducing Unidentified Video Objects A New Benchmark For Open World Object Segmentation](../by-focus-area/evals-and-benchmarks.md#meta-r-introducing-unidentified-video-objects-a-new-benchmark-for-open-world-object-segmentation) | `meta-r-introducing-unidentified-video-objects-a-new-benchmark-for-open-world-object-segmentation` |
+| ? | Meta AI / FAIR | [Muavic Audio Visual Speech Translation Benchmark](../by-focus-area/evals-and-benchmarks.md#meta-r-muavic-audio-visual-speech-translation-benchmark) | `meta-r-muavic-audio-visual-speech-translation-benchmark` |
+| ? | Meta AI / FAIR | [Phyre A New Ai Benchmark For Physical Reasoning](../by-focus-area/evals-and-benchmarks.md#meta-r-phyre-a-new-ai-benchmark-for-physical-reasoning) | `meta-r-phyre-a-new-ai-benchmark-for-physical-reasoning` |
+| ? | Google DeepMind | [Agent57 Outperforming The Human Atari Benchmark](../by-focus-area/evals-and-benchmarks.md#dm-r-agent57-outperforming-the-human-atari-benchmark) | `dm-r-agent57-outperforming-the-human-atari-benchmark` |
+| ? | Google DeepMind | [Facts Grounding A New Benchmark For Evaluating The Factuality Of Large Language Models](../by-focus-area/evals-and-benchmarks.md#dm-r-facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models) | `dm-r-facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models` |
+| ? | Allen Institute for AI | [Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B](../by-focus-area/evals-and-benchmarks.md#ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b) | `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b` |

@@ -12,7 +12,58 @@ FP8/INT8 training, post-training quantization, distillation for size, parameter-
 - Thinking Machines: 1
 - Google Research: 1
 
+**Subcategories:**
+
+- [Post-training quantization](#post-training-quantization) (3)
+- [Parameter-efficient training (LoRA/PEFT)](#parameter-efficient-training) (14)
+- [Pruning & sparsity](#pruning-and-sparsity) (2)
+- [Other efficiency](#fallback-efficiency) (1)
+
 ---
+
+## <a id="post-training-quantization"></a>Post-training quantization
+
+_3 posts_
+
+### Making LLMs lighter with AutoGPTQ and transformers
+
+- **ID:** `hf-r-gptq-integration`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/gptq-integration
+- **Date:** 2023-08-23
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA
+
+- **ID:** `hf-r-4bit-transformers-bitsandbytes`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/4bit-transformers-bitsandbytes
+- **Date:** 2023-05-24
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using transformers, accelerate and bitsandbytes
+
+- **ID:** `hf-r-hf-bitsandbytes-integration`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/hf-bitsandbytes-integration
+- **Date:** 2022-08-17
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="parameter-efficient-training"></a>Parameter-efficient training (LoRA/PEFT)
+
+_14 posts_
 
 ### Fast PEFT Serving at Scale
 
@@ -60,20 +111,6 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8
-
-- **ID:** `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8
-- **Date:** 2024-03-21
-- **Authors:** Mihir Patel|Cheng Li|Saaketh Narayan
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** quantization
 
 _Summary pending — see link for details._
 
@@ -138,36 +175,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Making LLMs lighter with AutoGPTQ and transformers
-
-- **ID:** `hf-r-gptq-integration`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/gptq-integration
-- **Date:** 2023-08-23
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Fine-Tune MMS Adapter Models for low-resource ASR
 
 - **ID:** `hf-r-mms_adapters`
 - **Company:** Hugging Face
 - **Link:** https://huggingface.co/blog/mms_adapters
 - **Date:** 2023-06-19
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA
-
-- **ID:** `hf-r-4bit-transformers-bitsandbytes`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/4bit-transformers-bitsandbytes
-- **Date:** 2023-05-24
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -210,23 +223,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using transformers, accelerate and bitsandbytes
+### How To Fine Tune Llms Peft Dataset Curation
 
-- **ID:** `hf-r-hf-bitsandbytes-integration`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/hf-bitsandbytes-integration
-- **Date:** 2022-08-17
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Sparsity-preserving differentially private training
-
-- **ID:** `gr-r-sparsity-preserving-differentially-private-training`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/sparsity-preserving-differentially-private-training/
+- **ID:** `meta-r-how-to-fine-tune-llms-peft-dataset-curation`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -234,11 +235,15 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How To Fine Tune Llms Peft Dataset Curation
+## <a id="pruning-and-sparsity"></a>Pruning & sparsity
 
-- **ID:** `meta-r-how-to-fine-tune-llms-peft-dataset-curation`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation/
+_2 posts_
+
+### Sparsity-preserving differentially private training
+
+- **ID:** `gr-r-sparsity-preserving-differentially-private-training`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/sparsity-preserving-differentially-private-training/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -254,6 +259,24 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-efficiency"></a>Other efficiency
+
+_1 posts_
+
+### Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8
+
+- **ID:** `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8
+- **Date:** 2024-03-21
+- **Authors:** Mihir Patel|Cheng Li|Saaketh Narayan
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** quantization
 
 _Summary pending — see link for details._
 

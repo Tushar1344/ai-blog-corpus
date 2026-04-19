@@ -14,34 +14,51 @@ Agent scaffolding, context engineering, long-running harnesses, prompt caching s
 - Cursor: 2
 - Cognition: 2
 
+**Subcategories:**
+
+- [Context engineering](#context-engineering) (2)
+- [Long-running harnesses](#long-running-harnesses) (2)
+- [MCP & tool protocols](#mcp-and-tool-protocols) (17)
+- [Scaffolding patterns](#scaffolding-patterns) (1)
+- [Agent skills & prompt libraries](#agent-skills-and-prompt-libraries) (1)
+- [Product engineering case studies (Codex, Sora, Atlas)](#codex-and-sora-harness) (6)
+- [Other harness & context engineering](#fallback-harness) (40)
+
 ---
 
-### A new programming model for durable execution
+## <a id="context-engineering"></a>Context engineering
 
-- **ID:** `vcl-e-a-new-programming-model-for-durable-execution`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/a-new-programming-model-for-durable-execution
-- **Date:** 2026-04-16
-- **Authors:** Pranay Prakash
+_2 posts_
+
+### Effective context engineering for AI agents
+
+- **ID:** `ant-e-effective-context-engineering-for-ai-agents`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+- **Date:** 2025-09-29
+- **Authors:** Prithvi Rajasekaran|Ethan Dixon|Carly Ryan|Jeremy Hadfield|Hannah Moran|Cal Rueb|Connor Jennings
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** context-engineering
+
+_Summary pending — see link for details._
+
+
+### Contextual Retrieval in AI Systems
+
+- **ID:** `ant-e-contextual-retrieval`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/contextual-retrieval
+- **Date:** 2024-09-19
 - **Track:** engineering
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
 
-### Bugbot now self-improves with learned rules
+## <a id="long-running-harnesses"></a>Long-running harnesses
 
-- **ID:** `cur-e-bugbot-learning`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/bugbot-learning
-- **Date:** 2026-04-08
-- **Authors:** Michael Zhao
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
+_2 posts_
 
 ### Harness design for long-running application development
 
@@ -52,45 +69,6 @@ _Summary pending — see link for details._
 - **Authors:** Prithvi Rajasekaran
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
-
-_Summary pending — see link for details._
-
-
-### Closing the code review loop with Bugbot
-
-- **ID:** `cur-e-bugbot-autofix`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/bugbot-autofix
-- **Date:** 2026-02-26
-- **Authors:** Autofix Jon Kaplan
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### Beyond rate limits: scaling access to Codex and Sora
-
-- **ID:** `oai-e-beyond-rate-limits`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/beyond-rate-limits/
-- **Date:** 2026-02-11
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Building a C compiler with a team of parallel Claudes
-
-- **ID:** `ant-e-building-c-compiler`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/building-c-compiler
-- **Date:** 2026-02-05
-- **Authors:** Nicholas Carlini
-- **Track:** engineering
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -107,69 +85,9 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Unlocking the Codex harness: how we built the App Server
+## <a id="mcp-and-tool-protocols"></a>MCP & tool protocols
 
-- **ID:** `oai-e-unlocking-the-codex-harness`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/unlocking-the-codex-harness/
-- **Date:** 2026-01-29
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-
-_Summary pending — see link for details._
-
-
-### Agent skills explained: An FAQ
-
-- **ID:** `vcl-e-agent-skills-explained-an-faq`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/agent-skills-explained-an-faq
-- **Date:** 2026-01-26
-- **Authors:** Eric Dodds|Andrew Qu
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Designing AI resistant technical evaluations
-
-- **ID:** `ant-e-ai-resistant-technical-evaluations`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
-- **Date:** 2026-01-21
-- **Authors:** Tristan Hume
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### How Mux shipped durable video workflows with their @mux/ai SDK
-
-- **ID:** `vcl-a-how-mux-shipped-durable-video-workflows-with-their-mux-ai-sdk`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/how-mux-shipped-durable-video-workflows-with-their-mux-ai-sdk
-- **Date:** 2026-01-12
-- **Authors:** Dylan Jhaveri
-- **Track:** applied
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### AI SDK 6
-
-- **ID:** `vcl-a-ai-sdk-6`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/ai-sdk-6
-- **Date:** 2025-12-22
-- **Authors:** Gregor Martynus|Lars Grammel|Aayush Kapoor|Josh Singh|Nico Albanese
-- **Track:** applied
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
+_17 posts_
 
 ### Code execution with MCP: building more efficient AI agents
 
@@ -180,58 +98,6 @@ _Summary pending — see link for details._
 - **Track:** engineering
 - **Contribution type:** empirical-study
 - **Techniques:** tool-use, MCP
-
-_Summary pending — see link for details._
-
-
-### How we used Codex to build Sora for Android in 28 days
-
-- **ID:** `oai-e-shipping-sora-for-android-with-codex`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/shipping-sora-for-android-with-codex/
-- **Date:** 2025-10-30
-- **Track:** engineering
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### Equipping agents for the real world with Agent Skills
-
-- **ID:** `ant-e-equipping-agents-for-the-real-world-with-agent-skills`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
-- **Date:** 2025-10-16
-- **Authors:** Barry Zhang|Keith Lazuka|Mahesh Murag
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Effective context engineering for AI agents
-
-- **ID:** `ant-e-effective-context-engineering-for-ai-agents`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
-- **Date:** 2025-09-29
-- **Authors:** Prithvi Rajasekaran|Ethan Dixon|Carly Ryan|Jeremy Hadfield|Hannah Moran|Cal Rueb|Connor Jennings
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** context-engineering
-
-_Summary pending — see link for details._
-
-
-### A postmortem of three recent issues
-
-- **ID:** `ant-e-a-postmortem-of-three-recent-issues`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
-- **Date:** 2025-09-17
-- **Authors:** Sam McAllister|Jonathan Gray|Kashyap Murali|Brennan Saeta|Oliver Rausch|Alex Palcuie
-- **Track:** engineering
-- **Contribution type:** retrospective-case-study
 
 _Summary pending — see link for details._
 
@@ -264,18 +130,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Build Your Own AI Data Analyst
-
-- **ID:** `cog-e-ai-data-analyst`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/ai-data-analyst
-- **Date:** 2025-08-28
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Generate Images with Claude and Hugging Face
 
 - **ID:** `hf-r-claude-and-mcp`
@@ -296,19 +150,6 @@ _Summary pending — see link for details._
 - **Date:** 2025-08-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### AI SDK 5
-
-- **ID:** `vcl-a-ai-sdk-5`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/ai-sdk-5
-- **Date:** 2025-07-31
-- **Authors:** Lars Grammel|Nico Albanese|Josh Singh
-- **Track:** applied
-- **Contribution type:** infra-release
 
 _Summary pending — see link for details._
 
@@ -402,18 +243,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Blockdiff: How we built our own file format for VM disk snapshots
-
-- **ID:** `cog-e-blockdiff`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/blockdiff
-- **Date:** 2025-06-23
-- **Track:** engineering
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
 ### Building efficient MCP servers
 
 - **ID:** `vcl-e-building-efficient-mcp-servers`
@@ -478,18 +307,9 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### AI SDK 4.2
+## <a id="scaffolding-patterns"></a>Scaffolding patterns
 
-- **ID:** `vcl-a-ai-sdk-4-2`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/ai-sdk-4-2
-- **Date:** 2025-03-21
-- **Authors:** Lars Grammel|Jared Palmer|Nico Albanese
-- **Track:** applied
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
+_1 posts_
 
 ### The "think" tool: Enabling Claude to stop and think
 
@@ -499,6 +319,248 @@ _Summary pending — see link for details._
 - **Date:** 2025-03-20
 - **Track:** engineering
 - **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="agent-skills-and-prompt-libraries"></a>Agent skills & prompt libraries
+
+_1 posts_
+
+### Equipping agents for the real world with Agent Skills
+
+- **ID:** `ant-e-equipping-agents-for-the-real-world-with-agent-skills`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- **Date:** 2025-10-16
+- **Authors:** Barry Zhang|Keith Lazuka|Mahesh Murag
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="codex-and-sora-harness"></a>Product engineering case studies (Codex, Sora, Atlas)
+
+_6 posts_
+
+### Beyond rate limits: scaling access to Codex and Sora
+
+- **ID:** `oai-e-beyond-rate-limits`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/beyond-rate-limits/
+- **Date:** 2026-02-11
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Building a C compiler with a team of parallel Claudes
+
+- **ID:** `ant-e-building-c-compiler`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/building-c-compiler
+- **Date:** 2026-02-05
+- **Authors:** Nicholas Carlini
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Unlocking the Codex harness: how we built the App Server
+
+- **ID:** `oai-e-unlocking-the-codex-harness`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/unlocking-the-codex-harness/
+- **Date:** 2026-01-29
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+
+_Summary pending — see link for details._
+
+
+### How we used Codex to build Sora for Android in 28 days
+
+- **ID:** `oai-e-shipping-sora-for-android-with-codex`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/shipping-sora-for-android-with-codex/
+- **Date:** 2025-10-30
+- **Track:** engineering
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+### A postmortem of three recent issues
+
+- **ID:** `ant-e-a-postmortem-of-three-recent-issues`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+- **Date:** 2025-09-17
+- **Authors:** Sam McAllister|Jonathan Gray|Kashyap Murali|Brennan Saeta|Oliver Rausch|Alex Palcuie
+- **Track:** engineering
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+### Scaling PostgreSQL to power 800 million ChatGPT users
+
+- **ID:** `oai-e-scaling-postgresql`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/scaling-postgresql/
+- **Date:** _date unknown_
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-harness"></a>Other harness & context engineering
+
+_40 posts_
+
+### A new programming model for durable execution
+
+- **ID:** `vcl-e-a-new-programming-model-for-durable-execution`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/a-new-programming-model-for-durable-execution
+- **Date:** 2026-04-16
+- **Authors:** Pranay Prakash
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Bugbot now self-improves with learned rules
+
+- **ID:** `cur-e-bugbot-learning`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/bugbot-learning
+- **Date:** 2026-04-08
+- **Authors:** Michael Zhao
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Closing the code review loop with Bugbot
+
+- **ID:** `cur-e-bugbot-autofix`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/bugbot-autofix
+- **Date:** 2026-02-26
+- **Authors:** Autofix Jon Kaplan
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Agent skills explained: An FAQ
+
+- **ID:** `vcl-e-agent-skills-explained-an-faq`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/agent-skills-explained-an-faq
+- **Date:** 2026-01-26
+- **Authors:** Eric Dodds|Andrew Qu
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Designing AI resistant technical evaluations
+
+- **ID:** `ant-e-ai-resistant-technical-evaluations`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+- **Date:** 2026-01-21
+- **Authors:** Tristan Hume
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### How Mux shipped durable video workflows with their @mux/ai SDK
+
+- **ID:** `vcl-a-how-mux-shipped-durable-video-workflows-with-their-mux-ai-sdk`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/how-mux-shipped-durable-video-workflows-with-their-mux-ai-sdk
+- **Date:** 2026-01-12
+- **Authors:** Dylan Jhaveri
+- **Track:** applied
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+### AI SDK 6
+
+- **ID:** `vcl-a-ai-sdk-6`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/ai-sdk-6
+- **Date:** 2025-12-22
+- **Authors:** Gregor Martynus|Lars Grammel|Aayush Kapoor|Josh Singh|Nico Albanese
+- **Track:** applied
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+### Build Your Own AI Data Analyst
+
+- **ID:** `cog-e-ai-data-analyst`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/ai-data-analyst
+- **Date:** 2025-08-28
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### AI SDK 5
+
+- **ID:** `vcl-a-ai-sdk-5`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/ai-sdk-5
+- **Date:** 2025-07-31
+- **Authors:** Lars Grammel|Nico Albanese|Josh Singh
+- **Track:** applied
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+### Blockdiff: How we built our own file format for VM disk snapshots
+
+- **ID:** `cog-e-blockdiff`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/blockdiff
+- **Date:** 2025-06-23
+- **Track:** engineering
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+### AI SDK 4.2
+
+- **ID:** `vcl-a-ai-sdk-4-2`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/ai-sdk-4-2
+- **Date:** 2025-03-21
+- **Authors:** Lars Grammel|Jared Palmer|Nico Albanese
+- **Track:** applied
+- **Contribution type:** infra-release
 
 _Summary pending — see link for details._
 
@@ -577,18 +639,6 @@ _Summary pending — see link for details._
 - **Authors:** Lars Grammel|Jared Palmer|Jeremy Philemon|Nico Albanese
 - **Track:** applied
 - **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Contextual Retrieval in AI Systems
-
-- **ID:** `ant-e-contextual-retrieval`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/contextual-retrieval
-- **Date:** 2024-09-19
-- **Track:** engineering
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -798,18 +848,6 @@ _Summary pending — see link for details._
 - **Track:** engineering
 - **Contribution type:** empirical-study
 - **Techniques:** training-dynamics
-
-_Summary pending — see link for details._
-
-
-### Scaling PostgreSQL to power 800 million ChatGPT users
-
-- **ID:** `oai-e-scaling-postgresql`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-postgresql/
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 

@@ -23,27 +23,32 @@ A cross-indexed library of research and engineering blog posts from **12 AI orga
 ## Directory structure
 
 ```
-by-focus-area/        # CANONICAL — 8 focus area files, each contains full per-post entries
-by-company/           # Cross-reference — 13 company files, one-line entries linking to canonical
+by-focus-area/        # CANONICAL — 8 focus-area files; full per-post entries organized by subcategory H2 sections
+by-subcategory/       # Cross-reference — ~56 files, one per subcategory (flat)
+by-company/           # Cross-reference — 13 company files
 by-contribution-type/ # Cross-reference by contribution kind
 by-year/              # Cross-reference by publish year
 by-technique/         # Cross-reference by technique tag (SAE, MoE, RLHF, etc.)
 _data/                # Source CSVs + scripts
-index.md              # Master nav
+index.md              # Master nav (focus area → subcategory → entries)
 ```
 
 Each post has a unique ID (`{company}-{track}-{slug}`) and appears as a full entry in exactly one `by-focus-area/*.md` file. Every other file cross-references via the ID anchor.
 
-## Focus areas
+## Focus areas and subcategories
 
-1. **pretraining-and-architecture** (271 posts) — MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers, foundation models
-2. **post-training-and-fine-tuning** (34 posts) — RLHF, RLAIF, RLVR, DPO, SFT, LoRA, on-policy distillation, reward modeling
-3. **alignment-and-safety** (95 posts) — constitutional methods, RSP/safety policy, red-teaming, jailbreaking, alignment faking, safeguards, system cards
-4. **interpretability** (17 posts) — SAE, circuits, steering, probing, dictionary learning, feature viz, monosemanticity
-5. **evals-and-benchmarks** (77 posts) — SWE-bench, Tau-Bench, BrowseComp, GPQA, HELM, eval methodology
-6. **quantization-and-efficiency** (20 posts) — FP8/INT8 training, post-training quantization, LoRA/PEFT
-7. **agentic-systems** (112 posts) — agents, tool use, multi-agent, computer use, coding agents
-8. **harness-and-context-engineering** (69 posts) — scaffolding, context engineering, long-running harnesses, MCP, agent skills
+Each post is tagged with a **focus area** (primary) and a **subcategory** (secondary, 1-of-many within the focus area). Both are columns in the Sheet and are used to organize the markdown.
+
+1. **pretraining-and-architecture** (271) — foundation model releases · architectures (MoE/SSMs/attention variants) · multimodal pretraining · scaling laws & training dynamics · data & tokenization · training stack · research techniques & methods · societal impact & deployment studies
+2. **post-training-and-fine-tuning** (34) — RLVR · classic RLHF · direct preference (DPO/KTO/ORPO/SimPO) · SFT & instruction tuning · distillation
+3. **alignment-and-safety** (95) — responsible scaling & policy · constitutional & self-critique · deceptive alignment · dangerous-capability evals · red-teaming & jailbreaking · scalable oversight · reward hacking & sycophancy · general safety research
+4. **interpretability** (17) — SAEs & dictionary learning · circuits & mechanistic · steering & intervention · feature viz & probing · attention & induction heads
+5. **evals-and-benchmarks** (77) — agent evals · coding evals · reasoning evals · judge models & methodology · eval systems · domain-specific · benchmark critique · multimodal evals
+6. **quantization-and-efficiency** (20) — training-time quantization · post-training quantization · parameter-efficient (LoRA/PEFT) · pruning & sparsity
+7. **agentic-systems** (112) — coding agents · multi-agent · computer/browser use · tool use · enterprise agents · embodied/simulation · traces & observability · agent design & patterns · general agentic systems
+8. **harness-and-context-engineering** (69) — MCP & tool protocols · long-running harnesses · context engineering · scaffolding · agent skills · prompt caching · Codex/Sora/Atlas case studies
+
+**Total subcategories:** ~56 across all 8 focus areas. See `by-subcategory/` for a flat index.
 
 ## Contributing companies
 

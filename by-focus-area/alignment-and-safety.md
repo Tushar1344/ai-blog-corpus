@@ -14,7 +14,318 @@ Constitutional methods, responsible scaling policies, red-teaming, jailbreaking,
 - Thinking Machines: 1
 - Google Research: 1
 
+**Subcategories:**
+
+- [Responsible scaling & safety policy](#responsible-scaling-and-policy) (13)
+- [Constitutional methods & self-critique](#constitutional-and-self-critique) (7)
+- [Deceptive alignment & scheming](#deceptive-alignment) (2)
+- [Red-teaming & jailbreaking](#red-teaming-and-jailbreaking) (1)
+- [Scalable oversight & debate](#scalable-oversight) (3)
+- [Reward hacking, monitorability & honesty](#reward-hacking-and-sycophancy) (4)
+- [General safety research](#safety-research-general) (3)
+- [Other alignment & safety](#fallback-alignment) (62)
+
 ---
+
+## <a id="responsible-scaling-and-policy"></a>Responsible scaling & safety policy
+
+_13 posts_
+
+### Preparing for AI’s economic impact: exploring policy responses
+
+- **ID:** `ant-r-economic-policy-responses`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/economic-policy-responses
+- **Date:** 2025-10-14
+- **Track:** research
+- **Contribution type:** position-policy
+
+_Summary pending — see link for details._
+
+
+### OpenRAIL: Towards open and responsible AI licensing frameworks
+
+- **ID:** `hf-r-open_rail`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open_rail
+- **Date:** 2022-08-31
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Inside our approach to the Model Spec
+
+- **ID:** `oai-r-our-approach-to-the-model-spec`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/our-approach-to-the-model-spec/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** position-policy
+
+_Summary pending — see link for details._
+
+
+### Our updated Preparedness Framework
+
+- **ID:** `oai-r-updating-our-preparedness-framework`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/updating-our-preparedness-framework/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+### Why responsible AI development needs cooperation on safety
+
+- **ID:** `oai-r-cooperation-on-safety`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/cooperation-on-safety/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** position-policy
+
+_Summary pending — see link for details._
+
+
+### Collective alignment: public input on our Model Spec
+
+- **ID:** `oai-r-collective-alignment-aug-2025-updates`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/collective-alignment-aug-2025-updates/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Facebooks Five Pillars Of Responsible Ai
+
+- **ID:** `meta-r-facebooks-five-pillars-of-responsible-ai`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/facebooks-five-pillars-of-responsible-ai/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Fair Progress And Learnings Across Socially Responsible Ai Research
+
+- **ID:** `meta-r-fair-progress-and-learnings-across-socially-responsible-ai-research`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/fair-progress-and-learnings-across-socially-responsible-ai-research/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Responsible Ai Connect 2024
+
+- **ID:** `meta-r-responsible-ai-connect-2024`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/responsible-ai-connect-2024/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Responsible Ai Progress Meta 2022
+
+- **ID:** `meta-r-responsible-ai-progress-meta-2022`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/responsible-ai-progress-meta-2022/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing The Frontier Safety Framework
+
+- **ID:** `dm-r-introducing-the-frontier-safety-framework`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Strengthening Our Frontier Safety Framework
+
+- **ID:** `dm-r-strengthening-our-frontier-safety-framework`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/strengthening-our-frontier-safety-framework/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Updating The Frontier Safety Framework
+
+- **ID:** `dm-r-updating-the-frontier-safety-framework`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="constitutional-and-self-critique"></a>Constitutional methods & self-critique
+
+_7 posts_
+
+### The persona selection model
+
+- **ID:** `ant-r-persona-selection-model`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/persona-selection-model
+- **Date:** 2026-02-23
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Persona vectors: Monitoring and controlling character traits in language models
+
+- **ID:** `ant-r-persona-vectors`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/persona-vectors
+- **Date:** 2025-08-01
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Exploring model welfare
+
+- **ID:** `ant-r-exploring-model-welfare`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/exploring-model-welfare
+- **Date:** 2025-04-24
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Constitutional AI with Open LLMs
+
+- **ID:** `hf-r-constitutional_ai`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/constitutional_ai
+- **Date:** 2024-02-01
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Specific versus General Principles for Constitutional AI
+
+- **ID:** `ant-r-specific-versus-general-principles-for-constitutional-ai`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai
+- **Date:** 2023-10-24
+- **Track:** research
+- **Contribution type:** position-policy
+- **Techniques:** constitutional-AI
+
+_Summary pending — see link for details._
+
+
+### Collective Constitutional AI: Aligning a Language Model with Public Input
+
+- **ID:** `ant-r-collective-constitutional-ai-aligning-a-language-model-with-public-input`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input
+- **Date:** 2023-10-17
+- **Track:** research
+- **Contribution type:** position-policy
+- **Techniques:** constitutional-AI
+
+_Summary pending — see link for details._
+
+
+### Constitutional AI: Harmlessness from AI Feedback
+
+- **ID:** `ant-r-constitutional-ai-harmlessness-from-ai-feedback`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
+- **Date:** 2022-12-15
+- **Track:** research
+- **Contribution type:** position-policy
+- **Techniques:** constitutional-AI
+
+_Summary pending — see link for details._
+
+
+## <a id="deceptive-alignment"></a>Deceptive alignment & scheming
+
+_2 posts_
+
+### Alignment faking in large language models
+
+- **ID:** `ant-r-alignment-faking`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/alignment-faking
+- **Date:** 2024-12-18
+- **Track:** research
+- **Contribution type:** position-policy
+- **Techniques:** alignment-faking
+
+_Summary pending — see link for details._
+
+
+### Detecting and reducing scheming in AI models
+
+- **ID:** `oai-r-detecting-and-reducing-scheming-in-ai-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="red-teaming-and-jailbreaking"></a>Red-teaming & jailbreaking
+
+_1 posts_
+
+### Petri: An open-source auditing tool to accelerate AI safety research
+
+- **ID:** `ant-r-petri-open-source-auditing`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/petri-open-source-auditing
+- **Date:** 2025-10-06
+- **Track:** research
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+## <a id="scalable-oversight"></a>Scalable oversight & debate
+
+_3 posts_
 
 ### Automated Alignment Researchers: Using large language models to scale scalable oversight
 
@@ -27,6 +338,34 @@ Constitutional methods, responsible scaling policies, red-teaming, jailbreaking,
 
 _Summary pending — see link for details._
 
+
+### Measuring Progress on Scalable Oversight for Large Language Models
+
+- **ID:** `ant-r-measuring-progress-on-scalable-oversight-for-large-language-models`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models
+- **Date:** 2022-11-04
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### AI safety via debate
+
+- **ID:** `oai-r-debate`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/debate/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="reward-hacking-and-sycophancy"></a>Reward hacking, monitorability & honesty
+
+_4 posts_
 
 ### Eval awareness in Claude Opus 4.6’s BrowseComp performance
 
@@ -42,17 +381,85 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### The persona selection model
+### SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents
 
-- **ID:** `ant-r-persona-selection-model`
+- **ID:** `ant-r-shade-arena-sabotage-monitoring`
 - **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/persona-selection-model
-- **Date:** 2026-02-23
+- **Link:** https://www.anthropic.com/research/shade-arena-sabotage-monitoring
+- **Date:** 2025-06-16
 - **Track:** research
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
+
+### Question Decomposition Improves the Faithfulness of Model-Generated Reasoning
+
+- **ID:** `ant-r-question-decomposition-improves-the-faithfulness-of-model-generated-reasoning`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning
+- **Date:** 2023-07-18
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### How confessions can keep language models honest
+
+- **ID:** `oai-r-how-confessions-can-keep-language-models-honest`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/how-confessions-can-keep-language-models-honest/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="safety-research-general"></a>General safety research
+
+_3 posts_
+
+### Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
+
+- **ID:** `ant-r-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
+- **Date:** 2024-01-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### A General Language Assistant as a Laboratory for Alignment
+
+- **ID:** `ant-r-a-general-language-assistant-as-a-laboratory-for-alignment`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment
+- **Date:** 2021-12-01
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### From hard refusals to safe-completions: toward output-centric safety training
+
+- **ID:** `oai-r-gpt-5-safe-completions`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-safe-completions/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-alignment"></a>Other alignment & safety
+
+_62 posts_
 
 ### Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks
 
@@ -93,30 +500,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Preparing for AI’s economic impact: exploring policy responses
-
-- **ID:** `ant-r-economic-policy-responses`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/economic-policy-responses
-- **Date:** 2025-10-14
-- **Track:** research
-- **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
-### Petri: An open-source auditing tool to accelerate AI safety research
-
-- **ID:** `ant-r-petri-open-source-auditing`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/petri-open-source-auditing
-- **Date:** 2025-10-06
-- **Track:** research
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
 ### Building AI for cyber defenders
 
 - **ID:** `ant-r-building-ai-cyber-defenders`
@@ -141,42 +524,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Persona vectors: Monitoring and controlling character traits in language models
-
-- **ID:** `ant-r-persona-vectors`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/persona-vectors
-- **Date:** 2025-08-01
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents
-
-- **ID:** `ant-r-shade-arena-sabotage-monitoring`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/shade-arena-sabotage-monitoring
-- **Date:** 2025-06-16
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Exploring model welfare
-
-- **ID:** `ant-r-exploring-model-welfare`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/exploring-model-welfare
-- **Date:** 2025-04-24
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Constitutional Classifiers: Defending against universal jailbreaks
 
 - **ID:** `ant-r-constitutional-classifiers`
@@ -185,19 +532,6 @@ _Summary pending — see link for details._
 - **Date:** 2025-02-03
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Alignment faking in large language models
-
-- **ID:** `ant-r-alignment-faking`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/alignment-faking
-- **Date:** 2024-12-18
-- **Track:** research
-- **Contribution type:** position-policy
-- **Techniques:** alignment-faking
 
 _Summary pending — see link for details._
 
@@ -250,56 +584,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Constitutional AI with Open LLMs
-
-- **ID:** `hf-r-constitutional_ai`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/constitutional_ai
-- **Date:** 2024-02-01
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
-
-- **ID:** `ant-r-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
-- **Date:** 2024-01-14
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Specific versus General Principles for Constitutional AI
-
-- **ID:** `ant-r-specific-versus-general-principles-for-constitutional-ai`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai
-- **Date:** 2023-10-24
-- **Track:** research
-- **Contribution type:** position-policy
-- **Techniques:** constitutional-AI
-
-_Summary pending — see link for details._
-
-
-### Collective Constitutional AI: Aligning a Language Model with Public Input
-
-- **ID:** `ant-r-collective-constitutional-ai-aligning-a-language-model-with-public-input`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input
-- **Date:** 2023-10-17
-- **Track:** research
-- **Contribution type:** position-policy
-- **Techniques:** constitutional-AI
-
-_Summary pending — see link for details._
-
-
 ### Studying Large Language Model Generalization with Influence Functions
 
 - **ID:** `ant-r-studying-large-language-model-generalization-with-influence-functions`
@@ -312,55 +596,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Question Decomposition Improves the Faithfulness of Model-Generated Reasoning
-
-- **ID:** `ant-r-question-decomposition-improves-the-faithfulness-of-model-generated-reasoning`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning
-- **Date:** 2023-07-18
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Constitutional AI: Harmlessness from AI Feedback
-
-- **ID:** `ant-r-constitutional-ai-harmlessness-from-ai-feedback`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
-- **Date:** 2022-12-15
-- **Track:** research
-- **Contribution type:** position-policy
-- **Techniques:** constitutional-AI
-
-_Summary pending — see link for details._
-
-
-### Measuring Progress on Scalable Oversight for Large Language Models
-
-- **ID:** `ant-r-measuring-progress-on-scalable-oversight-for-large-language-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models
-- **Date:** 2022-11-04
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### OpenRAIL: Towards open and responsible AI licensing frameworks
-
-- **ID:** `hf-r-open_rail`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open_rail
-- **Date:** 2022-08-31
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned
 
 - **ID:** `ant-r-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned`
@@ -369,18 +604,6 @@ _Summary pending — see link for details._
 - **Date:** 2022-08-22
 - **Track:** research
 - **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### A General Language Assistant as a Laboratory for Alignment
-
-- **ID:** `ant-r-a-general-language-assistant-as-a-laboratory-for-alignment`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment
-- **Date:** 2021-12-01
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -433,47 +656,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Inside our approach to the Model Spec
-
-- **ID:** `oai-r-our-approach-to-the-model-spec`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/our-approach-to-the-model-spec/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
-### Our updated Preparedness Framework
-
-- **ID:** `oai-r-updating-our-preparedness-framework`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/updating-our-preparedness-framework/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
 ### Addendum to GPT-5.2 System Card: GPT-5.2-Codex
 
 - **ID:** `oai-r-gpt-5-2-codex-system-card`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/gpt-5-2-codex-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### How confessions can keep language models honest
-
-- **ID:** `oai-r-how-confessions-can-keep-language-models-honest`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/how-confessions-can-keep-language-models-honest/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -746,18 +933,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Why responsible AI development needs cooperation on safety
-
-- **ID:** `oai-r-cooperation-on-safety`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/cooperation-on-safety/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
 ### Addendum to o3 and o4-mini system card: Codex
 
 - **ID:** `oai-r-o3-o4-mini-codex-system-card-addendum`
@@ -794,18 +969,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### AI safety via debate
-
-- **ID:** `oai-r-debate`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/debate/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Learning policy representations in multiagent systems
 
 - **ID:** `oai-r-learning-policy-representations-in-multiagent-systems`
@@ -814,18 +977,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
-### From hard refusals to safe-completions: toward output-centric safety training
-
-- **ID:** `oai-r-gpt-5-safe-completions`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-safe-completions/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -867,18 +1018,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Collective alignment: public input on our Model Spec
-
-- **ID:** `oai-r-collective-alignment-aug-2025-updates`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/collective-alignment-aug-2025-updates/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Equivalence between policy gradients and soft Q-learning
 
 - **ID:** `oai-r-equivalence-between-policy-gradients-and-soft-q-learning`
@@ -908,18 +1047,6 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-chatgpt-agent-system-card`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/chatgpt-agent-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Detecting and reducing scheming in AI models
-
-- **ID:** `oai-r-detecting-and-reducing-scheming-in-ai-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -1011,59 +1138,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Facebooks Five Pillars Of Responsible Ai
-
-- **ID:** `meta-r-facebooks-five-pillars-of-responsible-ai`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/facebooks-five-pillars-of-responsible-ai/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Fair Progress And Learnings Across Socially Responsible Ai Research
-
-- **ID:** `meta-r-fair-progress-and-learnings-across-socially-responsible-ai-research`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/fair-progress-and-learnings-across-socially-responsible-ai-research/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### How Ai Powers Experiences Facebook Instagram System Cards
 
 - **ID:** `meta-r-how-ai-powers-experiences-facebook-instagram-system-cards`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/how-ai-powers-experiences-facebook-instagram-system-cards/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Responsible Ai Connect 2024
-
-- **ID:** `meta-r-responsible-ai-connect-2024`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/responsible-ai-connect-2024/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Responsible Ai Progress Meta 2022
-
-- **ID:** `meta-r-responsible-ai-progress-meta-2022`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/responsible-ai-progress-meta-2022/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -1119,47 +1198,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Introducing The Frontier Safety Framework
-
-- **ID:** `dm-r-introducing-the-frontier-safety-framework`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Mapping The Misuse Of Generative Ai
 
 - **ID:** `dm-r-mapping-the-misuse-of-generative-ai`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/mapping-the-misuse-of-generative-ai/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Strengthening Our Frontier Safety Framework
-
-- **ID:** `dm-r-strengthening-our-frontier-safety-framework`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/strengthening-our-frontier-safety-framework/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Updating The Frontier Safety Framework
-
-- **ID:** `dm-r-updating-the-frontier-safety-framework`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_

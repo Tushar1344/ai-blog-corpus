@@ -14,49 +14,1066 @@ MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers
 - Hugging Face: 12
 - Allen Institute for AI: 10
 - Cursor: 5
-- Cognition: 2
 - Thinking Machines: 2
+- Cognition: 2
 - Google DeepMind: 1
+
+**Subcategories:**
+
+- [Foundation model releases](#foundation-model-releases) (32)
+- [Architectures (MoE, SSMs, attention variants)](#architectures) (11)
+- [Multimodal pretraining](#multimodal-pretraining) (31)
+- [Scaling laws & training dynamics](#scaling-and-training-dynamics) (6)
+- [Data & tokenization](#data-and-tokenization) (3)
+- [Training stack & infrastructure](#training-stack) (8)
+- [Research techniques & methods](#research-techniques-and-methods) (5)
+- [Societal impact & deployment studies](#societal-impact-and-deployment-studies) (24)
+- [Other pretraining & architecture](#fallback-architecture) (151)
 
 ---
 
-### Better AI models enable more ambitious work
+## <a id="foundation-model-releases"></a>Foundation model releases
 
-- **ID:** `cur-r-better-models-ambitious-work`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/better-models-ambitious-work
-- **Date:** 2026-04-15
-- **Authors:** Luke Melas-Kyriazi
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
+_32 posts_
 
-_Summary pending — see link for details._
+### An update on our model deprecation commitments for Claude Opus 3
 
-
-### Emotion concepts and their function in a large language model
-
-- **ID:** `ant-r-emotion-concepts-function`
+- **ID:** `ant-r-deprecation-updates-opus-3`
 - **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/emotion-concepts-function
-- **Date:** 2026-04-02
+- **Link:** https://www.anthropic.com/research/deprecation-updates-opus-3
+- **Date:** 2026-02-25
 - **Track:** research
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
 
-### How Australia Uses Claude: Findings from the Anthropic Economic Index
+### DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning
 
-- **ID:** `ant-r-how-australia-uses-claude`
+- **ID:** `dsk-r-deepseek-math-v2`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-Math-V2
+- **Date:** 2025-11-27
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Claude Opus 4 and 4.1 can now end a rare subset of conversations
+
+- **ID:** `ant-r-end-subset-conversations`
 - **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/how-australia-uses-claude
-- **Date:** 2026-03-31
+- **Link:** https://www.anthropic.com/research/end-subset-conversations
+- **Date:** 2025-08-15
 - **Track:** research
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
+
+### DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning
+
+- **ID:** `dsk-r-deepseek-prover-v2`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-Prover-V2
+- **Date:** 2025-04-30
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### How to deploy and fine-tune DeepSeek models on AWS
+
+- **ID:** `hf-r-deepseek-r1-aws`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/deepseek-r1-aws
+- **Date:** 2025-01-30
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Open-R1: a fully open reproduction of DeepSeek-R1
+
+- **ID:** `hf-r-open-r1`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open-r1
+- **Date:** 2025-01-28
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+
+- **ID:** `dsk-r-deepseek-r1`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-R1
+- **Date:** 2025-01-20
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-V3 Technical Report
+
+- **ID:** `dsk-r-deepseek-v3`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-V3
+- **Date:** 2024-12-26
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### The Long Context RAG Capabilities of OpenAI o1 and Google Gemini
+
+- **ID:** `dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/long-context-rag-capabilities-openai-o1-and-google-gemini
+- **Date:** 2024-10-08
+- **Authors:** Quinn Leng|Jacob Portes|Sam Havens|Matei Zaharia|Michael Carbin
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** long-context, test-time-compute, retrieval-augmentation
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search
+
+- **ID:** `dsk-r-deepseek-prover-v1.5`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-Prover-V1.5
+- **Date:** 2024-08-15
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### WWDC 24: Running Mistral 7B with Core ML
+
+- **ID:** `hf-r-mistral-coreml`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/mistral-coreml
+- **Date:** 2024-07-22
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### SmolLM - blazingly fast and remarkably powerful
+
+- **ID:** `hf-r-smollm`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/smollm
+- **Date:** 2024-07-16
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence
+
+- **ID:** `dsk-r-deepseek-coder-v2`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-Coder-V2
+- **Date:** 2024-06-14
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
+
+- **ID:** `dsk-r-deepseek-v2`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-V2
+- **Date:** 2024-04-22
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
+
+- **ID:** `dsk-r-deepseek-math`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-Math
+- **Date:** 2024-02-05
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeek LLM: Scaling Open-Source Language Models with Longtermism
+
+- **ID:** `dsk-r-deepseek-llm`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-LLM
+- **Date:** 2023-11-29
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-Coder: When the Large Language Model Meets Programming
+
+- **ID:** `dsk-r-deepseek-coder`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-Coder
+- **Date:** 2023-10-20
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Announcing MPT-7B-8K: 8K Context Length for Document Understanding
+
+- **ID:** `dbx-r-long-context-mpt-7b-8k`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/long-context-mpt-7b-8k
+- **Date:** 2023-07-18
+- **Authors:** Sam Havens|Erica Ji Yuen
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** long-context
+
+_Summary pending — see link for details._
+
+
+### MPT-30B: Raising the bar for open-source foundation models
+
+- **ID:** `dbx-r-mpt-30b`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mpt-30b
+- **Date:** 2023-06-22
+- **Track:** research
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+### Fine-tuning GPT-2 from human preferences
+
+- **ID:** `oai-r-fine-tuning-gpt-2`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/fine-tuning-gpt-2/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### gpt-oss-120b & gpt-oss-20b Model Card
+
+- **ID:** `oai-r-gpt-oss-model-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-oss-model-card/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-2: 6-month follow-up
+
+- **ID:** `oai-r-gpt-2-6-month-follow-up`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-2-6-month-follow-up/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Extracting Concepts from GPT-4
+
+- **ID:** `oai-r-extracting-concepts-from-gpt-4`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/extracting-concepts-from-gpt-4/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Finding GPT-4’s mistakes with GPT-4
+
+- **ID:** `oai-r-finding-gpt4s-mistakes-with-gpt-4`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Llama 2 3 Meditron Yale Medicine Epfl Open Source Llm
+
+- **ID:** `meta-r-llama-2-3-meditron-yale-medicine-epfl-open-source-llm`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/llama-2-3-meditron-yale-medicine-epfl-open-source-llm/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Does Gpt 4 Have Theory Of Mind Capabilities Cd2D766E51A7
+
+- **ID:** `ai2-r-does-gpt-4-have-theory-of-mind-capabilities-cd2d766e51a7`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/does-gpt-4-have-theory-of-mind-capabilities-cd2d766e51a7
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Gpt 4 Theory Of Mind
+
+- **ID:** `ai2-r-gpt-4-theory-of-mind`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/gpt-4-theory-of-mind
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Hello Olmo
+
+- **ID:** `ai2-r-hello-olmo`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/hello-olmo
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Hello Olmo A Truly Open Llm 43F7E7359222
+
+- **ID:** `ai2-r-hello-olmo-a-truly-open-llm-43f7e7359222`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/hello-olmo-a-truly-open-llm-43f7e7359222
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Investigating Pretraining Dynamics And Stability With Olmo Checkpoints Ece6F0C4947A
+
+- **ID:** `ai2-r-investigating-pretraining-dynamics-and-stability-with-olmo-checkpoints-ece6f0c4947a`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/investigating-pretraining-dynamics-and-stability-with-olmo-checkpoints-ece6f0c4947a
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Olmo
+
+- **ID:** `ai2-r-olmo`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/olmo
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Olmo Open Language Model 87Ccfc95F580
+
+- **ID:** `ai2-r-olmo-open-language-model-87ccfc95f580`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/olmo-open-language-model-87ccfc95f580
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="architectures"></a>Architectures (MoE, SSMs, attention variants)
+
+_11 posts_
+
+### Mixture of Experts (MoEs) in Transformers
+
+- **ID:** `hf-r-moe-transformers`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/moe-transformers
+- **Date:** 2026-02-26
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas
+
+- **ID:** `oai-e-building-chatgpt-atlas`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/building-chatgpt-atlas/
+- **Date:** 2025-12-12
+- **Track:** engineering
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+### DeepSeek-V3.2-Exp: Exploring Sparse Attention
+
+- **ID:** `dsk-r-deepseek-v3.2-exp`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-V3.2-Exp
+- **Date:** 2025-09-29
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Inference-Friendly Models with MixAttention
+
+- **ID:** `dbx-r-mixattention`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mixattention
+- **Date:** 2024-09-18
+- **Authors:** Shashank Rajput|Ying Sheng (Stanford University)|Vitaliy Chiley
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Welcome Falcon Mamba: The first strong attention-free 7B model
+
+- **ID:** `hf-r-falconmamba`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/falconmamba
+- **Date:** 2024-08-12
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
+
+- **ID:** `dsk-r-deepseek-moe`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-MoE
+- **Date:** 2024-01-02
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face
+
+- **ID:** `hf-r-mixtral`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/mixtral
+- **Date:** 2023-12-11
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Mixture of Experts Explained
+
+- **ID:** `hf-r-moe`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/moe
+- **Date:** 2023-12-11
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing RWKV - An RNN with the advantages of a transformer
+
+- **ID:** `hf-r-rwkv`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/rwkv
+- **Date:** 2023-05-15
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Timesformer A New Architecture For Video Understanding
+
+- **ID:** `meta-r-timesformer-a-new-architecture-for-video-understanding`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/timesformer-a-new-architecture-for-video-understanding/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Olmoe An Open Small And State Of The Art Mixture Of Experts Model C258432D0514
+
+- **ID:** `ai2-r-olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="multimodal-pretraining"></a>Multimodal pretraining
+
+_31 posts_
+
+### DeepSeek-VL: Towards Real-World Vision-Language Understanding
+
+- **ID:** `dsk-r-deepseek-vl`
+- **Company:** DeepSeek
+- **Link:** https://github.com/deepseek-ai/DeepSeek-VL
+- **Date:** 2024-03-07
+- **Authors:** DeepSeek-AI
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Training Stable Diffusion from Scratch for <$50k with MosaicML (Part 2)
+
+- **ID:** `dbx-r-stable-diffusion-2`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/stable-diffusion-2
+- **Date:** 2023-04-26
+- **Authors:** Mihir Patel|Cory Stephenson|Landan Seguin|Austin Jacobson|Erica Ji Yuen
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### The Annotated Diffusion Model
+
+- **ID:** `hf-r-annotated-diffusion`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/annotated-diffusion
+- **Date:** 2022-06-07
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### DALL·E 3
+
+- **ID:** `oai-r-dall-e-3`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/dall-e-3/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Variational Lossy Autoencoder
+
+- **ID:** `oai-r-variational-lossy-autoencoder`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/variational-lossy-autoencoder/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### DALL·E 2 pre-training mitigations
+
+- **ID:** `oai-r-dall-e-2-pre-training-mitigations`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/dall-e-2-pre-training-mitigations/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Hierarchical text-conditional image generation with CLIP latents
+
+- **ID:** `oai-r-hierarchical-text-conditional-image-generation-with-clip-latents`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Training Stable Diffusion from Scratch (Part 3)
+
+- **ID:** `dbx-r-stable-diffusion-part-3`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/stable-diffusion-part-3
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Training Stable Diffusion from Scratch Costs $160k
+
+- **ID:** `dbx-r-training-stable-diffusion-from-scratch-costs-160k`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/training-stable-diffusion-from-scratch-costs-160k
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Training Stable Diffusion from Scratch (Part 2)
+
+- **ID:** `dbx-r-training-stable-diffusion-from-scratch-part-2`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/training-stable-diffusion-from-scratch-part-2
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Dino Sam Medical Triage
+
+- **ID:** `meta-r-dino-sam-medical-triage`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/dino-sam-medical-triage/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Fair News Segment Anything 2 1 Meta Spirit Lm Layer Skip Salsa Lingua
+
+- **ID:** `meta-r-fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Fair News Segment Anything 2 1 Meta Spirit Lm Layer Skip Salsa Sona
+
+- **ID:** `meta-r-fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-sona`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-sona/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Instagram Edits Cutouts Segment Anything
+
+- **ID:** `meta-r-instagram-edits-cutouts-segment-anything`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/instagram-edits-cutouts-segment-anything/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Josephine Miller Designer Meta Segment Anything 2
+
+- **ID:** `meta-r-josephine-miller-designer-meta-segment-anything-2`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/josephine-miller-designer-meta-segment-anything-2/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Sam 3D
+
+- **ID:** `meta-r-sam-3d`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/sam-3d/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Sam Audio
+
+- **ID:** `meta-r-sam-audio`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/sam-audio/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything
+
+- **ID:** `meta-r-segment-anything`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything 2
+
+- **ID:** `meta-r-segment-anything-2`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-2/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything 2 Video
+
+- **ID:** `meta-r-segment-anything-2-video`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-2-video/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything Common Sense Machines 3D Assets
+
+- **ID:** `meta-r-segment-anything-common-sense-machines-3d-assets`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-common-sense-machines-3d-assets/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything Conservation X Wildlife Monitoring
+
+- **ID:** `meta-r-segment-anything-conservation-x-wildlife-monitoring`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-conservation-x-wildlife-monitoring/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything Floods
+
+- **ID:** `meta-r-segment-anything-floods`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-floods/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything Foundation Model Image Segmentation
+
+- **ID:** `meta-r-segment-anything-foundation-model-image-segmentation`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-foundation-model-image-segmentation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything Model 3
+
+- **ID:** `meta-r-segment-anything-model-3`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-model-3/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Segment Anything Roboflow Image Segmentation
+
+- **ID:** `meta-r-segment-anything-roboflow-image-segmentation`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Upenn Dino Sam Helping Medical Triage
+
+- **ID:** `meta-r-upenn-dino-sam-helping-medical-triage`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/upenn-dino-sam-helping-medical-triage/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Usra Sam Flood Emergencies
+
+- **ID:** `meta-r-usra-sam-flood-emergencies`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/usra-sam-flood-emergencies/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### V Jepa 2 World Model Benchmarks
+
+- **ID:** `meta-r-v-jepa-2-world-model-benchmarks`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### V Jepa Yann Lecun Ai Model Video Joint Embedding Predictive Architecture
+
+- **ID:** `meta-r-v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Yann Lecun Ai Model I Jepa
+
+- **ID:** `meta-r-yann-lecun-ai-model-i-jepa`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="scaling-and-training-dynamics"></a>Scaling laws & training dynamics
+
+_6 posts_
+
+### Emergent introspective awareness in large language models
+
+- **ID:** `ant-r-introspection`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/introspection
+- **Date:** 2025-10-29
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### How Long Should You Train Your Language Model?
+
+- **ID:** `dbx-r-how-long-should-you-train-your-language-model`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/how-long-should-you-train-your-language-model
+- **Date:** 2024-07-19
+- **Authors:** Nikhil Sardana|Jacob Portes|Sasha Doubov
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Scaling Laws and Interpretability of Learning from Repeated Data
+
+- **ID:** `ant-r-scaling-laws-and-interpretability-of-learning-from-repeated-data`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data
+- **Date:** 2022-05-21
+- **Track:** research
+- **Contribution type:** new-method
+- **Techniques:** scaling-laws
+
+_Summary pending — see link for details._
+
+
+### Efficiently Estimating Pareto Frontiers with Cyclic Learning Rate Schedules
+
+- **ID:** `dbx-r-efficiently-estimating-pareto-frontiers`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/efficiently-estimating-pareto-frontiers
+- **Date:** 2022-04-08
+- **Authors:** Jacob Portes
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Scaling laws for neural language models
+
+- **ID:** `oai-r-scaling-laws-for-neural-language-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/scaling-laws-for-neural-language-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** scaling-laws
+
+_Summary pending — see link for details._
+
+
+### Toward understanding and preventing misalignment generalization
+
+- **ID:** `oai-r-emergent-misalignment`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/emergent-misalignment/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="data-and-tokenization"></a>Data & tokenization
+
+_3 posts_
+
+### Teacher–student curriculum learning
+
+- **ID:** `oai-r-teacher-student-curriculum-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/teacher-student-curriculum-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Dolma 3 Trillion Tokens Open Llm Corpus 9A0Ff4B8Da64
+
+- **ID:** `ai2-r-dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Making A Switch Dolma Moves To Odc By 8F0E73852F44
+
+- **ID:** `ai2-r-making-a-switch-dolma-moves-to-odc-by-8f0e73852f44`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/making-a-switch-dolma-moves-to-odc-by-8f0e73852f44
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="training-stack"></a>Training stack & infrastructure
+
+_8 posts_
 
 ### A technical report on Composer 2
 
@@ -82,6 +1099,165 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** infra-release
 - **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Training Composer for longer horizons
+
+- **ID:** `cur-r-self-summarization`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/self-summarization
+- **Date:** 2026-03-17
+- **Authors:** Federico & Sasha
+- **Track:** research
+- **Contribution type:** infra-release
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Building DBRX-class Custom LLMs with Mosaic AI Training
+
+- **ID:** `dbx-e-mosaic-ai-training-capabilities`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mosaic-ai-training-capabilities
+- **Date:** 2024-05-14
+- **Authors:** Anna Pfohl|Cheng Li|Mihir Patel|Wai Wu|Will Gleich|Ajay Saini|Hagay Lupesko
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### 5x Faster Image Segmentation Training with MosaicML Recipes
+
+- **ID:** `dbx-r-mosaic-image-segmentation`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mosaic-image-segmentation
+- **Date:** 2022-11-17
+- **Authors:** Landan Seguin|Cory Stephenson|Erica Ji Yuen
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Mosaic LLMs: GPT-3 quality for <$500k
+
+- **ID:** `dbx-r-gpt-3-quality-for-500k`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/gpt-3-quality-for-500k
+- **Date:** 2022-09-29
+- **Authors:** Abhi Venigalla|Linden Li
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Mosaic ResNet Deep Dive
+
+- **ID:** `dbx-r-mosaic-resnet-deep-dive`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mosaic-resnet-deep-dive
+- **Date:** 2022-07-18
+- **Authors:** Matthew Leavitt
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Blazingly Fast Computer Vision Training with the Mosaic ResNet and Composer
+
+- **ID:** `dbx-r-mosaic-resnet`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mosaic-resnet
+- **Date:** 2022-06-09
+- **Authors:** Matthew Leavitt|Erica Ji Yuen|Kobie Crawford
+- **Track:** research
+- **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+## <a id="research-techniques-and-methods"></a>Research techniques & methods
+
+_5 posts_
+
+### A “diff” tool for AI: Finding behavioral differences in new models
+
+- **ID:** `ant-r-diff-tool`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/diff-tool
+- **Date:** 2026-03-13
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### In-context Learning and Induction Heads
+
+- **ID:** `ant-r-in-context-learning-and-induction-heads`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/in-context-learning-and-induction-heads
+- **Date:** 2022-03-08
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Improving language model behavior by training on a curated dataset
+
+- **ID:** `oai-r-improving-language-model-behavior`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/improving-language-model-behavior/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+
+_Summary pending — see link for details._
+
+
+### Text and code embeddings by contrastive pre-training
+
+- **ID:** `oai-r-text-and-code-embeddings-by-contrastive-pre-training`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Implicit generation and generalization methods for energy-based models
+
+- **ID:** `oai-r-energy-based-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/energy-based-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="societal-impact-and-deployment-studies"></a>Societal impact & deployment studies
+
+_24 posts_
+
+### How Australia Uses Claude: Findings from the Anthropic Economic Index
+
+- **ID:** `ant-r-how-australia-uses-claude`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/how-australia-uses-claude
+- **Date:** 2026-03-31
+- **Track:** research
+- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -122,32 +1298,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Training Composer for longer horizons
-
-- **ID:** `cur-r-self-summarization`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/self-summarization
-- **Date:** 2026-03-17
-- **Authors:** Federico & Sasha
-- **Track:** research
-- **Contribution type:** infra-release
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### A “diff” tool for AI: Finding behavioral differences in new models
-
-- **ID:** `ant-r-diff-tool`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/diff-tool
-- **Date:** 2026-03-13
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Labor market impacts of AI: A new measure and early evidence
 
 - **ID:** `ant-r-labor-market-impacts`
@@ -155,42 +1305,6 @@ _Summary pending — see link for details._
 - **Link:** https://www.anthropic.com/research/labor-market-impacts
 - **Date:** 2026-03-05
 - **Authors:** Maxim Massenkoff|Peter McCrory
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### An Early Preview of SWE-1.6 and Research Update
-
-- **ID:** `cog-r-swe-1-6-preview`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/swe-1-6-preview
-- **Date:** 2026-03-01
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Mixture of Experts (MoEs) in Transformers
-
-- **ID:** `hf-r-moe-transformers`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/moe-transformers
-- **Date:** 2026-02-26
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### An update on our model deprecation commitments for Claude Opus 3
-
-- **ID:** `ant-r-deprecation-updates-opus-3`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/deprecation-updates-opus-3
-- **Date:** 2026-02-25
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -221,20 +1335,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Towards self-driving codebases
-
-- **ID:** `cur-r-self-driving-codebases`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/self-driving-codebases
-- **Date:** 2026-02-05
-- **Authors:** Wilson Lin
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
 ### How AI assistance impacts the formation of coding skills
 
 - **ID:** `ant-r-ai-assistance-coding-skills`
@@ -253,18 +1353,6 @@ _Summary pending — see link for details._
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/disempowerment-patterns
 - **Date:** 2026-01-28
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Scaling Small LLMs with NVIDIA MPS
-
-- **ID:** `dbx-r-scaling-small-llms-nvidia-mps`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/scaling-small-llms-nvidia-mps
-- **Date:** 2026-01-26
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -319,62 +1407,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas
-
-- **ID:** `oai-e-building-chatgpt-atlas`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/building-chatgpt-atlas/
-- **Date:** 2025-12-12
-- **Track:** engineering
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
 ### How AI Is Transforming Work at Anthropic
 
 - **ID:** `ant-r-how-ai-is-transforming-work-at-anthropic`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
 - **Date:** 2025-12-02
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Databricks at NeurIPS 2025
-
-- **ID:** `dbx-r-databricks-neurips-2025`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/databricks-neurips-2025
-- **Date:** 2025-12-01
-- **Authors:** Sam Plecque
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning
-
-- **ID:** `dsk-r-deepseek-math-v2`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-Math-V2
-- **Date:** 2025-11-27
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Estimating AI productivity gains
-
-- **ID:** `ant-r-estimating-productivity-gains`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/estimating-productivity-gains
-- **Date:** 2025-11-25
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -405,56 +1443,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Emergent introspective awareness in large language models
-
-- **ID:** `ant-r-introspection`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/introspection
-- **Date:** 2025-10-29
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### A small number of samples can poison LLMs of any size
-
-- **ID:** `ant-r-small-samples-poison`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/small-samples-poison
-- **Date:** 2025-10-09
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-V3.2-Exp: Exploring Sparse Attention
-
-- **ID:** `dsk-r-deepseek-v3.2-exp`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-V3.2-Exp
-- **Date:** 2025-09-29
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Modular Manifolds
-
-- **ID:** `tm-r-modular-manifolds`
-- **Company:** Thinking Machines
-- **Link:** https://thinkingmachines.ai/blog/modular-manifolds/
-- **Date:** 2025-09-26
-- **Authors:** Jeremy Bernstein
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Anthropic Economic Index report: Uneven geographic and enterprise AI adoption
 
 - **ID:** `ant-r-anthropic-economic-index-september-2025-report`
@@ -479,6 +1467,196 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Project Vend: Can Claude run a small shop? (And why does that matter?)
+
+- **ID:** `ant-r-project-vend-1`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/project-vend-1
+- **Date:** 2025-06-27
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Anthropic Economic Index: AI's impact on software development
+
+- **ID:** `ant-r-impact-software-development`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/impact-software-development
+- **Date:** 2025-04-28
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Early methods for studying affective use and emotional well-being on ChatGPT
+
+- **ID:** `oai-r-affective-use-study`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/affective-use-study/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### How people are using ChatGPT
+
+- **ID:** `oai-r-how-people-are-using-chatgpt`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/how-people-are-using-chatgpt/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPTs are GPTs: An early look at the labor market impact potential of large language models
+
+- **ID:** `oai-r-gpts-are-gpts`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpts-are-gpts/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Understanding the capabilities, limitations, and societal impact of large language models
+
+- **ID:** `oai-r-understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-architecture"></a>Other pretraining & architecture
+
+_151 posts_
+
+### Better AI models enable more ambitious work
+
+- **ID:** `cur-r-better-models-ambitious-work`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/better-models-ambitious-work
+- **Date:** 2026-04-15
+- **Authors:** Luke Melas-Kyriazi
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Emotion concepts and their function in a large language model
+
+- **ID:** `ant-r-emotion-concepts-function`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/emotion-concepts-function
+- **Date:** 2026-04-02
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### An Early Preview of SWE-1.6 and Research Update
+
+- **ID:** `cog-r-swe-1-6-preview`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/swe-1-6-preview
+- **Date:** 2026-03-01
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Towards self-driving codebases
+
+- **ID:** `cur-r-self-driving-codebases`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/self-driving-codebases
+- **Date:** 2026-02-05
+- **Authors:** Wilson Lin
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Scaling Small LLMs with NVIDIA MPS
+
+- **ID:** `dbx-r-scaling-small-llms-nvidia-mps`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/scaling-small-llms-nvidia-mps
+- **Date:** 2026-01-26
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Databricks at NeurIPS 2025
+
+- **ID:** `dbx-r-databricks-neurips-2025`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/databricks-neurips-2025
+- **Date:** 2025-12-01
+- **Authors:** Sam Plecque
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Estimating AI productivity gains
+
+- **ID:** `ant-r-estimating-productivity-gains`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/estimating-productivity-gains
+- **Date:** 2025-11-25
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### A small number of samples can poison LLMs of any size
+
+- **ID:** `ant-r-small-samples-poison`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/small-samples-poison
+- **Date:** 2025-10-09
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Modular Manifolds
+
+- **ID:** `tm-r-modular-manifolds`
+- **Company:** Thinking Machines
+- **Link:** https://thinkingmachines.ai/blog/modular-manifolds/
+- **Date:** 2025-09-26
+- **Authors:** Jeremy Bernstein
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Defeating Nondeterminism in LLM Inference
 
 - **ID:** `tm-r-defeating-nondeterminism-in-llm-inference`
@@ -486,30 +1664,6 @@ _Summary pending — see link for details._
 - **Link:** https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
 - **Date:** 2025-09-10
 - **Authors:** Horace He
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Claude Opus 4 and 4.1 can now end a rare subset of conversations
-
-- **ID:** `ant-r-end-subset-conversations`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/end-subset-conversations
-- **Date:** 2025-08-15
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Project Vend: Can Claude run a small shop? (And why does that matter?)
-
-- **ID:** `ant-r-project-vend-1`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/project-vend-1
-- **Date:** 2025-06-27
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -534,31 +1688,6 @@ _Summary pending — see link for details._
 - **Company:** Cognition
 - **Link:** https://cognition.ai/blog/kevin-32b
 - **Date:** 2025-05-06
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning
-
-- **ID:** `dsk-r-deepseek-prover-v2`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-Prover-V2
-- **Date:** 2025-04-30
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Anthropic Economic Index: AI's impact on software development
-
-- **ID:** `ant-r-impact-software-development`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/impact-software-development
-- **Date:** 2025-04-28
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -662,56 +1791,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How to deploy and fine-tune DeepSeek models on AWS
-
-- **ID:** `hf-r-deepseek-r1-aws`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/deepseek-r1-aws
-- **Date:** 2025-01-30
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Open-R1: a fully open reproduction of DeepSeek-R1
-
-- **ID:** `hf-r-open-r1`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open-r1
-- **Date:** 2025-01-28
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
-
-- **ID:** `dsk-r-deepseek-r1`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-R1
-- **Date:** 2025-01-20
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-V3 Technical Report
-
-- **ID:** `dsk-r-deepseek-v3`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-V3
-- **Date:** 2024-12-26
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Benchmarking Domain Intelligence
 
 - **ID:** `dbx-r-benchmarking-domain-intelligence`
@@ -776,46 +1855,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### The Long Context RAG Capabilities of OpenAI o1 and Google Gemini
-
-- **ID:** `dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/long-context-rag-capabilities-openai-o1-and-google-gemini
-- **Date:** 2024-10-08
-- **Authors:** Quinn Leng|Jacob Portes|Sam Havens|Matei Zaharia|Michael Carbin
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** long-context, test-time-compute, retrieval-augmentation
-
-_Summary pending — see link for details._
-
-
-### Inference-Friendly Models with MixAttention
-
-- **ID:** `dbx-r-mixattention`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mixattention
-- **Date:** 2024-09-18
-- **Authors:** Shashank Rajput|Ying Sheng (Stanford University)|Vitaliy Chiley
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search
-
-- **ID:** `dsk-r-deepseek-prover-v1.5`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-Prover-V1.5
-- **Date:** 2024-08-15
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Long Context RAG Performance of LLMs
 
 - **ID:** `dbx-r-long-context-rag-performance-llms`
@@ -830,55 +1869,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Welcome Falcon Mamba: The first strong attention-free 7B model
-
-- **ID:** `hf-r-falconmamba`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/falconmamba
-- **Date:** 2024-08-12
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### WWDC 24: Running Mistral 7B with Core ML
-
-- **ID:** `hf-r-mistral-coreml`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/mistral-coreml
-- **Date:** 2024-07-22
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### How Long Should You Train Your Language Model?
-
-- **ID:** `dbx-r-how-long-should-you-train-your-language-model`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/how-long-should-you-train-your-language-model
-- **Date:** 2024-07-19
-- **Authors:** Nikhil Sardana|Jacob Portes|Sasha Doubov
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### SmolLM - blazingly fast and remarkably powerful
-
-- **ID:** `hf-r-smollm`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/smollm
-- **Date:** 2024-07-16
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Sycophancy to subterfuge: Investigating reward tampering in language models
 
 - **ID:** `ant-r-reward-tampering`
@@ -887,19 +1877,6 @@ _Summary pending — see link for details._
 - **Date:** 2024-06-17
 - **Track:** research
 - **Contribution type:** new-method
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence
-
-- **ID:** `dsk-r-deepseek-coder-v2`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-Coder-V2
-- **Date:** 2024-06-14
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -953,32 +1930,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Building DBRX-class Custom LLMs with Mosaic AI Training
-
-- **ID:** `dbx-e-mosaic-ai-training-capabilities`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mosaic-ai-training-capabilities
-- **Date:** 2024-05-14
-- **Authors:** Anna Pfohl|Cheng Li|Mihir Patel|Wai Wu|Will Gleich|Ajay Saini|Hagay Lupesko
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
-
-- **ID:** `dsk-r-deepseek-v2`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-V2
-- **Date:** 2024-04-22
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Measuring the Persuasiveness of Language Models
 
 - **ID:** `ant-r-measuring-model-persuasiveness`
@@ -1004,69 +1955,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### DeepSeek-VL: Towards Real-World Vision-Language Understanding
-
-- **ID:** `dsk-r-deepseek-vl`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-VL
-- **Date:** 2024-03-07
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
-
-- **ID:** `dsk-r-deepseek-math`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-Math
-- **Date:** 2024-02-05
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
-
-- **ID:** `dsk-r-deepseek-moe`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-MoE
-- **Date:** 2024-01-02
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face
-
-- **ID:** `hf-r-mixtral`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/mixtral
-- **Date:** 2023-12-11
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Mixture of Experts Explained
-
-- **ID:** `hf-r-moe`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/moe
-- **Date:** 2023-12-11
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Evaluating and Mitigating Discrimination in Language Model Decisions
 
 - **ID:** `ant-r-evaluating-and-mitigating-discrimination-in-language-model-decisions`
@@ -1079,19 +1967,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### DeepSeek LLM: Scaling Open-Source Language Models with Longtermism
-
-- **ID:** `dsk-r-deepseek-llm`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-LLM
-- **Date:** 2023-11-29
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Towards Understanding Sycophancy in Language Models
 
 - **ID:** `ant-r-towards-understanding-sycophancy-in-language-models`
@@ -1100,19 +1975,6 @@ _Summary pending — see link for details._
 - **Date:** 2023-10-23
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DeepSeek-Coder: When the Large Language Model Meets Programming
-
-- **ID:** `dsk-r-deepseek-coder`
-- **Company:** DeepSeek
-- **Link:** https://github.com/deepseek-ai/DeepSeek-Coder
-- **Date:** 2023-10-20
-- **Authors:** DeepSeek-AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -1192,20 +2054,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Announcing MPT-7B-8K: 8K Context Length for Document Understanding
-
-- **ID:** `dbx-r-long-context-mpt-7b-8k`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/long-context-mpt-7b-8k
-- **Date:** 2023-07-18
-- **Authors:** Sam Havens|Erica Ji Yuen
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** long-context
-
-_Summary pending — see link for details._
-
-
 ### Towards Measuring the Representation of Subjective Global Opinions in Language Models
 
 - **ID:** `ant-r-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models`
@@ -1218,49 +2066,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### MPT-30B: Raising the bar for open-source foundation models
-
-- **ID:** `dbx-r-mpt-30b`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mpt-30b
-- **Date:** 2023-06-22
-- **Track:** research
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
 ### Interpretability Dreams
 
 - **ID:** `ant-r-interpretability-dreams`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/interpretability-dreams
 - **Date:** 2023-05-24
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Introducing RWKV - An RNN with the advantages of a transformer
-
-- **ID:** `hf-r-rwkv`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/rwkv
-- **Date:** 2023-05-15
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Training Stable Diffusion from Scratch for <$50k with MosaicML (Part 2)
-
-- **ID:** `dbx-r-stable-diffusion-2`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/stable-diffusion-2
-- **Date:** 2023-04-26
-- **Authors:** Mihir Patel|Cory Stephenson|Landan Seguin|Austin Jacobson|Erica Ji Yuen
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1317,19 +2128,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### 5x Faster Image Segmentation Training with MosaicML Recipes
-
-- **ID:** `dbx-r-mosaic-image-segmentation`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mosaic-image-segmentation
-- **Date:** 2022-11-17
-- **Authors:** Landan Seguin|Cory Stephenson|Erica Ji Yuen
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### MosaicML Delivers Leading NLP Performance in MLPerf v2.1
 
 - **ID:** `dbx-r-mlperf-nlp-nov2022`
@@ -1337,19 +2135,6 @@ _Summary pending — see link for details._
 - **Link:** https://www.databricks.com/blog/mlperf-nlp-nov2022
 - **Date:** 2022-11-09
 - **Authors:** Daya Khudia|Nikhil Sardana|Sam Havens|Alex Trott|Erica Ji Yuen
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Mosaic LLMs: GPT-3 quality for <$500k
-
-- **ID:** `dbx-r-gpt-3-quality-for-500k`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/gpt-3-quality-for-500k
-- **Date:** 2022-09-29
-- **Authors:** Abhi Venigalla|Linden Li
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1365,19 +2150,6 @@ _Summary pending — see link for details._
 - **Authors:** Landan Seguin
 - **Track:** research
 - **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### Mosaic ResNet Deep Dive
-
-- **ID:** `dbx-r-mosaic-resnet-deep-dive`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mosaic-resnet-deep-dive
-- **Date:** 2022-07-18
-- **Authors:** Matthew Leavitt
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -1419,69 +2191,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Blazingly Fast Computer Vision Training with the Mosaic ResNet and Composer
-
-- **ID:** `dbx-r-mosaic-resnet`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mosaic-resnet
-- **Date:** 2022-06-09
-- **Authors:** Matthew Leavitt|Erica Ji Yuen|Kobie Crawford
-- **Track:** research
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### The Annotated Diffusion Model
-
-- **ID:** `hf-r-annotated-diffusion`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/annotated-diffusion
-- **Date:** 2022-06-07
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Scaling Laws and Interpretability of Learning from Repeated Data
-
-- **ID:** `ant-r-scaling-laws-and-interpretability-of-learning-from-repeated-data`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data
-- **Date:** 2022-05-21
-- **Track:** research
-- **Contribution type:** new-method
-- **Techniques:** scaling-laws
-
-_Summary pending — see link for details._
-
-
-### Efficiently Estimating Pareto Frontiers with Cyclic Learning Rate Schedules
-
-- **ID:** `dbx-r-efficiently-estimating-pareto-frontiers`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/efficiently-estimating-pareto-frontiers
-- **Date:** 2022-04-08
-- **Authors:** Jacob Portes
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### In-context Learning and Induction Heads
-
-- **ID:** `ant-r-in-context-learning-and-induction-heads`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/in-context-learning-and-induction-heads
-- **Date:** 2022-03-08
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Predictability and Surprise in Large Generative Models
 
 - **ID:** `ant-r-predictability-and-surprise-in-large-generative-models`
@@ -1514,18 +2223,6 @@ _Summary pending — see link for details._
 - **Date:** 2020-02-14
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### DALL·E 3
-
-- **ID:** `oai-r-dall-e-3`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/dall-e-3/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -1603,30 +2300,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Fine-tuning GPT-2 from human preferences
-
-- **ID:** `oai-r-fine-tuning-gpt-2`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/fine-tuning-gpt-2/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improving language model behavior by training on a curated dataset
-
-- **ID:** `oai-r-improving-language-model-behavior`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improving-language-model-behavior/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-
-_Summary pending — see link for details._
-
-
 ### Democratic inputs to AI
 
 - **ID:** `oai-r-democratic-inputs-to-ai`
@@ -1675,18 +2348,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### gpt-oss-120b & gpt-oss-20b Model Card
-
-- **ID:** `oai-r-gpt-oss-model-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-oss-model-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Consistency Models
 
 - **ID:** `oai-r-consistency-models`
@@ -1708,18 +2369,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Techniques:** chain-of-thought
-
-_Summary pending — see link for details._
-
-
-### Text and code embeddings by contrastive pre-training
-
-- **ID:** `oai-r-text-and-code-embeddings-by-contrastive-pre-training`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -1868,47 +2517,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### GPT-2: 6-month follow-up
-
-- **ID:** `oai-r-gpt-2-6-month-follow-up`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-2-6-month-follow-up/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Implicit generation and generalization methods for energy-based models
-
-- **ID:** `oai-r-energy-based-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/energy-based-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Some considerations on learning to explore via meta-reinforcement learning
 
 - **ID:** `oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Early methods for studying affective use and emotional well-being on ChatGPT
-
-- **ID:** `oai-r-affective-use-study`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/affective-use-study/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -1976,42 +2589,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How people are using ChatGPT
-
-- **ID:** `oai-r-how-people-are-using-chatgpt`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/how-people-are-using-chatgpt/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Extracting Concepts from GPT-4
-
-- **ID:** `oai-r-extracting-concepts-from-gpt-4`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/extracting-concepts-from-gpt-4/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Finding GPT-4’s mistakes with GPT-4
-
-- **ID:** `oai-r-finding-gpt4s-mistakes-with-gpt-4`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### A research agenda for assessing the economic impacts of code generation models
 
 - **ID:** `oai-r-economic-impacts-research`
@@ -2025,35 +2602,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Variational Lossy Autoencoder
-
-- **ID:** `oai-r-variational-lossy-autoencoder`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/variational-lossy-autoencoder/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Language models can explain neurons in language models
 
 - **ID:** `oai-r-language-models-can-explain-neurons-in-language-models`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/language-models-can-explain-neurons-in-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DALL·E 2 pre-training mitigations
-
-- **ID:** `oai-r-dall-e-2-pre-training-mitigations`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/dall-e-2-pre-training-mitigations/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -2085,35 +2638,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### GPTs are GPTs: An early look at the labor market impact potential of large language models
-
-- **ID:** `oai-r-gpts-are-gpts`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpts-are-gpts/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Evolution through large models
 
 - **ID:** `oai-r-evolution-through-large-models`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/evolution-through-large-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Hierarchical text-conditional image generation with CLIP latents
-
-- **ID:** `oai-r-hierarchical-text-conditional-image-generation-with-clip-latents`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -2189,31 +2718,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Understanding the capabilities, limitations, and societal impact of large language models
-
-- **ID:** `oai-r-understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Scaling laws for neural language models
-
-- **ID:** `oai-r-scaling-laws-for-neural-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-laws-for-neural-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** scaling-laws
 
 _Summary pending — see link for details._
 
@@ -2494,18 +2998,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Teacher–student curriculum learning
-
-- **ID:** `oai-r-teacher-student-curriculum-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/teacher-student-curriculum-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Learning to cooperate, compete, and communicate
 
 - **ID:** `oai-r-learning-to-cooperate-compete-and-communicate`
@@ -2622,18 +3114,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** new-method
-
-_Summary pending — see link for details._
-
-
-### Toward understanding and preventing misalignment generalization
-
-- **ID:** `oai-r-emergent-misalignment`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/emergent-misalignment/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -2867,18 +3347,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Training Stable Diffusion from Scratch (Part 3)
-
-- **ID:** `dbx-r-stable-diffusion-part-3`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/stable-diffusion-part-3
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Train Custom GPT + Diffusion Models
 
 - **ID:** `dbx-r-train-custom-gpt-diffusion-models`
@@ -2887,246 +3355,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Training Stable Diffusion from Scratch Costs $160k
-
-- **ID:** `dbx-r-training-stable-diffusion-from-scratch-costs-160k`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/training-stable-diffusion-from-scratch-costs-160k
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Training Stable Diffusion from Scratch (Part 2)
-
-- **ID:** `dbx-r-training-stable-diffusion-from-scratch-part-2`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/training-stable-diffusion-from-scratch-part-2
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Dino Sam Medical Triage
-
-- **ID:** `meta-r-dino-sam-medical-triage`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/dino-sam-medical-triage/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Fair News Segment Anything 2 1 Meta Spirit Lm Layer Skip Salsa Lingua
-
-- **ID:** `meta-r-fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Fair News Segment Anything 2 1 Meta Spirit Lm Layer Skip Salsa Sona
-
-- **ID:** `meta-r-fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-sona`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-sona/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Instagram Edits Cutouts Segment Anything
-
-- **ID:** `meta-r-instagram-edits-cutouts-segment-anything`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/instagram-edits-cutouts-segment-anything/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Josephine Miller Designer Meta Segment Anything 2
-
-- **ID:** `meta-r-josephine-miller-designer-meta-segment-anything-2`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/josephine-miller-designer-meta-segment-anything-2/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Llama 2 3 Meditron Yale Medicine Epfl Open Source Llm
-
-- **ID:** `meta-r-llama-2-3-meditron-yale-medicine-epfl-open-source-llm`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/llama-2-3-meditron-yale-medicine-epfl-open-source-llm/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Sam 3D
-
-- **ID:** `meta-r-sam-3d`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/sam-3d/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Sam Audio
-
-- **ID:** `meta-r-sam-audio`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/sam-audio/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything
-
-- **ID:** `meta-r-segment-anything`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything 2
-
-- **ID:** `meta-r-segment-anything-2`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-2/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything 2 Video
-
-- **ID:** `meta-r-segment-anything-2-video`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-2-video/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything Common Sense Machines 3D Assets
-
-- **ID:** `meta-r-segment-anything-common-sense-machines-3d-assets`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-common-sense-machines-3d-assets/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything Conservation X Wildlife Monitoring
-
-- **ID:** `meta-r-segment-anything-conservation-x-wildlife-monitoring`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-conservation-x-wildlife-monitoring/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything Floods
-
-- **ID:** `meta-r-segment-anything-floods`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-floods/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything Foundation Model Image Segmentation
-
-- **ID:** `meta-r-segment-anything-foundation-model-image-segmentation`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-foundation-model-image-segmentation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything Model 3
-
-- **ID:** `meta-r-segment-anything-model-3`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-model-3/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Segment Anything Roboflow Image Segmentation
-
-- **ID:** `meta-r-segment-anything-roboflow-image-segmentation`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Timesformer A New Architecture For Video Understanding
-
-- **ID:** `meta-r-timesformer-a-new-architecture-for-video-understanding`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/timesformer-a-new-architecture-for-video-understanding/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -3143,191 +3371,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Upenn Dino Sam Helping Medical Triage
-
-- **ID:** `meta-r-upenn-dino-sam-helping-medical-triage`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/upenn-dino-sam-helping-medical-triage/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Usra Sam Flood Emergencies
-
-- **ID:** `meta-r-usra-sam-flood-emergencies`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/usra-sam-flood-emergencies/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### V Jepa 2 World Model Benchmarks
-
-- **ID:** `meta-r-v-jepa-2-world-model-benchmarks`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### V Jepa Yann Lecun Ai Model Video Joint Embedding Predictive Architecture
-
-- **ID:** `meta-r-v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Yann Lecun Ai Model I Jepa
-
-- **ID:** `meta-r-yann-lecun-ai-model-i-jepa`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Alphago Zero Starting From Scratch
 
 - **ID:** `dm-r-alphago-zero-starting-from-scratch`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Does Gpt 4 Have Theory Of Mind Capabilities Cd2D766E51A7
-
-- **ID:** `ai2-r-does-gpt-4-have-theory-of-mind-capabilities-cd2d766e51a7`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/does-gpt-4-have-theory-of-mind-capabilities-cd2d766e51a7
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Dolma 3 Trillion Tokens Open Llm Corpus 9A0Ff4B8Da64
-
-- **ID:** `ai2-r-dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Gpt 4 Theory Of Mind
-
-- **ID:** `ai2-r-gpt-4-theory-of-mind`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/gpt-4-theory-of-mind
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Hello Olmo
-
-- **ID:** `ai2-r-hello-olmo`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/hello-olmo
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Hello Olmo A Truly Open Llm 43F7E7359222
-
-- **ID:** `ai2-r-hello-olmo-a-truly-open-llm-43f7e7359222`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/hello-olmo-a-truly-open-llm-43f7e7359222
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Investigating Pretraining Dynamics And Stability With Olmo Checkpoints Ece6F0C4947A
-
-- **ID:** `ai2-r-investigating-pretraining-dynamics-and-stability-with-olmo-checkpoints-ece6f0c4947a`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/investigating-pretraining-dynamics-and-stability-with-olmo-checkpoints-ece6f0c4947a
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Making A Switch Dolma Moves To Odc By 8F0E73852F44
-
-- **ID:** `ai2-r-making-a-switch-dolma-moves-to-odc-by-8f0e73852f44`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/making-a-switch-dolma-moves-to-odc-by-8f0e73852f44
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Olmo
-
-- **ID:** `ai2-r-olmo`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/olmo
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Olmo Open Language Model 87Ccfc95F580
-
-- **ID:** `ai2-r-olmo-open-language-model-87ccfc95f580`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/olmo-open-language-model-87ccfc95f580
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Olmoe An Open Small And State Of The Art Mixture Of Experts Model C258432D0514
-
-- **ID:** `ai2-r-olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
