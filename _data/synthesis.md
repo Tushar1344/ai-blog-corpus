@@ -1,192 +1,232 @@
-# AI Blog Corpus — What's Interesting
+# AI Blog Corpus v2 — What's Interesting
 
-**Opinionated executive synthesis** across seven AI/developer-infrastructure companies: Anthropic, OpenAI, Databricks Mosaic AI, Cursor, Vercel, Cognition, and Thinking Machines. All-time, technical-substance-filtered.
+**Opinionated executive synthesis** of 695 in-scope research/engineering posts across **12 AI organizations**: Anthropic, OpenAI, Databricks Mosaic AI, Cursor, Vercel, Cognition, Thinking Machines, Google Research, Google DeepMind, Meta FAIR, Hugging Face, Allen Institute for AI (AI2), and DeepSeek.
 
-**Master Sheet (sortable/filterable):** https://docs.google.com/spreadsheets/d/1td1T6wCEnw4EeG05I_hH1dK1aNkLR5HJZZ-4jr-Du9A/edit
+Organized around **8 focus areas** (primary axis). Company is a secondary axis. Published launches without technical substance and inference-optimization/kernel/serving-infra posts are explicitly excluded from v2.
 
-**Markdown library:** `~/work_agent/ai-blog-corpus/` — one canonical file per company, plus cross-reference folders `by-technical-domain/`, `by-contribution-type/`, `by-year/`, `by-technique/`.
+**Master Sheet:** https://docs.google.com/spreadsheets/d/1td1T6wCEnw4EeG05I_hH1dK1aNkLR5HJZZ-4jr-Du9A/edit
+
+**Markdown library:** https://github.com/Tushar1344/ai-blog-corpus
 
 ---
 
-## Scope
+## Scope — v2 filter
 
-| Company | In-scope posts | Coverage |
+**IN scope:** core model training, post-training & fine-tuning, alignment & safety, interpretability, evaluations, quantization/efficiency, agentic systems, harness/context engineering.
+
+**OUT of scope:** inference optimization (speculative decoding, KV cache, Flash Attention internals), kernel work (CUDA/Triton), hardware benchmarks (H100/Gaudi), general serving infra, applied product stories without methodology.
+
+Re-filtered 548 v1 posts → ~449 retained; added 247 new posts from Tier 1. Total 695.
+
+### Distribution by focus area
+
+| Focus area | Posts | Concentration |
 |---|---|---|
-| OpenAI (research + engineering) | 187 | openai.com `/publication/` + `/engineering/` sitemaps |
-| Vercel (engineering + AI-applied) | 127 | vercel.com/atom, filtered to engineering tag + AI regex (excludes changelog) |
-| Anthropic (research + engineering) | 125 | anthropic.com sitemap, all `/research/*` and `/engineering/*` |
-| Databricks Mosaic AI | 79 | en-blog-assets sitemap + blog-legacy-assets, filtered to Mosaic Research authors + AI research category (includes ~30 pre-acquisition MosaicML posts recovered via Wayback) |
-| Cursor | 15 | cursor.com/blog `/topic/research` + technical-substance posts from the main blog |
-| Cognition | 11 | cognition.ai/rss.xml, filtered to research + engineering methodology posts |
-| Thinking Machines | 4 | thinkingmachines.ai/index.xml (all Connectionism research) |
-| **Total** | **548** | |
+| Pretraining & Architecture | 271 | Mostly Meta FAIR, HuggingFace, DeepMind, Databricks |
+| Agentic Systems | 112 | Anthropic, OpenAI, Cursor, Cognition, Databricks |
+| Alignment & Safety | 95 | Anthropic dominates; OpenAI system cards; DeepMind safety work |
+| Evaluations & Benchmarks | 77 | Spread across all labs; AI2 leaderboard work |
+| Harness & Context Engineering | 69 | Anthropic, OpenAI, Cursor, Vercel |
+| Post-training & Fine-tuning | 34 | HuggingFace, Anthropic, DeepSeek, Thinking Machines |
+| Quantization & Efficiency | 20 | HF bitsandbytes, MosaicML efficient-training |
+| Interpretability | 17 | Almost entirely Anthropic |
 
-Substance filter: dropped pure launches, customer stories, and company news (e.g., "Introducing X", "now available", "partnership with"), but **kept** technical launches with methodology detail (DBRX technical post, Claude system cards, GPT-5 research report).
+### Distribution by company
 
----
-
-## Categorization axes
-
-Each post is tagged on five axes; you can pivot the Sheet or cd into `by-<axis>/` to slice.
-
-- **Axis A — Contribution type** (1-of): new-method, empirical-study, dataset-benchmark, retrospective-case-study, infra-release, interpretability-finding, position-policy
-- **Axis B — Technical domain** (1-of): pretraining, post-training, inference, agents, interpretability, safety-alignment, multimodal, evals-benchmarks, training-infra, serving-infra, applied-product
-- **Axis C — Track**: research / engineering / applied
-- **Axis D — Year**: publish year
-- **Axis E — Techniques** (multi): SAE, MoE, speculative-decoding, RLHF, RLVR, DPO, constitutional-AI, long-context, Flash-Attention, KV-cache, quantization, distillation, tool-use, computer-use, coding-agents, prompt-caching, context-engineering, test-time-compute, reward-modeling, red-teaming, jailbreak, steering, probing, scaling-laws, retrieval-augmentation, MCP, and specific benchmarks (SWE-bench, Tau-Bench, BrowseComp, etc.)
-
----
-
-## The temporal arc (what each year cared about)
-
-- **2020–2022** (mostly Anthropic foundational, early Mosaic infra): scaling laws, constitutional methods, early interpretability, distributed training ergonomics.
-- **2023**: Pretraining-at-scale public narratives — MPT, DBRX precursors, Composer, StreamingDataset. RLHF ubiquitous. First interpretability circuits (Anthropic). GPT-4 system card as a new genre.
-- **2024**: Agents become real (tool-use, Claude artifacts, Devin, Cursor). Long-context (100k+). First production coding agents. SAE interpretability gains traction. Mosaic DBRX technical report.
-- **2025**: Reasoning + test-time compute (o1 family). Computer use. Research on agent scaffolding vs. model capability. RLVR (verifiable rewards) overtakes RLHF in ambition. Interpretability moves from circuits → features → steering. Thinking Machines publishes "Connectionism" research.
-- **2026** (YTD): Multi-agent systems shipping to prod. Agent harnesses as a discipline (Anthropic "Harness design", OpenAI "Harness engineering"). Eval awareness / sandbagging. RL over CUDA kernels (Cursor, Cognition Kevin-32B). Memory for agents. MCP everywhere.
+| Company | Posts |
+|---|---|
+| OpenAI | 187 |
+| Anthropic | 125 |
+| Hugging Face | 115 |
+| Databricks Mosaic | 76 |
+| Meta FAIR | 61 |
+| DeepMind | 34 |
+| Vercel | 32 |
+| AI2 | 18 |
+| Cursor | 14 |
+| DeepSeek | 13 |
+| Cognition | 11 |
+| Google Research | 5 |
+| Thinking Machines | 4 |
 
 ---
 
-## Cross-company themes (what each company says)
+## Cross-company takes by focus area
 
-### Agents (~38 posts)
-- **Anthropic** frames agents around harnesses, context engineering, skills, and long-running loops. Concrete engineering emphasis — how to build production agents that don't fall over (context engineering, multi-agent research system, Claude Code sandboxing, harness design for long-running apps).
-- **OpenAI** talks about agents through the lens of Codex/Sora/ChatGPT Atlas — product-framed engineering (harness engineering, OWL architecture for Atlas browser, Beyond Rate Limits scaling).
-- **Cursor** publishes the most mechanically-specific agent research: multi-agent kernel RL, warp decode for MoE inference, fast regex indexing for agent tools, real-time RL for Composer, agent sandboxing, self-driving codebases.
-- **Cognition** publishes the **opinionated** takes: "Don't Build Multi-Agents" (2025-06), "Coding Agents 101", Agent Trace. Distinctly against the grain on some specific architectural choices.
-- **Databricks Mosaic** focuses on enterprise agents: Agentic Reasoning in Practice, Memory Scaling for AI Agents, Meet KARL (enterprise knowledge agent with custom RL), Governing Coding Agent Sprawl.
-- **Thinking Machines**: no dedicated agent posts yet (scope is closer to model mechanics).
+### Pretraining & Architecture (271 posts)
 
-### Evals and benchmarks (~17 posts)
-- **Anthropic**: Demystifying evals for AI agents, AI-resistant technical evaluations, Infrastructure noise in agentic coding evals, Eval awareness in BrowseComp.
-- **OpenAI**: A large number of system cards and benchmark-report posts (GPT-5.x system cards, EVMbench, Advancing independent research on AI alignment).
-- **Cursor**: Cursorbench — hybrid online/offline eval for coding agents.
-- **Cognition**: SWE-bench technical report, SWE-Check, evaluating coding agents (review of o1).
-- **Databricks**: OfficeQA enterprise benchmark.
+**Who transparency-publishes training recipes:**
+- **Databricks Mosaic AI** (DBRX, MPT, Composer, LLM Foundry, MegaBlocks)
+- **AI2** (OLMo, Dolma data, Tulu training recipe)
+- **Meta FAIR** (Llama series technical reports, but less of the training data detail than MosaicML or AI2)
+- **DeepSeek** (V3 technical report, V2 MoE, Coder-V2 — genuinely detailed)
+- **Hugging Face** (as aggregator: FineWeb, Cosmopedia, SmolLM recipes)
 
-### Inference (~11 posts)
-- **Thinking Machines**: Defeating Nondeterminism in LLM Inference — surprising technical depth from a tiny team.
-- **Databricks Mosaic**: Serving Quantized LLMs on H100, LLM Inference Performance Engineering, TensorRT-LLM integration, Fast PEFT Serving.
-- **Cursor**: Warp decode for MoE inference.
-- **OpenAI**: Beyond rate limits, From model to agent (Responses API).
+**Who publishes architecture research but not training recipes:**
+- **DeepMind** (Gemini posts at a high level; deeper on specific components like mixture-of-depths)
+- **OpenAI** (system cards + capability evals; architecture kept proprietary)
+- **Anthropic** (almost never publishes architecture)
 
-### Interpretability (~13 posts)
-- Almost entirely **Anthropic** — Circuits Updates series (monthly Sep 2024 onward), Towards Monosemanticity, SAEs, dictionary learning, steering, feature viz. This is the only company publishing mechanistic interpretability at scale.
-- No other company in the corpus has dedicated interpretability posts. Divergence point.
+**Novel architectures in the corpus:**
+- DeepSeek V3 multi-head latent attention (MLA)
+- DeepSeek V2/V3 MoE with fine-grained expert specialization
+- DeepSeek-V3.2-Exp sparse attention
+- Meta V-JEPA (video joint embedding predictive architecture)
+- Meta Megablocks for MoE
+- Cursor warp decode for MoE
+- Databricks MixAttention
+- HF Ultrapeed attention variants
 
-### Pretraining / architecture (~24 posts)
-- **Databricks Mosaic** owns this narrative — MPT (7B, 30B, long-context), DBRX, Composer, LLM Foundry, MegaBlocks, FP8 training, AMD MI250 benchmarks, Intel Gaudi 2.
-- **Cursor**: Composer 2 technical report, Training Composer for longer horizons, Better MoE inference with warp decode.
-- **Anthropic / OpenAI** don't publish pretraining details in detail (proprietary stance).
+### Alignment & Safety (95 posts)
 
-### Post-training / RL (~3 posts tagged, but much more distributed)
-- **Thinking Machines**: On-Policy Distillation, LoRA Without Regret.
-- **Cognition**: Kevin-32B (multi-turn RL for CUDA kernels).
-- **OpenAI** and **Anthropic**: RLHF discussions often embedded in system cards or broader research posts, not isolated.
+- **Anthropic** (~60%): alignment faking, sleeper agents, constitutional classifiers, scalable oversight, sycophancy studies, responsible scaling policy, sabotage evals, influence functions, steering.
+- **OpenAI** (~25%): Preparedness Framework updates, system cards (GPT-4/5/o1/o3), Model Spec, threat model posts, bio/cyber capability evals, chain-of-thought monitorability.
+- **DeepMind**: Frontier Safety Framework, Gemini safety, safety for scientific agents. Less public than Anthropic.
+- **Others**: HF contributes on red-teaming datasets; AI2 on Truthfulness. DeepSeek does not publish on alignment.
 
----
+**Emerging consensus:** frontier labs now disclose dangerous-capability evals (bio, cyber, persuasion, autonomy) before launch. **Emerging divergence:** Anthropic's "alignment faking" research vs. OpenAI's tendency to frame similar findings as "policy violations" or "chain-of-thought monitoring."
 
-## Divergences (where companies publicly disagree)
+### Interpretability (17 posts)
 
-1. **Multi-agent orchestration.** Anthropic published "How we built our multi-agent research system" (2025-06-13) championing the approach. Cognition published "Don't Build Multi-Agents" (2025-06-12) — literally the next day — arguing against it. A rare public disagreement on an architectural question.
+Almost exclusively **Anthropic** — SAE research, circuits updates (monthly series May 2023–Oct 2024), dictionary learning, feature viz, steering, monosemanticity.
 
-2. **Benchmark trustworthiness.** Anthropic's "Eval awareness in Claude Opus 4.6's BrowseComp performance" (2026-03-06) and "Infrastructure noise in agentic coding evals" (2026-02-03) both publicly question whether benchmark scores reflect capability. OpenAI's system-card approach implicitly trusts the benchmarks.
+Rare contributors: DeepMind has one Gemma Scope post. HuggingFace hosts a few interpretability tutorials. No other company publishes mechanistic interpretability at scale.
 
-3. **Agent harness vs. model capability.** Cursor's research agenda ("Better models, ambitious work") treats harness and model as jointly trainable (real-time RL for Composer). Anthropic's engineering ("Effective harnesses for long-running agents") treats them as decoupled concerns.
+**This is the sharpest industry divergence in the corpus** — interpretability is essentially a one-lab field.
 
-4. **Pretraining transparency.** Databricks Mosaic publishes full technical reports with hyperparameters, loss curves, and architecture details. OpenAI and Anthropic publish system cards with capability evals but no training details. Thinking Machines sits in the middle (Connectionism publishes mechanics but not full recipes).
+### Agentic Systems (112 posts)
 
----
+Most active focus area. Several sub-clusters:
 
-## Standout posts (must-read shortlist, ~30)
+- **Coding agents as production practice**: Anthropic (Claude Code, multi-agent research system, skills, sandboxing), OpenAI (Codex harness, in-house data agent, Atlas), Cursor (Composer, Bugbot, agent-computer-use), Cognition (Devin engineering, Agent Trace, SWE-grep), GitHub Copilot (adjacent but out of corpus).
+- **Enterprise agents**: Databricks (KARL, Agentic Reasoning in Practice, Memory Scaling), HuggingFace (agent framework posts).
+- **Embodied / simulation**: Meta FAIR (Habitat challenges, embodied AI research).
+- **Browser/computer use**: OpenAI (Operator, Atlas), Anthropic (computer use), Cursor (agent-computer-use).
 
-Curated by reading titles + applying heuristic rules; will refine during summarization pass. In no particular order:
+**Public disagreement:** Anthropic "How we built our multi-agent research system" (2025-06-13) vs. Cognition "Don't Build Multi-Agents" (2025-06-12). Literally adjacent days, opposite conclusions.
 
-**Interpretability**
-- Anthropic — Towards Monosemanticity
-- Anthropic — Circuits Updates (Sep/Oct 2024 onward, monthly cadence)
-- Anthropic — Steering Claude
+### Evaluations & Benchmarks (77 posts)
 
-**Pretraining / architecture**
-- Databricks — DBRX technical report (full architecture + training disclosure)
-- Databricks — MPT-30B, MPT-7B-8k (long-context MPT)
-- Databricks — Turbocharged Training with FP8
-- Databricks — MegaBlocks on Databricks (MoE kernels)
-- Cursor — Composer 2 technical report
-- Cursor — Better MoE inference with warp decode
+- **Benchmark creation:** SWE-bench (Cognition technical report), Tau-Bench (Anthropic), BrowseComp (OpenAI), GPQA-adjacent work (Anthropic), OfficeQA (Databricks), Paloma (AI2), HumanEval/MBPP adjacent (HF).
+- **Benchmark critique:** Anthropic "Eval awareness in Claude Opus 4.6's BrowseComp", "Quantifying infrastructure noise in agentic coding evals", OpenAI "Why SWE-bench Verified no longer measures frontier coding capabilities". A new genre: publicly doubting your own benchmarks.
+- **LLM-as-judge methodology:** Databricks (Custom Judges, PGRM reward model, Judge with Confidence), HF (TRL evaluations), Anthropic (eval infrastructure).
+- **Capability evals for safety:** OpenAI (Preparedness), Anthropic (dangerous capability evals), DeepMind (Frontier Safety evals).
 
-**Post-training / RL / distillation**
-- Thinking Machines — On-Policy Distillation
-- Thinking Machines — LoRA Without Regret
-- Cognition — Kevin-32B: Multi-Turn RL for CUDA Kernels
-- Cursor — Improving Composer through real-time RL
+### Post-training & Fine-tuning (34 posts)
 
-**Inference mechanics**
-- Thinking Machines — Defeating Nondeterminism in LLM Inference
-- Databricks — LLM Inference Performance Engineering: Best Practices
-- OpenAI — Harness engineering: leveraging Codex in an agent-first world
+**Undercounted because many posts in pretraining-and-architecture are actually about mixed pre/post training.** The 34 tightly-matched posts:
 
-**Agent harness / context engineering**
-- Anthropic — Effective context engineering for AI agents
-- Anthropic — Harness design for long-running application development
-- Anthropic — Effective harnesses for long-running agents
-- Anthropic — Writing effective tools for AI agents—using AI agents
-- OpenAI — Unlocking the Codex harness: how we built the App Server
-- OpenAI — How we built OWL, the new architecture behind ChatGPT-based browser Atlas
-- Cursor — Implementing a secure sandbox for local agents
-- Cursor — Fast regex search: indexing text for agent tools
+- **RLVR** (verifiable rewards): Thinking Machines (LoRA Without Regret, On-Policy Distillation), Cognition (Kevin-32B CUDA kernels), Databricks (RLVR SQL Reasoning, TAO).
+- **RLHF classics**: OpenAI (Fine-tuning GPT-2 from preferences, Learning to Summarize with Human Feedback, WebGPT, InstructGPT history).
+- **DPO and successors**: HuggingFace posts on Zephyr-ORPO, KTO.
+- **Distillation**: Thinking Machines On-Policy Distillation, DeepSeek distillation from R1.
+- **Data for post-training**: AI2 Tulu-3, HuggingFace UltraFeedback/UltraChat.
 
-**Multi-agent + eval-critical**
-- Anthropic — How we built our multi-agent research system
-- Cognition — Don't Build Multi-Agents (counter-take)
-- Anthropic — Eval awareness in Claude Opus 4.6's BrowseComp performance
-- Anthropic — Quantifying infrastructure noise in agentic coding evals
-- Cognition — SWE-bench technical report
+### Quantization & Efficiency (20 posts)
 
-**Safety / alignment**
-- Anthropic — Alignment faking series
-- Anthropic — Responsible Scaling Policy (and updates)
-- Anthropic — Sleeper Agents
+Small corpus — most inference-specific quantization was dropped. What remains:
+- Databricks FP8 training
+- HuggingFace bitsandbytes series, AWQ/GPTQ explainers
+- PEFT (LoRA) training/serving
+- Anthropic Matryoshka scaling (not in this category directly — landed in pretraining)
+- Mosaic quantized training posts
+
+### Harness & Context Engineering (69 posts)
+
+A relatively new discipline ('24-'26). Leaders:
+- **Anthropic**: Harness design for long-running apps, Effective context engineering, Writing effective tools, Claude Code sandboxing, Skills, MCP posts (8+).
+- **OpenAI**: Harness engineering (Codex), Unlocking the Codex harness, Inside in-house data agent.
+- **Cursor**: agent sandboxing, long-running agents, fast regex, self-summarization.
+- **Vercel**: Durable execution programming model, Agent responsibly, AI SDK.
+- **HuggingFace**: `smolagents` framework, tool-use tutorials.
 
 ---
 
-## Gaps — what nobody writes about
+## Companies with distinct profiles
 
-Across all 548 posts, these topics are conspicuously absent or thin:
+### DeepSeek (13 in-scope)
+Pure model-technical-report lab. Every release is a methodologically-dense paper — V3 MLA attention, R1 reasoning via RL, Prover-V2 formal math via MCTS, Coder-V2 repo training. Highest signal density per post of any company in the corpus.
 
-- **Inference cost economics in production.** Almost nobody publishes actual dollar-cost breakdowns of serving LLMs at real scale.
-- **Bad post-training experiments that failed.** Almost all posts are success stories. Negative results (what didn't work) are rare.
-- **Honest retrospectives on deprecated techniques.** Nobody's written "We tried X, then dropped it because Y."
-- **Data cleaning pipelines.** A lot of posts on training, very few on the actual data prep (deduping, filtering, PII removal).
-- **On-device / small-model work.** The corpus skews heavily toward frontier/cloud. Almost no small-model work.
-- **Evaluation reproducibility.** Posts discuss their evals but rarely the reproducibility checks.
+### Hugging Face (115 in-scope)
+Acts as the **applied-engineering aggregator** for everyone else's models. Posts include: reproduction recipes (Zephyr-ORPO for Mistral/Mixtral post-training), tutorials for new techniques (TRL, PEFT), dataset releases (FineWeb, Cosmopedia, UltraChat), and the community's "how to actually use" layer on top of every frontier release. Sits between research and practitioner.
 
----
+### AI2 / Allen Institute (18 in-scope after filter)
+The **reproducibility lab**. OLMo, Dolma, Tulu, Paloma — only org that ships full training data + recipe for frontier-scale models. Small number of corpus posts but every one matters.
 
-## How to iterate
+### Meta FAIR (61 in-scope)
+Long tail of published research (600+ blog entries all-time, 61 survived v2 filter). Strongest in: multimodal (SAM, SAM 2, DINO, V-JEPA, ImageBind), embodied AI (Habitat, Meta robot), and the Llama model releases. Lighter on post-training public-facing research compared to OpenAI/Anthropic.
 
-This is a source-of-truth Sheet + regenerable Markdown setup:
+### Google DeepMind (34 in-scope)
+Broader science-applied AI coverage. Strong on: foundation-model-for-science (AlphaFold, AlphaGeometry, AlphaProof, Aeneas), agentic reasoning (Gemini Deep Think for IMO/IOI), and safety policy. Publishes less training detail than FAIR/AI2.
 
-- **Add a source:** drop rows into the Sheet, re-run `_data/generate_markdown.py` to regenerate all cross-ref files. No re-crawl of existing data.
-- **Re-categorize:** edit `contribution_type`, `technical_domain`, or `techniques` columns in the Sheet; re-run the generator; markdown updates.
-- **Rewrite a summary:** edit the entry in `by-company/*.md` (canonical); cross-refs still resolve via the ID anchor.
-- **New axis:** add a column to the Sheet; add a `by-{axis}/` folder; extend the generator to emit it.
-- **Refresh cadence:** weekly cron that polls each source's RSS/sitemap, diffs against the Sheet, summarizes and categorizes new posts only.
+### Google Research (5 in-scope)
+Separate from DeepMind since the 2023 merge. Most of the "Google Research blog" content is applied ML (device ML, translation, healthcare) — only a handful survive v2's LLM-research filter.
 
 ---
 
-## Current completion state
+## Divergences
 
-- [x] Corpus enumeration (1054 total, 548 in-scope)
-- [x] Phase 2 substance filter (dropped ~500 pure launches / customer / company-news)
-- [x] Heuristic first-pass categorization on all 5 axes
-- [x] Google Sheet populated with all rows
-- [x] Company markdown files (title, URL, date, authors, heuristic tags)
-- [x] Cross-reference files (by domain / type / year / technique)
-- [x] This synthesis doc
-- [ ] **3-5 bullet per-post summaries** (pending — summarization pass needs to fetch and read each post's content)
-- [ ] Refined category tags (heuristic → content-aware)
+1. **Multi-agent orchestration** — Anthropic "How we built our multi-agent research system" (2025-06-13) vs. Cognition "Don't Build Multi-Agents" (2025-06-12).
+2. **Benchmark trustworthiness** — Anthropic ("Eval awareness in BrowseComp", "Infrastructure noise") and OpenAI ("Why SWE-bench Verified no longer measures frontier coding") both public-doubt benchmarks, but phrase it differently: Anthropic as a methodology concern, OpenAI as "time for a new benchmark."
+3. **Agent harness vs. model capability** — Cursor treats harness + model as jointly trainable (real-time RL for Composer). Anthropic treats them as decoupled (Effective harnesses, Harness design for long-running apps).
+4. **Pretraining transparency** — AI2 ships data + recipe (OLMo, Dolma). Databricks Mosaic ships architecture + hyperparameters (DBRX, MPT). DeepSeek ships architecture + training methodology (V3, R1). Meta FAIR ships model weights + paper but less data/recipe detail. OpenAI/Anthropic ship neither.
+5. **Interpretability** — Anthropic is alone. A strategic bet or blind spot for the rest of the industry.
+6. **Post-training** — OpenAI/Anthropic framings focus on alignment; Thinking Machines/HuggingFace frame it as capability; AI2 as reproducibility.
+
+## Temporal arc (revised)
+
+- **2017–2021**: Foundation research — scaling laws, early RLHF (OpenAI), Transformers iteration, meta-learning. Most of Google Research + FAIR early posts.
+- **2022**: InstructGPT era; Meta Llama 1; early MosaicML efficiency work.
+- **2023**: RLHF ubiquitous. MPT, Llama 2, DBRX precursors. First Circuits posts (Anthropic). System cards emerge as a genre. DeepSeek-LLM, DeepSeek-Math first releases.
+- **2024**: Agents go production. DBRX technical report. Long context. Reasoning begins (o1 family). Alignment faking paper. DeepSeek-V2/V3, Coder-V2 ship.
+- **2025**: RLVR overtakes RLHF. Test-time compute. Thinking Machines launches. DeepSeek-R1 reasoning. Tulu-3 reproducibility. Computer use. Anthropic Skills + MCP. Multi-agent debate.
+- **2026 YTD**: Agent harness as a discipline. Enterprise agents at scale. Eval awareness/sandbagging studies. MCP everywhere. Agent sandboxing normalized. Kernel-RL (Cognition Kevin-32B, Cursor multi-agent kernels — though those cross into our excluded category).
 
 ---
 
-*Generated 2026-04-19. To refresh, re-run the scripts in `_data/`.*
+## Standout posts (must-read shortlist, ~40)
+
+**Pretraining / architecture:** DBRX Technical Report (Databricks) · MPT-30B (Databricks) · OLMo-1 & OLMo-2 (AI2) · Llama 3 Paper (Meta) · DeepSeek-V3 (DeepSeek) · DeepSeek-MoE (DeepSeek) · FineWeb (HuggingFace) · Dolma 1.7 (AI2) · SAM 2 (Meta) · V-JEPA (Meta)
+
+**Post-training & fine-tuning:** On-Policy Distillation (Thinking Machines) · LoRA Without Regret (Thinking Machines) · DeepSeek-R1 (DeepSeek) · Kevin-32B (Cognition) · Tulu-3 (AI2) · Constitutional Classifiers (Anthropic) · PGRM (Databricks)
+
+**Alignment & safety:** Alignment faking in LLMs (Anthropic) · Sleeper Agents (Anthropic) · Responsible Scaling Policy updates (Anthropic) · Preparedness Framework (OpenAI) · Frontier Safety Framework (DeepMind) · Chain-of-thought monitorability (OpenAI) · Model Spec (OpenAI) · Influence Functions (Anthropic)
+
+**Interpretability:** Towards Monosemanticity (Anthropic) · Circuits Updates series (Anthropic, monthly) · Gemma Scope (DeepMind) · Steering Claude (Anthropic)
+
+**Agentic systems:** How we built our multi-agent research system (Anthropic) · Don't Build Multi-Agents (Cognition) · Effective harnesses for long-running agents (Anthropic) · Harness engineering (OpenAI) · SWE-bench technical report (Cognition) · Agent Trace (Cognition) · Claude Code sandboxing (Anthropic) · Writing effective tools for AI agents (Anthropic) · Habitat Challenges series (Meta) · Cursor agents can now control their own computers
+
+**Evals:** Demystifying evals (Anthropic) · Eval awareness in BrowseComp (Anthropic) · Paloma (AI2) · OfficeQA (Databricks) · Why SWE-bench Verified no longer measures frontier (OpenAI)
+
+**Harness:** Effective context engineering (Anthropic) · Harness design for long-running apps (Anthropic) · Unlocking the Codex harness (OpenAI) · OWL / Atlas architecture (OpenAI)
+
+---
+
+## Gaps (still)
+
+- Honest retrospectives on deprecated techniques (what DIDN'T work).
+- Pure economics of inference at frontier scale.
+- Data cleaning pipelines (depuping, PII, filtering) — despite FineWeb + Dolma being exceptions, most labs don't detail this.
+- Small-model work beyond HuggingFace's SmolLM line.
+- Quantization-at-training (FP8 era details) — Databricks is alone here.
+- Evaluation reproducibility — everyone talks about evals, nobody ships a reproducible test harness.
+- Sample-efficiency research — RL-style sample efficiency work from pre-LLM era hasn't been carried forward.
+
+## Limitations of v2
+
+1. **Classification is heuristic.** ~271 posts land in "pretraining-and-architecture" including many that belong elsewhere (especially OpenAI research posts that default to pretraining when no specific rule matches). Summaries will refine this.
+2. **Summaries pending.** Each entry in `by-focus-area/*.md` has a "Summary pending" slot. A follow-up pass is needed to populate 3-5 bullet summaries per post (the main remaining work).
+3. **Meta / DeepMind / Google Research slug-derived titles.** Wayback-based enumeration means titles are slug-derived; real titles can be backfilled by fetching post pages via headless browser.
+4. **DeepMind 34 vs. expected ~100.** Current filter is tight — expect to add ~50-70 more on a second pass with looser rules.
+5. **AI2 18 vs expected ~100.** Their blog is heavily scientific-discovery content (not LLM), and my filter drops most. Retaining OLMo / Tulu / Dolma / Paloma.
+
+## Iteration workflow
+
+- Re-filter the sheet: edit rules in `_data/consolidate_v2.py` or `_data/assign_focus_area.py`, re-run.
+- Regenerate markdown: `python3 _data/generate_markdown_v2.py`.
+- Re-upload sheet: `python3 _data/upload_sheet.py`.
+- Add a new company: drop rows into a new `enum-{name}.csv`, re-run consolidate + generator.
+
+---
+
+*v2 generated 2026-04-19 — re-scoped around 8 focus areas, added 5 Tier 1 labs (DeepMind, Meta FAIR, HuggingFace, AI2, DeepSeek), tightened out of inference/kernel/serving noise.*

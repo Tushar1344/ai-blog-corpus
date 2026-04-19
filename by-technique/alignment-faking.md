@@ -4,4 +4,4 @@
 
 | Date | Company | Title | ID |
 |---|---|---|---|
-| 2024-12-18 | Anthropic | [Alignment faking in large language models](../by-company/anthropic.md#ant-r-alignment-faking) | `ant-r-alignment-faking` |
+| 2024-12-18 | Anthropic | [Alignment faking in large language models](../by-focus-area/alignment-and-safety.md#ant-r-alignment-faking) | `ant-r-alignment-faking` |

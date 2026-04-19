@@ -42,7 +42,7 @@ def main():
         chunk = final[i:i+BATCH]
         start_row = i + 1
         end_row = i + len(chunk)
-        rng = f"master!A{start_row}:P{end_row}"
+        rng = f"master!A{start_row}:R{end_row}"
         payload = {"values": chunk}
         req = urllib.request.Request(
             f"https://sheets.googleapis.com/v4/spreadsheets/{SHEET_ID}/values/{rng}?valueInputOption=RAW",

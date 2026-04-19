@@ -1,61 +1,24 @@
 # Thinking Machines
 
-Connectionism research from thinkingmachines.ai/blog. News posts excluded.
+**In-scope posts:** 4
 
-**In-scope post count:** 4
+Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
-## Research (4 posts, newest first)
+## Pretraining & Architecture (2)
 
-### On-Policy Distillation
+| Date | Title | ID |
+|---|---|---|
+| 2025-09-26 | [Modular Manifolds](../by-focus-area/pretraining-and-architecture.md#tm-r-modular-manifolds) | `tm-r-modular-manifolds` |
+| 2025-09-10 | [Defeating Nondeterminism in LLM Inference](../by-focus-area/pretraining-and-architecture.md#tm-r-defeating-nondeterminism-in-llm-inference) | `tm-r-defeating-nondeterminism-in-llm-inference` |
 
-- **ID:** `tm-r-on-policy-distillation`
-- **Link:** https://thinkingmachines.ai/blog/on-policy-distillation/
-- **Date:** 2025-10-27
-- **Authors:** Kevin Lu
-- **Track:** research
-- **Domain:** safety-alignment
-- **Contribution type:** position-policy
-- **Techniques:** distillation
+## Alignment & Safety (1)
 
-_Summary pending — see link for details._
+| Date | Title | ID |
+|---|---|---|
+| 2025-10-27 | [On-Policy Distillation](../by-focus-area/alignment-and-safety.md#tm-r-on-policy-distillation) | `tm-r-on-policy-distillation` |
 
+## Quantization & Efficiency (1)
 
-### LoRA Without Regret
-
-- **ID:** `tm-r-lora`
-- **Link:** https://thinkingmachines.ai/blog/lora/
-- **Date:** 2025-09-29
-- **Authors:** John Schulman
-- **Track:** research
-- **Domain:** applied-product
-- **Contribution type:** empirical-study
-- **Techniques:** fine-tuning
-
-_Summary pending — see link for details._
-
-
-### Modular Manifolds
-
-- **ID:** `tm-r-modular-manifolds`
-- **Link:** https://thinkingmachines.ai/blog/modular-manifolds/
-- **Date:** 2025-09-26
-- **Authors:** Jeremy Bernstein
-- **Track:** research
-- **Domain:** applied-product
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Defeating Nondeterminism in LLM Inference
-
-- **ID:** `tm-r-defeating-nondeterminism-in-llm-inference`
-- **Link:** https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
-- **Date:** 2025-09-10
-- **Authors:** Horace He
-- **Track:** research
-- **Domain:** inference
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
+| Date | Title | ID |
+|---|---|---|
+| 2025-09-29 | [LoRA Without Regret](../by-focus-area/quantization-and-efficiency.md#tm-r-lora) | `tm-r-lora` |
