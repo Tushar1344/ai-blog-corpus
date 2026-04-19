@@ -1,0 +1,19 @@
+# Raw scraped HTML/XML/RSS dumps — regeneratable from scripts
+_data/*.xml
+_data/*.html
+_data/*.cache
+
+# Superseded enumeration intermediates (kept only as master.csv)
+_data/enum-databricks-rss-only.csv
+_data/enum-anthropic.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Firecrawl cache
+.firecrawl/
+
+# macOS
+.DS_Store

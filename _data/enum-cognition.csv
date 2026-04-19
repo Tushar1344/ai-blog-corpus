@@ -1,0 +1,56 @@
+id,company,track,title,url,publish_date,authors,in_scope,scope_reason
+cog-e-devin-in-windsurf,cognition,engineering,Devin in Windsurf,https://cognition.ai/blog/devin-in-windsurf,2026-04-15,,FALSE,product-launch
+cog-r-swe-check-10x-faster,cognition,research,Introducing SWE-Check: 10x Faster Bug Detection,https://cognition.ai/blog/swe-check-10x-faster,2026-04-14,,TRUE,
+cog-e-new-self-serve-plans-for-devin,cognition,engineering,New self-serve plans for Devin,https://cognition.ai/blog/new-self-serve-plans-for-devin,2026-04-14,,FALSE,product-launch
+cog-e-launching-in-japan,cognition,engineering,Launching in Japan with Takumi Masai,https://cognition.ai/blog/launching-in-japan,2026-04-09,,FALSE,company-news
+cog-r-how-devin-is-modernizing-cobol-at-fortune-500-companies,cognition,research,How Devin Is Modernizing COBOL at Fortune 500 Companies,https://cognition.ai/blog/how-devin-is-modernizing-cobol-at-fortune-500-companies,2026-04-08,,FALSE,customer-story
+cog-r-swe-1-6,cognition,research,Introducing SWE 1.6: Improving Model UX,https://cognition.ai/blog/swe-1-6,2026-04-07,,TRUE,
+cog-e-devin-can-now-schedule-devins,cognition,engineering,Devin can now Schedule Devins,https://cognition.ai/blog/devin-can-now-schedule-devins,2026-03-20,,FALSE,product-launch
+cog-e-devin-can-now-manage-devins,cognition,engineering,Devin can now Manage Devins,https://cognition.ai/blog/devin-can-now-manage-devins,2026-03-19,,FALSE,product-launch
+cog-r-swe-1-6-preview,cognition,research,An Early Preview of SWE-1.6 and Research Update,https://cognition.ai/blog/swe-1-6-preview,2026-03-01,,TRUE,
+cog-e-how-cognition-uses-devin-to-build-devin,cognition,engineering,How Cognition Uses Devin to Build Devin,https://cognition.ai/blog/how-cognition-uses-devin-to-build-devin,2026-02-27,,TRUE,
+cog-e-cognition-for-government,cognition,engineering,Introducing Cognition for Government,https://cognition.ai/blog/cognition-for-government,2026-02-25,,FALSE,company-news
+cog-e-introducing-devin-2-2,cognition,engineering,Introducing Devin 2.2,https://cognition.ai/blog/introducing-devin-2-2,2026-02-24,,FALSE,product-launch
+cog-e-closing-the-agent-loop-devin-autofixes-review-comments,cognition,engineering,Closing the Agent Loop: Devin Autofixes Review Comments,https://cognition.ai/blog/closing-the-agent-loop-devin-autofixes-review-comments,2026-02-10,,TRUE,
+cog-r-agent-trace,cognition,research,Agent Trace: Capturing the Context Graph of Code,https://cognition.ai/blog/agent-trace,2026-01-29,,TRUE,
+cog-e-cognizant-cognition,cognition,engineering,Cognizant partners with Cognition to scale Devin and Windsurf across its engineering organization and global clients,https://cognition.ai/blog/cognizant-cognition,2026-01-28,,FALSE,company-news
+cog-e-cognition-london,cognition,engineering,Devin crosses the pond: Cognition opens its London office,https://cognition.ai/blog/cognition-london,2026-01-28,,FALSE,company-news
+cog-e-devin-review,cognition,engineering,Devin Review: AI to Stop Slop,https://cognition.ai/blog/devin-review,2026-01-21,,FALSE,product-launch
+cog-r-infosys-cognition,cognition,research,Infosys partners with Cognition to expand engineering capacity and help scale its enterprise business,https://cognition.ai/blog/infosys-cognition,2026-01-07,,FALSE,company-news
+cog-r-devin-annual-performance-review-2025,cognition,research,Devin's 2025 Performance Review: Learnings From 18 Months of Agents At Work,https://cognition.ai/blog/devin-annual-performance-review-2025,2025-11-14,,FALSE,company-news
+cog-e-codemaps,cognition,engineering,"Windsurf Codemaps: Understand Code, Before You Vibe It",https://cognition.ai/blog/codemaps,2025-11-04,,FALSE,product-launch
+cog-r-swe-1-5,cognition,research,Introducing SWE-1.5: Our Fast Agent Model,https://cognition.ai/blog/swe-1-5,2025-10-29,,TRUE,
+cog-r-dotnet-migration-with-devin,cognition,research,Automating .NET Framework → .NET Core with Devin,https://cognition.ai/blog/dotnet-migration-with-devin,2025-10-28,,FALSE,customer-story
+cog-r-swe-grep,cognition,research,"Introducing SWE-grep and SWE-grep-mini: RL for Multi-Turn, Fast Context Retrieval",https://cognition.ai/blog/swe-grep,2025-10-16,,TRUE,
+cog-e-devin-agent-preview-sonnet-4-5,cognition,engineering,Announcing Devin Agent Preview with Sonnet 4.5,https://cognition.ai/blog/devin-agent-preview-sonnet-4-5,2025-09-29,,FALSE,product-launch
+cog-e-devin-sonnet-4-5-lessons-and-challenges,cognition,engineering,Rebuilding Devin for Claude Sonnet 4.5: Lessons and Challenges,https://cognition.ai/blog/devin-sonnet-4-5-lessons-and-challenges,2025-09-29,,TRUE,
+cog-r-funding-growth-and-the-next-frontier-of-ai-coding-agents,cognition,research,"Funding, growth, and the next frontier of AI coding agents",https://cognition.ai/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents,2025-09-08,,FALSE,company-news
+cog-r-how-eight-sleep-uses-devin-as-a-data-analyst,cognition,research,How Eight Sleep Uses Devin as a Data Analyst,https://cognition.ai/blog/how-eight-sleep-uses-devin-as-a-data-analyst,2025-09-04,,FALSE,customer-story
+cog-e-ai-data-analyst,cognition,engineering,Build Your Own AI Data Analyst,https://cognition.ai/blog/ai-data-analyst,2025-08-28,,TRUE,
+cog-e-from-jenkins-to-github-actions,cognition,engineering,Enterprise Guide: Migrating from Jenkins to GitHub Actions at Scale,https://cognition.ai/blog/from-jenkins-to-github-actions,2025-08-05,,FALSE,marketing
+cog-e-mcp-marketplace,cognition,engineering,Devin's MCP Marketplace,https://cognition.ai/blog/mcp-marketplace,2025-07-22,,FALSE,product-launch
+cog-e-windsurf,cognition,engineering,Cognition’s acquisition of Windsurf,https://cognition.ai/blog/windsurf,2025-07-14,,FALSE,company-news
+cog-r-coding-agents-101-the-art-of-actually-getting-things-done,cognition,research,Coding Agents 101: The Art of Actually Getting Things Done,https://cognition.ai/blog/coding-agents-101-the-art-of-actually-getting-things-done,2025-06-27,,TRUE,
+cog-e-blockdiff,cognition,engineering,Blockdiff: How we built our own file format for VM disk snapshots,https://cognition.ai/blog/blockdiff,2025-06-23,,TRUE,
+cog-r-dont-build-multi-agents,cognition,research,Don’t Build Multi-Agents,https://cognition.ai/blog/dont-build-multi-agents,2025-06-12,,TRUE,
+cog-e-deepwiki-mcp-server,cognition,engineering,The DeepWiki MCP Server,https://cognition.ai/blog/deepwiki-mcp-server,2025-05-22,,FALSE,product-launch
+cog-e-open-source-initiative-is-back,cognition,engineering,The Devin Open Source Initiative is Back,https://cognition.ai/blog/open-source-initiative-is-back,2025-05-19,,FALSE,company-news
+cog-e-devin-2-1,cognition,engineering,Devin 2.1,https://cognition.ai/blog/devin-2-1,2025-05-15,,FALSE,product-launch
+cog-r-kevin-32b,cognition,research,Kevin-32B: Multi-Turn RL for Writing CUDA Kernels,https://cognition.ai/blog/kevin-32b,2025-05-06,,TRUE,
+cog-e-deepwiki,cognition,engineering,DeepWiki: AI docs for any repo,https://cognition.ai/blog/deepwiki,2025-05-05,,FALSE,product-launch
+cog-e-devin-2,cognition,engineering,Devin 2.0,https://cognition.ai/blog/devin-2,2025-04-03,,FALSE,product-launch
+cog-e-devin-february-25-product-update,cognition,engineering,Devin February '25 Product Update,https://cognition.ai/blog/devin-february-25-product-update,2025-02-26,,FALSE,product-launch
+cog-r-linktree,cognition,research,Linktree expands social media platform coverage and ships new features with Devin,https://cognition.ai/blog/linktree,2025-02-13,,FALSE,customer-story
+cog-e-devin-101-automatic-pr-reviews-with-the-devin-api,cognition,engineering,Devin 101: Automatic PR Reviews with the Devin API,https://cognition.ai/blog/devin-101-automatic-pr-reviews-with-the-devin-api,2025-01-21,,TRUE,
+cog-e-jan-25-product-update,cognition,engineering,Devin January '25 Product Update,https://cognition.ai/blog/jan-25-product-update,2025-01-16,,FALSE,product-launch
+cog-r-crossmint-devin,cognition,research,Scaling Open Source Development of GOAT with Devin: A Crossmint Case Study,https://cognition.ai/blog/crossmint-devin,2025-01-14,,FALSE,customer-story
+cog-e-dec-24-product-update-2,cognition,engineering,Devin December '24 Product Update (Part 2),https://cognition.ai/blog/dec-24-product-update-2,2024-12-23,,FALSE,product-launch
+cog-e-cognition-open-source-initiative,cognition,engineering,Announcing The Devin Open Source Initiative,https://cognition.ai/blog/cognition-open-source-initiative,2024-12-12,,FALSE,company-news
+cog-e-devin-generally-available,cognition,engineering,Devin is now generally available,https://cognition.ai/blog/devin-generally-available,2024-12-10,,FALSE,product-launch
+cog-e-dec-24-product-update,cognition,engineering,Devin December '24 Product Update,https://cognition.ai/blog/dec-24-product-update,2024-12-03,,FALSE,product-launch
+cog-r-evaluating-coding-agents,cognition,research,A review of OpenAI’s o1 and how we evaluate coding agents,https://cognition.ai/blog/evaluating-coding-agents,2024-09-12,,TRUE,
+cog-e-sept-24-product-update,cognition,engineering,Devin September '24 Product Update,https://cognition.ai/blog/sept-24-product-update,2024-09-05,,FALSE,product-launch
+cog-r-devin-crowdstrike-outage,cognition,research,Using Devin to Recover from the CrowdStrike Outage,https://cognition.ai/blog/devin-crowdstrike-outage,2024-07-20,,FALSE,customer-story
+cog-e-june-24-product-update,cognition,engineering,Devin June '24 Product Update,https://cognition.ai/blog/june-24-product-update,2024-06-05,,FALSE,product-launch
+cog-r-swe-bench-technical-report,cognition,research,SWE-bench technical report,https://cognition.ai/blog/swe-bench-technical-report,2024-03-15,,TRUE,
+cog-r-introducing-devin,cognition,research,"Introducing Devin, the first AI software engineer",https://cognition.ai/blog/introducing-devin,2024-03-12,,TRUE,

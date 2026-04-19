@@ -1,0 +1,5 @@
+id,company,track,title,url,publish_date,authors,in_scope,scope_reason
+tm-r-on-policy-distillation,thinking-machines,research,On-Policy Distillation,https://thinkingmachines.ai/blog/on-policy-distillation/,2025-10-27,,TRUE,
+tm-r-lora,thinking-machines,research,LoRA Without Regret,https://thinkingmachines.ai/blog/lora/,2025-09-29,,TRUE,
+tm-r-modular-manifolds,thinking-machines,research,Modular Manifolds,https://thinkingmachines.ai/blog/modular-manifolds/,2025-09-26,,TRUE,
+tm-r-defeating-nondeterminism-in-llm-inference,thinking-machines,research,Defeating Nondeterminism in LLM Inference,https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/,2025-09-10,,TRUE,

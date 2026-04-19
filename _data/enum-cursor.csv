@@ -1,0 +1,27 @@
+id,company,track,title,url,publish_date,authors,in_scope,scope_reason
+cur-r-agent-sandboxing,cursor,research,Implementing a secure sandbox for local agents,https://cursor.com/blog/agent-sandboxing,2026-02-18,"Ani, Yash & Alex",TRUE,
+cur-r-better-models-ambitious-work,cursor,research,Better AI models enable more ambitious work,https://cursor.com/blog/better-models-ambitious-work,2026-04-15,Luke Melas-Kyriazi,TRUE,
+cur-r-composer-1-5,cursor,research,Introducing Composer 1.5,https://cursor.com/blog/composer-1-5,2026-02-09,Cursor Team,TRUE,
+cur-r-composer-2,cursor,research,Introducing Composer 2,https://cursor.com/blog/composer-2,2026-03-19,Cursor Team,TRUE,
+cur-r-composer-2-technical-report,cursor,research,A technical report on Composer 2,https://cursor.com/blog/composer-2-technical-report,2026-03-27,Sasha Rush,TRUE,
+cur-r-cursorbench,cursor,research,How we compare model quality in Cursor We use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do. Naman Jain ·,https://cursor.com/blog/cursorbench,2026-03-11,,TRUE,
+cur-r-fast-regex-search,cursor,research,Fast regex search: indexing text for agent tools,https://cursor.com/blog/fast-regex-search,2026-03-23,Vicent Marti,TRUE,
+cur-r-multi-agent-kernels,cursor,research,Speeding up GPU kernels by 38% with a multi-agent system,https://cursor.com/blog/multi-agent-kernels,2026-04-14,"Wilson, Sahil, Yuan & Edward",TRUE,
+cur-r-real-time-rl-for-composer,cursor,research,Improving Composer through real-time RL,https://cursor.com/blog/real-time-rl-for-composer,2026-03-26,"Jacob, Ben, Nathan & Wanqi",TRUE,
+cur-r-self-driving-codebases,cursor,research,Towards self-driving codebases,https://cursor.com/blog/self-driving-codebases,2026-02-05,Wilson Lin,TRUE,
+cur-r-self-summarization,cursor,research,Training Composer for longer horizons,https://cursor.com/blog/self-summarization,2026-03-17,Federico & Sasha,TRUE,
+cur-r-warp-decode,cursor,research,Better MoE model inference with warp decode,https://cursor.com/blog/warp-decode,2026-04-06,"Less, Federico & Zhiyuan",TRUE,
+cur-e-agent-computer-use,cursor,engineering,Cursor agents can now control their own computers,https://cursor.com/blog/agent-computer-use,2026-02-24,Jonas & Alexi,TRUE,
+cur-e-automations,cursor,engineering,Build agents that run automatically,https://cursor.com/blog/automations,2026-03-05,"Jack, Jon & Josh",FALSE,product-launch
+cur-e-bugbot-autofix,cursor,engineering,Closing the code review loop with Bugbot,https://cursor.com/blog/bugbot-autofix,2026-02-26,Autofix Jon Kaplan,TRUE,
+cur-e-bugbot-learning,cursor,engineering,Bugbot now self-improves with learned rules,https://cursor.com/blog/bugbot-learning,2026-04-08,Michael Zhao,TRUE,
+cur-e-canvas,cursor,engineering,Interact with agent-created visualizations in canvases,https://cursor.com/blog/canvas,2026-04-15,Alex Vandak Maloney,FALSE,product-launch
+cur-e-cursor-3,cursor,engineering,Meet the new Cursor,https://cursor.com/blog/cursor-3,2026-04-02,Michael & Sualeh,FALSE,product-launch
+cur-e-jetbrains-acp,cursor,engineering,Cursor is now available in JetBrains,https://cursor.com/blog/jetbrains-acp,2026-03-04,IDEs Cursor Team,FALSE,product-launch
+cur-e-long-running-agents,cursor,engineering,Expanding our long-running agents research preview,https://cursor.com/blog/long-running-agents,2026-02-12,Cursor Team,TRUE,
+cur-e-marketplace,cursor,engineering,Extend Cursor with plugins,https://cursor.com/blog/marketplace,2026-02-17,Cursor Team,FALSE,product-launch
+cur-e-new-plugins,cursor,engineering,Over 30 new plugins join the Cursor,https://cursor.com/blog/new-plugins,2026-03-11,Marketplace Kevin Niparko,FALSE,product-launch
+cur-e-security-agents,cursor,engineering,Securing our codebase with autonomous agents,https://cursor.com/blog/security-agents,2026-03-16,Travis McPeak,TRUE,
+cur-e-self-hosted-cloud-agents,cursor,engineering,Run cloud agents in your own infrastructure,https://cursor.com/blog/self-hosted-cloud-agents,2026-03-25,Katia Bazzi,FALSE,product-launch
+cur-e-amplitude,cursor,engineering,Amplitude ships 3x more production code with Cursor,https://cursor.com/blog/amplitude,2026-04-15,,FALSE,unclassified-cursor-blog
+cur-e-box,cursor,engineering,"Box chooses Cursor for enterprise-grade quality, security, and control",https://cursor.com/blog/box,2026-02-13,,FALSE,unclassified-cursor-blog

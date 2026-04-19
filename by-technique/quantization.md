@@ -1,0 +1,7 @@
+# Technique: quantization
+
+**Post count:** 1
+
+| Date | Company | Title | ID |
+|---|---|---|---|
+| 2024-03-21 | Databricks Mosaic AI | [Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8](../by-company/databricks-mosaic.md#dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8) | `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8` |
