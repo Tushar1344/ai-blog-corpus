@@ -32,6 +32,7 @@ _3 posts_
 - **Date:** 2023-05-04
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** interpretability-features
 
 _Summary pending — see link for details._
@@ -45,6 +46,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-01-05
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** interpretability-features
 
 _Summary pending — see link for details._
@@ -58,6 +60,7 @@ _Summary pending — see link for details._
 - **Date:** 2022-09-14
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** interpretability-features
 
 _Summary pending — see link for details._
@@ -75,6 +78,7 @@ _10 posts_
 - **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -88,6 +92,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-05-29
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -101,6 +106,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-10-01
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -114,6 +120,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-09-06
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -127,6 +134,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-07-31
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -140,6 +148,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-06-28
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -153,6 +162,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-04-26
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -166,6 +176,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-03-08
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -179,6 +190,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-05-24
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -192,6 +204,7 @@ _Summary pending — see link for details._
 - **Date:** 2021-12-22
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** circuits
 
 _Summary pending — see link for details._
@@ -209,6 +222,7 @@ _2 posts_
 - **Date:** 2024-10-25
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** steering
 
 _Summary pending — see link for details._
@@ -222,6 +236,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-03-16
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** steering
 
 _Summary pending — see link for details._
@@ -239,6 +254,7 @@ _1 posts_
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=L (priority 5.6)
 
 _Summary pending — see link for details._
 
@@ -255,6 +271,7 @@ _11 posts_
 - **Date:** 2025-03-27
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
 **Summary:**
 
@@ -273,6 +290,7 @@ _11 posts_
 - **Date:** 2025-02-20
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
 **Summary:**
 
@@ -291,6 +309,7 @@ _11 posts_
 - **Date:** 2024-10-16
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** interpretability-features
 
 **Summary:**
@@ -310,6 +329,7 @@ _11 posts_
 - **Date:** 2024-06-13
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
 **Summary:**
 
@@ -328,6 +348,7 @@ _11 posts_
 - **Date:** 2024-05-21
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
 **Summary:**
 
@@ -346,6 +367,7 @@ _11 posts_
 - **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
 **Summary:**
 
@@ -364,6 +386,7 @@ _11 posts_
 - **Date:** 2023-10-05
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 **Summary:**
 
@@ -382,6 +405,7 @@ _11 posts_
 - **Date:** 2023-10-05
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** interpretability-features
 
 **Summary:**
@@ -401,6 +425,7 @@ _11 posts_
 - **Date:** 2023-08-08
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 **Summary:**
 
@@ -421,6 +446,7 @@ _11 posts_
 - **Date:** 2023-05-24
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 **Summary:**
 
@@ -439,6 +465,7 @@ _11 posts_
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** interpretability-finding
+- **Signal:** M — L=M/N=M/A=L (priority 5.6)
 
 **Summary:**
 

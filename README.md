@@ -11,6 +11,13 @@ A cross-indexed library of research and engineering blog posts from **12 AI orga
 ## Stats
 
 - **1360 in-scope posts** across **19 organizations** from **6 countries**
+- **Signal scoring** (High/Medium/Low) on three dimensions per post:
+  - **Learning** — does this teach fundamentals?
+  - **Novelty** — is this a new method/finding vs. rehash?
+  - **Actionability** — can you apply it (recipe, code, technique)?
+- Distribution: **279 High** (21%), **728 Medium** (54%), **353 Low** (26%)
+- **[must-read.md](must-read.md)** — top 50 ranked by combined signal score
+- **[by-signal/](by-signal/)** — flat indexes for High/Medium/Low tiers
 - Organizations: Anthropic, OpenAI, Databricks Mosaic AI, Cursor, Vercel, Cognition, Thinking Machines, Google Research, Google DeepMind, Meta FAIR, Hugging Face, Allen Institute for AI (AI2), DeepSeek, **Sakana AI**, **Qwen (Alibaba)**, **Mistral**, **AI21 Labs**, **LangChain**, **Moonshot (Kimi)**
 - Countries: USA (906), France (186), Israel (116), China (83), Japan (35), UK (34)
 - **8 focus areas** × 6 axes of secondary categorization (company, country, year, contribution type, technique, subcategory)

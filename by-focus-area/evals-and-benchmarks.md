@@ -48,6 +48,7 @@ _4 posts_
 - **Date:** 2025-12-09
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=M/N=H/A=M (priority 7.8)
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
@@ -61,6 +62,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-02-04
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -73,6 +75,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-07-01
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -85,6 +88,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=M/A=L (priority 5.6)
 - **Techniques:** BrowseComp, evals-eval-harness
 
 _Summary pending — see link for details._
@@ -102,6 +106,7 @@ _8 posts_
 - **Date:** 2026-03-11
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 - **Techniques:** coding-agents, evals-eval-harness
 
 _Summary pending — see link for details._
@@ -115,6 +120,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-04-02
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -127,6 +133,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-01-06
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** coding-agents, SWE-bench
 
 _Summary pending — see link for details._
@@ -140,6 +147,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-01-06
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** coding-agents, SWE-bench
 
 _Summary pending — see link for details._
@@ -153,6 +161,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-06-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -165,6 +174,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-03-15
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 - **Techniques:** coding-agents, SWE-bench
 
 _Summary pending — see link for details._
@@ -179,6 +189,7 @@ _Summary pending — see link for details._
 - **Authors:** AI21 Labs
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=M/A=L (priority 4.5)
 
 _Summary pending — see link for details._
 
@@ -192,6 +203,7 @@ _Summary pending — see link for details._
 - **Authors:** AI21 Labs
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=M/A=L (priority 4.5)
 
 _Summary pending — see link for details._
 
@@ -208,6 +220,7 @@ _2 posts_
 - **Date:** 2023-06-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -220,6 +233,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=L/N=M/A=M (priority 5.5)
 
 _Summary pending — see link for details._
 
@@ -236,6 +250,7 @@ _27 posts_
 - **Date:** 2026-02-04
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -248,6 +263,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-11-21
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -260,6 +276,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-07-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -272,6 +289,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-04-08
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -284,6 +302,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-02-14
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -296,6 +315,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-02-10
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -308,6 +328,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-01-09
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -320,6 +341,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-12-04
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -332,6 +354,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-11-20
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -344,6 +367,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-10-04
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -356,6 +380,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-05-14
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -368,6 +393,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-05-05
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -380,6 +406,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-05-03
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -392,6 +419,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-04-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -404,6 +432,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-04-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -416,6 +445,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-03-05
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -428,6 +458,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -440,6 +471,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-20
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -452,6 +484,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-02
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -464,6 +497,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-31
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -476,6 +510,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-29
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -488,6 +523,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-26
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -500,6 +536,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-12
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -512,6 +549,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-12-01
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 _Summary pending — see link for details._
 
@@ -524,6 +562,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-09-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -536,6 +575,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-06-12
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -548,6 +588,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=M (priority 4.3)
 
 _Summary pending — see link for details._
 
@@ -564,6 +605,7 @@ _13 posts_
 - **Date:** 2026-02-18
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 _Summary pending — see link for details._
 
@@ -576,6 +618,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-12-18
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 _Summary pending — see link for details._
 
@@ -588,6 +631,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-11-04
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -600,6 +644,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-08-12
 - **Track:** research
 - **Contribution type:** new-method
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 - **Techniques:** RLHF, reward-modeling
 
 _Summary pending — see link for details._
@@ -613,6 +658,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-06
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
 _Summary pending — see link for details._
 
@@ -625,6 +671,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-11-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -637,6 +684,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-10-28
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -650,6 +698,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
 _Summary pending — see link for details._
 
@@ -662,6 +711,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-06-06
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=L/N=M/A=H (priority 6.5)
 
 _Summary pending — see link for details._
 
@@ -674,6 +724,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-05-24
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
 _Summary pending — see link for details._
 
@@ -686,6 +737,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -699,6 +751,7 @@ _Summary pending — see link for details._
 - **Authors:** Mistral AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -712,6 +765,7 @@ _Summary pending — see link for details._
 - **Authors:** AI21 Labs
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -728,6 +782,7 @@ _9 posts_
 - **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -741,6 +796,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
 _Summary pending — see link for details._
 
@@ -754,6 +810,7 @@ _Summary pending — see link for details._
 - **Authors:** Mikaela Grace|Jeremy Hadfield|Rodrigo Olivares|Jiri De Jonghe
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
@@ -768,6 +825,7 @@ _Summary pending — see link for details._
 - **Authors:** Pallavi Koppol|Erica Ji Yuen|Kartik Sreenivasan|Andy Zhang|Sam Havens|Michael Carbin|Matei Zaharia|Jonathan Frankle
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -780,6 +838,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-11-19
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
@@ -794,6 +853,7 @@ _Summary pending — see link for details._
 - **Authors:** Tessa Barton
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -806,6 +866,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-10-04
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=H/N=M/A=L (priority 6.7)
 
 **Summary:**
 
@@ -825,6 +886,7 @@ _Summary pending — see link for details._
 - **Authors:** Rishab Parthasarathy
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 - **Techniques:** coding-agents
 
 _Summary pending — see link for details._
@@ -839,6 +901,7 @@ _Summary pending — see link for details._
 - **Authors:** Jeremy Dohmann
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -855,6 +918,7 @@ _2 posts_
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=M/N=H/A=M (priority 7.8)
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
@@ -868,6 +932,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=L/N=M/A=M (priority 5.5)
 
 _Summary pending — see link for details._
 
@@ -884,6 +949,7 @@ _9 posts_
 - **Date:** 2025-07-28
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
@@ -897,6 +963,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=M/A=L (priority 4.5)
 
 _Summary pending — see link for details._
 
@@ -909,6 +976,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -921,6 +989,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -933,6 +1002,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=M/A=L (priority 4.5)
 
 _Summary pending — see link for details._
 
@@ -945,6 +1015,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -957,6 +1028,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -969,6 +1041,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=L (priority 5.6)
 
 _Summary pending — see link for details._
 
@@ -981,6 +1054,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=H/A=L (priority 6.8)
 
 _Summary pending — see link for details._
 
@@ -997,6 +1071,7 @@ _4 posts_
 - **Date:** 2026-03-25
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** coding-agents, SWE-bench
 
 _Summary pending — see link for details._
@@ -1011,6 +1086,7 @@ _Summary pending — see link for details._
 - **Authors:** Gian Segato
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
@@ -1025,6 +1101,7 @@ _Summary pending — see link for details._
 - **Authors:** Kartik Sreenivasan|Jeffrey Chen|Pallavi Koppol|Eitan Turok|Bay Foley-Cox|Asfandyar Qureshi|Sam Havens
 - **Track:** research
 - **Contribution type:** dataset-benchmark
+- **Signal:** H — L=M/N=H/A=M (priority 7.8)
 - **Techniques:** tool-use, evals-eval-harness
 
 _Summary pending — see link for details._
@@ -1038,6 +1115,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-04-16
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -1054,6 +1132,7 @@ _20 posts_
 - **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=H/N=M/A=L (priority 6.7)
 
 **Summary:**
 
@@ -1074,6 +1153,7 @@ _20 posts_
 - **Authors:** Luke Melas-Kyriazi
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=H/N=L/A=M (priority 6.5)
 - **Techniques:** coding-agents
 
 **Summary:**
@@ -1095,6 +1175,7 @@ _20 posts_
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
 _Summary pending — see link for details._
 
@@ -1108,6 +1189,7 @@ _Summary pending — see link for details._
 - **Authors:** Jude Gao
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 - **Techniques:** evals-eval-harness
 
 **Summary:**
@@ -1128,6 +1210,7 @@ _Summary pending — see link for details._
 - **Authors:** Tristan Hume
 - **Track:** engineering
 - **Contribution type:** empirical-study
+- **Signal:** M — L=H/N=L/A=M (priority 6.5)
 
 **Summary:**
 
@@ -1148,6 +1231,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1161,6 +1245,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1174,6 +1259,7 @@ _Summary pending — see link for details._
 - **Authors:** Quinn Leng|Jacob Portes|Sam Havens|Matei Zaharia|Michael Carbin
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 - **Techniques:** long-context, retrieval-augmentation
 
 **Summary:**
@@ -1193,6 +1279,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-03-21
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=H/N=L/A=M (priority 6.5)
 
 **Summary:**
 
@@ -1211,6 +1298,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-12
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=H/N=L/A=M (priority 6.5)
 
 **Summary:**
 
@@ -1229,6 +1317,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-12
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 **Summary:**
 
@@ -1248,6 +1337,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1260,6 +1350,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-09-26
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -1273,6 +1364,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1286,6 +1378,7 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=M (priority 4.3)
 
 _Summary pending — see link for details._
 
@@ -1298,6 +1391,7 @@ _Summary pending — see link for details._
 - **Date:** 2022-12-14
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1310,6 +1404,7 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1322,6 +1417,7 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-03
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -1334,6 +1430,7 @@ _Summary pending — see link for details._
 - **Date:** 2022-06-28
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=M (priority 4.3)
 
 _Summary pending — see link for details._
 
@@ -1346,6 +1443,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 

@@ -35,6 +35,7 @@ _3 posts_
 - **Date:** 2023-08-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
 _Summary pending — see link for details._
 
@@ -47,6 +48,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-05-24
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -59,6 +61,7 @@ _Summary pending — see link for details._
 - **Date:** 2022-08-17
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
 _Summary pending — see link for details._
 
@@ -75,6 +78,7 @@ _16 posts_
 - **Date:** 2026-02-27
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -87,6 +91,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-10-21
 - **Track:** engineering
 - **Contribution type:** empirical-study
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -100,6 +105,7 @@ _Summary pending — see link for details._
 - **Authors:** John Schulman
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** fine-tuning
 
 _Summary pending — see link for details._
@@ -113,6 +119,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-07-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -125,6 +132,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -137,6 +145,7 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-12
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -149,6 +158,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -161,6 +171,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -173,6 +184,7 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-02
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -185,6 +197,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-12-05
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -197,6 +210,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-11-07
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
 _Summary pending — see link for details._
 
@@ -209,6 +223,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-06-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -221,6 +236,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-03-09
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -233,6 +249,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-02-10
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -245,6 +262,7 @@ _Summary pending — see link for details._
 - **Date:** 2023-01-26
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 _Summary pending — see link for details._
 
@@ -257,6 +275,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -273,6 +292,7 @@ _2 posts_
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -285,6 +305,7 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
 _Summary pending — see link for details._
 
@@ -301,6 +322,7 @@ _3 posts_
 - **Date:** 2026-01-26
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
 **Summary:**
 
@@ -320,6 +342,7 @@ _3 posts_
 - **Authors:** Mihir Patel|Cheng Li|Saaketh Narayan
 - **Track:** engineering
 - **Contribution type:** empirical-study
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 - **Techniques:** quantization
 
 **Summary:**
@@ -339,6 +362,7 @@ _3 posts_
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
 **Summary:**
 

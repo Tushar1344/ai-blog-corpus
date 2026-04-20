@@ -96,6 +96,14 @@ def build_full_entry(row):
         lines.append(f"- **Authors:** {authors}")
     lines.append(f"- **Track:** {track}")
     lines.append(f"- **Contribution type:** {contrib}")
+    # Signal line
+    sig_o = row.get("signal_overall", "")
+    sig_l = row.get("signal_learning", "")
+    sig_n = row.get("signal_novelty", "")
+    sig_a = row.get("signal_actionability", "")
+    sig_p = row.get("signal_priority", "")
+    if sig_o:
+        lines.append(f"- **Signal:** {sig_o} — L={sig_l}/N={sig_n}/A={sig_a} (priority {sig_p})")
     if techs:
         lines.append(f"- **Techniques:** {techs.replace('|', ', ')}")
     lines.append("")
