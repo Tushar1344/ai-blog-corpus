@@ -4,7 +4,7 @@
 
 Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
-## Pretraining & Architecture (12)
+## Pretraining & Architecture (13)
 
 | Date | Title | ID |
 |---|---|---|
@@ -14,6 +14,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2024-08-12 | [Welcome Falcon Mamba: The first strong attention-free 7B model](../by-focus-area/pretraining-and-architecture.md#hf-r-falconmamba) | `hf-r-falconmamba` |
 | 2024-07-22 | [WWDC 24: Running Mistral 7B with Core ML](../by-focus-area/pretraining-and-architecture.md#hf-r-mistral-coreml) | `hf-r-mistral-coreml` |
 | 2024-07-16 | [SmolLM - blazingly fast and remarkably powerful](../by-focus-area/pretraining-and-architecture.md#hf-r-smollm) | `hf-r-smollm` |
+| 2024-03-20 | [Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models](../by-focus-area/pretraining-and-architecture.md#hf-r-cosmopedia) | `hf-r-cosmopedia` |
 | 2023-12-11 | [Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face](../by-focus-area/pretraining-and-architecture.md#hf-r-mixtral) | `hf-r-mixtral` |
 | 2023-12-11 | [Mixture of Experts Explained](../by-focus-area/pretraining-and-architecture.md#hf-r-moe) | `hf-r-moe` |
 | 2023-05-15 | [Introducing RWKV - An RNN with the advantages of a transformer](../by-focus-area/pretraining-and-architecture.md#hf-r-rwkv) | `hf-r-rwkv` |
@@ -28,12 +29,12 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2025-05-25 | [🐯 Liger GRPO meets TRL](../by-focus-area/post-training-and-fine-tuning.md#hf-r-liger-grpo) | `hf-r-liger-grpo` |
 | 2024-12-16 | [Introducing the Synthetic Data Generator - Build Datasets with Natural Language](../by-focus-area/post-training-and-fine-tuning.md#hf-r-synthetic-data-generator) | `hf-r-synthetic-data-generator` |
 | 2024-06-12 | [Putting RL back in RLHF](../by-focus-area/post-training-and-fine-tuning.md#hf-r-putting_rl_back_in_rlhf_with_rloo) | `hf-r-putting_rl_back_in_rlhf_with_rloo` |
-| 2024-03-20 | [Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models](../by-focus-area/post-training-and-fine-tuning.md#hf-r-cosmopedia) | `hf-r-cosmopedia` |
 | 2024-02-16 | [Synthetic data: save money, time and carbon with open source](../by-focus-area/post-training-and-fine-tuning.md#hf-r-synthetic-data-save-costs) | `hf-r-synthetic-data-save-costs` |
 | 2023-10-24 | [The N Implementation Details of RLHF with PPO](../by-focus-area/post-training-and-fine-tuning.md#hf-r-the_n_implementation_details_of_rlhf_with_ppo) | `hf-r-the_n_implementation_details_of_rlhf_with_ppo` |
 | 2023-08-08 | [Fine-tune Llama 2 with DPO](../by-focus-area/post-training-and-fine-tuning.md#hf-r-dpo-trl) | `hf-r-dpo-trl` |
 | 2023-08-01 | [Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny](../by-focus-area/post-training-and-fine-tuning.md#hf-r-sd_distillation) | `hf-r-sd_distillation` |
 | 2023-04-05 | [StackLLaMA: A hands-on guide to train LLaMA with RLHF](../by-focus-area/post-training-and-fine-tuning.md#hf-r-stackllama) | `hf-r-stackllama` |
+| 2023-01-24 | [What Makes a Dialog Agent Useful?](../by-focus-area/post-training-and-fine-tuning.md#hf-r-dialog-agents) | `hf-r-dialog-agents` |
 | 2022-12-09 | [Illustrating Reinforcement Learning from Human Feedback (RLHF)](../by-focus-area/post-training-and-fine-tuning.md#hf-r-rlhf) | `hf-r-rlhf` |
 | 2022-08-05 | [Proximal Policy Optimization (PPO)](../by-focus-area/post-training-and-fine-tuning.md#hf-r-deep-rl-ppo) | `hf-r-deep-rl-ppo` |
 
@@ -92,10 +93,11 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2022-10-03 | [Very Large Language Models and How to Evaluate Them](../by-focus-area/evals-and-benchmarks.md#hf-r-zero-shot-eval-on-the-hub) | `hf-r-zero-shot-eval-on-the-hub` |
 | 2022-06-28 | [Announcing Evaluation on the Hub](../by-focus-area/evals-and-benchmarks.md#hf-r-eval-on-the-hub) | `hf-r-eval-on-the-hub` |
 
-## Quantization & Efficiency (14)
+## Quantization & Efficiency (15)
 
 | Date | Title | ID |
 |---|---|---|
+| 2025-09-29 | [Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models](../by-focus-area/quantization-and-efficiency.md#hf-r-intel-qwen3-agent) | `hf-r-intel-qwen3-agent` |
 | 2025-07-23 | [Fast LoRA inference for Flux with Diffusers and PEFT](../by-focus-area/quantization-and-efficiency.md#hf-r-lora-fast) | `hf-r-lora-fast` |
 | 2025-06-19 | [(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware](../by-focus-area/quantization-and-efficiency.md#hf-r-flux-qlora) | `hf-r-flux-qlora` |
 | 2024-02-23 | [Fine-Tuning Gemma Models in Hugging Face](../by-focus-area/quantization-and-efficiency.md#hf-r-gemma-peft) | `hf-r-gemma-peft` |
@@ -111,7 +113,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2023-01-26 | [Using LoRA for Efficient Stable Diffusion Fine-Tuning](../by-focus-area/quantization-and-efficiency.md#hf-r-lora) | `hf-r-lora` |
 | 2022-08-17 | [A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using transformers, accelerate and bitsandbytes](../by-focus-area/quantization-and-efficiency.md#hf-r-hf-bitsandbytes-integration) | `hf-r-hf-bitsandbytes-integration` |
 
-## Agentic Systems (24)
+## Agentic Systems (22)
 
 | Date | Title | ID |
 |---|---|---|
@@ -121,7 +123,6 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2026-01-05 | [NVIDIA brings agents to life with DGX Spark and Reachy Mini](../by-focus-area/agentic-systems.md#hf-r-nvidia-reachy-mini) | `hf-r-nvidia-reachy-mini` |
 | 2025-12-04 | [DeepMath: A lightweight math reasoning Agent with smolagents](../by-focus-area/agentic-systems.md#hf-r-intel-deepmath) | `hf-r-intel-deepmath` |
 | 2025-10-23 | [Building the Open Agent Ecosystem Together: Introducing OpenEnv](../by-focus-area/agentic-systems.md#hf-r-openenv) | `hf-r-openenv` |
-| 2025-09-29 | [Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models](../by-focus-area/agentic-systems.md#hf-r-intel-qwen3-agent) | `hf-r-intel-qwen3-agent` |
 | 2025-09-23 | [Smol2Operator: Post-Training GUI Agents for Computer Use](../by-focus-area/agentic-systems.md#hf-r-smol2operator) | `hf-r-smol2operator` |
 | 2025-09-22 | [Gaia2 and ARE: Empowering the community to study agents](../by-focus-area/agentic-systems.md#hf-r-gaia2) | `hf-r-gaia2` |
 | 2025-09-10 | [Jupyter Agents: training LLMs to reason with notebooks](../by-focus-area/agentic-systems.md#hf-r-jupyter-agent-2) | `hf-r-jupyter-agent-2` |
@@ -137,7 +138,6 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2024-01-24 | [Open-source LLMs as LangChain Agents](../by-focus-area/agentic-systems.md#hf-r-open-source-llms-as-agents) | `hf-r-open-source-llms-as-agents` |
 | 2023-07-24 | [Introducing Agents.js: Give tools to your LLMs using JavaScript](../by-focus-area/agentic-systems.md#hf-r-agents-js) | `hf-r-agents-js` |
 | 2023-02-07 | [Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system](../by-focus-area/agentic-systems.md#hf-r-aivsai) | `hf-r-aivsai` |
-| 2023-01-24 | [What Makes a Dialog Agent Useful?](../by-focus-area/agentic-systems.md#hf-r-dialog-agents) | `hf-r-dialog-agents` |
 | 2021-12-02 | [Introducing Snowball Fight ☃️, our first ML-Agents environment](../by-focus-area/agentic-systems.md#hf-r-snowball-fight) | `hf-r-snowball-fight` |
 
 ## Harness & Context Engineering (9)

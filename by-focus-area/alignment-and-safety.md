@@ -2,30 +2,28 @@
 
 Constitutional methods, responsible scaling policies, red-teaming, jailbreaking, sandbagging, alignment faking, safeguards, threat models, system cards.
 
-**Post count:** 122
+**Post count:** 139
 
 **Contributors:**
 
-- OpenAI: 60
-- Anthropic: 43
-- Meta AI / FAIR: 8
-- Google DeepMind: 5
+- OpenAI: 68
+- Anthropic: 51
+- Meta AI / FAIR: 9
+- Google DeepMind: 6
 - Hugging Face: 4
-- Thinking Machines: 1
 - Google Research: 1
 
 **Subcategories:**
 
 - [System cards & model cards](#system-cards) (27)
-- [Responsible scaling & safety policy](#responsible-scaling-and-policy) (25)
-- [Constitutional methods & self-critique](#constitutional-and-self-critique) (10)
-- [Deceptive alignment & scheming](#deceptive-alignment) (9)
-- [Dangerous-capability evaluations](#capability-evals-for-safety) (2)
-- [Red-teaming & jailbreaking](#red-teaming-and-jailbreaking) (6)
-- [Scalable oversight & debate](#scalable-oversight) (3)
-- [Reward hacking, monitorability & honesty](#reward-hacking-and-sycophancy) (9)
-- [General safety research](#safety-research-general) (7)
-- [Other alignment & safety](#fallback-alignment) (24)
+- [Responsible scaling & safety policy](#responsible-scaling-and-policy) (31)
+- [Constitutional methods & self-critique](#constitutional-and-self-critique) (12)
+- [Deceptive alignment & scheming](#deceptive-alignment) (10)
+- [Dangerous-capability evaluations](#capability-evals-for-safety) (9)
+- [Red-teaming & jailbreaking](#red-teaming-and-jailbreaking) (8)
+- [Scalable oversight & debate](#scalable-oversight) (5)
+- [Reward hacking, monitorability & honesty](#reward-hacking-and-sycophancy) (12)
+- [General safety research](#safety-research-general) (19)
 
 ---
 
@@ -360,7 +358,7 @@ _Summary pending — see link for details._
 
 ## <a id="responsible-scaling-and-policy"></a>Responsible scaling & safety policy
 
-_25 posts_
+_31 posts_
 
 ### How Australia Uses Claude: Findings from the Anthropic Economic Index
 
@@ -518,6 +516,60 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk
+
+- **ID:** `oai-r-forecasting-misuse`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/forecasting-misuse/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** position-policy
+
+**Summary:**
+
+- OpenAI + Georgetown CSET + Stanford Internet Observatory report on LLM misuse for disinformation/influence operations
+- Analyzes impact on actors (lower cost, new entrants), behaviors (scaled and personalized content), and content (more persuasive, harder to detect)
+- Proposes a four-stage mitigation framework (model construction, model access, content dissemination, belief formation) with illustrative interventions at each stage
+- Suggests even restricted proprietary models won't prevent misuse via open-source alternatives and nation-state investment
+- Influential policy/governance piece on misuse risk.
+
+
+### A hazard analysis framework for code synthesis large language models
+
+- **ID:** `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** infra-release
+
+**Summary:**
+
+- Proposes a hazard analysis framework for code-synthesis LLMs like Codex, covering technical, social, political, and economic risks
+- Includes a novel evaluation framework measuring code-gen capability against specification complexity and expressivity relative to human ability
+- Discusses alignment problems, misuse potential, and destabilizing impacts on technical fields
+- Early safety-policy treatment of code-generation models predating modern agentic coding
+- Relevant reference for responsible-scaling-style deployment analysis of coding LLMs.
+
+
+### Preparing for malicious uses of AI
+
+- **ID:** `oai-r-preparing-for-malicious-uses-of-ai`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/preparing-for-malicious-uses-of-ai/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Co-authored multi-org report forecasting malicious uses of AI and mitigations
+- Key recommendations: acknowledge dual-use nature, borrow from cybersecurity practices (red teaming, responsible disclosure), broaden societal discussion
+- Illustrates concrete scenarios (AI-generated phishing, automated exploit generation, weaponized robots, predictive policing)
+- Grounds policy framing of AI misuse risks
+- Matters as early framework for AI policy and responsible disclosure.
+
+
 ### Why responsible AI development needs cooperation on safety
 
 - **ID:** `oai-r-cooperation-on-safety`
@@ -543,6 +595,23 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Improving verifiability in AI development
+
+- **ID:** `oai-r-improving-verifiability`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/improving-verifiability/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Multi-stakeholder report with 58 co-authors at 30 orgs on mechanisms for verifiable AI claims
+- Proposes 10 mechanisms across institutional (auditing, red teaming, bounties, incident sharing), software (audit trails, interpretability, privacy-preserving ML), and hardware (secure ML hardware, compute measurement, academic compute support)
+- Aims to let users/regulators/researchers verify safety/fairness/privacy claims
+- Matters as blueprint for AI accountability, auditing, and governance infrastructure.
+
+
 ### Collective alignment: public input on our Model Spec
 
 - **ID:** `oai-r-collective-alignment-aug-2025-updates`
@@ -553,6 +622,42 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### Frontier AI regulation: Managing emerging risks to public safety
+
+- **ID:** `oai-r-frontier-ai-regulation`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/frontier-ai-regulation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** position-policy
+
+**Summary:**
+
+- Policy paper defining 'frontier AI' and proposing 3 regulatory building blocks: standard-setting, registration/reporting, compliance mechanisms
+- Advocates licensure regimes, pre-deployment risk assessments, external model-behavior scrutiny, and post-deployment monitoring
+- 20+ multi-org co-authors
+- Argues industry self-regulation is insufficient
+- Matters as an influential policy template for frontier AI governance.
+
+
+### Advancing independent research on AI alignment
+
+- **ID:** `oai-r-advancing-independent-research-ai-alignment`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/advancing-independent-research-ai-alignment/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- OpenAI commits $7.5M grant to The Alignment Project, a UK AISI-run global fund for independent alignment research
+- Argues a diverse ecosystem outside frontier labs is essential for AGI safety
+- Fund totals £27M+ supporting projects from complexity theory to game theory, cognitive science, cryptography
+- Aligns with OpenAI's iterative deployment philosophy
+- Matters as funding mechanism to broaden alignment field beyond labs
 
 
 ### Facebooks Five Pillars Of Responsible Ai
@@ -665,7 +770,7 @@ _Summary pending — see link for details._
 
 ## <a id="constitutional-and-self-critique"></a>Constitutional methods & self-critique
 
-_10 posts_
+_12 posts_
 
 ### The persona selection model
 
@@ -701,6 +806,24 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### Claude’s Character
+
+- **ID:** `ant-r-claude-character`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/claude-character
+- **Date:** 2024-06-08
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Describes Anthropic's 'character training' phase added in Claude 3 — an alignment fine-tuning step that goes beyond harm avoidance to cultivate traits like curiosity, open-mindedness, honesty
+- Argues character is a core alignment goal, not just UX polish
+- Discusses framing around political/value questions (avoiding sycophancy, middle-views, or false neutrality) and AI self-understanding
+- Uses a Constitutional-AI-style variant where Claude generates and ranks responses against trait descriptions
+- Important piece on Anthropic's explicit alignment methodology.
 
 
 ### Constitutional AI with Open LLMs
@@ -790,9 +913,28 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Improving Model Safety Behavior with Rule-Based Rewards
+
+- **ID:** `oai-r-improving-model-safety-behavior-with-rule-based-rewards`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Rule-Based Rewards (RBRs): an alternative/complement to RLHF for safety behavior alignment
+- Uses explicit propositions ('is judgmental', 'contains disclaimer') and response categories (hard refusal, soft refusal, comply) scored by a fixed grader LM
+- RBR rewards combined with a helpful-only reward model during PPO
+- Achieves safety comparable to human-feedback training while reducing overrefusal
+- Used in GPT-4 / GPT-4o mini safety stacks
+- Adapts quickly to new policies without recollecting human data.
+
+
 ## <a id="deceptive-alignment"></a>Deceptive alignment & scheming
 
-_9 posts_
+_10 posts_
 
 ### From shortcuts to sabotage: natural emergent misalignment from reward hacking
 
@@ -817,6 +959,25 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### Agentic Misalignment: How LLMs could be insider threats
+
+- **ID:** `ant-r-agentic-misalignment`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/agentic-misalignment
+- **Date:** 2025-06-20
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Stress-tests 16 leading models across providers in simulated corporate environments where agents can email/access sensitive info
+- Under threats of replacement or goal conflict, models from all developers resorted to insider-threat behaviors like blackmail and leaking to competitors
+- Direct commands to avoid such behavior were frequently disobeyed
+- models misbehaved more when they believed the scenario was real vs. a test
+- Anthropic terms this 'agentic misalignment' and open-sources code for replication
+- Argues for caution deploying agents with minimal oversight and access to sensitive data.
 
 
 ### Auditing language models for hidden objectives
@@ -906,7 +1067,7 @@ _Summary pending — see link for details._
 
 ## <a id="capability-evals-for-safety"></a>Dangerous-capability evaluations
 
-_2 posts_
+_9 posts_
 
 ### Building AI for cyber defenders
 
@@ -932,9 +1093,138 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Measuring the Persuasiveness of Language Models
+
+- **ID:** `ant-r-measuring-model-persuasiveness`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/measuring-model-persuasiveness
+- **Date:** 2024-04-09
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Develops a basic methodology for measuring persuasive capabilities of LLMs
+- Tests Claude 1/2/3 (compact and frontier) against human-written arguments on 56 claims covering emerging policy topics
+- Each successive model generation is rated more persuasive
+- Claude 3 Opus arguments are statistically indistinguishable from human-written arguments in persuasiveness
+- Releases experimental dataset
+- relevant as a capability-for-harm evaluation (disinformation, manipulation).
+
+
+### Evaluating and Mitigating Discrimination in Language Model Decisions
+
+- **ID:** `ant-r-evaluating-and-mitigating-discrimination-in-language-model-decisions`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions
+- **Date:** 2023-12-07
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes a method for proactively evaluating LLM discriminatory impact across 70 hypothetical high-stakes decision scenarios (housing, financing, etc.) by systematically varying demographic attributes in generated prompts
+- Finds patterns of both positive and negative discrimination in Claude 2.0 with no interventions
+- Shows careful prompt engineering can significantly reduce both directions of discrimination
+- Releases dataset and prompts
+- Doesn't endorse use of LLMs for automated high-stakes decisions but provides a framework for anticipating/measuring bias.
+
+
+### Trading Inference-Time Compute for Adversarial Robustness
+
+- **ID:** `oai-r-trading-inference-time-compute-for-adversarial-robustness`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- OpenAI paper showing reasoning models (o1-preview, o1-mini) become more robust to adversarial attacks as they spend more inference-time compute
+- Tests across math tasks, adversarial SimpleQA (prompt injection in browsed pages), adversarial images, StrongREJECT misuse prompts, and a model-spec rule eval
+- Attack surfaces include many-shot, soft-token optimization, LMP red-teaming, multimodal
+- For most settings attacker success decays (often to near-zero) as inference compute grows
+- Limitations: some tasks need a minimum compute threshold
+- attackers can sometimes prevent the model from 'thinking'
+- Evidence that test-time reasoning is a promising robustness lever.
+
+
+### Transfer of adversarial robustness between perturbation types
+
+- **ID:** `oai-r-transfer-of-adversarial-robustness-between-perturbation-types`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Studies whether adversarial robustness transfers across perturbation types (beyond typical L_inf and L_2 work)
+- Evaluates 32 attacks of 5 different types on ImageNet-100 adversarially-trained models
+- Robustness to one type doesn't always imply (and can sometimes hurt) robustness to others
+- Recommends evaluating defenses across a diverse range of perturbation types and sizes
+- Vision-era adversarial robustness evaluation methodology paper.
+
+
+### Testing robustness against unforeseen adversaries
+
+- **ID:** `oai-r-testing-robustness`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/testing-robustness/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes UAR (Unforeseen Attack Robustness) metric for evaluating model robustness to unseen adversarial attack types
+- Evaluates across diverse distortion types (L1, L2-JPEG, Elastic, Fog, Gabor, Snow) at calibrated sizes against adversarially-trained baselines
+- Shows robustness to one distortion often fails to transfer to others
+- Releases code with attacks and pretrained defenses
+- Matters as methodology for more realistic adversarial-robustness evaluation.
+
+
+### Estimating worst case frontier risks of open weight LLMs
+
+- **ID:** `oai-r-estimating-worst-case-frontier-risks-of-open-weight-llms`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces malicious fine-tuning (MFT) to estimate worst-case harms from releasing gpt-oss
+- MFT gpt-oss trained via RL on biorisk web-browsing tasks and on agentic CTF coding
+- MFT gpt-oss underperforms o3 on frontier risk evals and only marginally exceeds open-weight baselines
+- Informed the decision to release gpt-oss
+- Matters as methodology template for pre-release open-weight safety assessment.
+
+
+### Building an early warning system for LLM-aided biological threat creation
+
+- **ID:** `oai-r-building-an-early-warning-system-for-llm-aided-biological-threat-creation`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- 100-participant human study (50 experts, 50 students) measuring GPT-4's uplift on biological threat creation vs internet-only baseline
+- Tasks span 5 biothreat stages
+- Used a custom research-only GPT-4 without refusals to elicit full capabilities
+- Finds mild non-significant uplifts (0.88 accuracy for experts, 0.25 for students)
+- Matters as largest-to-date evaluation of LLM biorisk uplift, informing OpenAI's Preparedness Framework.
+
+
 ## <a id="red-teaming-and-jailbreaking"></a>Red-teaming & jailbreaking
 
-_6 posts_
+_8 posts_
 
 ### Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks
 
@@ -996,6 +1286,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Adversarial attacks on neural network policies
+
+- **ID:** `oai-r-adversarial-attacks-on-neural-network-policies`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/adversarial-attacks-on-neural-network-policies/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Shows adversarial-example crafting techniques developed for image classifiers also significantly degrade test-time performance of neural-network RL policies
+- Threat model: small perturbations to raw policy input (imperceptible to humans)
+- Characterizes vulnerability across tasks and training algorithms in both white-box and black-box settings
+- Significant performance drops regardless of task or algorithm
+- Foundational paper extending adversarial-robustness concerns to reinforcement learning agents.
+
+
 ### Advancing red teaming with people and AI
 
 - **ID:** `oai-r-advancing-red-teaming-with-people-and-ai`
@@ -1008,9 +1316,27 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Robust adversarial inputs
+
+- **ID:** `oai-r-robust-adversarial-inputs`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/robust-adversarial-inputs/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Demonstrates robust adversarial examples that fool image classifiers across scales and transformations
+- Built via optimization over ensembles of stochastic classifiers (random rescaling, rotation, translation)
+- Challenges claim that self-driving cars are safe because they observe from multiple angles
+- Shows an adversarial 'kitten' image misclassified as monitor under any zoom/rotation
+- Matters as early evidence adversarial examples transfer to the physical world.
+
+
 ## <a id="scalable-oversight"></a>Scalable oversight & debate
 
-_3 posts_
+_5 posts_
 
 ### Automated Alignment Researchers: Using large language models to scale scalable oversight
 
@@ -1036,6 +1362,25 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Learning complex goals with iterated amplification
+
+- **ID:** `oai-r-learning-complex-goals-with-iterated-amplification`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/learning-complex-goals-with-iterated-amplification/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes iterated amplification: generating training signals for tasks beyond direct human judgment by decomposing them into simpler sub-tasks
+- Humans (or algorithms) give supervision on small pieces
+- an AI trained on those pieces is then used to help humans solve larger pieces, iteratively bootstrapping training signal
+- Related to expert iteration (AlphaGo Zero) and AI-safety-via-debate
+- Initial experiments on toy algorithmic tasks (shortest path, union find, etc.) match supervised-learning performance without direct labels
+- Seminal scalable oversight proposal by Christiano & Amodei.
+
+
 ### AI safety via debate
 
 - **ID:** `oai-r-debate`
@@ -1048,9 +1393,28 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Reasoning models struggle to control their chains of thought, and that’s good
+
+- **ID:** `oai-r-reasoning-models-chain-of-thought-controllability`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/reasoning-models-chain-of-thought-controllability/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** chain-of-thought
+
+**Summary:**
+
+- Introduces CoT-Control (13k tasks across GPQA/MMLU-Pro/HLE/BFCL/SWE-Bench Verified) to measure reasoning models' ability to control their CoT
+- All 13 frontier models tested score 0.1%-15.4% — current models can't deliberately obscure CoT
+- Controllability increases with model size but decreases with RL training and longer reasoning
+- Argues low controllability is good news for CoT monitorability as a safety signal
+- Matters as canary eval OpenAI will report in future system cards.
+
+
 ## <a id="reward-hacking-and-sycophancy"></a>Reward hacking, monitorability & honesty
 
-_9 posts_
+_12 posts_
 
 ### Eval awareness in Claude Opus 4.6’s BrowseComp performance
 
@@ -1100,6 +1464,24 @@ _Summary pending — see link for details._
 - **Contribution type:** new-method
 
 _Summary pending — see link for details._
+
+
+### Towards Understanding Sycophancy in Language Models
+
+- **ID:** `ant-r-towards-understanding-sycophancy-in-language-models`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models
+- **Date:** 2023-10-23
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Investigates whether RLHF drives sycophancy — models favoring user beliefs over truthful responses
+- Shows five SOTA assistants consistently exhibit sycophantic behavior across four free-form text tasks
+- Analyzing human preference data reveals that responses matching user views are more likely to be preferred, and humans/PMs sometimes prefer convincing-but-sycophantic answers over correct ones
+- Optimizing against preference models can trade truthfulness for sycophancy
+- Canonical paper on sycophancy as a systematic RLHF failure mode.
 
 
 ### Question Decomposition Improves the Faithfulness of Model-Generated Reasoning
@@ -1164,9 +1546,46 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Scaling laws for reward model overoptimization
+
+- **ID:** `oai-r-scaling-laws-for-reward-model-overoptimization`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/scaling-laws-for-reward-model-overoptimization/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** new-method
+- **Techniques:** RLHF, reward-modeling, scaling-laws
+
+**Summary:**
+
+- Empirical study of reward-model overoptimization (Goodhart's law) in RLHF
+- Uses gold reward model as synthetic ground truth to study proxy-vs-gold divergence under RL and best-of-n
+- Finds distinct functional forms for RL vs BoN that scale smoothly with RM parameter count
+- Analyzes impact of RM data size, policy size, and KL penalty
+- Matters as core reference for understanding RLHF overoptimization dynamics.
+
+
+### Measuring Goodhart’s law
+
+- **ID:** `oai-r-measuring-goodharts-law`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/measuring-goodharts-law/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Explains mathematical framework for measuring Goodhart's law in best-of-n sampling
+- Derives efficient estimators for true objective expectations and KL divergence in BoN
+- Shows BoN often competitive with RL at low KL budgets (e.g., best-of-64 beat RL in WebGPT)
+- Contextualizes the tradeoff between proxy reward and true objective
+- Matters for practical RLHF diagnostics and reward-model evaluation.
+
+
 ## <a id="safety-research-general"></a>General safety research
 
-_7 posts_
+_19 posts_
 
 ### Vision Language Model Alignment in TRL ⚡️
 
@@ -1192,6 +1611,42 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Claude's extended thinking
+
+- **ID:** `ant-r-visible-extended-thinking`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/visible-extended-thinking
+- **Date:** 2025-02-24
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Announces Claude 3.7 Sonnet's extended thinking mode with adjustable 'thinking budget'
+- Raw thought process is exposed for trust, alignment monitoring, and interest, but Anthropic flags caveats about CoT faithfulness
+- Discusses safety/security downsides: jailbreak risk, and possibility models learn to hide thoughts
+- Covers agentic action-scaling (OSWorld, Claude plays Pokemon) and serial vs. parallel test-time compute scaling
+- Reframes the piece around safety/faithfulness tradeoffs of visible reasoning.
+
+
+### Clio: Privacy-preserving insights into real-world AI use
+
+- **ID:** `ant-r-clio`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/clio
+- **Date:** 2024-12-12
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Clio: Anthropic's automated, privacy-preserving analysis tool for studying real-world Claude.ai use
+- Extracts facets, semantically clusters conversations, generates cluster descriptions, builds hierarchies — all powered by Claude with layered privacy protections
+- Reveals top use cases (coding ~10%, education ~7%, business ~6%) and long-tail uses across languages
+- Supplements Trust & Safety by flagging violating clusters and detecting coordinated misuse (e.g., SEO spam networks)
+- Accompanies a full research paper and informs Anthropic's enforcement systems.
+
+
 ### StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation
 
 - **ID:** `hf-r-sc2-instruct`
@@ -1204,138 +1659,87 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Measuring Faithfulness in Chain-of-Thought Reasoning
+
+- **ID:** `ant-r-measuring-faithfulness-in-chain-of-thought-reasoning`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning
+- **Date:** 2023-07-18
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** chain-of-thought
+
+**Summary:**
+
+- Investigates whether CoT reasoning faithfully explains model predictions by intervening on the CoT (adding mistakes, paraphrasing) and observing answer changes
+- Finds large variation across tasks — sometimes models rely heavily on CoT, sometimes they mostly ignore it
+- CoT's performance gain is not explained solely by extra test-time compute or specific phrasing
+- Crucially, larger more capable models produce LESS faithful CoT on most tasks studied
+- Implies CoT monitoring for safety can work only when model size and task are carefully chosen.
+
+
+### Towards Measuring the Representation of Subjective Global Opinions in Language Models
+
+- **ID:** `ant-r-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models
+- **Date:** 2023-06-29
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Builds GlobalOpinionQA (from cross-national surveys) and a similarity metric to measure whose opinions LLM responses most resemble, conditional on country
+- By default, a Constitutional-AI trained model is most similar to US and some European/South American populations
+- Prompting for a country's perspective shifts responses toward that population but can amplify harmful cultural stereotypes
+- Translating questions to a target language does not reliably align responses with speakers of that language
+- Releases dataset and interactive visualization
+- frames global-opinion representation as an alignment/societal-impact concern.
+
+
+### The Capacity for Moral Self-Correction in Large Language Models
+
+- **ID:** `ant-r-the-capacity-for-moral-self-correction-in-large-language-models`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models
+- **Date:** 2023-02-15
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Tests whether RLHF-trained LLMs can 'morally self-correct' — avoiding harmful outputs when explicitly instructed
+- Finds strong evidence across three experiments that the capability emerges around 22B parameters and improves with scale and RLHF training
+- Attributes emergence to two capabilities: instruction-following and learning complex normative concepts (bias, stereotyping, discrimination)
+- Frames results as cautious optimism for training models to follow ethical principles via instruction
+- Early work on alignment via natural-language principles.
+
+
+### Language Models (Mostly) Know What They Know
+
+- **ID:** `ant-r-language-models-mostly-know-what-they-know`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/language-models-mostly-know-what-they-know
+- **Date:** 2022-07-11
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Studies LLM calibration and self-evaluation — whether models can predict which questions they'll answer correctly
+- Larger models are well-calibrated on multiple-choice/true-false with correct formatting
+- P(True) self-evaluation (model rates own answer's validity) scales well across tasks, especially when allowing multiple candidate samples
+- P(IK) (model predicts 'I know' before answering) works on familiar tasks but struggles to calibrate on new ones
+- P(IK) increases appropriately with relevant context or hints
+- Foundational for honesty/truthfulness alignment directions.
+
+
 ### A General Language Assistant as a Laboratory for Alignment
 
 - **ID:** `ant-r-a-general-language-assistant-as-a-laboratory-for-alignment`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment
 - **Date:** 2021-12-01
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Evaluating fairness in ChatGPT
-
-- **ID:** `oai-r-evaluating-fairness-in-chatgpt`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/evaluating-fairness-in-chatgpt/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### From hard refusals to safe-completions: toward output-centric safety training
-
-- **ID:** `oai-r-gpt-5-safe-completions`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-safe-completions/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Evaluating alignment of behavioral dispositions in LLMs
-
-- **ID:** `gr-r-evaluating-alignment-of-behavioral-dispositions-in-llms`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-## <a id="fallback-alignment"></a>Other alignment & safety
-
-_24 posts_
-
-### Anthropic Education Report: The AI Fluency Index
-
-- **ID:** `ant-r-ai-fluency-index`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/AI-fluency-index
-- **Date:** 2026-02-23
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Estimating AI productivity gains
-
-- **ID:** `ant-r-estimating-productivity-gains`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/estimating-productivity-gains
-- **Date:** 2025-11-25
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### On-Policy Distillation
-
-- **ID:** `tm-r-on-policy-distillation`
-- **Company:** Thinking Machines
-- **Link:** https://thinkingmachines.ai/blog/on-policy-distillation/
-- **Date:** 2025-10-27
-- **Authors:** Kevin Lu
-- **Track:** research
-- **Contribution type:** position-policy
-- **Techniques:** distillation
-
-_Summary pending — see link for details._
-
-
-### Claude's extended thinking
-
-- **ID:** `ant-r-visible-extended-thinking`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/visible-extended-thinking
-- **Date:** 2025-02-24
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Clio: Privacy-preserving insights into real-world AI use
-
-- **ID:** `ant-r-clio`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/clio
-- **Date:** 2024-12-12
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Claude’s Character
-
-- **ID:** `ant-r-claude-character`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/claude-character
-- **Date:** 2024-06-08
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Adversarial attacks on neural network policies
-
-- **ID:** `oai-r-adversarial-attacks-on-neural-network-policies`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/adversarial-attacks-on-neural-network-policies/
-- **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1351,77 +1755,42 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Argues long-term AI alignment research needs social scientists, not just ML researchers, to properly study human value elicitation
+- Human answers to value questions are unreliable due to cognitive biases and reflective inconsistencies
+- proposes human-only experiments (e.g., debate with two human debaters + human judge) to stress-test alignment methods
+- Calls for collaboration with experimental psychology, cognitive science, economics, political science, neuroscience, law
+- Accompanies a paper and an OpenAI hiring push
+- Position piece shaping alignment methodology.
 
 
-### Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk
+### Computational limitations in robust classification and win-win results
 
-- **ID:** `oai-r-forecasting-misuse`
+- **ID:** `oai-r-computational-limitations-in-robust-classification-and-win-win-results`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/forecasting-misuse/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
-### Aligning language models to follow instructions
-
-- **ID:** `oai-r-instruction-following`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/instruction-following/
+- **Link:** https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Extends Bubeck et al.'s work on computational/statistical tradeoffs in robust classification
+- Shows classification tasks where computationally-efficient robust classifiers are impossible even though unbounded robust classifiers exist, relying on average-case hard functions
+- Also shows large-perturbation-robust classifiers exist but are computationally hard to learn (relying on one-way functions and Learning Parity with Noise)
+- Any such counterexample implies cryptographic primitives — 'win-win' scenario
+- Theoretical adversarial-robustness result with cryptographic connections.
 
 
-### Trading Inference-Time Compute for Adversarial Robustness
+### Evaluating fairness in ChatGPT
 
-- **ID:** `oai-r-trading-inference-time-compute-for-adversarial-robustness`
+- **ID:** `oai-r-evaluating-fairness-in-chatgpt`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/
+- **Link:** https://openai.com/index/evaluating-fairness-in-chatgpt/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Transfer of adversarial robustness between perturbation types
-
-- **ID:** `oai-r-transfer-of-adversarial-robustness-between-perturbation-types`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improving Model Safety Behavior with Rule-Based Rewards
-
-- **ID:** `oai-r-improving-model-safety-behavior-with-rule-based-rewards`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### A hazard analysis framework for code synthesis large language models
-
-- **ID:** `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** infra-release
 
 _Summary pending — see link for details._
 
@@ -1435,39 +1804,20 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Co-authored foundational Concrete Problems in AI Safety paper (Amodei et al.)
+- Identifies 5 core safety research problems: safe exploration, robustness to distributional shift, avoiding negative side effects, avoiding reward hacking/wireheading, and scalable oversight
+- Grounds each problem in practical RL scenarios
+- Establishes the vocabulary still used today in alignment research
+- Matters as the foundational agenda-setting paper for modern AI safety.
 
 
-### Learning policy representations in multiagent systems
+### From hard refusals to safe-completions: toward output-centric safety training
 
-- **ID:** `oai-r-learning-policy-representations-in-multiagent-systems`
+- **ID:** `oai-r-gpt-5-safe-completions`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-policy-representations-in-multiagent-systems/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
-### Variance reduction for policy gradient with action-dependent factorized baselines
-
-- **ID:** `oai-r-variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** position-policy
-- **Techniques:** training-dynamics
-
-_Summary pending — see link for details._
-
-
-### Adversarial training methods for semi-supervised text classification
-
-- **ID:** `oai-r-adversarial-training-methods-for-semi-supervised-text-classification`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification/
+- **Link:** https://openai.com/index/gpt-5-safe-completions/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -1475,74 +1825,68 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Robust adversarial inputs
+### A Holistic Approach to Undesired Content Detection in the Real World
 
-- **ID:** `oai-r-robust-adversarial-inputs`
+- **ID:** `oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/robust-adversarial-inputs/
+- **Link:** https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Describes end-to-end recipe for real-world content moderation classifiers (OpenAI Moderation API)
+- Covers taxonomy design, labeling instructions, data quality, active learning for rare events, robustness tricks
+- Detects sexual, hateful, violent, self-harm, and harassment content
+- Outperforms off-the-shelf moderation models
+- Matters as blueprint for production content-moderation systems.
 
 
-### Equivalence between policy gradients and soft Q-learning
+### Evaluating alignment of behavioral dispositions in LLMs
 
-- **ID:** `oai-r-equivalence-between-policy-gradients-and-soft-q-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning/
+- **ID:** `gr-r-evaluating-alignment-of-behavioral-dispositions-in-llms`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/
 - **Date:** _date unknown_
 - **Track:** research
-- **Contribution type:** position-policy
+- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
 
-### A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models
+### Practical Ai Agent Security
 
-- **ID:** `oai-r-a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models/
+- **ID:** `meta-r-practical-ai-agent-security`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/practical-ai-agent-security/
 - **Date:** _date unknown_
 - **Track:** research
-- **Contribution type:** empirical-study
+- **Contribution type:** _(uncategorized)_
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Meta proposes 'Agents Rule of Two': a practical approach to mitigating prompt injection in AI agents
+- prompt injection is framed as fundamental and unsolved, where untrusted data in context can hijack agents to exfiltrate data or take unauthorized actions
+- uses an Email-Bot example (summarize inbox, send replies) to show attack surface
+- argues for constraining agent capability combinations so no single session has all three risky powers at once
+- safety/red-teaming-adjacent design principle for agent deployments.
 
 
-### Frontier AI regulation: Managing emerging risks to public safety
+### Discovering When An Agent Is Present In A System
 
-- **ID:** `oai-r-frontier-ai-regulation`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/frontier-ai-regulation/
+- **ID:** `dm-r-discovering-when-an-agent-is-present-in-a-system`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/discovering-when-an-agent-is-present-in-a-system/
 - **Date:** _date unknown_
 - **Track:** research
-- **Contribution type:** position-policy
+- **Contribution type:** _(uncategorized)_
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Building an early warning system for LLM-aided biological threat creation
-
-- **ID:** `oai-r-building-an-early-warning-system-for-llm-aided-biological-threat-creation`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Advancing independent research on AI alignment
-
-- **ID:** `oai-r-advancing-independent-research-ai-alignment`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/advancing-independent-research-ai-alignment/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
+- DeepMind introduces a formal causal definition of agency: agents are systems that would adapt their policy if their actions influenced the world differently
+- uses causal influence diagrams (CIDs) to reason about incentives
+- provides an algorithm to discover agents from empirical data and a translation between causal models and CIDs
+- motivated by building safe/aligned AGI and resolving earlier modelling errors
+- classified under safety-research-general because framing is alignment/agent-incentive foundations.
 

@@ -1,6 +1,6 @@
-# Other efficiency
+# Training-time quantization
 
-**Post count:** 1  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#fallback-efficiency))
+**Post count:** 1  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#training-time-quantization))
 
 | Date | Company | Title | ID |
 |---|---|---|---|

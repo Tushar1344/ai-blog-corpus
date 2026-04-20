@@ -2,34 +2,33 @@
 
 MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers, curriculum, foundation models.
 
-**Post count:** 234
+**Post count:** 203
 
 **Contributors:**
 
-- OpenAI: 93
-- Anthropic: 36
-- Databricks Mosaic AI: 36
-- Meta AI / FAIR: 24
+- OpenAI: 79
+- Databricks Mosaic AI: 31
+- Meta AI / FAIR: 25
+- Anthropic: 23
+- Hugging Face: 13
 - DeepSeek: 13
-- Hugging Face: 12
 - Allen Institute for AI: 10
-- Cursor: 5
+- Cursor: 3
 - Thinking Machines: 2
 - Cognition: 2
-- Google DeepMind: 1
+- Google DeepMind: 2
 
 **Subcategories:**
 
 - [Foundation model releases](#foundation-model-releases) (32)
-- [Architectures (MoE, SSMs, attention variants)](#architectures) (11)
+- [Architectures (MoE, SSMs, attention variants)](#architectures) (14)
 - [Multimodal pretraining](#multimodal-pretraining) (31)
-- [Scaling laws & training dynamics](#scaling-and-training-dynamics) (6)
-- [Data & tokenization](#data-and-tokenization) (3)
-- [Training stack & infrastructure](#training-stack) (8)
-- [Research techniques & methods](#research-techniques-and-methods) (56)
-- [Science-applied AI (AlphaFold, health, climate, etc.)](#model-research-and-applications) (7)
-- [Societal impact & deployment studies](#societal-impact-and-deployment-studies) (14)
-- [Other pretraining & architecture](#fallback-architecture) (66)
+- [Scaling laws & training dynamics](#scaling-and-training-dynamics) (10)
+- [Data & tokenization](#data-and-tokenization) (5)
+- [Training stack & infrastructure](#training-stack) (13)
+- [Research techniques & methods](#research-techniques-and-methods) (64)
+- [Science-applied AI (AlphaFold, health, climate, etc.)](#model-research-and-applications) (15)
+- [Societal impact & deployment studies](#societal-impact-and-deployment-studies) (18)
 
 ---
 
@@ -437,7 +436,7 @@ _Summary pending — see link for details._
 
 ## <a id="architectures"></a>Architectures (MoE, SSMs, attention variants)
 
-_11 posts_
+_14 posts_
 
 ### Mixture of Experts (MoEs) in Transformers
 
@@ -548,6 +547,60 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
+
+
+### Softmax Linear Units
+
+- **ID:** `ant-r-softmax-linear-units`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/softmax-linear-units
+- **Date:** 2022-06-17
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes Softmax Linear Units (SoLU), an MLP activation function replacement that substantially increases the fraction of interpretable neurons at minimal ML-performance cost
+- Validated via blinded human interpretability ratings showing many more neurons correspond to articulable features/categories
+- Caveats: SoLU may be 'hiding' features in superposition while making others visible — no free lunch
+- Architectural intervention aimed explicitly at interpretability, not capability
+- Early mechanistic-interpretability-meets-architecture contribution.
+
+
+### Extensions and limitations of the neural GPU
+
+- **ID:** `oai-r-extensions-and-limitations-of-the-neural-gpu`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/extensions-and-limitations-of-the-neural-gpu/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Improves Neural GPU via curriculum learning and larger memory-efficient models
+- Can learn all decimal arithmetic operations that generalize to arbitrarily long numbers
+- Learns to evaluate arithmetic expressions with operator precedence (binary rep, imperfect)
+- Reveals adversarial-like failure modes on highly-symmetric inputs
+- Matters as an early study of algorithmic learning and generalization limits.
+
+
+### Weight normalization: A simple reparameterization to accelerate training of deep neural networks
+
+- **ID:** `oai-r-weight-normalization`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/weight-normalization/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces weight normalization: reparameterizes weights by decoupling magnitude from direction
+- Speeds SGD convergence with lower computational overhead than batch norm
+- Works for recurrent nets, deep RL, and generative models where batch norm fails
+- Inspired by but avoids minibatch dependencies of batch normalization
+- Matters as a foundational, widely-used training-stabilization technique.
 
 
 ### Timesformer A New Architecture For Video Understanding
@@ -954,7 +1007,7 @@ _Summary pending — see link for details._
 
 ## <a id="scaling-and-training-dynamics"></a>Scaling laws & training dynamics
 
-_6 posts_
+_10 posts_
 
 ### Emergent introspective awareness in large language models
 
@@ -966,6 +1019,44 @@ _6 posts_
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### Modular Manifolds
+
+- **ID:** `tm-r-modular-manifolds`
+- **Company:** Thinking Machines
+- **Link:** https://thinkingmachines.ai/blog/modular-manifolds/
+- **Date:** 2025-09-26
+- **Authors:** Jeremy Bernstein
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Thinking Machines research on constraining weight matrices to submanifolds during training for healthier large-model training
+- Proposes a manifold version of Muon whose weights are kept on the Stiefel manifold (unit condition number matrices)
+- Introduces 'modular manifolds' as composable constraint primitives to scale up networks
+- Argues weight normalization can make update sizes interpretable, prevent norm explosion, aid hyperparameter tuning, support Lipschitz guarantees
+- Research-agenda-style post with open directions.
+
+
+### Characterizing Datasets and Building Better Models with Continued Pre-Training
+
+- **ID:** `dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/characterizing-datasets-and-building-better-models-continued-pre-training
+- **Date:** 2024-11-21
+- **Authors:** Mansheej Paul|Brett Larsen|Connor Jennings|Cody Blakeney
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Databricks guide to Continued Pre-Training (CPT) as a method for adapting LLMs to specific domains without full retraining
+- Identifies three key hyperparameters: learning rate, training duration, data mixture
+- Recommends simple weight averaging to mitigate forgetting
+- Also shows CPT as a tool to characterize datasets by seeing which evals improve/degrade
+- Matters as a practical recipe for domain adaptation of open-source LLMs
 
 
 ### How Long Should You Train Your Language Model?
@@ -1007,6 +1098,42 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### AI and efficiency
+
+- **ID:** `oai-r-ai-and-efficiency`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/ai-and-efficiency/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- OpenAI analysis showing algorithmic efficiency in training doubles every ~16 months on ImageNet (AlexNet-level requires 44x less compute in 2019 than 2012)
+- Beats Moore's Law (~11x over same period) and suggests algorithmic progress outpaces hardware for well-invested AI tasks
+- Similar doubling rates observed in translation (Transformer vs seq2seq), Go (AlphaZero), Dota (OpenAI Five)
+- Policy implications: tracking compute-efficiency as an AI-progress measure
+- Canonical scaling-laws-adjacent reference.
+
+
+### Deep double descent
+
+- **ID:** `oai-r-deep-double-descent`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/deep-double-descent/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Shows the double descent phenomenon (test error dips, peaks, then dips again) occurs in CNNs, ResNets, and transformers
+- Documents model-wise, sample-wise, and epoch-wise double descent
+- Finds a regime where more data actually hurts test performance
+- Peak occurs at the interpolation threshold where models barely fit training data
+- Matters for understanding overparameterization and modern generalization theory.
+
+
 ### Scaling laws for neural language models
 
 - **ID:** `oai-r-scaling-laws-for-neural-language-models`
@@ -1034,7 +1161,42 @@ _Summary pending — see link for details._
 
 ## <a id="data-and-tokenization"></a>Data & tokenization
 
-_3 posts_
+_5 posts_
+
+### Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models
+
+- **ID:** `hf-r-cosmopedia`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/cosmopedia
+- **Date:** 2024-03-20
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- HF introduces Cosmopedia, billions-of-tokens synthetic dataset generated to replicate Phi-1.5-style pretraining data
+- blog tackles challenges of scaling synthetic generation from thousands to millions of samples specifically for pre-training (not instruction tuning)
+- outlines prompt design, deduplication, and topic coverage strategies
+- positions the release as a community alternative to closed Phi training data
+- primarily a pretraining-data/tokenization contribution.
+
+
+### Training CodeParrot 🦜 from Scratch
+
+- **ID:** `hf-r-codeparrot`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/codeparrot
+- **Date:** 2021-12-08
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Step-by-step tutorial for training CodeParrot (GPT-2-scale code LM) from scratch to approximate GitHub Copilot behavior for Python
+- built a 180GB GitHub Python dataset via BigQuery, found extreme duplication (0.1% of files = 15% of corpus) and applied Codex-paper deduplication/cleaning to yield 50GB clean dataset on HF Hub
+- covers training a code-specific tokenizer from GPT-2 init and the model training loop
+- strongest fit is pretraining data-and-tokenization since data curation dominates.
+
 
 ### Teacher–student curriculum learning
 
@@ -1074,7 +1236,7 @@ _Summary pending — see link for details._
 
 ## <a id="training-stack"></a>Training stack & infrastructure
 
-_8 posts_
+_13 posts_
 
 ### A technical report on Composer 2
 
@@ -1116,6 +1278,25 @@ _Summary pending — see link for details._
 - **Techniques:** coding-agents
 
 _Summary pending — see link for details._
+
+
+### Defeating Nondeterminism in LLM Inference
+
+- **ID:** `tm-r-defeating-nondeterminism-in-llm-inference`
+- **Company:** Thinking Machines
+- **Link:** https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+- **Date:** 2025-09-10
+- **Authors:** Horace He
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Thinking Machines post debunking the 'concurrency + floating point' hypothesis for LLM inference nondeterminism
+- Shows deterministic matmul on GPUs is bitwise-stable, so nondeterminism must come elsewhere
+- Identifies kernel implementations — particularly batch-size- and sequence-length-dependent reduction orders — as the real culprit
+- Walks through how to build truly deterministic inference (reproducible results from vLLM/SGLang-style servers)
+- Systems/training-stack-adjacent work relevant to inference infra and reproducibility.
 
 
 ### Building DBRX-class Custom LLMs with Mosaic AI Training
@@ -1183,9 +1364,82 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Techniques for training large neural networks
+
+- **ID:** `oai-r-techniques-for-training-large-neural-networks`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/techniques-for-training-large-neural-networks/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Explainer/survey of parallelism strategies for training large neural networks
+- Covers data parallelism, pipeline parallelism (GPipe, PipeDream), tensor parallelism (Megatron-LM), and Mixture-of-Experts
+- Discusses pipeline bubbles, microbatching, and sequence parallelism tradeoffs
+- Serves as an accessible primer for the modern distributed training stack
+- Matters as reference doc for training infrastructure at scale.
+
+
+### 5 Best Practices for Efficient Model Training
+
+- **ID:** `dbx-r-5-best-practices-for-efficient-model-training`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/5-best-practices-for-efficient-model-training
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- MosaicML post summarizing 5 best practices for efficient CNN training
+- Recommends Composer library and MosaicML docker image, with --algorithms channels_last for speedup
+- Covers mixed precision training as foundational technique
+- Claimed speedups: 3.4x for vision, 1.6x for NLP on standard benchmarks
+- Goal: 4x annual speedup
+- Matters as entry-level efficiency guide for ML practitioners
+
+
+### Best Practices (Dec 2021)
+
+- **ID:** `dbx-r-best-practices-dec-2021`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/best-practices-dec-2021
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- title-only
+- Wayback returned 404 for this MosaicML post
+- Based on title, likely a December 2021 best-practices post from MosaicML covering efficient training recipes and early Composer guidance
+- Classified as training-stack given the MosaicML/Composer context
+- Matters as early-era MosaicML efficiency methodology post
+
+
+### Making ML Training Efficient Algorithmically
+
+- **ID:** `dbx-r-making-ml-training-efficient-algorithmically`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/making-ml-training-efficient-algorithmically
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- MosaicML's launch post (Oct 2021) from founders Naveen Rao, Hanlin Tang, Michael Carbin, Jonathan Frankle
+- Mission: reduce time/cost/energy of training via algorithmic and systems efficiency
+- Argues training compute is growing >5x/year while hardware perf/$ lags far behind, making AI inaccessible
+- Introduces Composer as a mosaic of algorithmic methods that compose together for acceleration
+- Matters as foundational vision for the MosaicML efficiency research agenda
+
+
 ## <a id="research-techniques-and-methods"></a>Research techniques & methods
 
-_56 posts_
+_64 posts_
 
 ### Emotion concepts and their function in a large language model
 
@@ -1347,6 +1601,25 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### Behind the Scenes: Setting a Baseline for Image Segmentation Speedups
+
+- **ID:** `dbx-r-behind-the-scenes`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/behind-the-scenes
+- **Date:** 2022-07-28
+- **Authors:** Landan Seguin
+- **Track:** research
+- **Contribution type:** retrospective-case-study
+
+**Summary:**
+
+- MosaicML establishes a strong semantic segmentation baseline (45.56 mIoU on ADE20k) in 3.5 hours on 8xA100 using Composer
+- Emphasizes the importance of strong baselines for efficiency research (vs weak baselines that can be trivially improved)
+- Sets stage for future speedups on segmentation
+- Earlier work showed Composer trained ResNet on ImageNet 7x faster
+- Matters as methodology post for how to benchmark speedup claims honestly
 
 
 ### MosaicML Satisfies the Need for Speed with MLPerf Results
@@ -1590,6 +1863,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Evolution through large models
+
+- **ID:** `oai-r-evolution-through-large-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/evolution-through-large-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes ELM: using code-pretrained LLMs as mutation operators for genetic programming
+- Combined with MAP-Elites, generates hundreds of thousands of functional Sodarace walker programs
+- Bootstraps a new conditional LM that outputs walkers for specific terrains
+- Demonstrates open-ended generation in a domain with zero original training data
+- Matters for open-endedness, creative code generation, and LLM-augmented evolutionary search.
+
+
 ### Plan online, learn offline: Efficient learning and exploration via model-based control
 
 - **ID:** `oai-r-plan-online-learn-offline`
@@ -1626,6 +1917,42 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Learning concepts with energy functions
+
+- **ID:** `oai-r-learning-concepts-with-energy-functions`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/learning-concepts-with-energy-functions/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes energy-based model that learns spatial/relational concepts (near, between, closest) from ~5 demonstrations
+- Jointly performs classification and generation of concepts via a shared energy function
+- Demonstrates cross-domain transfer (2D particle env to 3D robot arm) without retraining
+- Uses relational network architecture with attention masks
+- Matters as early work on concept learning via energy-based models and transfer.
+
+
+### Large-scale study of curiosity-driven learning
+
+- **ID:** `oai-r-large-scale-study-of-curiosity-driven-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/large-scale-study-of-curiosity-driven-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- First large-scale study of purely curiosity-driven RL (no extrinsic reward) across 54 environments
+- Shows strong performance of prediction-error intrinsic reward including Atari
+- Random features work for many games, learned features generalize better (e.g., Mario level generalization)
+- Identifies failure modes in stochastic environments
+- Matters as empirical foundation for intrinsic motivation in RL.
+
+
 ### FFJORD: Free-form continuous dynamics for scalable reversible generative models
 
 - **ID:** `oai-r-ffjord`
@@ -1660,6 +1987,42 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### Interpretable Machine Learning Through Teaching
+
+- **ID:** `oai-r-interpretable-machine-learning-through-teaching`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/interpretable-machine-learning-through-teaching/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Teacher-student training framework where iterative (non-joint) training produces interpretable pedagogical examples
+- Shows emergent strategies resemble intuitive human teaching
+- Validated via human experiments on Mechanical Turk
+- Works across rule-based, probabilistic, boolean, and hierarchical concepts
+- Matters for interpretable agent-agent communication and human-AI alignment.
+
+
+### Interpretable and pedagogical examples
+
+- **ID:** `oai-r-interpretable-and-pedagogical-examples`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/interpretable-and-pedagogical-examples/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Paper-version companion to the interpretable teaching blog: iterative student-teacher training yields interpretable teaching strategies
+- Teacher network learns pedagogical examples that transfer to humans
+- Evaluated across rule-based, probabilistic, boolean, and hierarchical concepts
+- Measures interpretability via similarity to intuitive strategies and human teaching efficacy
+- Matters for communication between learning agents.
 
 
 ### Asymmetric Actor Critic For Image Based Robot Learning
@@ -1782,6 +2145,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Learning a hierarchy
+
+- **ID:** `oai-r-learning-a-hierarchy`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/learning-a-hierarchy/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces MLSH (Meta-Learning Shared Hierarchies): master policy switches among learned sub-policies
+- Sub-policies discovered via meta-learning over a task distribution (not hand-engineered)
+- Drastically reduces effective horizon (e.g. 2000 low-level actions to 10 high-level)
+- Demonstrated on AntMaze where sub-policies correspond to movement directions
+- Matters as foundational hierarchical RL work with released MuJoCo environments.
+
+
 ### Early experiments in accelerating science with GPT-5
 
 - **ID:** `oai-r-accelerating-science-gpt-5`
@@ -1842,6 +2223,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Methodology
+
+- **ID:** `dbx-r-methodology`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/methodology
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- MosaicML research methodology post (Feb 2022) explaining their approach to algorithmic efficiency
+- Modifies training recipes (data order, model structure, forward/back-prop) to trade off quality and cost
+- Carefully evaluated 20 methods and their compositions in Composer
+- Reports speedups of 2.9x on ResNet-50, 3.5x on ResNet-101 (ImageNet), 1.7x on GPT-125 language models
+- Matters as methodology reference for how to discover and compose training speedups
+
+
 ### Train Custom GPT + Diffusion Models
 
 - **ID:** `dbx-r-train-custom-gpt-diffusion-models`
@@ -1868,7 +2267,7 @@ _Summary pending — see link for details._
 
 ## <a id="model-research-and-applications"></a>Science-applied AI (AlphaFold, health, climate, etc.)
 
-_7 posts_
+_15 posts_
 
 ### Pioneering an AI clinical copilot with Penda Health
 
@@ -1904,6 +2303,42 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
+
+
+### WebGPT: Improving the factual accuracy of language models through web browsing
+
+- **ID:** `oai-r-webgpt`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/webgpt/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Fine-tunes GPT-3 with a text-based web browser to answer open-ended questions with citations
+- Trained via behavior cloning plus reward-modeling with RL/rejection sampling
+- Outperforms human demonstrators on ELI5 (56% preference) and beats GPT-3 on TruthfulQA
+- Model must search, click, quote, and compose answers with references
+- Matters as an early browsing LLM and precursor to modern agentic RAG systems.
+
+
+### Discovering types for entity disambiguation
+
+- **ID:** `oai-r-discovering-types-for-entity-disambiguation`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/discovering-types-for-entity-disambiguation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes DeepType: entity disambiguation by predicting membership in ~100 automatically-discovered types
+- Plays probabilistic 20-questions using type hits to narrow to the correct entity
+- Achieves SOTA on CoNLL (YAGO) 94.88% and TAC KBP 2010 90.85%
+- Uses Wikipedia links + Wikidata categories + evolutionary search for type system design
+- Matters as an early neuro-symbolic approach to knowledge-grounded NLP.
 
 
 ### Generalizing From Simulation
@@ -1942,6 +2377,25 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### OpenAI Research | Publication
+
+- **ID:** `oai-r-publication`
+- **Company:** OpenAI
+- **Link:** https://openai.com/research/index/publication/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Title-only fallback: this is OpenAI's publication index/listing page, not a single research post
+- Acts as a directory aggregating all OpenAI research publications
+- Content is a navigation index with filters by type (Publication/Conclusion/Milestone/Release)
+- No specific research claim
+- Included here for completeness
+- title-only.
+
+
 ### Video generation models as world simulators
 
 - **ID:** `oai-r-video-generation-models-as-world-simulators`
@@ -1954,9 +2408,97 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Extending single-minus amplitudes to gravitons
+
+- **ID:** `oai-r-extending-single-minus-amplitudes-to-gravitons`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- OpenAI preprint using GPT-5.2 Pro to derive new scattering-amplitude results in quantum gravity
+- Extends gluon single-minus amplitudes to gravitons and shows they are nonzero in a half-collinear regime
+- GPT-5.2 Pro produced the derivation (matrix-tree theorem) and draft from the gluon paper as context
+- Demonstrates LLM-assisted theoretical physics research
+- Matters as case study for AI accelerating mathematical/scientific discovery
+
+
+### Scaling social science research
+
+- **ID:** `oai-r-scaling-social-science-research`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/scaling-social-science-research/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- OpenAI Economic Research Team releases GABRIEL, an open-source Python toolkit using GPT to turn qualitative text/images into quantitative measurements
+- Lets researchers describe measures in everyday words and score thousands to millions of documents
+- Paper benchmarks GPT labeling accuracy across use cases
+- Also supports dataset merging, dedup, passage coding, deidentification
+- Matters by making qualitative social-science data analyzable at scale
+
+
+### Meta Fair Updates Agents Robustness Safety Architecture
+
+- **ID:** `meta-r-meta-fair-updates-agents-robustness-safety-architecture`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Meta FAIR December 2024 research drop bundling agents, robustness/safety, and architecture work
+- headline artifacts include Meta Motivo (foundation model for controlling embodied virtual agents), Meta Video Seal (open-source video watermarking building on Audio Seal), and methods for scaling memory layers
+- framed as democratizing SOTA tech via open release
+- best fit is model-research-and-applications since it bundles multiple model releases across areas.
+
+
+### Tribe V2 Brain Predictive Foundation Model
+
+- **ID:** `meta-r-tribe-v2-brain-predictive-foundation-model`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Meta introduces TRIBE v2, a predictive foundation model that acts as a 'digital twin' of human neural activity
+- trained on fMRI data from 700+ volunteers responding to images, podcasts, videos, and text
+- claims 70x resolution increase and SOTA speed/accuracy vs similar models
+- open-releases model, code, paper, and interactive demo
+- aims to let neuroscientists test theories without human subjects and guide AI development from neuroscientific principles.
+
+
+### Navigating With Grid Like Representations In Artificial Agents
+
+- **ID:** `dm-r-navigating-with-grid-like-representations-in-artificial-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/navigating-with-grid-like-representations-in-artificial-agents/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind shows that artificial agents trained to perform path integration develop grid-cell-like hexagonal representations, matching a neural substrate discovered in mammals (2014 Nobel)
+- uses these grid-like units to support vector-based navigation (direct 'as the crow flies' routing) in complex environments
+- frames results as evidence that grid cells enable vector-based navigation and as a bridge between deep RL and neuroscience
+- best fit is model-research-and-applications (representation learning with neuro analogue) rather than pure agent systems.
+
+
 ## <a id="societal-impact-and-deployment-studies"></a>Societal impact & deployment studies
 
-_14 posts_
+_18 posts_
 
 ### Long-running Claude for scientific computing
 
@@ -2127,577 +2669,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-## <a id="fallback-architecture"></a>Other pretraining & architecture
-
-_66 posts_
-
-### Better AI models enable more ambitious work
-
-- **ID:** `cur-r-better-models-ambitious-work`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/better-models-ambitious-work
-- **Date:** 2026-04-15
-- **Authors:** Luke Melas-Kyriazi
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### An Early Preview of SWE-1.6 and Research Update
-
-- **ID:** `cog-r-swe-1-6-preview`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/swe-1-6-preview
-- **Date:** 2026-03-01
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Towards self-driving codebases
-
-- **ID:** `cur-r-self-driving-codebases`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/self-driving-codebases
-- **Date:** 2026-02-05
-- **Authors:** Wilson Lin
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### Scaling Small LLMs with NVIDIA MPS
-
-- **ID:** `dbx-r-scaling-small-llms-nvidia-mps`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/scaling-small-llms-nvidia-mps
-- **Date:** 2026-01-26
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Modular Manifolds
-
-- **ID:** `tm-r-modular-manifolds`
-- **Company:** Thinking Machines
-- **Link:** https://thinkingmachines.ai/blog/modular-manifolds/
-- **Date:** 2025-09-26
-- **Authors:** Jeremy Bernstein
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Defeating Nondeterminism in LLM Inference
-
-- **ID:** `tm-r-defeating-nondeterminism-in-llm-inference`
-- **Company:** Thinking Machines
-- **Link:** https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
-- **Date:** 2025-09-10
-- **Authors:** Horace He
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)
-
-- **ID:** `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel
-- **Date:** 2025-04-08
-- **Authors:** Samantha Banchik|Ta-Chung Chi|Sam Havens|Dipendra Misra|Will Tipton|Jan van der Vegt|Matei Zaharia|Emanuel Zgraggen
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Characterizing Datasets and Building Better Models with Continued Pre-Training
-
-- **ID:** `dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/characterizing-datasets-and-building-better-models-continued-pre-training
-- **Date:** 2024-11-21
-- **Authors:** Mansheej Paul|Brett Larsen|Connor Jennings|Cody Blakeney
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Long Context RAG Performance of LLMs
-
-- **ID:** `dbx-r-long-context-rag-performance-llms`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/long-context-rag-performance-llms
-- **Date:** 2024-08-12
-- **Authors:** Quinn Leng|Jacob Portes|Sam Havens|Matei Zaharia|Michael Carbin
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** long-context, retrieval-augmentation
-
-_Summary pending — see link for details._
-
-
-### Optimizing Databricks LLM Pipelines with DSPy
-
-- **ID:** `dbx-r-optimizing-databricks-llm-pipelines-dspy`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/optimizing-databricks-llm-pipelines-dspy
-- **Date:** 2024-05-23
-- **Authors:** Arnav Singhvi|Daniel Pechi (JetBlue)
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Mapping the Mind of a Large Language Model
-
-- **ID:** `ant-r-mapping-mind-language-model`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/mapping-mind-language-model
-- **Date:** 2024-05-21
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Measuring the Persuasiveness of Language Models
-
-- **ID:** `ant-r-measuring-model-persuasiveness`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/measuring-model-persuasiveness
-- **Date:** 2024-04-09
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### DSPy on Databricks
-
-- **ID:** `dbx-r-dspy-databricks`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/dspy-databricks
-- **Date:** 2024-04-08
-- **Authors:** Arnav Singhvi|Michael Carbin|Matei Zaharia
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Evaluating and Mitigating Discrimination in Language Model Decisions
-
-- **ID:** `ant-r-evaluating-and-mitigating-discrimination-in-language-model-decisions`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions
-- **Date:** 2023-12-07
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Towards Understanding Sycophancy in Language Models
-
-- **ID:** `ant-r-towards-understanding-sycophancy-in-language-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models
-- **Date:** 2023-10-23
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Decomposing Language Models Into Understandable Components
-
-- **ID:** `ant-r-decomposing-language-models-into-understandable-components`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/decomposing-language-models-into-understandable-components
-- **Date:** 2023-10-05
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
-
-- **ID:** `ant-r-towards-monosemanticity-decomposing-language-models-with-dictionary-learning`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning
-- **Date:** 2023-10-05
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** interpretability-features
-
-_Summary pending — see link for details._
-
-
-### Challenges in evaluating AI systems
-
-- **ID:** `ant-r-evaluating-ai-systems`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/evaluating-ai-systems
-- **Date:** 2023-10-04
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Tracing Model Outputs to the Training Data
-
-- **ID:** `ant-r-influence-functions`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/influence-functions
-- **Date:** 2023-08-08
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Measuring Faithfulness in Chain-of-Thought Reasoning
-
-- **ID:** `ant-r-measuring-faithfulness-in-chain-of-thought-reasoning`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning
-- **Date:** 2023-07-18
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** chain-of-thought
-
-_Summary pending — see link for details._
-
-
-### Towards Measuring the Representation of Subjective Global Opinions in Language Models
-
-- **ID:** `ant-r-towards-measuring-the-representation-of-subjective-global-opinions-in-language-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models
-- **Date:** 2023-06-29
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Interpretability Dreams
-
-- **ID:** `ant-r-interpretability-dreams`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/interpretability-dreams
-- **Date:** 2023-05-24
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### The Capacity for Moral Self-Correction in Large Language Models
-
-- **ID:** `ant-r-the-capacity-for-moral-self-correction-in-large-language-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models
-- **Date:** 2023-02-15
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Behind the Scenes: Setting a Baseline for Image Segmentation Speedups
-
-- **ID:** `dbx-r-behind-the-scenes`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/behind-the-scenes
-- **Date:** 2022-07-28
-- **Authors:** Landan Seguin
-- **Track:** research
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### Language Models (Mostly) Know What They Know
-
-- **ID:** `ant-r-language-models-mostly-know-what-they-know`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/language-models-mostly-know-what-they-know
-- **Date:** 2022-07-11
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Softmax Linear Units
-
-- **ID:** `ant-r-softmax-linear-units`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/softmax-linear-units
-- **Date:** 2022-06-17
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Training CodeParrot 🦜 from Scratch
-
-- **ID:** `hf-r-codeparrot`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/codeparrot
-- **Date:** 2021-12-08
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### AI and efficiency
-
-- **ID:** `oai-r-ai-and-efficiency`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/ai-and-efficiency/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Computational limitations in robust classification and win-win results
-
-- **ID:** `oai-r-computational-limitations-in-robust-classification-and-win-win-results`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Preparing for malicious uses of AI
-
-- **ID:** `oai-r-preparing-for-malicious-uses-of-ai`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/preparing-for-malicious-uses-of-ai/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Language models can explain neurons in language models
-
-- **ID:** `oai-r-language-models-can-explain-neurons-in-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/language-models-can-explain-neurons-in-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Techniques for training large neural networks
-
-- **ID:** `oai-r-techniques-for-training-large-neural-networks`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/techniques-for-training-large-neural-networks/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Evolution through large models
-
-- **ID:** `oai-r-evolution-through-large-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/evolution-through-large-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Measuring Goodhart’s law
-
-- **ID:** `oai-r-measuring-goodharts-law`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/measuring-goodharts-law/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### WebGPT: Improving the factual accuracy of language models through web browsing
-
-- **ID:** `oai-r-webgpt`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/webgpt/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Deep double descent
-
-- **ID:** `oai-r-deep-double-descent`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/deep-double-descent/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improving verifiability in AI development
-
-- **ID:** `oai-r-improving-verifiability`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improving-verifiability/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Testing robustness against unforeseen adversaries
-
-- **ID:** `oai-r-testing-robustness`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/testing-robustness/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Learning concepts with energy functions
-
-- **ID:** `oai-r-learning-concepts-with-energy-functions`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-concepts-with-energy-functions/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Large-scale study of curiosity-driven learning
-
-- **ID:** `oai-r-large-scale-study-of-curiosity-driven-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/large-scale-study-of-curiosity-driven-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Discovering types for entity disambiguation
-
-- **ID:** `oai-r-discovering-types-for-entity-disambiguation`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/discovering-types-for-entity-disambiguation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Estimating worst case frontier risks of open weight LLMs
-
-- **ID:** `oai-r-estimating-worst-case-frontier-risks-of-open-weight-llms`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Interpretable Machine Learning Through Teaching
-
-- **ID:** `oai-r-interpretable-machine-learning-through-teaching`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/interpretable-machine-learning-through-teaching/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Learning to model other minds
-
-- **ID:** `oai-r-learning-to-model-other-minds`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-to-model-other-minds/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Learning sparse neural networks through L₀ regularization
-
-- **ID:** `oai-r-learning-sparse-neural-networks-through-l0-regularization`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Interpretable and pedagogical examples
-
-- **ID:** `oai-r-interpretable-and-pedagogical-examples`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/interpretable-and-pedagogical-examples/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Semi-supervised knowledge transfer for deep learning from private training data
 
 - **ID:** `oai-r-semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data`
@@ -2707,79 +2678,13 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** new-method
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Learning with opponent-learning awareness
-
-- **ID:** `oai-r-learning-with-opponent-learning-awareness`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-with-opponent-learning-awareness/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Learning to cooperate, compete, and communicate
-
-- **ID:** `oai-r-learning-to-cooperate-compete-and-communicate`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-to-cooperate-compete-and-communicate/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Extensions and limitations of the neural GPU
-
-- **ID:** `oai-r-extensions-and-limitations-of-the-neural-gpu`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/extensions-and-limitations-of-the-neural-gpu/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Weight normalization: A simple reparameterization to accelerate training of deep neural networks
-
-- **ID:** `oai-r-weight-normalization`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/weight-normalization/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### A Holistic Approach to Undesired Content Detection in the Real World
-
-- **ID:** `oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Learning a hierarchy
-
-- **ID:** `oai-r-learning-a-hierarchy`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/learning-a-hierarchy/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
+- Introduces PATE (Private Aggregation of Teacher Ensembles) for differentially private deep learning
+- Multiple teacher models on disjoint private datasets vote (with noise) to label a student model
+- Student never sees the underlying private data or teachers directly
+- Achieves SOTA privacy/utility tradeoffs on MNIST and SVHN
+- Matters as a landmark DP-ML technique for privacy-preserving training.
 
 
 ### Defining and evaluating political bias in LLMs
@@ -2791,92 +2696,13 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### OpenAI Research | Publication
-
-- **ID:** `oai-r-publication`
-- **Company:** OpenAI
-- **Link:** https://openai.com/research/index/publication/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improving mathematical reasoning with process supervision
-
-- **ID:** `oai-r-improving-mathematical-reasoning-with-process-supervision`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Reasoning models struggle to control their chains of thought, and that’s good
-
-- **ID:** `oai-r-reasoning-models-chain-of-thought-controllability`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/reasoning-models-chain-of-thought-controllability/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** chain-of-thought
-
-_Summary pending — see link for details._
-
-
-### Extending single-minus amplitudes to gravitons
-
-- **ID:** `oai-r-extending-single-minus-amplitudes-to-gravitons`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Scaling social science research
-
-- **ID:** `oai-r-scaling-social-science-research`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-social-science-research/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### 5 Best Practices for Efficient Model Training
-
-- **ID:** `dbx-r-5-best-practices-for-efficient-model-training`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/5-best-practices-for-efficient-model-training
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Best Practices (Dec 2021)
-
-- **ID:** `dbx-r-best-practices-dec-2021`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/best-practices-dec-2021
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
+- Operational definition of political bias and ~500-prompt evaluation across 100 topics and 5 bias axes (user invalidation, escalation, personal political expression, asymmetric coverage, political refusals)
+- GPT-5 instant/thinking reduce bias 30% vs prior models
+- Estimates <0.01% of real production ChatGPT traffic shows political bias
+- Uses an LLM grader with detailed rubric
+- Matters as a reproducible framework for auditing model objectivity.
 
 
 ### Dream3D
@@ -2888,31 +2714,13 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Making ML Training Efficient Algorithmically
-
-- **ID:** `dbx-r-making-ml-training-efficient-algorithmically`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/making-ml-training-efficient-algorithmically
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Methodology
-
-- **ID:** `dbx-r-methodology`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/methodology
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
+- Customer spotlight interview with Tony Francis, CEO of Dream3D (AI-powered 3D design tool that replaces traditional rendering with generative models)
+- Targets individual designers and in-house teams for rendering existing 3D models into photo-realistic visuals
+- Uses MosaicML to train custom models
+- Matters as applied generative AI case study, not research
+- Classified here as deployment/application study
 
 
 ### Natural Synthetics
@@ -2924,17 +2732,11 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Tribe V2 Brain Predictive Foundation Model
-
-- **ID:** `meta-r-tribe-v2-brain-predictive-foundation-model`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
+- Customer spotlight interview with Natural Synthetics founders Aakash Sastry and John Mullan about their Hotshot iPhone app ('camera for your imagination')
+- Users generate images of themselves, friends, celebrities doing anything via text prompts
+- MosaicML helps keep generation costs low enough to offer the app free
+- Matters as consumer generative AI deployment case study
+- Classified as deployment/application rather than research
 

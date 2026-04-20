@@ -1,0 +1,44 @@
+id,company,current_focus_area,current_subcategory,title,url
+vcl-e-agentic-infrastructure,vercel,agentic-systems,agents-general,Agentic Infrastructure,https://vercel.com/blog/agentic-infrastructure
+vcl-e-how-flora-shipped-a-creative-agent-on-vercels-ai-stack,vercel,agentic-systems,agents-general,How FLORA shipped a creative agent on Vercel's AI stack,https://vercel.com/blog/how-flora-shipped-a-creative-agent-on-vercels-ai-stack
+vcl-e-agent-responsibly,vercel,agentic-systems,agents-general,Agent responsibly,https://vercel.com/blog/agent-responsibly
+vcl-e-security-boundaries-in-agentic-architectures,vercel,agentic-systems,agents-general,Security boundaries in agentic architectures,https://vercel.com/blog/security-boundaries-in-agentic-architectures
+vcl-e-making-agent-friendly-pages-with-content-negotiation,vercel,agentic-systems,agents-general,Making agent-friendly pages with content negotiation,https://vercel.com/blog/making-agent-friendly-pages-with-content-negotiation
+vcl-e-agents-md-outperforms-skills-in-our-agent-evals,vercel,evals-and-benchmarks,fallback-evals,AGENTS.md outperforms skills in our agent evals,https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
+vcl-e-we-removed-80-percent-of-our-agents-tools,vercel,agentic-systems,agents-general,We removed 80% of our agent’s tools,https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools
+vcl-e-vercel-agent-can-now-run-ai-investigations,vercel,agentic-systems,agents-general,Vercel Agent can now run AI investigations,https://vercel.com/blog/vercel-agent-can-now-run-ai-investigations
+vcl-e-the-no-nonsense-approach-to-ai-agent-development,vercel,agentic-systems,agents-general,The no-nonsense approach to AI agent development,https://vercel.com/blog/the-no-nonsense-approach-to-ai-agent-development
+cog-r-swe-1-6-preview,cognition,pretraining-and-architecture,fallback-architecture,An Early Preview of SWE-1.6 and Research Update,https://cognition.ai/blog/swe-1-6-preview
+meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning,meta-fair,evals-and-benchmarks,fallback-evals,Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning,https://ai.meta.com/blog/ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning/
+meta-r-introducing-pytorch-native-agentic-stack,meta-fair,agentic-systems,agents-general,Introducing Pytorch Native Agentic Stack,https://ai.meta.com/blog/introducing-pytorch-native-agentic-stack/
+meta-r-meta-fair-updates-agents-robustness-safety-architecture,meta-fair,agentic-systems,fallback-agents,Meta Fair Updates Agents Robustness Safety Architecture,https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/
+meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play,meta-fair,post-training-and-fine-tuning,fallback-post-training,Open Sourcing Polygames A New Framework For Training Ai Bots Through Self Play,https://ai.meta.com/blog/open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play/
+meta-r-practical-ai-agent-security,meta-fair,agentic-systems,agents-general,Practical Ai Agent Security,https://ai.meta.com/blog/practical-ai-agent-security/
+meta-r-tribe-v2-brain-predictive-foundation-model,meta-fair,pretraining-and-architecture,fallback-architecture,Tribe V2 Brain Predictive Foundation Model,https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/
+hf-r-nvidia-reachy-mini,huggingface,agentic-systems,fallback-agents,NVIDIA brings agents to life with DGX Spark and Reachy Mini,https://huggingface.co/blog/nvidia-reachy-mini
+hf-r-intel-qwen3-agent,huggingface,agentic-systems,agents-general,Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models,https://huggingface.co/blog/intel-qwen3-agent
+hf-r-jupyter-agent-2,huggingface,agentic-systems,agents-general,Jupyter Agents: training LLMs to reason with notebooks,https://huggingface.co/blog/jupyter-agent-2
+hf-r-synthetic-data-generator,huggingface,post-training-and-fine-tuning,fallback-post-training,Introducing the Synthetic Data Generator - Build Datasets with Natural Language,https://huggingface.co/blog/synthetic-data-generator
+hf-r-jat,huggingface,agentic-systems,agents-general,"Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent",https://huggingface.co/blog/jat
+hf-r-cosmopedia,huggingface,post-training-and-fine-tuning,fallback-post-training,Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models,https://huggingface.co/blog/cosmopedia
+hf-r-synthetic-data-save-costs,huggingface,post-training-and-fine-tuning,fallback-post-training,"Synthetic data: save money, time and carbon with open source",https://huggingface.co/blog/synthetic-data-save-costs
+hf-r-llama-sagemaker-benchmark,huggingface,evals-and-benchmarks,fallback-evals,Llama 2 on Amazon SageMaker a Benchmark,https://huggingface.co/blog/llama-sagemaker-benchmark
+hf-r-aivsai,huggingface,agentic-systems,fallback-agents,Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system,https://huggingface.co/blog/aivsai
+hf-r-dialog-agents,huggingface,agentic-systems,agents-general,What Makes a Dialog Agent Useful?,https://huggingface.co/blog/dialog-agents
+hf-r-habana-gaudi-2-benchmark,huggingface,evals-and-benchmarks,fallback-evals,Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB,https://huggingface.co/blog/habana-gaudi-2-benchmark
+hf-r-mteb,huggingface,evals-and-benchmarks,fallback-evals,MTEB: Massive Text Embedding Benchmark,https://huggingface.co/blog/mteb
+hf-r-zero-shot-eval-on-the-hub,huggingface,evals-and-benchmarks,fallback-evals,Very Large Language Models and How to Evaluate Them,https://huggingface.co/blog/zero-shot-eval-on-the-hub
+hf-r-eval-on-the-hub,huggingface,evals-and-benchmarks,fallback-evals,Announcing Evaluation on the Hub,https://huggingface.co/blog/eval-on-the-hub
+hf-r-codeparrot,huggingface,pretraining-and-architecture,fallback-architecture,Training CodeParrot 🦜 from Scratch,https://huggingface.co/blog/codeparrot
+hf-r-snowball-fight,huggingface,agentic-systems,fallback-agents,"Introducing Snowball Fight ☃️, our first ML-Agents environment",https://huggingface.co/blog/snowball-fight
+dm-r-a-generalist-agent,deepmind,agentic-systems,agents-general,A Generalist Agent,https://deepmind.google/discover/blog/a-generalist-agent/
+dm-r-creating-interactive-agents-with-imitation-learning,deepmind,post-training-and-fine-tuning,fallback-post-training,Creating Interactive Agents With Imitation Learning,https://deepmind.google/discover/blog/creating-interactive-agents-with-imitation-learning/
+dm-r-discovering-when-an-agent-is-present-in-a-system,deepmind,agentic-systems,agents-general,Discovering When An Agent Is Present In A System,https://deepmind.google/discover/blog/discovering-when-an-agent-is-present-in-a-system/
+dm-r-evaluating-multimodal-interactive-agents,deepmind,agentic-systems,fallback-agents,Evaluating Multimodal Interactive Agents,https://deepmind.google/discover/blog/evaluating-multimodal-interactive-agents/
+dm-r-introducing-codemender-an-ai-agent-for-code-security,deepmind,agentic-systems,agents-general,Introducing Codemender An Ai Agent For Code Security,https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/
+dm-r-learning-through-human-feedback,deepmind,post-training-and-fine-tuning,fallback-post-training,Learning Through Human Feedback,https://deepmind.google/discover/blog/learning-through-human-feedback/
+dm-r-navigating-with-grid-like-representations-in-artificial-agents,deepmind,agentic-systems,fallback-agents,Navigating With Grid Like Representations In Artificial Agents,https://deepmind.google/discover/blog/navigating-with-grid-like-representations-in-artificial-agents/
+dm-r-safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control,deepmind,agentic-systems,agents-general,Safety First Ai For Autonomous Data Centre Cooling And Industrial Control,https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/
+dm-r-sima-generalist-ai-agent-for-3d-virtual-environments,deepmind,agentic-systems,agents-general,Sima Generalist Ai Agent For 3D Virtual Environments,https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/
+dm-r-spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents,deepmind,agentic-systems,fallback-agents,Spurious Normativity Enhances Learning Of Compliance And Enforcement Behavior In Artificial Agents,https://deepmind.google/discover/blog/spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents/
+dm-r-understanding-agent-cooperation,deepmind,agentic-systems,agents-general,Understanding Agent Cooperation,https://deepmind.google/discover/blog/understanding-agent-cooperation/

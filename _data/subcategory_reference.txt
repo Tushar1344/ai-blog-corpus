@@ -1,0 +1,90 @@
+## Available subcategories by focus area
+
+### pretraining-and-architecture
+  - foundation-model-releases: Foundation model releases
+  - architectures: Architectures (MoE, SSMs, attention variants)
+  - multimodal-pretraining: Multimodal pretraining
+  - scaling-and-training-dynamics: Scaling laws & training dynamics
+  - data-and-tokenization: Data & tokenization
+  - training-stack: Training stack & infrastructure
+  - research-techniques-and-methods: Research techniques & methods
+  - model-research-and-applications: Science-applied AI (AlphaFold, health, climate, etc.)
+  - societal-impact-and-deployment-studies: Societal impact & deployment studies
+  - fallback-architecture: Other pretraining & architecture
+
+### post-training-and-fine-tuning
+  - rlvr-verifiable-rewards: RLVR & verifiable-reward RL
+  - rlhf-classic: Classic RLHF (PPO, reward models)
+  - direct-preference: Direct preference (DPO, KTO, ORPO, SimPO)
+  - sft-and-instruction-tuning: SFT & instruction tuning
+  - distillation: Distillation
+  - fallback-post-training: Other post-training
+
+### alignment-and-safety
+  - system-cards: System cards & model cards
+  - responsible-scaling-and-policy: Responsible scaling & safety policy
+  - constitutional-and-self-critique: Constitutional methods & self-critique
+  - deceptive-alignment: Deceptive alignment & scheming
+  - capability-evals-for-safety: Dangerous-capability evaluations
+  - red-teaming-and-jailbreaking: Red-teaming & jailbreaking
+  - scalable-oversight: Scalable oversight & debate
+  - reward-hacking-and-sycophancy: Reward hacking, monitorability & honesty
+  - safety-research-general: General safety research
+  - fallback-alignment: Other alignment & safety
+
+### interpretability
+  - saes-and-dictionary-learning: SAEs & dictionary learning
+  - circuits-and-mechanistic: Circuits & mechanistic interpretability
+  - steering-and-intervention: Steering & intervention
+  - feature-viz-and-probing: Feature viz & probing
+  - attention-and-induction-heads: Attention patterns & induction heads
+  - fallback-interp: Other interpretability
+
+### evals-and-benchmarks
+  - agent-evals: Agent evaluations
+  - coding-evals: Coding evaluations
+  - reasoning-evals: Reasoning & math evaluations
+  - leaderboards-and-community-evals: Leaderboards & community evals
+  - judge-models-and-methodology: Judge models & eval methodology
+  - eval-systems-and-harnesses: Eval systems & harnesses
+  - benchmark-release: Benchmark releases
+  - domain-specific-evals: Domain-specific evals (speech, vision, science, medical)
+  - benchmark-critique: Benchmark critique
+  - multimodal-evals: Multimodal evaluations
+  - fallback-evals: Other evaluations & benchmarks
+
+### quantization-and-efficiency
+  - training-time-quantization: Training-time quantization
+  - post-training-quantization: Post-training quantization
+  - parameter-efficient-training: Parameter-efficient training (LoRA/PEFT)
+  - pruning-and-sparsity: Pruning & sparsity
+  - fallback-efficiency: Other efficiency
+
+### agentic-systems
+  - coding-agents: Coding agents
+  - multi-agent-orchestration: Multi-agent orchestration
+  - computer-use-and-browser-use: Computer use & browser use
+  - tool-use-and-function-calling: Tool use & function calling
+  - enterprise-agents: Enterprise agents
+  - embodied-and-simulation: Embodied agents & simulation
+  - game-and-rl-agents: Game-playing & RL agents
+  - dialogue-and-conversational-agents: Dialogue & conversational agents
+  - agent-frameworks-and-tooling: Agent frameworks & tooling
+  - agent-research-applications: Agent research applications (scientific, robotic)
+  - agent-traces-and-observability: Agent traces & observability
+  - agent-design-and-patterns: Agent design & patterns / opinion pieces
+  - agents-general: General agentic systems
+  - fallback-agents: Other agentic systems
+
+### harness-and-context-engineering
+  - mcp-and-tool-protocols: MCP & tool protocols
+  - codex-and-sora-harness: Product engineering case studies (Codex, Sora, Atlas)
+  - long-running-harnesses: Long-running harnesses
+  - context-engineering: Context engineering
+  - scaffolding-patterns: Scaffolding patterns
+  - agent-skills-and-prompt-libraries: Agent skills & prompt libraries
+  - prompt-caching: Prompt caching
+  - ai-sdk-and-product-tooling: AI SDK & product tooling (Vercel v0, AI SDK)
+  - data-analyst-and-workflow-agents: Workflow agents (data analyst, code review, Bugbot)
+  - databricks-training-stack-misc: Databricks training stack (misplaced; should be pretraining/training-stack)
+  - fallback-harness: Other harness & context engineering

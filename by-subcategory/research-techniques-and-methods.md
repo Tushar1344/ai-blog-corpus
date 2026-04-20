@@ -1,6 +1,6 @@
 # Research techniques & methods
 
-**Post count:** 56  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#research-techniques-and-methods))
+**Post count:** 70  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#research-techniques-and-methods))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -17,6 +17,7 @@
 | 2023-02-09 | Databricks Mosaic AI | [MosaicML StreamingDataset: Fast, Accurate Streaming of Training Data from Cloud Storage](../by-focus-area/pretraining-and-architecture.md#dbx-e-mosaicml-streamingdataset) | `dbx-e-mosaicml-streamingdataset` |
 | 2022-12-19 | Anthropic | [Discovering Language Model Behaviors with Model-Written Evaluations](../by-focus-area/pretraining-and-architecture.md#ant-r-discovering-language-model-behaviors-with-model-written-evaluations) | `ant-r-discovering-language-model-behaviors-with-model-written-evaluations` |
 | 2022-11-09 | Databricks Mosaic AI | [MosaicML Delivers Leading NLP Performance in MLPerf v2.1](../by-focus-area/pretraining-and-architecture.md#dbx-r-mlperf-nlp-nov2022) | `dbx-r-mlperf-nlp-nov2022` |
+| 2022-07-28 | Databricks Mosaic AI | [Behind the Scenes: Setting a Baseline for Image Segmentation Speedups](../by-focus-area/pretraining-and-architecture.md#dbx-r-behind-the-scenes) | `dbx-r-behind-the-scenes` |
 | 2022-06-29 | Databricks Mosaic AI | [MosaicML Satisfies the Need for Speed with MLPerf Results](../by-focus-area/pretraining-and-architecture.md#dbx-r-mlperf-2022) | `dbx-r-mlperf-2022` |
 | 2022-03-08 | Anthropic | [In-context Learning and Induction Heads](../by-focus-area/pretraining-and-architecture.md#ant-r-in-context-learning-and-induction-heads) | `ant-r-in-context-learning-and-induction-heads` |
 | 2022-02-15 | Anthropic | [Predictability and Surprise in Large Generative Models](../by-focus-area/pretraining-and-architecture.md#ant-r-predictability-and-surprise-in-large-generative-models) | `ant-r-predictability-and-surprise-in-large-generative-models` |
@@ -37,26 +38,39 @@
 | ? | OpenAI | [Implicit generation and generalization methods for energy-based models](../by-focus-area/pretraining-and-architecture.md#oai-r-energy-based-models) | `oai-r-energy-based-models` |
 | ? | OpenAI | [Some considerations on learning to explore via meta-reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning) | `oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning` |
 | ? | OpenAI | [Image GPT](../by-focus-area/pretraining-and-architecture.md#oai-r-image-gpt) | `oai-r-image-gpt` |
+| ? | OpenAI | [Evolution through large models](../by-focus-area/pretraining-and-architecture.md#oai-r-evolution-through-large-models) | `oai-r-evolution-through-large-models` |
 | ? | OpenAI | [Plan online, learn offline: Efficient learning and exploration via model-based control](../by-focus-area/pretraining-and-architecture.md#oai-r-plan-online-learn-offline) | `oai-r-plan-online-learn-offline` |
 | ? | OpenAI | [Generative modeling with sparse transformers](../by-focus-area/pretraining-and-architecture.md#oai-r-sparse-transformer) | `oai-r-sparse-transformer` |
 | ? | OpenAI | [Dota 2 with large scale deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-dota-2-with-large-scale-deep-reinforcement-learning) | `oai-r-dota-2-with-large-scale-deep-reinforcement-learning` |
+| ? | OpenAI | [Learning concepts with energy functions](../by-focus-area/pretraining-and-architecture.md#oai-r-learning-concepts-with-energy-functions) | `oai-r-learning-concepts-with-energy-functions` |
+| ? | OpenAI | [Variance reduction for policy gradient with action-dependent factorized baselines](../by-focus-area/pretraining-and-architecture.md#oai-r-variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines) | `oai-r-variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines` |
+| ? | OpenAI | [Large-scale study of curiosity-driven learning](../by-focus-area/pretraining-and-architecture.md#oai-r-large-scale-study-of-curiosity-driven-learning) | `oai-r-large-scale-study-of-curiosity-driven-learning` |
 | ? | OpenAI | [FFJORD: Free-form continuous dynamics for scalable reversible generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-ffjord) | `oai-r-ffjord` |
 | ? | OpenAI | [Variational option discovery algorithms](../by-focus-area/pretraining-and-architecture.md#oai-r-variational-option-discovery-algorithms) | `oai-r-variational-option-discovery-algorithms` |
 | ? | OpenAI | [Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research](../by-focus-area/pretraining-and-architecture.md#oai-r-multi-goal-reinforcement-learning) | `oai-r-multi-goal-reinforcement-learning` |
+| ? | OpenAI | [Interpretable Machine Learning Through Teaching](../by-focus-area/pretraining-and-architecture.md#oai-r-interpretable-machine-learning-through-teaching) | `oai-r-interpretable-machine-learning-through-teaching` |
+| ? | OpenAI | [Interpretable and pedagogical examples](../by-focus-area/pretraining-and-architecture.md#oai-r-interpretable-and-pedagogical-examples) | `oai-r-interpretable-and-pedagogical-examples` |
 | ? | OpenAI | [Asymmetric Actor Critic For Image Based Robot Learning](../by-focus-area/pretraining-and-architecture.md#oai-r-asymmetric-actor-critic-for-image-based-robot-learning) | `oai-r-asymmetric-actor-critic-for-image-based-robot-learning` |
 | ? | OpenAI | [On the quantitative analysis of decoder-based generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models) | `oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models` |
 | ? | OpenAI | [Domain randomization and generative models for robotic grasping](../by-focus-area/pretraining-and-architecture.md#oai-r-domain-randomization-and-generative-models-for-robotic-grasping) | `oai-r-domain-randomization-and-generative-models-for-robotic-grasping` |
 | ? | OpenAI | [RL²: Fast reinforcement learning via slow reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-rl2) | `oai-r-rl2` |
+| ? | OpenAI | [Meta-learning for wrestling](../by-focus-area/pretraining-and-architecture.md#oai-r-meta-learning-for-wrestling) | `oai-r-meta-learning-for-wrestling` |
 | ? | OpenAI | [Better exploration with parameter noise](../by-focus-area/pretraining-and-architecture.md#oai-r-better-exploration-with-parameter-noise) | `oai-r-better-exploration-with-parameter-noise` |
+| ? | OpenAI | [Adversarial training methods for semi-supervised text classification](../by-focus-area/pretraining-and-architecture.md#oai-r-adversarial-training-methods-for-semi-supervised-text-classification) | `oai-r-adversarial-training-methods-for-semi-supervised-text-classification` |
 | ? | OpenAI | [#Exploration: A study of count-based exploration for deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-exploration) | `oai-r-exploration` |
 | ? | OpenAI | [Stochastic Neural Networks for hierarchical reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning) | `oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning` |
+| ? | OpenAI | [Equivalence between policy gradients and soft Q-learning](../by-focus-area/pretraining-and-architecture.md#oai-r-equivalence-between-policy-gradients-and-soft-q-learning) | `oai-r-equivalence-between-policy-gradients-and-soft-q-learning` |
 | ? | OpenAI | [Evolution strategies as a scalable alternative to reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-evolution-strategies) | `oai-r-evolution-strategies` |
+| ? | OpenAI | [One-shot imitation learning](../by-focus-area/pretraining-and-architecture.md#oai-r-one-shot-imitation-learning) | `oai-r-one-shot-imitation-learning` |
+| ? | OpenAI | [A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models](../by-focus-area/pretraining-and-architecture.md#oai-r-a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models) | `oai-r-a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models` |
 | ? | OpenAI | [Generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-generative-models) | `oai-r-generative-models` |
 | ? | OpenAI | [Improved Techniques for Training Consistency Models](../by-focus-area/pretraining-and-architecture.md#oai-r-improved-techniques-for-training-consistency-models) | `oai-r-improved-techniques-for-training-consistency-models` |
+| ? | OpenAI | [Learning a hierarchy](../by-focus-area/pretraining-and-architecture.md#oai-r-learning-a-hierarchy) | `oai-r-learning-a-hierarchy` |
 | ? | OpenAI | [Early experiments in accelerating science with GPT-5](../by-focus-area/pretraining-and-architecture.md#oai-r-accelerating-science-gpt-5) | `oai-r-accelerating-science-gpt-5` |
 | ? | OpenAI | [Advancing science and math with GPT-5.2](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-5-2-for-science-and-math) | `oai-r-gpt-5-2-for-science-and-math` |
 | ? | OpenAI | [Why language models hallucinate](../by-focus-area/pretraining-and-architecture.md#oai-r-why-language-models-hallucinate) | `oai-r-why-language-models-hallucinate` |
 | ? | OpenAI | [GPT-5 lowers the cost of cell-free protein synthesis](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-5-lowers-protein-synthesis-cost) | `oai-r-gpt-5-lowers-protein-synthesis-cost` |
 | ? | OpenAI | [GPT-5.2 derives a new result in theoretical physics](../by-focus-area/pretraining-and-architecture.md#oai-r-new-result-theoretical-physics) | `oai-r-new-result-theoretical-physics` |
+| ? | Databricks Mosaic AI | [Methodology](../by-focus-area/pretraining-and-architecture.md#dbx-r-methodology) | `dbx-r-methodology` |
 | ? | Databricks Mosaic AI | [Train Custom GPT + Diffusion Models](../by-focus-area/pretraining-and-architecture.md#dbx-r-train-custom-gpt-diffusion-models) | `dbx-r-train-custom-gpt-diffusion-models` |
 | ? | Google DeepMind | [Alphago Zero Starting From Scratch](../by-focus-area/pretraining-and-architecture.md#dm-r-alphago-zero-starting-from-scratch) | `dm-r-alphago-zero-starting-from-scratch` |

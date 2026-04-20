@@ -1,6 +1,6 @@
 # Architectures (MoE, SSMs, attention variants)
 
-**Post count:** 11  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#architectures))
+**Post count:** 14  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#architectures))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -13,5 +13,8 @@
 | 2023-12-11 | Hugging Face | [Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face](../by-focus-area/pretraining-and-architecture.md#hf-r-mixtral) | `hf-r-mixtral` |
 | 2023-12-11 | Hugging Face | [Mixture of Experts Explained](../by-focus-area/pretraining-and-architecture.md#hf-r-moe) | `hf-r-moe` |
 | 2023-05-15 | Hugging Face | [Introducing RWKV - An RNN with the advantages of a transformer](../by-focus-area/pretraining-and-architecture.md#hf-r-rwkv) | `hf-r-rwkv` |
+| 2022-06-17 | Anthropic | [Softmax Linear Units](../by-focus-area/pretraining-and-architecture.md#ant-r-softmax-linear-units) | `ant-r-softmax-linear-units` |
+| ? | OpenAI | [Extensions and limitations of the neural GPU](../by-focus-area/pretraining-and-architecture.md#oai-r-extensions-and-limitations-of-the-neural-gpu) | `oai-r-extensions-and-limitations-of-the-neural-gpu` |
+| ? | OpenAI | [Weight normalization: A simple reparameterization to accelerate training of deep neural networks](../by-focus-area/pretraining-and-architecture.md#oai-r-weight-normalization) | `oai-r-weight-normalization` |
 | ? | Meta AI / FAIR | [Timesformer A New Architecture For Video Understanding](../by-focus-area/pretraining-and-architecture.md#meta-r-timesformer-a-new-architecture-for-video-understanding) | `meta-r-timesformer-a-new-architecture-for-video-understanding` |
 | ? | Allen Institute for AI | [Olmoe An Open Small And State Of The Art Mixture Of Experts Model C258432D0514](../by-focus-area/pretraining-and-architecture.md#ai2-r-olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) | `ai2-r-olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514` |

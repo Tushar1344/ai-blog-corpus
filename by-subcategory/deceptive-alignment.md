@@ -1,11 +1,12 @@
 # Deceptive alignment & scheming
 
-**Post count:** 9  |  **Focus area:** Alignment & Safety ([canonical](../by-focus-area/alignment-and-safety.md#deceptive-alignment))
+**Post count:** 10  |  **Focus area:** Alignment & Safety ([canonical](../by-focus-area/alignment-and-safety.md#deceptive-alignment))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
 | 2025-11-21 | Anthropic | [From shortcuts to sabotage: natural emergent misalignment from reward hacking](../by-focus-area/alignment-and-safety.md#ant-r-emergent-misalignment-reward-hacking) | `ant-r-emergent-misalignment-reward-hacking` |
 | 2025-10-09 | Anthropic | [A small number of samples can poison LLMs of any size](../by-focus-area/alignment-and-safety.md#ant-r-small-samples-poison) | `ant-r-small-samples-poison` |
+| 2025-06-20 | Anthropic | [Agentic Misalignment: How LLMs could be insider threats](../by-focus-area/alignment-and-safety.md#ant-r-agentic-misalignment) | `ant-r-agentic-misalignment` |
 | 2025-03-13 | Anthropic | [Auditing language models for hidden objectives](../by-focus-area/alignment-and-safety.md#ant-r-auditing-hidden-objectives) | `ant-r-auditing-hidden-objectives` |
 | 2024-12-18 | Anthropic | [Alignment faking in large language models](../by-focus-area/alignment-and-safety.md#ant-r-alignment-faking) | `ant-r-alignment-faking` |
 | 2024-04-23 | Anthropic | [Simple probes can catch sleeper agents](../by-focus-area/alignment-and-safety.md#ant-r-probes-catch-sleeper-agents) | `ant-r-probes-catch-sleeper-agents` |

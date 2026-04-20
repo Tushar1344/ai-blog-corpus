@@ -4,7 +4,7 @@
 
 Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
-## Pretraining & Architecture (24)
+## Pretraining & Architecture (25)
 
 | Date | Title | ID |
 |---|---|---|
@@ -14,6 +14,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Instagram Edits Cutouts Segment Anything](../by-focus-area/pretraining-and-architecture.md#meta-r-instagram-edits-cutouts-segment-anything) | `meta-r-instagram-edits-cutouts-segment-anything` |
 | ? | [Josephine Miller Designer Meta Segment Anything 2](../by-focus-area/pretraining-and-architecture.md#meta-r-josephine-miller-designer-meta-segment-anything-2) | `meta-r-josephine-miller-designer-meta-segment-anything-2` |
 | ? | [Llama 2 3 Meditron Yale Medicine Epfl Open Source Llm](../by-focus-area/pretraining-and-architecture.md#meta-r-llama-2-3-meditron-yale-medicine-epfl-open-source-llm) | `meta-r-llama-2-3-meditron-yale-medicine-epfl-open-source-llm` |
+| ? | [Meta Fair Updates Agents Robustness Safety Architecture](../by-focus-area/pretraining-and-architecture.md#meta-r-meta-fair-updates-agents-robustness-safety-architecture) | `meta-r-meta-fair-updates-agents-robustness-safety-architecture` |
 | ? | [Sam 3D](../by-focus-area/pretraining-and-architecture.md#meta-r-sam-3d) | `meta-r-sam-3d` |
 | ? | [Sam Audio](../by-focus-area/pretraining-and-architecture.md#meta-r-sam-audio) | `meta-r-sam-audio` |
 | ? | [Segment Anything](../by-focus-area/pretraining-and-architecture.md#meta-r-segment-anything) | `meta-r-segment-anything` |
@@ -40,13 +41,14 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Data Distillation Makes Omni Supervised Learning Possible](../by-focus-area/post-training-and-fine-tuning.md#meta-r-data-distillation-makes-omni-supervised-learning-possible) | `meta-r-data-distillation-makes-omni-supervised-learning-possible` |
 | ? | [Open Sourcing Polygames A New Framework For Training Ai Bots Through Self Play](../by-focus-area/post-training-and-fine-tuning.md#meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play) | `meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play` |
 
-## Alignment & Safety (8)
+## Alignment & Safety (9)
 
 | Date | Title | ID |
 |---|---|---|
 | ? | [Facebooks Five Pillars Of Responsible Ai](../by-focus-area/alignment-and-safety.md#meta-r-facebooks-five-pillars-of-responsible-ai) | `meta-r-facebooks-five-pillars-of-responsible-ai` |
 | ? | [Fair Progress And Learnings Across Socially Responsible Ai Research](../by-focus-area/alignment-and-safety.md#meta-r-fair-progress-and-learnings-across-socially-responsible-ai-research) | `meta-r-fair-progress-and-learnings-across-socially-responsible-ai-research` |
 | ? | [How Ai Powers Experiences Facebook Instagram System Cards](../by-focus-area/alignment-and-safety.md#meta-r-how-ai-powers-experiences-facebook-instagram-system-cards) | `meta-r-how-ai-powers-experiences-facebook-instagram-system-cards` |
+| ? | [Practical Ai Agent Security](../by-focus-area/alignment-and-safety.md#meta-r-practical-ai-agent-security) | `meta-r-practical-ai-agent-security` |
 | ? | [Responsible Ai Connect 2024](../by-focus-area/alignment-and-safety.md#meta-r-responsible-ai-connect-2024) | `meta-r-responsible-ai-connect-2024` |
 | ? | [Responsible Ai Progress Meta 2022](../by-focus-area/alignment-and-safety.md#meta-r-responsible-ai-progress-meta-2022) | `meta-r-responsible-ai-progress-meta-2022` |
 | ? | [System Cards A New Resource For](../by-focus-area/alignment-and-safety.md#meta-r-system-cards-a-new-resource-for-) | `meta-r-system-cards-a-new-resource-for-` |
@@ -72,7 +74,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [How To Fine Tune Llms Peft Dataset Curation](../by-focus-area/quantization-and-efficiency.md#meta-r-how-to-fine-tune-llms-peft-dataset-curation) | `meta-r-how-to-fine-tune-llms-peft-dataset-curation` |
 | ? | [Training With Quantization Noise For Extreme Model Compression](../by-focus-area/quantization-and-efficiency.md#meta-r-training-with-quantization-noise-for-extreme-model-compression) | `meta-r-training-with-quantization-noise-for-extreme-model-compression` |
 
-## Agentic Systems (18)
+## Agentic Systems (16)
 
 | Date | Title | ID |
 |---|---|---|
@@ -87,10 +89,8 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Habitat 3 Socially Intelligent Robots Siro](../by-focus-area/agentic-systems.md#meta-r-habitat-3-socially-intelligent-robots-siro) | `meta-r-habitat-3-socially-intelligent-robots-siro` |
 | ? | [Introducing Pytorch Native Agentic Stack](../by-focus-area/agentic-systems.md#meta-r-introducing-pytorch-native-agentic-stack) | `meta-r-introducing-pytorch-native-agentic-stack` |
 | ? | [Introducing The Habitat Matterport 3D Research Data Set For Training Embodied Ai](../by-focus-area/agentic-systems.md#meta-r-introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai) | `meta-r-introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai` |
-| ? | [Meta Fair Updates Agents Robustness Safety Architecture](../by-focus-area/agentic-systems.md#meta-r-meta-fair-updates-agents-robustness-safety-architecture) | `meta-r-meta-fair-updates-agents-robustness-safety-architecture` |
 | ? | [New Milestones In Embodied Ai](../by-focus-area/agentic-systems.md#meta-r-new-milestones-in-embodied-ai) | `meta-r-new-milestones-in-embodied-ai` |
 | ? | [Open Sourcing Ai Habitat A Simulation Platform For Embodied Ai Research](../by-focus-area/agentic-systems.md#meta-r-open-sourcing-ai-habitat-a-simulation-platform-for-embodied-ai-research) | `meta-r-open-sourcing-ai-habitat-a-simulation-platform-for-embodied-ai-research` |
-| ? | [Practical Ai Agent Security](../by-focus-area/agentic-systems.md#meta-r-practical-ai-agent-security) | `meta-r-practical-ai-agent-security` |
 | ? | [Read To Fight Monsters Using Rl To Teach Agents To Generalize To New Settings](../by-focus-area/agentic-systems.md#meta-r-read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings) | `meta-r-read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings` |
 | ? | [Training Ai Agents To Solve Unfamiliar Tasks](../by-focus-area/agentic-systems.md#meta-r-training-ai-agents-to-solve-unfamiliar-tasks) | `meta-r-training-ai-agents-to-solve-unfamiliar-tasks` |
 | ? | [Using Multi Agent Reinforcement Learning To Improve Collaboration](../by-focus-area/agentic-systems.md#meta-r-using-multi-agent-reinforcement-learning-to-improve-collaboration) | `meta-r-using-multi-agent-reinforcement-learning-to-improve-collaboration` |

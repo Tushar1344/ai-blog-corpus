@@ -2,40 +2,59 @@
 
 New eval suites, benchmark analyses, eval methodology (SWE-bench, Tau-Bench, BrowseComp, GPQA, HELM, etc.).
 
-**Post count:** 83
+**Post count:** 87
 
 **Contributors:**
 
 - Hugging Face: 41
-- OpenAI: 12
-- Databricks Mosaic AI: 8
+- OpenAI: 11
+- Databricks Mosaic AI: 9
+- Anthropic: 8
 - Meta AI / FAIR: 7
-- Anthropic: 6
-- Google DeepMind: 3
+- Google DeepMind: 4
+- Cursor: 2
 - Allen Institute for AI: 2
-- Cursor: 1
 - Vercel: 1
 - Cognition: 1
 - Google Research: 1
 
 **Subcategories:**
 
-- [Agent evaluations](#agent-evals) (4)
-- [Coding evaluations](#coding-evals) (6)
-- [Reasoning & math evaluations](#reasoning-evals) (2)
+- [Agent evaluations](#agent-evals) (6)
+- [Coding evaluations](#coding-evals) (7)
+- [Reasoning & math evaluations](#reasoning-evals) (3)
 - [Leaderboards & community evals](#leaderboards-and-community-evals) (27)
 - [Judge models & eval methodology](#judge-models-and-methodology) (10)
-- [Eval systems & harnesses](#eval-systems-and-harnesses) (7)
-- [Benchmark releases](#benchmark-release) (2)
-- [Domain-specific evals (speech, vision, science, medical)](#domain-specific-evals) (9)
-- [Benchmark critique](#benchmark-critique) (4)
-- [Other evaluations & benchmarks](#fallback-evals) (12)
+- [Eval systems & harnesses](#eval-systems-and-harnesses) (11)
+- [Benchmark releases](#benchmark-release) (6)
+- [Domain-specific evals (speech, vision, science, medical)](#domain-specific-evals) (11)
+- [Benchmark critique](#benchmark-critique) (5)
 
 ---
 
 ## <a id="agent-evals"></a>Agent evaluations
 
-_4 posts_
+_6 posts_
+
+### AGENTS.md outperforms skills in our agent evals
+
+- **ID:** `vcl-e-agents-md-outperforms-skills-in-our-agent-evals`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
+- **Date:** 2026-01-27
+- **Authors:** Jude Gao
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+**Summary:**
+
+- Vercel built evals focused on Next.js 16 APIs and compared Skills (bundled prompts/tools/docs) against an embedded AGENTS.md approach
+- finding: an 8KB compressed docs index in AGENTS.md hit 100% pass rate vs Skills maxing at 79% even with explicit invocation instructions
+- without explicit instructions, Skills performed no better than no docs at all
+- reframes 'always-on context' vs on-demand skills trade-off for framework-specific knowledge
+- practical evidence for context-engineering choices in coding agents.
+
 
 ### Introducing OfficeQA: A Benchmark for End-to-End Grounded Reasoning
 
@@ -87,9 +106,27 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Evaluating Multimodal Interactive Agents
+
+- **ID:** `dm-r-evaluating-multimodal-interactive-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/evaluating-multimodal-interactive-agents/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind proposes the Standardised Test Suite (STS) for evaluating multimodal interactive agents in temporally extended 3D human interactions
+- replays behavioral scenarios mined from real human-human interactions, lets the agent take control to finish the interaction, and has human raters annotate success
+- rank agents by success rate across scenarios
+- argues Atari-style RL metrics don't work for fluid human interaction
+- classic agent-evals methodology contribution.
+
+
 ## <a id="coding-evals"></a>Coding evaluations
 
-_6 posts_
+_7 posts_
 
 ### How we compare model quality in Cursor We use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do. Naman Jain ·
 
@@ -102,6 +139,26 @@ _6 posts_
 - **Techniques:** coding-agents, evals-eval-harness
 
 _Summary pending — see link for details._
+
+
+### Designing AI resistant technical evaluations
+
+- **ID:** `ant-e-ai-resistant-technical-evaluations`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+- **Date:** 2026-01-21
+- **Authors:** Tristan Hume
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Case study on redesigning a performance-engineering take-home test across three iterations as Claude models (Opus 4, 4.5) beat the prior version
+- Candidates optimize code for a simulated accelerator
+- over 1,000 have taken it and dozens now work at Anthropic
+- Each Claude upgrade forced changes because Claude could match or beat top humans in the time limit
+- Discusses what makes evaluations robust (or not) to AI assistance and releases the original take-home as an open challenge
+- Relevant to designing AI-resistant hiring/coding evals in the agent era.
 
 
 ### Claude SWE-Bench Performance
@@ -169,7 +226,7 @@ _Summary pending — see link for details._
 
 ## <a id="reasoning-evals"></a>Reasoning & math evaluations
 
-_2 posts_
+_3 posts_
 
 ### What's going on with the Open LLM Leaderboard?
 
@@ -181,6 +238,24 @@ _2 posts_
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
+
+
+### Solving math word problems
+
+- **ID:** `oai-r-solving-math-word-problems`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/solving-math-word-problems/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces GSM8K dataset (8.5K grade-school math word problems, 2-8 reasoning steps)
+- Trains verifiers that rank 100 candidate solutions, selecting the highest-rated — gives roughly a 30x effective-model-size boost (6B verifier beats fine-tuned 175B)
+- Demonstrates that verification scales better with data than pure fine-tuning
+- Canonical reasoning benchmark + a precursor to process-reward-modeling and best-of-N approaches
+- Matters for evaluating and improving multistep mathematical reasoning in LLMs.
 
 
 ### Olmo 1 7 7B A 24 Point Improvement On Mmlu 92B43F7D269D
@@ -650,7 +725,7 @@ _Summary pending — see link for details._
 
 ## <a id="eval-systems-and-harnesses"></a>Eval systems & harnesses
 
-_7 posts_
+_11 posts_
 
 ### Demystifying evals for AI agents
 
@@ -705,6 +780,23 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Llama 2 on Amazon SageMaker a Benchmark
+
+- **ID:** `hf-r-llama-sagemaker-benchmark`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/llama-sagemaker-benchmark
+- **Date:** 2023-09-26
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- HF benchmarks Llama 2 deployment on Amazon SageMaker with HF LLM Inference Container across 60+ configs
+- measures latency (ms/token) and throughput (tok/s) to identify best deployments for three profiles: cost-effective, lowest-latency, highest-throughput
+- publishes code, raw data, and spreadsheet for reproducibility
+- infrastructure/eval harness oriented rather than model-capability benchmarking.
+
+
 ### End-to-End Secure Evaluation of Code Generation Models
 
 - **ID:** `dbx-r-secure-code-evaluation`
@@ -732,6 +824,59 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB
+
+- **ID:** `hf-r-habana-gaudi-2-benchmark`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/habana-gaudi-2-benchmark
+- **Date:** 2022-12-14
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Hardware benchmark comparing Habana Gaudi2 vs Gaudi vs Nvidia A100 80GB on BERT pretraining, Stable Diffusion inference, and T5-3B fine-tuning using Optimum Habana
+- spoiler claim: Gaudi2 ~2x faster than A100 80GB for both training and inference
+- walks through Intel Developer Cloud access and Optimum Habana workflow
+- primarily an infra/hardware benchmark rather than model-capability eval.
+
+
+### Very Large Language Models and How to Evaluate Them
+
+- **ID:** `hf-r-zero-shot-eval-on-the-hub`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/zero-shot-eval-on-the-hub
+- **Date:** 2022-10-03
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Adds zero-shot evaluation for causal LMs to HF 'Evaluation on the Hub' powered by AutoTrain
+- motivated by efforts like the Inverse Scaling Prize where zero-shot measurement across model sizes is central
+- enables any causal LM on the Hub to be evaluated zero-shot without writing code, including 66B-param models that normally take 35+ minutes just to load
+- infrastructure is upgraded to do this for free
+- eval harness/tooling contribution.
+
+
+### Announcing Evaluation on the Hub
+
+- **ID:** `hf-r-eval-on-the-hub`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/eval-on-the-hub
+- **Date:** 2022-06-28
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Announces Evaluation on the Hub (AutoTrain-powered) letting users evaluate any model on any dataset on the Hub with no code
+- motivation is the reproducibility/evaluation crisis: inconsistent implementations, self-reported results, metric sprawl
+- goal is community best-practices and lowering friction
+- (archived as of Nov 2023 with pointer to leaderboards collection)
+- eval systems/harness post.
+
+
 ### Evaluating AI’s ability to perform scientific research tasks
 
 - **ID:** `oai-r-frontierscience`
@@ -746,7 +891,44 @@ _Summary pending — see link for details._
 
 ## <a id="benchmark-release"></a>Benchmark releases
 
-_2 posts_
+_6 posts_
+
+### MTEB: Massive Text Embedding Benchmark
+
+- **ID:** `hf-r-mteb`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/mteb
+- **Date:** 2022-10-19
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Introduces MTEB (Massive Text Embedding Benchmark): 56 datasets across 8 embedding tasks (retrieval, STS, classification, clustering, reranking, etc.) with 2000+ results on the leaderboard
+- multilingual coverage up to 112 languages on Bitext Mining/Classification/STS
+- extensible design for new tasks/datasets
+- paper analyzes leaderboard results and model trade-offs
+- canonical benchmark-release post.
+
+
+### Measuring the performance of our models on real-world tasks
+
+- **ID:** `oai-r-gdpval`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gdpval/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces GDPval, a benchmark of 1,320 economically-valuable tasks (220 in an open gold set) across 44 occupations in the top 9 US GDP industries
+- Tasks drawn from real professional work products (legal briefs, engineering blueprints, nursing care plans, etc.) vetted by experts with 14+ years experience
+- Goes beyond academic benchmarks (MMLU, SWE-Bench) to economically realistic knowledge work
+- One-shot only in v1
+- deliverables span docs, slides, spreadsheets, diagrams, multimedia
+- Intended to ground discussions of AI's real-world capability and economic impact.
+
 
 ### Gotta Learn Fast: A new benchmark for generalization in RL
 
@@ -759,6 +941,42 @@ _2 posts_
 - **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
+
+
+### GamePad: A learning environment for theorem proving
+
+- **ID:** `oai-r-gamepad`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gamepad/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces GamePad, a Coq-based learning environment for ML-driven theorem proving
+- Trains baselines on Feit-Thompson formalization for position evaluation and tactic prediction
+- Supports supervised step-by-step proof construction with machine-checkable proofs
+- Provides a platform for studying interactive theorem proving with human supervision
+- Matters as foundational environment for later neural theorem provers.
+
+
+### Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning
+
+- **ID:** `meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Title-only: Meta FAIR introduces CTrL benchmark and MNTDP model for continual learning
+- frames as open-source benchmark + model release
+- content blocked by Facebook login
+- likely covers transfer and interference across task sequences and a modular network approach (Modular Networks with Task-Driven Prior)
+- classified as benchmark-release due to 'new open source benchmark' wording.
 
 
 ### Introducing The Temporal Data Set A Benchmark For Recognizing Actions In Videos
@@ -775,7 +993,48 @@ _Summary pending — see link for details._
 
 ## <a id="domain-specific-evals"></a>Domain-specific evals (speech, vision, science, medical)
 
-_9 posts_
+_11 posts_
+
+### Better AI models enable more ambitious work
+
+- **ID:** `cur-r-better-models-ambitious-work`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/better-models-ambitious-work
+- **Date:** 2026-04-15
+- **Authors:** Luke Melas-Kyriazi
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+**Summary:**
+
+- Cursor and Prof. Suproteem Sarkar (Chicago Booth) study 500 companies using Cursor from July 2025-March 2026 across Opus 4.5 and GPT-5.2 releases
+- AI usage grew 44% (avg weekly messages per user)
+- Developers first did more work of similar complexity, later took on harder tasks
+- Finance, media, software led adoption with 45-54% growth
+- Jevons-like effect: better models increase AI demand rather than reducing it
+- Matters as empirical evidence on how model quality drives developer behavior
+
+
+### Long Context RAG Performance of LLMs
+
+- **ID:** `dbx-r-long-context-rag-performance-llms`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/long-context-rag-performance-llms
+- **Date:** 2024-08-12
+- **Authors:** Quinn Leng|Jacob Portes|Sam Havens|Matei Zaharia|Michael Carbin
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** long-context, retrieval-augmentation
+
+**Summary:**
+
+- Databricks ran 2000+ experiments evaluating 13 LLMs (open and commercial) on long-context RAG across 4 datasets (DocsQA, FinanceBench, HotPotQA, Natural Questions)
+- Retrieving more documents helps but most models degrade past a context length (Llama-3.1-405B after 32k, GPT-4-0125 after 64k)
+- Identifies distinct failure modes like copyright refusal or always summarizing
+- Suggests lack of long-context post-training
+- Matters for practitioners tuning RAG systems with long-context LLMs
+
 
 ### Introducing the SWE-Lancer benchmark
 
@@ -888,7 +1147,7 @@ _Summary pending — see link for details._
 
 ## <a id="benchmark-critique"></a>Benchmark critique
 
-_4 posts_
+_5 posts_
 
 ### Quantifying infrastructure noise in agentic coding evals
 
@@ -930,6 +1189,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Challenges in evaluating AI systems
+
+- **ID:** `ant-r-evaluating-ai-systems`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/evaluating-ai-systems
+- **Date:** 2023-10-04
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Policy-oriented reflection on why robust AI evaluations are hard to build
+- Walks through challenges at escalating difficulty: multiple-choice (MMLU, BBQ), third-party frameworks (BIG-bench, HELM), crowdworker red-teaming, expert national-security red-teaming, and LLM-as-evaluator
+- Concrete examples: prompt-format sensitivity changing MMLU accuracy ~5%, BBQ bias-score misinterpretation when models weren't answering at all
+- Concludes with policy recommendations for governance
+- Foundational critique of evaluation methodology.
+
+
 ### Why SWE-bench Verified no longer measures frontier coding capabilities
 
 - **ID:** `oai-r-why-we-no-longer-evaluate-swe-bench-verified`
@@ -939,157 +1216,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** dataset-benchmark
 - **Techniques:** coding-agents, SWE-bench
-
-_Summary pending — see link for details._
-
-
-## <a id="fallback-evals"></a>Other evaluations & benchmarks
-
-_12 posts_
-
-### AGENTS.md outperforms skills in our agent evals
-
-- **ID:** `vcl-e-agents-md-outperforms-skills-in-our-agent-evals`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
-- **Date:** 2026-01-27
-- **Authors:** Jude Gao
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
-
-_Summary pending — see link for details._
-
-
-### Llama 2 on Amazon SageMaker a Benchmark
-
-- **ID:** `hf-r-llama-sagemaker-benchmark`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/llama-sagemaker-benchmark
-- **Date:** 2023-09-26
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB
-
-- **ID:** `hf-r-habana-gaudi-2-benchmark`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/habana-gaudi-2-benchmark
-- **Date:** 2022-12-14
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### MTEB: Massive Text Embedding Benchmark
-
-- **ID:** `hf-r-mteb`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/mteb
-- **Date:** 2022-10-19
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Very Large Language Models and How to Evaluate Them
-
-- **ID:** `hf-r-zero-shot-eval-on-the-hub`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/zero-shot-eval-on-the-hub
-- **Date:** 2022-10-03
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Announcing Evaluation on the Hub
-
-- **ID:** `hf-r-eval-on-the-hub`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/eval-on-the-hub
-- **Date:** 2022-06-28
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Measuring the performance of our models on real-world tasks
-
-- **ID:** `oai-r-gdpval`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gdpval/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Solving math word problems
-
-- **ID:** `oai-r-solving-math-word-problems`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/solving-math-word-problems/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GamePad: A learning environment for theorem proving
-
-- **ID:** `oai-r-gamepad`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gamepad/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Scaling laws for reward model overoptimization
-
-- **ID:** `oai-r-scaling-laws-for-reward-model-overoptimization`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-laws-for-reward-model-overoptimization/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** new-method
-- **Techniques:** RLHF, reward-modeling, scaling-laws
-
-_Summary pending — see link for details._
-
-
-### Generative language modeling for automated theorem proving
-
-- **ID:** `oai-r-generative-language-modeling-for-automated-theorem-proving`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/generative-language-modeling-for-automated-theorem-proving/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning
-
-- **ID:** `meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 

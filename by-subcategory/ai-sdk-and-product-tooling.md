@@ -1,6 +1,6 @@
 # AI SDK & product tooling (Vercel v0, AI SDK)
 
-**Post count:** 16  |  **Focus area:** Harness & Context Engineering ([canonical](../by-focus-area/harness-and-context-engineering.md#ai-sdk-and-product-tooling))
+**Post count:** 18  |  **Focus area:** Harness & Context Engineering ([canonical](../by-focus-area/harness-and-context-engineering.md#ai-sdk-and-product-tooling))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -18,5 +18,7 @@
 | 2024-09-20 | Vercel | [AI SDK 3.4](../by-focus-area/harness-and-context-engineering.md#vcl-a-ai-sdk-3-4) | `vcl-a-ai-sdk-3-4` |
 | 2024-08-15 | Vercel | [Using the AI SDK to fix edge-case errors in our code](../by-focus-area/harness-and-context-engineering.md#vcl-a-using-the-ai-sdk-to-fix-edge-case-errors-in-our-code) | `vcl-a-using-the-ai-sdk-to-fix-edge-case-errors-in-our-code` |
 | 2024-08-06 | Vercel | [Vercel AI SDK 3.3](../by-focus-area/harness-and-context-engineering.md#vcl-a-vercel-ai-sdk-3-3) | `vcl-a-vercel-ai-sdk-3-3` |
+| 2024-05-23 | Databricks Mosaic AI | [Optimizing Databricks LLM Pipelines with DSPy](../by-focus-area/harness-and-context-engineering.md#dbx-r-optimizing-databricks-llm-pipelines-dspy) | `dbx-r-optimizing-databricks-llm-pipelines-dspy` |
 | 2024-05-02 | Vercel | [Vercel AI SDK 3.1: ModelFusion joins the team](../by-focus-area/harness-and-context-engineering.md#vcl-a-vercel-ai-sdk-3-1-modelfusion-joins-the-team) | `vcl-a-vercel-ai-sdk-3-1-modelfusion-joins-the-team` |
 | 2024-04-09 | Vercel | [Composable AI for ecommerce: Hands-on with Vercel’s AI SDK](../by-focus-area/harness-and-context-engineering.md#vcl-a-composable-ai-for-ecommerce-hands-on-with-vercels-ai-sdk) | `vcl-a-composable-ai-for-ecommerce-hands-on-with-vercels-ai-sdk` |
+| 2024-04-08 | Databricks Mosaic AI | [DSPy on Databricks](../by-focus-area/harness-and-context-engineering.md#dbx-r-dspy-databricks) | `dbx-r-dspy-databricks` |

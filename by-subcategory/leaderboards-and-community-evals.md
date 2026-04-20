@@ -1,6 +1,6 @@
 # Leaderboards & community evals
 
-**Post count:** 27  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#leaderboards-and-community-evals))
+**Post count:** 28  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#leaderboards-and-community-evals))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -30,4 +30,5 @@
 | 2023-12-01 | Hugging Face | [Open LLM Leaderboard: DROP deep dive](../by-focus-area/evals-and-benchmarks.md#hf-r-open-llm-leaderboard-drop) | `hf-r-open-llm-leaderboard-drop` |
 | 2023-09-18 | Hugging Face | [Object Detection Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-object-detection-leaderboard) | `hf-r-object-detection-leaderboard` |
 | 2023-06-12 | Hugging Face | [Can foundation models label data like humans?](../by-focus-area/evals-and-benchmarks.md#hf-r-open-llm-leaderboard-rlhf) | `hf-r-open-llm-leaderboard-rlhf` |
+| 2023-02-07 | Hugging Face | [Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system](../by-focus-area/evals-and-benchmarks.md#hf-r-aivsai) | `hf-r-aivsai` |
 | ? | Allen Institute for AI | [Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B](../by-focus-area/evals-and-benchmarks.md#ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b) | `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b` |

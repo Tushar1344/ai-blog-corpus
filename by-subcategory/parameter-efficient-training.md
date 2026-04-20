@@ -1,9 +1,10 @@
 # Parameter-efficient training (LoRA/PEFT)
 
-**Post count:** 14  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#parameter-efficient-training))
+**Post count:** 15  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#parameter-efficient-training))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
+| 2026-01-26 | Databricks Mosaic AI | [Scaling Small LLMs with NVIDIA MPS](../by-focus-area/quantization-and-efficiency.md#dbx-r-scaling-small-llms-nvidia-mps) | `dbx-r-scaling-small-llms-nvidia-mps` |
 | 2025-10-21 | Databricks Mosaic AI | [Fast PEFT Serving at Scale](../by-focus-area/quantization-and-efficiency.md#dbx-e-fast-peft-serving-scale) | `dbx-e-fast-peft-serving-scale` |
 | 2025-09-29 | Thinking Machines | [LoRA Without Regret](../by-focus-area/quantization-and-efficiency.md#tm-r-lora) | `tm-r-lora` |
 | 2025-07-23 | Hugging Face | [Fast LoRA inference for Flux with Diffusers and PEFT](../by-focus-area/quantization-and-efficiency.md#hf-r-lora-fast) | `hf-r-lora-fast` |

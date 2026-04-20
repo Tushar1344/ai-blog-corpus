@@ -1,6 +1,6 @@
 # Multi-agent orchestration
 
-**Post count:** 8  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#multi-agent-orchestration))
+**Post count:** 9  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#multi-agent-orchestration))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -12,3 +12,4 @@
 | ? | Google DeepMind | [Alphastar Grandmaster Level In Starcraft Ii Using Multi Agent Reinforcement Learning](../by-focus-area/agentic-systems.md#dm-r-alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning) | `dm-r-alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning` |
 | ? | Google DeepMind | [Emergent Bartering Behaviour In Multi Agent Reinforcement Learning](../by-focus-area/agentic-systems.md#dm-r-emergent-bartering-behaviour-in-multi-agent-reinforcement-learning) | `dm-r-emergent-bartering-behaviour-in-multi-agent-reinforcement-learning` |
 | ? | Google DeepMind | [Game Theory Insights Into Asymmetric Multi Agent Games](../by-focus-area/agentic-systems.md#dm-r-game-theory-insights-into-asymmetric-multi-agent-games) | `dm-r-game-theory-insights-into-asymmetric-multi-agent-games` |
+| ? | Google DeepMind | [Understanding Agent Cooperation](../by-focus-area/agentic-systems.md#dm-r-understanding-agent-cooperation) | `dm-r-understanding-agent-cooperation` |

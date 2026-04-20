@@ -4,22 +4,17 @@
 
 Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
-## Pretraining & Architecture (36)
+## Pretraining & Architecture (31)
 
 | Date | Title | ID |
 |---|---|---|
-| 2026-01-26 | [Scaling Small LLMs with NVIDIA MPS](../by-focus-area/pretraining-and-architecture.md#dbx-r-scaling-small-llms-nvidia-mps) | `dbx-r-scaling-small-llms-nvidia-mps` |
 | 2025-12-01 | [Databricks at NeurIPS 2025](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2025) | `dbx-r-databricks-neurips-2025` |
-| 2025-04-08 | [The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)](../by-focus-area/pretraining-and-architecture.md#dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel) | `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel` |
 | 2024-12-09 | [Databricks at NeurIPS 2024](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2024) | `dbx-r-databricks-neurips-2024` |
 | 2024-11-21 | [Characterizing Datasets and Building Better Models with Continued Pre-Training](../by-focus-area/pretraining-and-architecture.md#dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training) | `dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training` |
 | 2024-10-08 | [The Long Context RAG Capabilities of OpenAI o1 and Google Gemini](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini) | `dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini` |
 | 2024-09-18 | [Inference-Friendly Models with MixAttention](../by-focus-area/pretraining-and-architecture.md#dbx-r-mixattention) | `dbx-r-mixattention` |
-| 2024-08-12 | [Long Context RAG Performance of LLMs](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-rag-performance-llms) | `dbx-r-long-context-rag-performance-llms` |
 | 2024-07-19 | [How Long Should You Train Your Language Model?](../by-focus-area/pretraining-and-architecture.md#dbx-r-how-long-should-you-train-your-language-model) | `dbx-r-how-long-should-you-train-your-language-model` |
-| 2024-05-23 | [Optimizing Databricks LLM Pipelines with DSPy](../by-focus-area/pretraining-and-architecture.md#dbx-r-optimizing-databricks-llm-pipelines-dspy) | `dbx-r-optimizing-databricks-llm-pipelines-dspy` |
 | 2024-05-14 | [Building DBRX-class Custom LLMs with Mosaic AI Training](../by-focus-area/pretraining-and-architecture.md#dbx-e-mosaic-ai-training-capabilities) | `dbx-e-mosaic-ai-training-capabilities` |
-| 2024-04-08 | [DSPy on Databricks](../by-focus-area/pretraining-and-architecture.md#dbx-r-dspy-databricks) | `dbx-r-dspy-databricks` |
 | 2023-08-24 | [Introducing Llama2-70B-Chat with MosaicML Inference](../by-focus-area/pretraining-and-architecture.md#dbx-r-llama2-inference) | `dbx-r-llama2-inference` |
 | 2023-07-18 | [Announcing MPT-7B-8K: 8K Context Length for Document Understanding](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-mpt-7b-8k) | `dbx-r-long-context-mpt-7b-8k` |
 | 2023-06-22 | [MPT-30B: Raising the bar for open-source foundation models](../by-focus-area/pretraining-and-architecture.md#dbx-r-mpt-30b) | `dbx-r-mpt-30b` |
@@ -45,18 +40,19 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Training Stable Diffusion from Scratch Costs $160k](../by-focus-area/pretraining-and-architecture.md#dbx-r-training-stable-diffusion-from-scratch-costs-160k) | `dbx-r-training-stable-diffusion-from-scratch-costs-160k` |
 | ? | [Training Stable Diffusion from Scratch (Part 2)](../by-focus-area/pretraining-and-architecture.md#dbx-r-training-stable-diffusion-from-scratch-part-2) | `dbx-r-training-stable-diffusion-from-scratch-part-2` |
 
-## Post-training & Fine-tuning (6)
+## Post-training & Fine-tuning (7)
 
 | Date | Title | ID |
 |---|---|---|
 | 2026-02-03 | [MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory) | `dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory` |
 | 2025-08-04 | [Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study) | `dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study` |
 | 2025-07-30 | [The Power of RLVR: Training a Leading SQL Reasoning Model on Databricks](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-power-rlvr-training-leading-sql-reasoning-model-databricks) | `dbx-r-power-rlvr-training-leading-sql-reasoning-model-databricks` |
+| 2025-04-08 | [The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel) | `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel` |
 | 2025-03-25 | [TAO: Using test-time compute to train efficient LLMs without labeled data](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-tao-using-test-time-compute-train-efficient-llms-without-labeled-data) | `dbx-r-tao-using-test-time-compute-train-efficient-llms-without-labeled-data` |
 | 2024-02-27 | [Fine-Grained Human Feedback](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-fine-grained-human-feedback) | `dbx-r-fine-grained-human-feedback` |
 | 2024-02-10 | [LIMIT: Less Is More for Instruction Tuning](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-limit-less-more-instruction-tuning) | `dbx-r-limit-less-more-instruction-tuning` |
 
-## Evaluations & Benchmarks (8)
+## Evaluations & Benchmarks (9)
 
 | Date | Title | ID |
 |---|---|---|
@@ -65,14 +61,16 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2025-08-12 | [Judging with Confidence: Meet PGRM, the Promptable Reward Model](../by-focus-area/evals-and-benchmarks.md#dbx-r-judging-confidence-meet-pgrm-promptable-reward-model) | `dbx-r-judging-confidence-meet-pgrm-promptable-reward-model` |
 | 2024-12-17 | [Benchmarking Domain Intelligence](../by-focus-area/evals-and-benchmarks.md#dbx-r-benchmarking-domain-intelligence) | `dbx-r-benchmarking-domain-intelligence` |
 | 2024-08-16 | [Beyond the Leaderboard: Unpacking Function Calling Evaluation](../by-focus-area/evals-and-benchmarks.md#dbx-r-unpacking-function-calling-eval) | `dbx-r-unpacking-function-calling-eval` |
+| 2024-08-12 | [Long Context RAG Performance of LLMs](../by-focus-area/evals-and-benchmarks.md#dbx-r-long-context-rag-performance-llms) | `dbx-r-long-context-rag-performance-llms` |
 | 2024-04-30 | [Calibrating the Mosaic Evaluation Gauntlet](../by-focus-area/evals-and-benchmarks.md#dbx-r-calibrating-mosaic-evaluation-gauntlet) | `dbx-r-calibrating-mosaic-evaluation-gauntlet` |
 | 2023-08-10 | [End-to-End Secure Evaluation of Code Generation Models](../by-focus-area/evals-and-benchmarks.md#dbx-r-secure-code-evaluation) | `dbx-r-secure-code-evaluation` |
 | 2023-02-02 | [Blazingly Fast LLM Evaluation for In-Context Learning](../by-focus-area/evals-and-benchmarks.md#dbx-r-llm-evaluation-for-icl) | `dbx-r-llm-evaluation-for-icl` |
 
-## Quantization & Efficiency (2)
+## Quantization & Efficiency (3)
 
 | Date | Title | ID |
 |---|---|---|
+| 2026-01-26 | [Scaling Small LLMs with NVIDIA MPS](../by-focus-area/quantization-and-efficiency.md#dbx-r-scaling-small-llms-nvidia-mps) | `dbx-r-scaling-small-llms-nvidia-mps` |
 | 2025-10-21 | [Fast PEFT Serving at Scale](../by-focus-area/quantization-and-efficiency.md#dbx-e-fast-peft-serving-scale) | `dbx-e-fast-peft-serving-scale` |
 | 2024-03-21 | [Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8](../by-focus-area/quantization-and-efficiency.md#dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8) | `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8` |
 
@@ -86,12 +84,14 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2026-01-06 | [Instructed Retriever: Unlocking System-Level Reasoning in Search Agents](../by-focus-area/agentic-systems.md#dbx-r-instructed-retriever-unlocking-system-level-reasoning-search-agents) | `dbx-r-instructed-retriever-unlocking-system-level-reasoning-search-agents` |
 | 2025-09-24 | [Building State-of-the-Art Enterprise Agents 90x Cheaper with Automated Prompt Optimization](../by-focus-area/agentic-systems.md#dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization) | `dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization` |
 
-## Harness & Context Engineering (19)
+## Harness & Context Engineering (21)
 
 | Date | Title | ID |
 |---|---|---|
 | 2024-07-01 | [Training MoEs at Scale with PyTorch and Databricks](../by-focus-area/harness-and-context-engineering.md#dbx-e-training-moes-scale-pytorch-and-databricks) | `dbx-e-training-moes-scale-pytorch-and-databricks` |
+| 2024-05-23 | [Optimizing Databricks LLM Pipelines with DSPy](../by-focus-area/harness-and-context-engineering.md#dbx-r-optimizing-databricks-llm-pipelines-dspy) | `dbx-r-optimizing-databricks-llm-pipelines-dspy` |
 | 2024-04-09 | [Bringing MegaBlocks to Databricks](../by-focus-area/harness-and-context-engineering.md#dbx-e-bringing-megablocks-databricks) | `dbx-e-bringing-megablocks-databricks` |
+| 2024-04-08 | [DSPy on Databricks](../by-focus-area/harness-and-context-engineering.md#dbx-r-dspy-databricks) | `dbx-r-dspy-databricks` |
 | 2024-03-20 | [Fast, Secure and Reliable: Enterprise-grade LLM Inference](../by-focus-area/harness-and-context-engineering.md#dbx-e-fast-secure-and-reliable-enterprise-grade-llm-inference) | `dbx-e-fast-secure-and-reliable-enterprise-grade-llm-inference` |
 | 2024-01-04 | [LLM Training and Inference with Intel Gaudi 2 AI Accelerators](../by-focus-area/harness-and-context-engineering.md#dbx-e-llm-training-and-inference-intel-gaudi2-ai-accelerators) | `dbx-e-llm-training-and-inference-intel-gaudi2-ai-accelerators` |
 | 2023-10-30 | [Training LLMs at Scale with AMD MI250 GPUs](../by-focus-area/harness-and-context-engineering.md#dbx-e-training-llms-scale-amd-mi250-gpus) | `dbx-e-training-llms-scale-amd-mi250-gpus` |

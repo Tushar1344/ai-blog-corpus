@@ -2,30 +2,28 @@
 
 Agent scaffolding, context engineering, long-running harnesses, prompt caching strategy, agent skills, MCP integrations.
 
-**Post count:** 71
+**Post count:** 74
 
 **Contributors:**
 
 - Vercel: 22
-- Databricks Mosaic AI: 19
-- Anthropic: 12
+- Databricks Mosaic AI: 21
+- Anthropic: 11
 - Hugging Face: 9
 - OpenAI: 5
-- Cursor: 2
+- Cursor: 4
 - Cognition: 2
 
 **Subcategories:**
 
 - [MCP & tool protocols](#mcp-and-tool-protocols) (17)
 - [Product engineering case studies (Codex, Sora, Atlas)](#codex-and-sora-harness) (6)
-- [Long-running harnesses](#long-running-harnesses) (3)
-- [Context engineering](#context-engineering) (2)
+- [Long-running harnesses](#long-running-harnesses) (5)
+- [Context engineering](#context-engineering) (3)
 - [Scaffolding patterns](#scaffolding-patterns) (1)
 - [Agent skills & prompt libraries](#agent-skills-and-prompt-libraries) (1)
-- [AI SDK & product tooling (Vercel v0, AI SDK)](#ai-sdk-and-product-tooling) (16)
+- [AI SDK & product tooling (Vercel v0, AI SDK)](#ai-sdk-and-product-tooling) (18)
 - [Workflow agents (data analyst, code review, Bugbot)](#data-analyst-and-workflow-agents) (4)
-- [Databricks training stack (misplaced; should be pretraining/training-stack)](#databricks-training-stack-misc) (12)
-- [Other harness & context engineering](#fallback-harness) (9)
 
 ---
 
@@ -331,7 +329,7 @@ _Summary pending — see link for details._
 
 ## <a id="long-running-harnesses"></a>Long-running harnesses
 
-_3 posts_
+_5 posts_
 
 ### Harness design for long-running application development
 
@@ -344,6 +342,45 @@ _3 posts_
 - **Contribution type:** dataset-benchmark
 
 _Summary pending — see link for details._
+
+
+### Expanding our long-running agents research preview
+
+- **ID:** `cur-e-long-running-agents`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/long-running-agents
+- **Date:** 2026-02-12
+- **Authors:** Cursor Team
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+**Summary:**
+
+- Cursor expands long-running agents research preview to all Ultra/Teams/Enterprise users at cursor.com/agents
+- Custom harness tackles frontier-model failures on long-horizon tasks seen in their web-browser experiment
+- Example runs: 36-hour new chat platform build, 30-hour mobile port, 25-hour auth/RBAC refactor
+- Principles include planning before execution and model-specific scaffolding
+- Matters as productionization of long-horizon agent harness with PR-merge-rate parity to shorter agents
+
+
+### Scaling Managed Agents: Decoupling the brain from the hands
+
+- **ID:** `ant-e-managed-agents`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/managed-agents
+- **Date:** 2026-02-04
+- **Authors:** Lance Martin|Gabe Cemaj|Michael Cohen
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces Anthropic's Managed Agents: a hosted service running long-horizon agent work behind stable interfaces
+- Decouples 'brain' (Claude + harness) from 'hands' (sandbox/tools) and 'session' (event log) so each can fail or be replaced independently
+- Argues harness assumptions go stale as models improve (e.g., context resets no longer needed on Opus 4.5), so interfaces should outlast implementations
+- Applies OS-style virtualization (process/file analogs) to agents: session, harness, sandbox as swappable components
+- Matters for building durable, maintainable agent infrastructure in production.
 
 
 ### Harness engineering: leveraging Codex in an agent-first world
@@ -373,7 +410,27 @@ _Summary pending — see link for details._
 
 ## <a id="context-engineering"></a>Context engineering
 
-_2 posts_
+_3 posts_
+
+### Fast regex search: indexing text for agent tools
+
+- **ID:** `cur-r-fast-regex-search`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/fast-regex-search
+- **Date:** 2026-03-23
+- **Authors:** Vicent Marti
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+**Summary:**
+
+- Cursor research on indexing text to accelerate agent regex search
+- Notes agents love to use grep despite decades of more specialized tools (ctags, LSP)
+- Cursor default harness uses ripgrep but filesystem I/O is bottleneck
+- Describes building an index that enables agent tools to run regex queries far faster than traditional ripgrep-over-files
+- Matters as concrete context-engineering optimization for coding-agent tool call latency
+
 
 ### Effective context engineering for AI agents
 
@@ -436,7 +493,7 @@ _Summary pending — see link for details._
 
 ## <a id="ai-sdk-and-product-tooling"></a>AI SDK & product tooling (Vercel v0, AI SDK)
 
-_16 posts_
+_18 posts_
 
 ### A new programming model for durable execution
 
@@ -620,6 +677,25 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Optimizing Databricks LLM Pipelines with DSPy
+
+- **ID:** `dbx-r-optimizing-databricks-llm-pipelines-dspy`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/optimizing-databricks-llm-pipelines-dspy
+- **Date:** 2024-05-23
+- **Authors:** Arnav Singhvi|Daniel Pechi (JetBlue)
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Databricks post introduces DSPy (from Matei Zaharia's Stanford lab) for compiling declarative LLM calls into self-improving pipelines
+- Walks through building a custom multi-tool LLM agent using Databricks Marketplace models in DSPy
+- Shows deployment via Databricks Model Serving
+- Case study: JetBlue using DSPy for customer feedback classification and RAG-powered predictive maintenance chatbots
+- Matters as an end-to-end pattern replacing manual prompt tuning
+
+
 ### Vercel AI SDK 3.1: ModelFusion joins the team
 
 - **ID:** `vcl-a-vercel-ai-sdk-3-1-modelfusion-joins-the-team`
@@ -644,6 +720,25 @@ _Summary pending — see link for details._
 - **Contribution type:** infra-release
 
 _Summary pending — see link for details._
+
+
+### DSPy on Databricks
+
+- **ID:** `dbx-r-dspy-databricks`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/dspy-databricks
+- **Date:** 2024-04-08
+- **Authors:** Arnav Singhvi|Michael Carbin|Matei Zaharia
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Short announcement that DSPy now integrates with Databricks Model Serving and Vector Search
+- Supports DBRX Instruct, Mixtral-8x7B, Llama 2 70B Chat, MPT 7B, BGE Large embeddings via dspy.Databricks
+- Adds dspy.DatabricksRM for retriever endpoints
+- Enables end-to-end DSPy evaluation on Databricks-hosted models for RAG and other pipelines
+- Matters as first-class integration of DSPy compilation with Databricks endpoints
 
 
 ## <a id="data-analyst-and-workflow-agents"></a>Workflow agents (data analyst, code review, Bugbot)
@@ -698,281 +793,6 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-23
 - **Track:** engineering
 - **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-## <a id="databricks-training-stack-misc"></a>Databricks training stack (misplaced; should be pretraining/training-stack)
-
-_12 posts_
-
-### Training MoEs at Scale with PyTorch and Databricks
-
-- **ID:** `dbx-e-training-moes-scale-pytorch-and-databricks`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/training-moes-scale-pytorch-and-databricks
-- **Date:** 2024-07-01
-- **Authors:** Brian Chu|Mihir Patel|Vitaliy Chiley|Evan Racah
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Bringing MegaBlocks to Databricks
-
-- **ID:** `dbx-e-bringing-megablocks-databricks`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/bringing-megablocks-databricks
-- **Date:** 2024-04-09
-- **Authors:** Mihir Patel|Trevor Gale|Vitaliy Chiley
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Fast, Secure and Reliable: Enterprise-grade LLM Inference
-
-- **ID:** `dbx-e-fast-secure-and-reliable-enterprise-grade-llm-inference`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/fast-secure-and-reliable-enterprise-grade-llm-inference
-- **Date:** 2024-03-20
-- **Authors:** Linden Li|Jeffrey Chen|Megha Agarwal|Margaret Qian|Daya Khudia
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### LLM Training and Inference with Intel Gaudi 2 AI Accelerators
-
-- **ID:** `dbx-e-llm-training-and-inference-intel-gaudi2-ai-accelerators`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/llm-training-and-inference-intel-gaudi2-ai-accelerators
-- **Date:** 2024-01-04
-- **Authors:** Abhi Venigalla|Daya Khudia
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Training LLMs at Scale with AMD MI250 GPUs
-
-- **ID:** `dbx-e-training-llms-scale-amd-mi250-gpus`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/training-llms-scale-amd-mi250-gpus
-- **Date:** 2023-10-30
-- **Authors:** Abhi Venigalla
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### LLM Training on Unity Catalog data with MosaicML Streaming Dataset
-
-- **ID:** `dbx-e-llm-training-unity-catalog-data-mosaicml-streaming-dataset`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/llm-training-unity-catalog-data-mosaicml-streaming-dataset
-- **Date:** 2023-10-17
-- **Authors:** Xiaohan Zhang|Maddie Dawson|Karan Jariwala
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-
-_Summary pending — see link for details._
-
-
-### LLM Inference Performance Engineering: Best Practices
-
-- **ID:** `dbx-e-llm-inference-performance-engineering-best-practices`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices
-- **Date:** 2023-10-12
-- **Authors:** Megha Agarwal|Asfandyar Qureshi|Nikhil Sardana|Linden Li|Julian Quevedo|Daya Khudia
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Training LLMs with AMD MI250 GPUs and MosaicML
-
-- **ID:** `dbx-e-amd-mi250`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/amd-mi250
-- **Date:** 2023-06-30
-- **Authors:** Abhi Venigalla
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Cloudflare R2 and MosaicML: Train LLMs on Any Compute with Zero Switching Costs
-
-- **ID:** `dbx-e-cloudflare-r2-mosaicml`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/cloudflare-r2-mosaicml
-- **Date:** 2023-05-23
-- **Authors:** Abhinav Venigalla
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### How We Trained Stable Diffusion for Less than $50k (Part 3)
-
-- **ID:** `dbx-r-diffusion`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/diffusion
-- **Date:** 2023-04-28
-- **Authors:** Mihir Patel|Erica Ji Yuen|Cory Stephenson|Landan Seguin
-- **Track:** research
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### Farewell, CUDA OOM: Automatic Gradient Accumulation
-
-- **ID:** `dbx-e-farewell-oom`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/farewell-oom
-- **Date:** 2022-06-23
-- **Authors:** Mihir Patel|Erica Ji Yuen
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** training-dynamics
-
-_Summary pending — see link for details._
-
-
-### How We Trained Stable Diffusion for Less than $50k (Part 1)
-
-- **ID:** `dbx-r-stable-diffusion-1`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/stable-diffusion-1
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-## <a id="fallback-harness"></a>Other harness & context engineering
-
-_9 posts_
-
-### Scaling Managed Agents: Decoupling the brain from the hands
-
-- **ID:** `ant-e-managed-agents`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/managed-agents
-- **Date:** 2026-02-04
-- **Authors:** Lance Martin|Gabe Cemaj|Michael Cohen
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Designing AI resistant technical evaluations
-
-- **ID:** `ant-e-ai-resistant-technical-evaluations`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
-- **Date:** 2026-01-21
-- **Authors:** Tristan Hume
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Mosaic LLMs (Part 1): Billion-Parameter GPT Training Made Easy
-
-- **ID:** `dbx-e-billion-parameter-gpt-training-made-easy`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/billion-parameter-gpt-training-made-easy
-- **Date:** 2022-08-11
-- **Authors:** Abhi Venigalla|Linden Li
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Composer on AWS
-
-- **ID:** `dbx-e-aws-composer`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/aws-composer
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Composer 0.10 Release
-
-- **ID:** `dbx-e-composer-0-10-release`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/composer-0-10-release
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Composer 0.11 Release
-
-- **ID:** `dbx-e-composer-0-11-release`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/composer-0-11-release
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Composer 0.9 Release
-
-- **ID:** `dbx-e-composer-0-9-release`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/composer-0-9-release
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Composer + FFCV: Faster Together
-
-- **ID:** `dbx-e-composer-ffcv-faster-together`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/composer-ffcv-faster-together
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Supercharge Training with Composer
-
-- **ID:** `dbx-e-supercharge-training-composer`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/supercharge-training-composer
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** infra-release
 
 _Summary pending — see link for details._
 

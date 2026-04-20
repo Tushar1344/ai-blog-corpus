@@ -1,6 +1,6 @@
 # Responsible scaling & safety policy
 
-**Post count:** 25  |  **Focus area:** Alignment & Safety ([canonical](../by-focus-area/alignment-and-safety.md#responsible-scaling-and-policy))
+**Post count:** 31  |  **Focus area:** Alignment & Safety ([canonical](../by-focus-area/alignment-and-safety.md#responsible-scaling-and-policy))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -17,9 +17,15 @@
 | ? | OpenAI | [Inside our approach to the Model Spec](../by-focus-area/alignment-and-safety.md#oai-r-our-approach-to-the-model-spec) | `oai-r-our-approach-to-the-model-spec` |
 | ? | OpenAI | [Our updated Preparedness Framework](../by-focus-area/alignment-and-safety.md#oai-r-updating-our-preparedness-framework) | `oai-r-updating-our-preparedness-framework` |
 | ? | OpenAI | [Democratic inputs to AI](../by-focus-area/alignment-and-safety.md#oai-r-democratic-inputs-to-ai) | `oai-r-democratic-inputs-to-ai` |
+| ? | OpenAI | [Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk](../by-focus-area/alignment-and-safety.md#oai-r-forecasting-misuse) | `oai-r-forecasting-misuse` |
+| ? | OpenAI | [A hazard analysis framework for code synthesis large language models](../by-focus-area/alignment-and-safety.md#oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models) | `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models` |
+| ? | OpenAI | [Preparing for malicious uses of AI](../by-focus-area/alignment-and-safety.md#oai-r-preparing-for-malicious-uses-of-ai) | `oai-r-preparing-for-malicious-uses-of-ai` |
 | ? | OpenAI | [Why responsible AI development needs cooperation on safety](../by-focus-area/alignment-and-safety.md#oai-r-cooperation-on-safety) | `oai-r-cooperation-on-safety` |
 | ? | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/alignment-and-safety.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
+| ? | OpenAI | [Improving verifiability in AI development](../by-focus-area/alignment-and-safety.md#oai-r-improving-verifiability) | `oai-r-improving-verifiability` |
 | ? | OpenAI | [Collective alignment: public input on our Model Spec](../by-focus-area/alignment-and-safety.md#oai-r-collective-alignment-aug-2025-updates) | `oai-r-collective-alignment-aug-2025-updates` |
+| ? | OpenAI | [Frontier AI regulation: Managing emerging risks to public safety](../by-focus-area/alignment-and-safety.md#oai-r-frontier-ai-regulation) | `oai-r-frontier-ai-regulation` |
+| ? | OpenAI | [Advancing independent research on AI alignment](../by-focus-area/alignment-and-safety.md#oai-r-advancing-independent-research-ai-alignment) | `oai-r-advancing-independent-research-ai-alignment` |
 | ? | Meta AI / FAIR | [Facebooks Five Pillars Of Responsible Ai](../by-focus-area/alignment-and-safety.md#meta-r-facebooks-five-pillars-of-responsible-ai) | `meta-r-facebooks-five-pillars-of-responsible-ai` |
 | ? | Meta AI / FAIR | [Fair Progress And Learnings Across Socially Responsible Ai Research](../by-focus-area/alignment-and-safety.md#meta-r-fair-progress-and-learnings-across-socially-responsible-ai-research) | `meta-r-fair-progress-and-learnings-across-socially-responsible-ai-research` |
 | ? | Meta AI / FAIR | [Responsible Ai Connect 2024](../by-focus-area/alignment-and-safety.md#meta-r-responsible-ai-connect-2024) | `meta-r-responsible-ai-connect-2024` |

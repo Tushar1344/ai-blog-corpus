@@ -1,6 +1,6 @@
 # Agent frameworks & tooling
 
-**Post count:** 9  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#agent-frameworks-and-tooling))
+**Post count:** 10  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#agent-frameworks-and-tooling))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -12,4 +12,5 @@
 | 2024-05-13 | Hugging Face | [License to Call: Introducing Transformers Agents 2.0](../by-focus-area/agentic-systems.md#hf-r-agents) | `hf-r-agents` |
 | 2024-01-24 | Hugging Face | [Open-source LLMs as LangChain Agents](../by-focus-area/agentic-systems.md#hf-r-open-source-llms-as-agents) | `hf-r-open-source-llms-as-agents` |
 | 2023-07-24 | Hugging Face | [Introducing Agents.js: Give tools to your LLMs using JavaScript](../by-focus-area/agentic-systems.md#hf-r-agents-js) | `hf-r-agents-js` |
+| ? | Meta AI / FAIR | [Introducing Pytorch Native Agentic Stack](../by-focus-area/agentic-systems.md#meta-r-introducing-pytorch-native-agentic-stack) | `meta-r-introducing-pytorch-native-agentic-stack` |
 | ? | Allen Institute for AI | [Open Coding Agents](../by-focus-area/agentic-systems.md#ai2-r-open-coding-agents) | `ai2-r-open-coding-agents` |

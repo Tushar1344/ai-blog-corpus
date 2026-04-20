@@ -6,14 +6,14 @@
 
 | Focus area | Posts | File |
 |---|---|---|
-| Pretraining & Architecture | 234 | [pretraining-and-architecture.md](by-focus-area/pretraining-and-architecture.md) |
-| Post-training & Fine-tuning | 36 | [post-training-and-fine-tuning.md](by-focus-area/post-training-and-fine-tuning.md) |
-| Alignment & Safety | 122 | [alignment-and-safety.md](by-focus-area/alignment-and-safety.md) |
-| Interpretability | 21 | [interpretability.md](by-focus-area/interpretability.md) |
-| Evaluations & Benchmarks | 83 | [evals-and-benchmarks.md](by-focus-area/evals-and-benchmarks.md) |
-| Quantization & Efficiency | 20 | [quantization-and-efficiency.md](by-focus-area/quantization-and-efficiency.md) |
-| Agentic Systems | 108 | [agentic-systems.md](by-focus-area/agentic-systems.md) |
-| Harness & Context Engineering | 71 | [harness-and-context-engineering.md](by-focus-area/harness-and-context-engineering.md) |
+| Pretraining & Architecture | 203 | [pretraining-and-architecture.md](by-focus-area/pretraining-and-architecture.md) |
+| Post-training & Fine-tuning | 39 | [post-training-and-fine-tuning.md](by-focus-area/post-training-and-fine-tuning.md) |
+| Alignment & Safety | 139 | [alignment-and-safety.md](by-focus-area/alignment-and-safety.md) |
+| Interpretability | 27 | [interpretability.md](by-focus-area/interpretability.md) |
+| Evaluations & Benchmarks | 87 | [evals-and-benchmarks.md](by-focus-area/evals-and-benchmarks.md) |
+| Quantization & Efficiency | 23 | [quantization-and-efficiency.md](by-focus-area/quantization-and-efficiency.md) |
+| Agentic Systems | 103 | [agentic-systems.md](by-focus-area/agentic-systems.md) |
+| Harness & Context Engineering | 74 | [harness-and-context-engineering.md](by-focus-area/harness-and-context-engineering.md) |
 
 ## By company
 
@@ -38,95 +38,87 @@
 ### Pretraining & Architecture
 
 - [Foundation model releases](by-subcategory/foundation-model-releases.md) (32)
-- [Architectures (MoE, SSMs, attention variants)](by-subcategory/architectures.md) (11)
+- [Architectures (MoE, SSMs, attention variants)](by-subcategory/architectures.md) (14)
 - [Multimodal pretraining](by-subcategory/multimodal-pretraining.md) (31)
-- [Scaling laws & training dynamics](by-subcategory/scaling-and-training-dynamics.md) (6)
-- [Data & tokenization](by-subcategory/data-and-tokenization.md) (3)
-- [Training stack & infrastructure](by-subcategory/training-stack.md) (8)
-- [Research techniques & methods](by-subcategory/research-techniques-and-methods.md) (56)
-- [Science-applied AI (AlphaFold, health, climate, etc.)](by-subcategory/model-research-and-applications.md) (7)
-- [Societal impact & deployment studies](by-subcategory/societal-impact-and-deployment-studies.md) (14)
-- [Other pretraining & architecture](by-subcategory/fallback-architecture.md) (66)
+- [Scaling laws & training dynamics](by-subcategory/scaling-and-training-dynamics.md) (10)
+- [Data & tokenization](by-subcategory/data-and-tokenization.md) (5)
+- [Training stack & infrastructure](by-subcategory/training-stack.md) (32)
+- [Research techniques & methods](by-subcategory/research-techniques-and-methods.md) (70)
+- [Science-applied AI (AlphaFold, health, climate, etc.)](by-subcategory/model-research-and-applications.md) (16)
+- [Societal impact & deployment studies](by-subcategory/societal-impact-and-deployment-studies.md) (20)
 
 ### Post-training & Fine-tuning
 
-- [RLVR & verifiable-reward RL](by-subcategory/rlvr-verifiable-rewards.md) (3)
-- [Classic RLHF (PPO, reward models)](by-subcategory/rlhf-classic.md) (8)
+- [RLVR & verifiable-reward RL](by-subcategory/rlvr-verifiable-rewards.md) (5)
+- [Classic RLHF (PPO, reward models)](by-subcategory/rlhf-classic.md) (13)
 - [Direct preference (DPO, KTO, ORPO, SimPO)](by-subcategory/direct-preference.md) (1)
-- [SFT & instruction tuning](by-subcategory/sft-and-instruction-tuning.md) (6)
-- [Distillation](by-subcategory/distillation.md) (3)
-- [Other post-training](by-subcategory/fallback-post-training.md) (15)
+- [SFT & instruction tuning](by-subcategory/sft-and-instruction-tuning.md) (13)
+- [Distillation](by-subcategory/distillation.md) (5)
 
 ### Alignment & Safety
 
 - [System cards & model cards](by-subcategory/system-cards.md) (27)
-- [Responsible scaling & safety policy](by-subcategory/responsible-scaling-and-policy.md) (25)
-- [Constitutional methods & self-critique](by-subcategory/constitutional-and-self-critique.md) (10)
-- [Deceptive alignment & scheming](by-subcategory/deceptive-alignment.md) (9)
-- [Dangerous-capability evaluations](by-subcategory/capability-evals-for-safety.md) (2)
-- [Red-teaming & jailbreaking](by-subcategory/red-teaming-and-jailbreaking.md) (6)
-- [Scalable oversight & debate](by-subcategory/scalable-oversight.md) (3)
-- [Reward hacking, monitorability & honesty](by-subcategory/reward-hacking-and-sycophancy.md) (9)
-- [General safety research](by-subcategory/safety-research-general.md) (7)
-- [Other alignment & safety](by-subcategory/fallback-alignment.md) (24)
+- [Responsible scaling & safety policy](by-subcategory/responsible-scaling-and-policy.md) (31)
+- [Constitutional methods & self-critique](by-subcategory/constitutional-and-self-critique.md) (12)
+- [Deceptive alignment & scheming](by-subcategory/deceptive-alignment.md) (10)
+- [Dangerous-capability evaluations](by-subcategory/capability-evals-for-safety.md) (9)
+- [Red-teaming & jailbreaking](by-subcategory/red-teaming-and-jailbreaking.md) (8)
+- [Scalable oversight & debate](by-subcategory/scalable-oversight.md) (5)
+- [Reward hacking, monitorability & honesty](by-subcategory/reward-hacking-and-sycophancy.md) (12)
+- [General safety research](by-subcategory/safety-research-general.md) (19)
 
 ### Interpretability
 
-- [SAEs & dictionary learning](by-subcategory/saes-and-dictionary-learning.md) (3)
-- [Circuits & mechanistic interpretability](by-subcategory/circuits-and-mechanistic.md) (10)
+- [SAEs & dictionary learning](by-subcategory/saes-and-dictionary-learning.md) (10)
+- [Circuits & mechanistic interpretability](by-subcategory/circuits-and-mechanistic.md) (11)
 - [Steering & intervention](by-subcategory/steering-and-intervention.md) (2)
-- [Feature viz & probing](by-subcategory/feature-viz-and-probing.md) (1)
-- [Other interpretability](by-subcategory/fallback-interp.md) (5)
+- [Feature viz & probing](by-subcategory/feature-viz-and-probing.md) (4)
 
 ### Evaluations & Benchmarks
 
-- [Agent evaluations](by-subcategory/agent-evals.md) (4)
-- [Coding evaluations](by-subcategory/coding-evals.md) (6)
-- [Reasoning & math evaluations](by-subcategory/reasoning-evals.md) (2)
-- [Leaderboards & community evals](by-subcategory/leaderboards-and-community-evals.md) (27)
+- [Agent evaluations](by-subcategory/agent-evals.md) (6)
+- [Coding evaluations](by-subcategory/coding-evals.md) (7)
+- [Reasoning & math evaluations](by-subcategory/reasoning-evals.md) (3)
+- [Leaderboards & community evals](by-subcategory/leaderboards-and-community-evals.md) (28)
 - [Judge models & eval methodology](by-subcategory/judge-models-and-methodology.md) (10)
-- [Eval systems & harnesses](by-subcategory/eval-systems-and-harnesses.md) (7)
-- [Benchmark releases](by-subcategory/benchmark-release.md) (2)
-- [Domain-specific evals (speech, vision, science, medical)](by-subcategory/domain-specific-evals.md) (9)
-- [Benchmark critique](by-subcategory/benchmark-critique.md) (4)
-- [Other evaluations & benchmarks](by-subcategory/fallback-evals.md) (12)
+- [Eval systems & harnesses](by-subcategory/eval-systems-and-harnesses.md) (11)
+- [Benchmark releases](by-subcategory/benchmark-release.md) (6)
+- [Domain-specific evals (speech, vision, science, medical)](by-subcategory/domain-specific-evals.md) (11)
+- [Benchmark critique](by-subcategory/benchmark-critique.md) (5)
 
 ### Quantization & Efficiency
 
-- [Post-training quantization](by-subcategory/post-training-quantization.md) (3)
-- [Parameter-efficient training (LoRA/PEFT)](by-subcategory/parameter-efficient-training.md) (14)
-- [Pruning & sparsity](by-subcategory/pruning-and-sparsity.md) (2)
-- [Other efficiency](by-subcategory/fallback-efficiency.md) (1)
+- [Training-time quantization](by-subcategory/training-time-quantization.md) (1)
+- [Post-training quantization](by-subcategory/post-training-quantization.md) (4)
+- [Parameter-efficient training (LoRA/PEFT)](by-subcategory/parameter-efficient-training.md) (15)
+- [Pruning & sparsity](by-subcategory/pruning-and-sparsity.md) (3)
 
 ### Agentic Systems
 
-- [Coding agents](by-subcategory/coding-agents.md) (8)
-- [Multi-agent orchestration](by-subcategory/multi-agent-orchestration.md) (8)
+- [Coding agents](by-subcategory/coding-agents.md) (10)
+- [Multi-agent orchestration](by-subcategory/multi-agent-orchestration.md) (9)
 - [Computer use & browser use](by-subcategory/computer-use-and-browser-use.md) (4)
 - [Tool use & function calling](by-subcategory/tool-use-and-function-calling.md) (3)
-- [Enterprise agents](by-subcategory/enterprise-agents.md) (5)
-- [Embodied agents & simulation](by-subcategory/embodied-and-simulation.md) (10)
-- [Game-playing & RL agents](by-subcategory/game-and-rl-agents.md) (10)
+- [Enterprise agents](by-subcategory/enterprise-agents.md) (8)
+- [Embodied agents & simulation](by-subcategory/embodied-and-simulation.md) (12)
+- [Game-playing & RL agents](by-subcategory/game-and-rl-agents.md) (16)
 - [Dialogue & conversational agents](by-subcategory/dialogue-and-conversational-agents.md) (3)
-- [Agent frameworks & tooling](by-subcategory/agent-frameworks-and-tooling.md) (9)
-- [Agent research applications (scientific, robotic)](by-subcategory/agent-research-applications.md) (3)
+- [Agent frameworks & tooling](by-subcategory/agent-frameworks-and-tooling.md) (10)
+- [Agent research applications (scientific, robotic)](by-subcategory/agent-research-applications.md) (8)
 - [Agent traces & observability](by-subcategory/agent-traces-and-observability.md) (1)
-- [Agent design & patterns / opinion pieces](by-subcategory/agent-design-and-patterns.md) (10)
-- [General agentic systems](by-subcategory/agents-general.md) (25)
-- [Other agentic systems](by-subcategory/fallback-agents.md) (9)
+- [Agent design & patterns / opinion pieces](by-subcategory/agent-design-and-patterns.md) (14)
+- [General agentic systems](by-subcategory/agents-general.md) (3)
 
 ### Harness & Context Engineering
 
 - [MCP & tool protocols](by-subcategory/mcp-and-tool-protocols.md) (17)
 - [Product engineering case studies (Codex, Sora, Atlas)](by-subcategory/codex-and-sora-harness.md) (6)
-- [Long-running harnesses](by-subcategory/long-running-harnesses.md) (3)
-- [Context engineering](by-subcategory/context-engineering.md) (2)
+- [Long-running harnesses](by-subcategory/long-running-harnesses.md) (5)
+- [Context engineering](by-subcategory/context-engineering.md) (4)
 - [Scaffolding patterns](by-subcategory/scaffolding-patterns.md) (1)
 - [Agent skills & prompt libraries](by-subcategory/agent-skills-and-prompt-libraries.md) (1)
-- [AI SDK & product tooling (Vercel v0, AI SDK)](by-subcategory/ai-sdk-and-product-tooling.md) (16)
-- [Workflow agents (data analyst, code review, Bugbot)](by-subcategory/data-analyst-and-workflow-agents.md) (4)
-- [Databricks training stack (misplaced; should be pretraining/training-stack)](by-subcategory/databricks-training-stack-misc.md) (12)
-- [Other harness & context engineering](by-subcategory/fallback-harness.md) (9)
+- [AI SDK & product tooling (Vercel v0, AI SDK)](by-subcategory/ai-sdk-and-product-tooling.md) (18)
+- [Workflow agents (data analyst, code review, Bugbot)](by-subcategory/data-analyst-and-workflow-agents.md) (5)
 
 ## By year
 
