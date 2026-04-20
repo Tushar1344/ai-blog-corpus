@@ -2,13 +2,13 @@
 
 MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers, curriculum, foundation models.
 
-**Post count:** 271
+**Post count:** 234
 
 **Contributors:**
 
-- OpenAI: 107
-- Anthropic: 58
-- Databricks Mosaic AI: 37
+- OpenAI: 93
+- Anthropic: 36
+- Databricks Mosaic AI: 36
 - Meta AI / FAIR: 24
 - DeepSeek: 13
 - Hugging Face: 12
@@ -26,9 +26,10 @@ MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers
 - [Scaling laws & training dynamics](#scaling-and-training-dynamics) (6)
 - [Data & tokenization](#data-and-tokenization) (3)
 - [Training stack & infrastructure](#training-stack) (8)
-- [Research techniques & methods](#research-techniques-and-methods) (5)
-- [Societal impact & deployment studies](#societal-impact-and-deployment-studies) (24)
-- [Other pretraining & architecture](#fallback-architecture) (151)
+- [Research techniques & methods](#research-techniques-and-methods) (56)
+- [Science-applied AI (AlphaFold, health, climate, etc.)](#model-research-and-applications) (7)
+- [Societal impact & deployment studies](#societal-impact-and-deployment-studies) (14)
+- [Other pretraining & architecture](#fallback-architecture) (66)
 
 ---
 
@@ -1184,7 +1185,19 @@ _Summary pending — see link for details._
 
 ## <a id="research-techniques-and-methods"></a>Research techniques & methods
 
-_5 posts_
+_56 posts_
+
+### Emotion concepts and their function in a large language model
+
+- **ID:** `ant-r-emotion-concepts-function`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/emotion-concepts-function
+- **Date:** 2026-04-02
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
 
 ### A “diff” tool for AI: Finding behavioral differences in new models
 
@@ -1192,6 +1205,157 @@ _5 posts_
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/diff-tool
 - **Date:** 2026-03-13
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Databricks at NeurIPS 2025
+
+- **ID:** `dbx-r-databricks-neurips-2025`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/databricks-neurips-2025
+- **Date:** 2025-12-01
+- **Authors:** Sam Plecque
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Confidential Inference via Trusted Virtual Machines
+
+- **ID:** `ant-r-confidential-inference-trusted-vms`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/confidential-inference-trusted-vms
+- **Date:** 2025-06-18
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Kevin-32B: Multi-Turn RL for Writing CUDA Kernels
+
+- **ID:** `cog-r-kevin-32b`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/kevin-32b
+- **Date:** 2025-05-06
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Reasoning models don't always say what they think
+
+- **ID:** `ant-r-reasoning-models-dont-say-think`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/reasoning-models-dont-say-think
+- **Date:** 2025-04-03
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Forecasting rare language model behaviors
+
+- **ID:** `ant-r-forecasting-rare-behaviors`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/forecasting-rare-behaviors
+- **Date:** 2025-02-25
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Databricks at NeurIPS 2024
+
+- **ID:** `dbx-r-databricks-neurips-2024`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/databricks-neurips-2024
+- **Date:** 2024-12-09
+- **Authors:** Sam Plecque|Kobie Crawford|Emily Hutson
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Introducing Llama2-70B-Chat with MosaicML Inference
+
+- **ID:** `dbx-r-llama2-inference`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/llama2-inference
+- **Date:** 2023-08-24
+- **Authors:** Hagay Lupesko|Margaret Qian|Daya Khudia|Sam Havens|Daniel King|Erica Ji Yuen
+- **Track:** research
+- **Contribution type:** new-method
+
+_Summary pending — see link for details._
+
+
+### MosaicBERT: Pretraining BERT from Scratch for $20
+
+- **ID:** `dbx-r-mosaicbert`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mosaicbert
+- **Date:** 2023-03-09
+- **Authors:** Jacob Portes|Alex Trott|Daniel King|Sam Havens|Erica Ji Yuen
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### MosaicML StreamingDataset: Fast, Accurate Streaming of Training Data from Cloud Storage
+
+- **ID:** `dbx-e-mosaicml-streamingdataset`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mosaicml-streamingdataset
+- **Date:** 2023-02-09
+- **Authors:** James Knighton|Karan Jariwala|Erica Ji Yuen
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Discovering Language Model Behaviors with Model-Written Evaluations
+
+- **ID:** `ant-r-discovering-language-model-behaviors-with-model-written-evaluations`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations
+- **Date:** 2022-12-19
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### MosaicML Delivers Leading NLP Performance in MLPerf v2.1
+
+- **ID:** `dbx-r-mlperf-nlp-nov2022`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mlperf-nlp-nov2022
+- **Date:** 2022-11-09
+- **Authors:** Daya Khudia|Nikhil Sardana|Sam Havens|Alex Trott|Erica Ji Yuen
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### MosaicML Satisfies the Need for Speed with MLPerf Results
+
+- **ID:** `dbx-r-mlperf-2022`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/mlperf-2022
+- **Date:** 2022-06-29
+- **Authors:** Bandish Shah|Daya Khudia|Hanlin Tang
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1210,6 +1374,42 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Predictability and Surprise in Large Generative Models
+
+- **ID:** `ant-r-predictability-and-surprise-in-large-generative-models`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models
+- **Date:** 2022-02-15
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### How to train a new language model from scratch using Transformers and Tokenizers
+
+- **ID:** `hf-r-how-to-train`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/how-to-train
+- **Date:** 2020-02-14
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Prediction and control with temporal segment models
+
+- **ID:** `oai-r-prediction-and-control-with-temporal-segment-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/prediction-and-control-with-temporal-segment-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Improving language model behavior by training on a curated dataset
 
 - **ID:** `oai-r-improving-language-model-behavior`
@@ -1222,11 +1422,131 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Improving GANs using optimal transport
+
+- **ID:** `oai-r-improving-gans-using-optimal-transport`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/improving-gans-using-optimal-transport/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Transfer from simulation to real world through learning deep inverse dynamics model
+
+- **ID:** `oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Consistency Models
+
+- **ID:** `oai-r-consistency-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/consistency-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Text and code embeddings by contrastive pre-training
 
 - **ID:** `oai-r-text-and-code-embeddings-by-contrastive-pre-training`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Teaching models to express their uncertainty in words
+
+- **ID:** `oai-r-teaching-models-to-express-their-uncertainty-in-words`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Hindsight Experience Replay
+
+- **ID:** `oai-r-hindsight-experience-replay`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/hindsight-experience-replay/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Quantifying generalization in reinforcement learning
+
+- **ID:** `oai-r-quantifying-generalization-in-reinforcement-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/quantifying-generalization-in-reinforcement-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Understanding the source of what we see and hear online
+
+- **ID:** `oai-r-understanding-the-source-of-what-we-see-and-hear-online`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Ucb Exploration Via Q Ensembles
+
+- **ID:** `oai-r-ucb-exploration-via-q-ensembles`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/ucb-exploration-via-q-ensembles/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Efficient training of language models to fill in the middle
+
+- **ID:** `oai-r-efficient-training-of-language-models-to-fill-in-the-middle`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Benchmarking safe exploration in deep reinforcement learning
+
+- **ID:** `oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -1246,33 +1566,397 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Some considerations on learning to explore via meta-reinforcement learning
+
+- **ID:** `oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Image GPT
+
+- **ID:** `oai-r-image-gpt`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/image-gpt/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Plan online, learn offline: Efficient learning and exploration via model-based control
+
+- **ID:** `oai-r-plan-online-learn-offline`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/plan-online-learn-offline/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Generative modeling with sparse transformers
+
+- **ID:** `oai-r-sparse-transformer`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/sparse-transformer/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Dota 2 with large scale deep reinforcement learning
+
+- **ID:** `oai-r-dota-2-with-large-scale-deep-reinforcement-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### FFJORD: Free-form continuous dynamics for scalable reversible generative models
+
+- **ID:** `oai-r-ffjord`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/ffjord/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Variational option discovery algorithms
+
+- **ID:** `oai-r-variational-option-discovery-algorithms`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/variational-option-discovery-algorithms/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research
+
+- **ID:** `oai-r-multi-goal-reinforcement-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/multi-goal-reinforcement-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Asymmetric Actor Critic For Image Based Robot Learning
+
+- **ID:** `oai-r-asymmetric-actor-critic-for-image-based-robot-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### On the quantitative analysis of decoder-based generative models
+
+- **ID:** `oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Domain randomization and generative models for robotic grasping
+
+- **ID:** `oai-r-domain-randomization-and-generative-models-for-robotic-grasping`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### RL²: Fast reinforcement learning via slow reinforcement learning
+
+- **ID:** `oai-r-rl2`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/rl2/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Better exploration with parameter noise
+
+- **ID:** `oai-r-better-exploration-with-parameter-noise`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/better-exploration-with-parameter-noise/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### #Exploration: A study of count-based exploration for deep reinforcement learning
+
+- **ID:** `oai-r-exploration`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/exploration/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Stochastic Neural Networks for hierarchical reinforcement learning
+
+- **ID:** `oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Evolution strategies as a scalable alternative to reinforcement learning
+
+- **ID:** `oai-r-evolution-strategies`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/evolution-strategies/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Generative models
+
+- **ID:** `oai-r-generative-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/generative-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Improved Techniques for Training Consistency Models
+
+- **ID:** `oai-r-improved-techniques-for-training-consistency-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/improved-techniques-for-training-consistency-models/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** new-method
+
+_Summary pending — see link for details._
+
+
+### Early experiments in accelerating science with GPT-5
+
+- **ID:** `oai-r-accelerating-science-gpt-5`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/accelerating-science-gpt-5/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Advancing science and math with GPT-5.2
+
+- **ID:** `oai-r-gpt-5-2-for-science-and-math`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-2-for-science-and-math/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Why language models hallucinate
+
+- **ID:** `oai-r-why-language-models-hallucinate`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/why-language-models-hallucinate/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5 lowers the cost of cell-free protein synthesis
+
+- **ID:** `oai-r-gpt-5-lowers-protein-synthesis-cost`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5.2 derives a new result in theoretical physics
+
+- **ID:** `oai-r-new-result-theoretical-physics`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/new-result-theoretical-physics/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Train Custom GPT + Diffusion Models
+
+- **ID:** `dbx-r-train-custom-gpt-diffusion-models`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/train-custom-gpt-diffusion-models
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Alphago Zero Starting From Scratch
+
+- **ID:** `dm-r-alphago-zero-starting-from-scratch`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="model-research-and-applications"></a>Science-applied AI (AlphaFold, health, climate, etc.)
+
+_7 posts_
+
+### Pioneering an AI clinical copilot with Penda Health
+
+- **ID:** `oai-r-ai-clinical-copilot-penda-health`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/ai-clinical-copilot-penda-health/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Accelerating life sciences research
+
+- **ID:** `oai-r-accelerating-life-sciences-research-with-retro-biosciences`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+### Point-E: A system for generating 3D point clouds from complex prompts
+
+- **ID:** `oai-r-point-e`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/point-e/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Generalizing From Simulation
+
+- **ID:** `oai-r-generalizing-from-simulation`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/generalizing-from-simulation/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Sim-to-real transfer of robotic control with dynamics randomization
+
+- **ID:** `oai-r-sim-to-real-transfer-of-robotic-control-with-dynamics-randomization`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications
+
+- **ID:** `oai-r-pixelcnn-plus-plus`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/pixelcnn-plus-plus/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Video generation models as world simulators
+
+- **ID:** `oai-r-video-generation-models-as-world-simulators`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/video-generation-models-as-world-simulators/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ## <a id="societal-impact-and-deployment-studies"></a>Societal impact & deployment studies
 
-_24 posts_
-
-### How Australia Uses Claude: Findings from the Anthropic Economic Index
-
-- **ID:** `ant-r-how-australia-uses-claude`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/how-australia-uses-claude
-- **Date:** 2026-03-31
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Anthropic Economic Index report: Learning curves
-
-- **ID:** `ant-r-economic-index-march-2026-report`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/economic-index-march-2026-report
-- **Date:** 2026-03-24
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
+_14 posts_
 
 ### Long-running Claude for scientific computing
 
@@ -1311,30 +1995,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Anthropic Education Report: The AI Fluency Index
-
-- **ID:** `ant-r-ai-fluency-index`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/AI-fluency-index
-- **Date:** 2026-02-23
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### India Country Brief: The Anthropic Economic Index
-
-- **ID:** `ant-r-india-brief-economic-index`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/india-brief-economic-index
-- **Date:** 2026-02-16
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### How AI assistance impacts the formation of coding skills
 
 - **ID:** `ant-r-ai-assistance-coding-skills`
@@ -1347,48 +2007,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Disempowerment patterns in real-world AI usage
-
-- **ID:** `ant-r-disempowerment-patterns`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/disempowerment-patterns
-- **Date:** 2026-01-28
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### The assistant axis: situating and stabilizing the character of large language models
 
 - **ID:** `ant-r-assistant-axis`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/assistant-axis
 - **Date:** 2026-01-19
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Anthropic Economic Index report: Economic primitives
-
-- **ID:** `ant-r-anthropic-economic-index-january-2026-report`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
-- **Date:** 2026-01-15
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### The Anthropic Economic Index report: New building blocks for understanding AI use
-
-- **ID:** `ant-r-economic-index-primitives`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/economic-index-primitives
-- **Date:** 2026-01-15
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1443,48 +2067,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Anthropic Economic Index report: Uneven geographic and enterprise AI adoption
-
-- **ID:** `ant-r-anthropic-economic-index-september-2025-report`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/anthropic-economic-index-september-2025-report
-- **Date:** 2025-09-15
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Anthropic Economic Index: Tracking AI's role in the US and global economy
-
-- **ID:** `ant-r-economic-index-geography`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/economic-index-geography
-- **Date:** 2025-09-15
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Project Vend: Can Claude run a small shop? (And why does that matter?)
 
 - **ID:** `ant-r-project-vend-1`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/project-vend-1
 - **Date:** 2025-06-27
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Anthropic Economic Index: AI's impact on software development
-
-- **ID:** `ant-r-impact-software-development`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/impact-software-development
-- **Date:** 2025-04-28
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1541,7 +2129,7 @@ _Summary pending — see link for details._
 
 ## <a id="fallback-architecture"></a>Other pretraining & architecture
 
-_151 posts_
+_66 posts_
 
 ### Better AI models enable more ambitious work
 
@@ -1553,18 +2141,6 @@ _151 posts_
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### Emotion concepts and their function in a large language model
-
-- **ID:** `ant-r-emotion-concepts-function`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/emotion-concepts-function
-- **Date:** 2026-04-02
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -1607,43 +2183,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Databricks at NeurIPS 2025
-
-- **ID:** `dbx-r-databricks-neurips-2025`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/databricks-neurips-2025
-- **Date:** 2025-12-01
-- **Authors:** Sam Plecque
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Estimating AI productivity gains
-
-- **ID:** `ant-r-estimating-productivity-gains`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/estimating-productivity-gains
-- **Date:** 2025-11-25
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### A small number of samples can poison LLMs of any size
-
-- **ID:** `ant-r-small-samples-poison`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/small-samples-poison
-- **Date:** 2025-10-09
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Modular Manifolds
 
 - **ID:** `tm-r-modular-manifolds`
@@ -1670,42 +2209,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Confidential Inference via Trusted Virtual Machines
-
-- **ID:** `ant-r-confidential-inference-trusted-vms`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/confidential-inference-trusted-vms
-- **Date:** 2025-06-18
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Kevin-32B: Multi-Turn RL for Writing CUDA Kernels
-
-- **ID:** `cog-r-kevin-32b`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/kevin-32b
-- **Date:** 2025-05-06
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Values in the wild: Discovering and analyzing values in real-world language model interactions
-
-- **ID:** `ant-r-values-wild`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/values-wild
-- **Date:** 2025-04-21
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)
 
 - **ID:** `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel`
@@ -1713,116 +2216,6 @@ _Summary pending — see link for details._
 - **Link:** https://www.databricks.com/blog/power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel
 - **Date:** 2025-04-08
 - **Authors:** Samantha Banchik|Ta-Chung Chi|Sam Havens|Dipendra Misra|Will Tipton|Jan van der Vegt|Matei Zaharia|Emanuel Zgraggen
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Reasoning models don't always say what they think
-
-- **ID:** `ant-r-reasoning-models-dont-say-think`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/reasoning-models-dont-say-think
-- **Date:** 2025-04-03
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Tracing the thoughts of a large language model
-
-- **ID:** `ant-r-tracing-thoughts-language-model`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/tracing-thoughts-language-model
-- **Date:** 2025-03-27
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Auditing language models for hidden objectives
-
-- **ID:** `ant-r-auditing-hidden-objectives`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/auditing-hidden-objectives
-- **Date:** 2025-03-13
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Forecasting rare language model behaviors
-
-- **ID:** `ant-r-forecasting-rare-behaviors`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/forecasting-rare-behaviors
-- **Date:** 2025-02-25
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Claude's extended thinking
-
-- **ID:** `ant-r-visible-extended-thinking`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/visible-extended-thinking
-- **Date:** 2025-02-24
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Insights on Crosscoder Model Diffing
-
-- **ID:** `ant-r-crosscoder-model-diffing`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/crosscoder-model-diffing
-- **Date:** 2025-02-20
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Benchmarking Domain Intelligence
-
-- **ID:** `dbx-r-benchmarking-domain-intelligence`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/benchmarking-domain-intelligence
-- **Date:** 2024-12-17
-- **Authors:** Pallavi Koppol|Erica Ji Yuen|Kartik Sreenivasan|Andy Zhang|Sam Havens|Michael Carbin|Matei Zaharia|Jonathan Frankle
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Clio: Privacy-preserving insights into real-world AI use
-
-- **ID:** `ant-r-clio`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/clio
-- **Date:** 2024-12-12
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Databricks at NeurIPS 2024
-
-- **ID:** `dbx-r-databricks-neurips-2024`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/databricks-neurips-2024
-- **Date:** 2024-12-09
-- **Authors:** Sam Plecque|Kobie Crawford|Emily Hutson
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1842,19 +2235,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Using dictionary learning features as classifiers
-
-- **ID:** `ant-r-features-as-classifiers`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/features-as-classifiers
-- **Date:** 2024-10-16
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** interpretability-features
-
-_Summary pending — see link for details._
-
-
 ### Long Context RAG Performance of LLMs
 
 - **ID:** `dbx-r-long-context-rag-performance-llms`
@@ -1865,42 +2245,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Techniques:** long-context, retrieval-augmentation
-
-_Summary pending — see link for details._
-
-
-### Sycophancy to subterfuge: Investigating reward tampering in language models
-
-- **ID:** `ant-r-reward-tampering`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/reward-tampering
-- **Date:** 2024-06-17
-- **Track:** research
-- **Contribution type:** new-method
-
-_Summary pending — see link for details._
-
-
-### The engineering challenges of scaling interpretability
-
-- **ID:** `ant-r-engineering-challenges-interpretability`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/engineering-challenges-interpretability
-- **Date:** 2024-06-13
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Claude’s Character
-
-- **ID:** `ant-r-claude-character`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/claude-character
-- **Date:** 2024-06-08
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -2016,19 +2360,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Introducing Llama2-70B-Chat with MosaicML Inference
-
-- **ID:** `dbx-r-llama2-inference`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/llama2-inference
-- **Date:** 2023-08-24
-- **Authors:** Hagay Lupesko|Margaret Qian|Daya Khudia|Sam Havens|Daniel King|Erica Ji Yuen
-- **Track:** research
-- **Contribution type:** new-method
-
-_Summary pending — see link for details._
-
-
 ### Tracing Model Outputs to the Training Data
 
 - **ID:** `ant-r-influence-functions`
@@ -2078,63 +2409,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### MosaicBERT: Pretraining BERT from Scratch for $20
-
-- **ID:** `dbx-r-mosaicbert`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mosaicbert
-- **Date:** 2023-03-09
-- **Authors:** Jacob Portes|Alex Trott|Daniel King|Sam Havens|Erica Ji Yuen
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### The Capacity for Moral Self-Correction in Large Language Models
 
 - **ID:** `ant-r-the-capacity-for-moral-self-correction-in-large-language-models`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models
 - **Date:** 2023-02-15
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### MosaicML StreamingDataset: Fast, Accurate Streaming of Training Data from Cloud Storage
-
-- **ID:** `dbx-e-mosaicml-streamingdataset`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mosaicml-streamingdataset
-- **Date:** 2023-02-09
-- **Authors:** James Knighton|Karan Jariwala|Erica Ji Yuen
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Discovering Language Model Behaviors with Model-Written Evaluations
-
-- **ID:** `ant-r-discovering-language-model-behaviors-with-model-written-evaluations`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations
-- **Date:** 2022-12-19
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### MosaicML Delivers Leading NLP Performance in MLPerf v2.1
-
-- **ID:** `dbx-r-mlperf-nlp-nov2022`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mlperf-nlp-nov2022
-- **Date:** 2022-11-09
-- **Authors:** Daya Khudia|Nikhil Sardana|Sam Havens|Alex Trott|Erica Ji Yuen
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -2166,37 +2446,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### MosaicML Satisfies the Need for Speed with MLPerf Results
-
-- **ID:** `dbx-r-mlperf-2022`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/mlperf-2022
-- **Date:** 2022-06-29
-- **Authors:** Bandish Shah|Daya Khudia|Hanlin Tang
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Softmax Linear Units
 
 - **ID:** `ant-r-softmax-linear-units`
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/softmax-linear-units
 - **Date:** 2022-06-17
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Predictability and Surprise in Large Generative Models
-
-- **ID:** `ant-r-predictability-and-surprise-in-large-generative-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models
-- **Date:** 2022-02-15
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -2215,120 +2470,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How to train a new language model from scratch using Transformers and Tokenizers
-
-- **ID:** `hf-r-how-to-train`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/how-to-train
-- **Date:** 2020-02-14
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Evaluating chain-of-thought monitorability
-
-- **ID:** `oai-r-evaluating-chain-of-thought-monitorability`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/evaluating-chain-of-thought-monitorability/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** chain-of-thought
-
-_Summary pending — see link for details._
-
-
-### Evaluating AI’s ability to perform scientific research tasks
-
-- **ID:** `oai-r-frontierscience`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/frontierscience/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### AI and efficiency
 
 - **ID:** `oai-r-ai-and-efficiency`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/ai-and-efficiency/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Prediction and control with temporal segment models
-
-- **ID:** `oai-r-prediction-and-control-with-temporal-segment-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/prediction-and-control-with-temporal-segment-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Pioneering an AI clinical copilot with Penda Health
-
-- **ID:** `oai-r-ai-clinical-copilot-penda-health`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/ai-clinical-copilot-penda-health/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Accelerating life sciences research
-
-- **ID:** `oai-r-accelerating-life-sciences-research-with-retro-biosciences`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### Democratic inputs to AI
-
-- **ID:** `oai-r-democratic-inputs-to-ai`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/democratic-inputs-to-ai/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improving GANs using optimal transport
-
-- **ID:** `oai-r-improving-gans-using-optimal-transport`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improving-gans-using-optimal-transport/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Transfer from simulation to real world through learning deep inverse dynamics model
-
-- **ID:** `oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -2348,235 +2494,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Consistency Models
-
-- **ID:** `oai-r-consistency-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/consistency-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Detecting misbehavior in frontier reasoning models
-
-- **ID:** `oai-r-chain-of-thought-monitoring`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/chain-of-thought-monitoring/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** chain-of-thought
-
-_Summary pending — see link for details._
-
-
-### AI-written critiques help humans notice flaws
-
-- **ID:** `oai-r-critiques`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/critiques/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Teaching models to express their uncertainty in words
-
-- **ID:** `oai-r-teaching-models-to-express-their-uncertainty-in-words`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Hindsight Experience Replay
-
-- **ID:** `oai-r-hindsight-experience-replay`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/hindsight-experience-replay/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Quantifying generalization in reinforcement learning
-
-- **ID:** `oai-r-quantifying-generalization-in-reinforcement-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/quantifying-generalization-in-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### TruthfulQA: Measuring how models mimic human falsehoods
-
-- **ID:** `oai-r-truthfulqa`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/truthfulqa/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Understanding the source of what we see and hear online
-
-- **ID:** `oai-r-understanding-the-source-of-what-we-see-and-hear-online`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Evaluating fairness in ChatGPT
-
-- **ID:** `oai-r-evaluating-fairness-in-chatgpt`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/evaluating-fairness-in-chatgpt/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Aligning language models to follow instructions
-
-- **ID:** `oai-r-instruction-following`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/instruction-following/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Ucb Exploration Via Q Ensembles
-
-- **ID:** `oai-r-ucb-exploration-via-q-ensembles`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/ucb-exploration-via-q-ensembles/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Efficient training of language models to fill in the middle
-
-- **ID:** `oai-r-efficient-training-of-language-models-to-fill-in-the-middle`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Solving math word problems
-
-- **ID:** `oai-r-solving-math-word-problems`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/solving-math-word-problems/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Benchmarking safe exploration in deep reinforcement learning
-
-- **ID:** `oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Some considerations on learning to explore via meta-reinforcement learning
-
-- **ID:** `oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Image GPT
-
-- **ID:** `oai-r-image-gpt`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/image-gpt/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### A hazard analysis framework for code synthesis large language models
-
-- **ID:** `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### GamePad: A learning environment for theorem proving
-
-- **ID:** `oai-r-gamepad`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gamepad/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### PaperBench: Evaluating AI’s Ability to Replicate AI Research
-
-- **ID:** `oai-r-paperbench`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/paperbench/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Preparing for malicious uses of AI
 
 - **ID:** `oai-r-preparing-for-malicious-uses-of-ai`
@@ -2589,36 +2506,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### A research agenda for assessing the economic impacts of code generation models
-
-- **ID:** `oai-r-economic-impacts-research`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/economic-impacts-research/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
 ### Language models can explain neurons in language models
 
 - **ID:** `oai-r-language-models-can-explain-neurons-in-language-models`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/language-models-can-explain-neurons-in-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Point-E: A system for generating 3D point clouds from complex prompts
-
-- **ID:** `oai-r-point-e`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/point-e/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -2674,30 +2566,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Generative language modeling for automated theorem proving
-
-- **ID:** `oai-r-generative-language-modeling-for-automated-theorem-proving`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/generative-language-modeling-for-automated-theorem-proving/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Plan online, learn offline: Efficient learning and exploration via model-based control
-
-- **ID:** `oai-r-plan-online-learn-offline`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/plan-online-learn-offline/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Deep double descent
 
 - **ID:** `oai-r-deep-double-descent`
@@ -2722,35 +2590,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Generative modeling with sparse transformers
-
-- **ID:** `oai-r-sparse-transformer`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/sparse-transformer/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Testing robustness against unforeseen adversaries
 
 - **ID:** `oai-r-testing-robustness`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/testing-robustness/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Dota 2 with large scale deep reinforcement learning
-
-- **ID:** `oai-r-dota-2-with-large-scale-deep-reinforcement-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -2782,47 +2626,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### FFJORD: Free-form continuous dynamics for scalable reversible generative models
-
-- **ID:** `oai-r-ffjord`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/ffjord/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Variational option discovery algorithms
-
-- **ID:** `oai-r-variational-option-discovery-algorithms`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/variational-option-discovery-algorithms/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Discovering types for entity disambiguation
 
 - **ID:** `oai-r-discovering-types-for-entity-disambiguation`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/discovering-types-for-entity-disambiguation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research
-
-- **ID:** `oai-r-multi-goal-reinforcement-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/multi-goal-reinforcement-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -2890,78 +2698,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Asymmetric Actor Critic For Image Based Robot Learning
-
-- **ID:** `oai-r-asymmetric-actor-critic-for-image-based-robot-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Generalizing From Simulation
-
-- **ID:** `oai-r-generalizing-from-simulation`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/generalizing-from-simulation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Sim-to-real transfer of robotic control with dynamics randomization
-
-- **ID:** `oai-r-sim-to-real-transfer-of-robotic-control-with-dynamics-randomization`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### On the quantitative analysis of decoder-based generative models
-
-- **ID:** `oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Domain randomization and generative models for robotic grasping
-
-- **ID:** `oai-r-domain-randomization-and-generative-models-for-robotic-grasping`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### RL²: Fast reinforcement learning via slow reinforcement learning
-
-- **ID:** `oai-r-rl2`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/rl2/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Semi-supervised knowledge transfer for deep learning from private training data
 
 - **ID:** `oai-r-semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data`
@@ -2970,18 +2706,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** new-method
-
-_Summary pending — see link for details._
-
-
-### Better exploration with parameter noise
-
-- **ID:** `oai-r-better-exploration-with-parameter-noise`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/better-exploration-with-parameter-noise/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -3010,59 +2734,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### #Exploration: A study of count-based exploration for deep reinforcement learning
-
-- **ID:** `oai-r-exploration`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/exploration/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Stochastic Neural Networks for hierarchical reinforcement learning
-
-- **ID:** `oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Evolution strategies as a scalable alternative to reinforcement learning
-
-- **ID:** `oai-r-evolution-strategies`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/evolution-strategies/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Extensions and limitations of the neural GPU
 
 - **ID:** `oai-r-extensions-and-limitations-of-the-neural-gpu`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/extensions-and-limitations-of-the-neural-gpu/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications
-
-- **ID:** `oai-r-pixelcnn-plus-plus`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/pixelcnn-plus-plus/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -3082,18 +2758,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Generative models
-
-- **ID:** `oai-r-generative-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/generative-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### A Holistic Approach to Undesired Content Detection in the Real World
 
 - **ID:** `oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world`
@@ -3102,18 +2766,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improved Techniques for Training Consistency Models
-
-- **ID:** `oai-r-improved-techniques-for-training-consistency-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improved-techniques-for-training-consistency-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** new-method
 
 _Summary pending — see link for details._
 
@@ -3142,59 +2794,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Early experiments in accelerating science with GPT-5
-
-- **ID:** `oai-r-accelerating-science-gpt-5`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-science-gpt-5/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Advancing science and math with GPT-5.2
-
-- **ID:** `oai-r-gpt-5-2-for-science-and-math`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-2-for-science-and-math/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Why language models hallucinate
-
-- **ID:** `oai-r-why-language-models-hallucinate`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/why-language-models-hallucinate/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### OpenAI Research | Publication
 
 - **ID:** `oai-r-publication`
 - **Company:** OpenAI
 - **Link:** https://openai.com/research/index/publication/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GPT-5 lowers the cost of cell-free protein synthesis
-
-- **ID:** `oai-r-gpt-5-lowers-protein-synthesis-cost`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -3214,18 +2818,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Video generation models as world simulators
-
-- **ID:** `oai-r-video-generation-models-as-world-simulators`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/video-generation-models-as-world-simulators/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Reasoning models struggle to control their chains of thought, and that’s good
 
 - **ID:** `oai-r-reasoning-models-chain-of-thought-controllability`
@@ -3235,18 +2827,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Techniques:** chain-of-thought
-
-_Summary pending — see link for details._
-
-
-### GPT-5.2 derives a new result in theoretical physics
-
-- **ID:** `oai-r-new-result-theoretical-physics`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/new-result-theoretical-physics/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -3347,35 +2927,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Train Custom GPT + Diffusion Models
-
-- **ID:** `dbx-r-train-custom-gpt-diffusion-models`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/train-custom-gpt-diffusion-models
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Tribe V2 Brain Predictive Foundation Model
 
 - **ID:** `meta-r-tribe-v2-brain-predictive-foundation-model`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Alphago Zero Starting From Scratch
-
-- **ID:** `dm-r-alphago-zero-starting-from-scratch`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/alphago-zero-starting-from-scratch/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_

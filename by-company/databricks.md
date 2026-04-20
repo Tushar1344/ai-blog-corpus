@@ -4,14 +4,13 @@
 
 Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
-## Pretraining & Architecture (37)
+## Pretraining & Architecture (36)
 
 | Date | Title | ID |
 |---|---|---|
 | 2026-01-26 | [Scaling Small LLMs with NVIDIA MPS](../by-focus-area/pretraining-and-architecture.md#dbx-r-scaling-small-llms-nvidia-mps) | `dbx-r-scaling-small-llms-nvidia-mps` |
 | 2025-12-01 | [Databricks at NeurIPS 2025](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2025) | `dbx-r-databricks-neurips-2025` |
 | 2025-04-08 | [The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)](../by-focus-area/pretraining-and-architecture.md#dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel) | `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel` |
-| 2024-12-17 | [Benchmarking Domain Intelligence](../by-focus-area/pretraining-and-architecture.md#dbx-r-benchmarking-domain-intelligence) | `dbx-r-benchmarking-domain-intelligence` |
 | 2024-12-09 | [Databricks at NeurIPS 2024](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2024) | `dbx-r-databricks-neurips-2024` |
 | 2024-11-21 | [Characterizing Datasets and Building Better Models with Continued Pre-Training](../by-focus-area/pretraining-and-architecture.md#dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training) | `dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training` |
 | 2024-10-08 | [The Long Context RAG Capabilities of OpenAI o1 and Google Gemini](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini) | `dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini` |
@@ -46,23 +45,25 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Training Stable Diffusion from Scratch Costs $160k](../by-focus-area/pretraining-and-architecture.md#dbx-r-training-stable-diffusion-from-scratch-costs-160k) | `dbx-r-training-stable-diffusion-from-scratch-costs-160k` |
 | ? | [Training Stable Diffusion from Scratch (Part 2)](../by-focus-area/pretraining-and-architecture.md#dbx-r-training-stable-diffusion-from-scratch-part-2) | `dbx-r-training-stable-diffusion-from-scratch-part-2` |
 
-## Post-training & Fine-tuning (5)
+## Post-training & Fine-tuning (6)
 
 | Date | Title | ID |
 |---|---|---|
 | 2026-02-03 | [MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory) | `dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory` |
+| 2025-08-04 | [Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study) | `dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study` |
 | 2025-07-30 | [The Power of RLVR: Training a Leading SQL Reasoning Model on Databricks](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-power-rlvr-training-leading-sql-reasoning-model-databricks) | `dbx-r-power-rlvr-training-leading-sql-reasoning-model-databricks` |
 | 2025-03-25 | [TAO: Using test-time compute to train efficient LLMs without labeled data](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-tao-using-test-time-compute-train-efficient-llms-without-labeled-data) | `dbx-r-tao-using-test-time-compute-train-efficient-llms-without-labeled-data` |
 | 2024-02-27 | [Fine-Grained Human Feedback](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-fine-grained-human-feedback) | `dbx-r-fine-grained-human-feedback` |
 | 2024-02-10 | [LIMIT: Less Is More for Instruction Tuning](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-limit-less-more-instruction-tuning) | `dbx-r-limit-less-more-instruction-tuning` |
 
-## Evaluations & Benchmarks (7)
+## Evaluations & Benchmarks (8)
 
 | Date | Title | ID |
 |---|---|---|
 | 2025-12-09 | [Introducing OfficeQA: A Benchmark for End-to-End Grounded Reasoning](../by-focus-area/evals-and-benchmarks.md#dbx-r-introducing-officeqa-benchmark-end-to-end-grounded-reasoning) | `dbx-r-introducing-officeqa-benchmark-end-to-end-grounded-reasoning` |
 | 2025-11-04 | [From Pilot to Production with Custom Judges](../by-focus-area/evals-and-benchmarks.md#dbx-r-pilot-production-custom-judges) | `dbx-r-pilot-production-custom-judges` |
 | 2025-08-12 | [Judging with Confidence: Meet PGRM, the Promptable Reward Model](../by-focus-area/evals-and-benchmarks.md#dbx-r-judging-confidence-meet-pgrm-promptable-reward-model) | `dbx-r-judging-confidence-meet-pgrm-promptable-reward-model` |
+| 2024-12-17 | [Benchmarking Domain Intelligence](../by-focus-area/evals-and-benchmarks.md#dbx-r-benchmarking-domain-intelligence) | `dbx-r-benchmarking-domain-intelligence` |
 | 2024-08-16 | [Beyond the Leaderboard: Unpacking Function Calling Evaluation](../by-focus-area/evals-and-benchmarks.md#dbx-r-unpacking-function-calling-eval) | `dbx-r-unpacking-function-calling-eval` |
 | 2024-04-30 | [Calibrating the Mosaic Evaluation Gauntlet](../by-focus-area/evals-and-benchmarks.md#dbx-r-calibrating-mosaic-evaluation-gauntlet) | `dbx-r-calibrating-mosaic-evaluation-gauntlet` |
 | 2023-08-10 | [End-to-End Secure Evaluation of Code Generation Models](../by-focus-area/evals-and-benchmarks.md#dbx-r-secure-code-evaluation) | `dbx-r-secure-code-evaluation` |
@@ -75,7 +76,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2025-10-21 | [Fast PEFT Serving at Scale](../by-focus-area/quantization-and-efficiency.md#dbx-e-fast-peft-serving-scale) | `dbx-e-fast-peft-serving-scale` |
 | 2024-03-21 | [Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8](../by-focus-area/quantization-and-efficiency.md#dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8) | `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8` |
 
-## Agentic Systems (6)
+## Agentic Systems (5)
 
 | Date | Title | ID |
 |---|---|---|
@@ -84,7 +85,6 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2026-03-05 | [Meet KARL: A Faster Agent for Enterprise Knowledge, powered by custom RL](../by-focus-area/agentic-systems.md#dbx-r-meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl) | `dbx-r-meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl` |
 | 2026-01-06 | [Instructed Retriever: Unlocking System-Level Reasoning in Search Agents](../by-focus-area/agentic-systems.md#dbx-r-instructed-retriever-unlocking-system-level-reasoning-search-agents) | `dbx-r-instructed-retriever-unlocking-system-level-reasoning-search-agents` |
 | 2025-09-24 | [Building State-of-the-Art Enterprise Agents 90x Cheaper with Automated Prompt Optimization](../by-focus-area/agentic-systems.md#dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization) | `dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization` |
-| 2025-08-04 | [Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study](../by-focus-area/agentic-systems.md#dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study) | `dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study` |
 
 ## Harness & Context Engineering (19)
 

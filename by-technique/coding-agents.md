@@ -28,4 +28,4 @@
 | 2024-03-15 | Cognition | [SWE-bench technical report](../by-focus-area/evals-and-benchmarks.md#cog-r-swe-bench-technical-report) | `cog-r-swe-bench-technical-report` |
 | 2023-08-10 | Databricks Mosaic AI | [End-to-End Secure Evaluation of Code Generation Models](../by-focus-area/evals-and-benchmarks.md#dbx-r-secure-code-evaluation) | `dbx-r-secure-code-evaluation` |
 | ? | OpenAI | [Why SWE-bench Verified no longer measures frontier coding capabilities](../by-focus-area/evals-and-benchmarks.md#oai-r-why-we-no-longer-evaluate-swe-bench-verified) | `oai-r-why-we-no-longer-evaluate-swe-bench-verified` |
-| ? | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/pretraining-and-architecture.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
+| ? | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/alignment-and-safety.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |

@@ -2,19 +2,19 @@
 
 Agents, tool use, multi-agent, computer use, coding agents, agent benchmarks, agent traces, autonomous workflows.
 
-**Post count:** 112
+**Post count:** 108
 
 **Contributors:**
 
 - Hugging Face: 24
-- Google DeepMind: 23
+- Google DeepMind: 22
 - Meta AI / FAIR: 18
-- Anthropic: 11
+- Anthropic: 9
 - Vercel: 9
 - OpenAI: 7
-- Databricks Mosaic AI: 6
 - Cursor: 6
 - Cognition: 6
+- Databricks Mosaic AI: 5
 - Google Research: 1
 - Allen Institute for AI: 1
 
@@ -24,12 +24,16 @@ Agents, tool use, multi-agent, computer use, coding agents, agent benchmarks, ag
 - [Multi-agent orchestration](#multi-agent-orchestration) (8)
 - [Computer use & browser use](#computer-use-and-browser-use) (4)
 - [Tool use & function calling](#tool-use-and-function-calling) (3)
-- [Enterprise agents](#enterprise-agents) (6)
+- [Enterprise agents](#enterprise-agents) (5)
 - [Embodied agents & simulation](#embodied-and-simulation) (10)
+- [Game-playing & RL agents](#game-and-rl-agents) (10)
+- [Dialogue & conversational agents](#dialogue-and-conversational-agents) (3)
+- [Agent frameworks & tooling](#agent-frameworks-and-tooling) (9)
+- [Agent research applications (scientific, robotic)](#agent-research-applications) (3)
 - [Agent traces & observability](#agent-traces-and-observability) (1)
-- [Agent design & patterns](#agent-design-and-patterns) (5)
-- [General agentic systems](#agents-general) (28)
-- [Other agentic systems](#fallback-agents) (39)
+- [Agent design & patterns / opinion pieces](#agent-design-and-patterns) (10)
+- [General agentic systems](#agents-general) (25)
+- [Other agentic systems](#fallback-agents) (9)
 
 ---
 
@@ -342,7 +346,7 @@ _Summary pending — see link for details._
 
 ## <a id="enterprise-agents"></a>Enterprise agents
 
-_6 posts_
+_5 posts_
 
 ### Agentic Reasoning in Practice: Making Sense of Structured and Unstructured Data
 
@@ -401,18 +405,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Techniques:** retrieval-augmentation
-
-_Summary pending — see link for details._
-
-
-### Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study
-
-- **ID:** `dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
-- **Date:** 2025-08-04
-- **Track:** research
-- **Contribution type:** retrospective-case-study
 
 _Summary pending — see link for details._
 
@@ -541,6 +533,322 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+## <a id="game-and-rl-agents"></a>Game-playing & RL agents
+
+_10 posts_
+
+### OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments
+
+- **ID:** `hf-r-openenv-turing`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/openenv-turing
+- **Date:** 2026-02-12
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Building the Open Agent Ecosystem Together: Introducing OpenEnv
+
+- **ID:** `hf-r-openenv`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/openenv
+- **Date:** 2025-10-23
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Gaia2 and ARE: Empowering the community to study agents
+
+- **ID:** `hf-r-gaia2`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/gaia2
+- **Date:** 2025-09-22
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Droidlet A One Stop Shop For Modularly Building Intelligent Agents
+
+- **ID:** `meta-r-droidlet-a-one-stop-shop-for-modularly-building-intelligent-agents`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/droidlet-a-one-stop-shop-for-modularly-building-intelligent-agents/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Read To Fight Monsters Using Rl To Teach Agents To Generalize To New Settings
+
+- **ID:** `meta-r-read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Training Ai Agents To Solve Unfamiliar Tasks
+
+- **ID:** `meta-r-training-ai-agents-to-solve-unfamiliar-tasks`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/training-ai-agents-to-solve-unfamiliar-tasks/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Agents That Imagine And Plan
+
+- **ID:** `dm-r-agents-that-imagine-and-plan`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/agents-that-imagine-and-plan/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Building Interactive Agents In Video Game Worlds
+
+- **ID:** `dm-r-building-interactive-agents-in-video-game-worlds`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/building-interactive-agents-in-video-game-worlds/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Capture The Flag The Emergence Of Complex Cooperative Agents
+
+- **ID:** `dm-r-capture-the-flag-the-emergence-of-complex-cooperative-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Generally Capable Agents Emerge From Open Ended Play
+
+- **ID:** `dm-r-generally-capable-agents-emerge-from-open-ended-play`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="dialogue-and-conversational-agents"></a>Dialogue & conversational agents
+
+_3 posts_
+
+### Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents
+
+- **ID:** `hf-r-ecom-rlve`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/ecom-rlve
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### A Facebook Scale Simulator To Detect Harmful Behaviors
+
+- **ID:** `meta-r-a-facebook-scale-simulator-to-detect-harmful-behaviors`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/a-facebook-scale-simulator-to-detect-harmful-behaviors/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Building Safer Dialogue Agents
+
+- **ID:** `dm-r-building-safer-dialogue-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/building-safer-dialogue-agents/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="agent-frameworks-and-tooling"></a>Agent frameworks & tooling
+
+_9 posts_
+
+### DeepMath: A lightweight math reasoning Agent with smolagents
+
+- **ID:** `hf-r-intel-deepmath`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/intel-deepmath
+- **Date:** 2025-12-04
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Back to The Future: Evaluating AI Agents on Predicting Future Events
+
+- **ID:** `hf-r-futurebench`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/futurebench
+- **Date:** 2025-07-17
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Trace & Evaluate your Agent with Arize Phoenix
+
+- **ID:** `hf-r-smolagents-phoenix`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/smolagents-phoenix
+- **Date:** 2025-02-28
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Open-source DeepResearch – Freeing our search agents
+
+- **ID:** `hf-r-open-deep-research`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open-deep-research
+- **Date:** 2025-02-04
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing smolagents: simple agents that write actions in code.
+
+- **ID:** `hf-r-smolagents`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/smolagents
+- **Date:** 2024-12-31
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### License to Call: Introducing Transformers Agents 2.0
+
+- **ID:** `hf-r-agents`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/agents
+- **Date:** 2024-05-13
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Open-source LLMs as LangChain Agents
+
+- **ID:** `hf-r-open-source-llms-as-agents`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open-source-llms-as-agents
+- **Date:** 2024-01-24
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing Agents.js: Give tools to your LLMs using JavaScript
+
+- **ID:** `hf-r-agents-js`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/agents-js
+- **Date:** 2023-07-24
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Open Coding Agents
+
+- **ID:** `ai2-r-open-coding-agents`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/open-coding-agents
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="agent-research-applications"></a>Agent research applications (scientific, robotic)
+
+_3 posts_
+
+### Improving the academic workflow: Introducing two AI agents for better figures and peer review
+
+- **ID:** `gr-r-improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Gemini Robotics 15 Brings Ai Agents Into The Physical World
+
+- **ID:** `dm-r-gemini-robotics-15-brings-ai-agents-into-the-physical-world`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Opening Up A Physics Simulator For Robotics
+
+- **ID:** `dm-r-opening-up-a-physics-simulator-for-robotics`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/opening-up-a-physics-simulator-for-robotics/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ## <a id="agent-traces-and-observability"></a>Agent traces & observability
 
 _1 posts_
@@ -557,9 +865,9 @@ _1 posts_
 _Summary pending — see link for details._
 
 
-## <a id="agent-design-and-patterns"></a>Agent design & patterns
+## <a id="agent-design-and-patterns"></a>Agent design & patterns / opinion pieces
 
-_5 posts_
+_10 posts_
 
 ### Trustworthy agents in practice
 
@@ -569,6 +877,42 @@ _5 posts_
 - **Date:** 2026-04-09
 - **Track:** research
 - **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Coding Agents 101: The Art of Actually Getting Things Done
+
+- **ID:** `cog-r-coding-agents-101-the-art-of-actually-getting-things-done`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/coding-agents-101-the-art-of-actually-getting-things-done
+- **Date:** 2025-06-27
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Don’t Build Multi-Agents
+
+- **ID:** `cog-r-dont-build-multi-agents`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/dont-build-multi-agents
+- **Date:** 2025-06-12
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### AI Agents Are Here. What Now?
+
+- **ID:** `hf-r-ethics-soc-7`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/ethics-soc-7
+- **Date:** 2025-01-13
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -593,6 +937,31 @@ _Summary pending — see link for details._
 - **Link:** https://www.anthropic.com/research/building-effective-agents
 - **Date:** 2024-12-19
 - **Authors:** Erik S.|Barry Zhang
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### A review of OpenAI’s o1 and how we evaluate coding agents
+
+- **ID:** `cog-r-evaluating-coding-agents`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/evaluating-coding-agents
+- **Date:** 2024-09-12
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** test-time-compute
+
+_Summary pending — see link for details._
+
+
+### How we monitor internal coding agents for misalignment
+
+- **ID:** `oai-r-how-we-monitor-internal-coding-agents-misalignment`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
+- **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -625,7 +994,7 @@ _Summary pending — see link for details._
 
 ## <a id="agents-general"></a>General agentic systems
 
-_28 posts_
+_25 posts_
 
 ### Agentic Infrastructure
 
@@ -746,18 +1115,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### DeepMath: A lightweight math reasoning Agent with smolagents
-
-- **ID:** `hf-r-intel-deepmath`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/intel-deepmath
-- **Date:** 2025-12-04
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Vercel Agent can now run AI investigations
 
 - **ID:** `vcl-e-vercel-agent-can-now-run-ai-investigations`
@@ -767,18 +1124,6 @@ _Summary pending — see link for details._
 - **Authors:** Malavika Tadeusz|Liz Hurder
 - **Track:** engineering
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Building the Open Agent Ecosystem Together: Introducing OpenEnv
-
-- **ID:** `hf-r-openenv`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/openenv
-- **Date:** 2025-10-23
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -828,18 +1173,6 @@ _Summary pending — see link for details._
 - **Authors:** Malte Ubl
 - **Track:** engineering
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Trace & Evaluate your Agent with Arize Phoenix
-
-- **ID:** `hf-r-smolagents-phoenix`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/smolagents-phoenix
-- **Date:** 2025-02-28
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -978,19 +1311,7 @@ _Summary pending — see link for details._
 
 ## <a id="fallback-agents"></a>Other agentic systems
 
-_39 posts_
-
-### Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents
-
-- **ID:** `hf-r-ecom-rlve`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/ecom-rlve
-- **Date:** 2026-04-16
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
+_9 posts_
 
 ### Expanding our long-running agents research preview
 
@@ -1002,31 +1323,6 @@ _Summary pending — see link for details._
 - **Track:** engineering
 - **Contribution type:** empirical-study
 - **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments
-
-- **ID:** `hf-r-openenv-turing`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/openenv-turing
-- **Date:** 2026-02-12
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Scaling Managed Agents: Decoupling the brain from the hands
-
-- **ID:** `ant-e-managed-agents`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/managed-agents
-- **Date:** 2026-02-04
-- **Authors:** Lance Martin|Gabe Cemaj|Michael Cohen
-- **Track:** engineering
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -1043,19 +1339,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Effective harnesses for long-running agents
-
-- **ID:** `ant-e-effective-harnesses-for-long-running-agents`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
-- **Date:** 2025-11-26
-- **Authors:** Justin Young
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Building State-of-the-Art Enterprise Agents 90x Cheaper with Automated Prompt Optimization
 
 - **ID:** `dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization`
@@ -1064,139 +1347,6 @@ _Summary pending — see link for details._
 - **Date:** 2025-09-24
 - **Track:** research
 - **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Gaia2 and ARE: Empowering the community to study agents
-
-- **ID:** `hf-r-gaia2`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/gaia2
-- **Date:** 2025-09-22
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Back to The Future: Evaluating AI Agents on Predicting Future Events
-
-- **ID:** `hf-r-futurebench`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/futurebench
-- **Date:** 2025-07-17
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Coding Agents 101: The Art of Actually Getting Things Done
-
-- **ID:** `cog-r-coding-agents-101-the-art-of-actually-getting-things-done`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/coding-agents-101-the-art-of-actually-getting-things-done
-- **Date:** 2025-06-27
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Don’t Build Multi-Agents
-
-- **ID:** `cog-r-dont-build-multi-agents`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/dont-build-multi-agents
-- **Date:** 2025-06-12
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Open-source DeepResearch – Freeing our search agents
-
-- **ID:** `hf-r-open-deep-research`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open-deep-research
-- **Date:** 2025-02-04
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### AI Agents Are Here. What Now?
-
-- **ID:** `hf-r-ethics-soc-7`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/ethics-soc-7
-- **Date:** 2025-01-13
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Introducing smolagents: simple agents that write actions in code.
-
-- **ID:** `hf-r-smolagents`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/smolagents
-- **Date:** 2024-12-31
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### A review of OpenAI’s o1 and how we evaluate coding agents
-
-- **ID:** `cog-r-evaluating-coding-agents`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/evaluating-coding-agents
-- **Date:** 2024-09-12
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** test-time-compute
-
-_Summary pending — see link for details._
-
-
-### License to Call: Introducing Transformers Agents 2.0
-
-- **ID:** `hf-r-agents`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/agents
-- **Date:** 2024-05-13
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Open-source LLMs as LangChain Agents
-
-- **ID:** `hf-r-open-source-llms-as-agents`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open-source-llms-as-agents
-- **Date:** 2024-01-24
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Introducing Agents.js: Give tools to your LLMs using JavaScript
-
-- **ID:** `hf-r-agents-js`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/agents-js
-- **Date:** 2023-07-24
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -1225,143 +1375,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How we monitor internal coding agents for misalignment
-
-- **ID:** `oai-r-how-we-monitor-internal-coding-agents-misalignment`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Improving the academic workflow: Introducing two AI agents for better figures and peer review
-
-- **ID:** `gr-r-improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### A Facebook Scale Simulator To Detect Harmful Behaviors
-
-- **ID:** `meta-r-a-facebook-scale-simulator-to-detect-harmful-behaviors`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/a-facebook-scale-simulator-to-detect-harmful-behaviors/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Droidlet A One Stop Shop For Modularly Building Intelligent Agents
-
-- **ID:** `meta-r-droidlet-a-one-stop-shop-for-modularly-building-intelligent-agents`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/droidlet-a-one-stop-shop-for-modularly-building-intelligent-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Meta Fair Updates Agents Robustness Safety Architecture
 
 - **ID:** `meta-r-meta-fair-updates-agents-robustness-safety-architecture`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Read To Fight Monsters Using Rl To Teach Agents To Generalize To New Settings
-
-- **ID:** `meta-r-read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/read-to-fight-monsters-using-rl-to-teach-agents-to-generalize-to-new-settings/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Training Ai Agents To Solve Unfamiliar Tasks
-
-- **ID:** `meta-r-training-ai-agents-to-solve-unfamiliar-tasks`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/training-ai-agents-to-solve-unfamiliar-tasks/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Agents That Imagine And Plan
-
-- **ID:** `dm-r-agents-that-imagine-and-plan`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/agents-that-imagine-and-plan/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Building Interactive Agents In Video Game Worlds
-
-- **ID:** `dm-r-building-interactive-agents-in-video-game-worlds`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/building-interactive-agents-in-video-game-worlds/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Building Safer Dialogue Agents
-
-- **ID:** `dm-r-building-safer-dialogue-agents`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/building-safer-dialogue-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Capture The Flag The Emergence Of Complex Cooperative Agents
-
-- **ID:** `dm-r-capture-the-flag-the-emergence-of-complex-cooperative-agents`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Creating Interactive Agents With Imitation Learning
-
-- **ID:** `dm-r-creating-interactive-agents-with-imitation-learning`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/creating-interactive-agents-with-imitation-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -1381,30 +1399,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Gemini Robotics 15 Brings Ai Agents Into The Physical World
-
-- **ID:** `dm-r-gemini-robotics-15-brings-ai-agents-into-the-physical-world`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Generally Capable Agents Emerge From Open Ended Play
-
-- **ID:** `dm-r-generally-capable-agents-emerge-from-open-ended-play`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Navigating With Grid Like Representations In Artificial Agents
 
 - **ID:** `dm-r-navigating-with-grid-like-representations-in-artificial-agents`
@@ -1417,35 +1411,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Opening Up A Physics Simulator For Robotics
-
-- **ID:** `dm-r-opening-up-a-physics-simulator-for-robotics`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/opening-up-a-physics-simulator-for-robotics/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Spurious Normativity Enhances Learning Of Compliance And Enforcement Behavior In Artificial Agents
 
 - **ID:** `dm-r-spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Open Coding Agents
-
-- **ID:** `ai2-r-open-coding-agents`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/open-coding-agents
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_

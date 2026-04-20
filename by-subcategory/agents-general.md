@@ -1,6 +1,6 @@
 # General agentic systems
 
-**Post count:** 28  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#agents-general))
+**Post count:** 25  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#agents-general))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -13,14 +13,11 @@
 | 2026-02-18 | Cursor | [Implementing a secure sandbox for local agents](../by-focus-area/agentic-systems.md#cur-r-agent-sandboxing) | `cur-r-agent-sandboxing` |
 | 2026-02-03 | Vercel | [Making agent-friendly pages with content negotiation](../by-focus-area/agentic-systems.md#vcl-e-making-agent-friendly-pages-with-content-negotiation) | `vcl-e-making-agent-friendly-pages-with-content-negotiation` |
 | 2025-12-22 | Vercel | [We removed 80% of our agent’s tools](../by-focus-area/agentic-systems.md#vcl-e-we-removed-80-percent-of-our-agents-tools) | `vcl-e-we-removed-80-percent-of-our-agents-tools` |
-| 2025-12-04 | Hugging Face | [DeepMath: A lightweight math reasoning Agent with smolagents](../by-focus-area/agentic-systems.md#hf-r-intel-deepmath) | `hf-r-intel-deepmath` |
 | 2025-10-31 | Vercel | [Vercel Agent can now run AI investigations](../by-focus-area/agentic-systems.md#vcl-e-vercel-agent-can-now-run-ai-investigations) | `vcl-e-vercel-agent-can-now-run-ai-investigations` |
-| 2025-10-23 | Hugging Face | [Building the Open Agent Ecosystem Together: Introducing OpenEnv](../by-focus-area/agentic-systems.md#hf-r-openenv) | `hf-r-openenv` |
 | 2025-09-29 | Hugging Face | [Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models](../by-focus-area/agentic-systems.md#hf-r-intel-qwen3-agent) | `hf-r-intel-qwen3-agent` |
 | 2025-09-10 | Hugging Face | [Jupyter Agents: training LLMs to reason with notebooks](../by-focus-area/agentic-systems.md#hf-r-jupyter-agent-2) | `hf-r-jupyter-agent-2` |
 | 2025-06-20 | Anthropic | [Agentic Misalignment: How LLMs could be insider threats](../by-focus-area/agentic-systems.md#ant-r-agentic-misalignment) | `ant-r-agentic-misalignment` |
 | 2025-06-04 | Vercel | [The no-nonsense approach to AI agent development](../by-focus-area/agentic-systems.md#vcl-e-the-no-nonsense-approach-to-ai-agent-development) | `vcl-e-the-no-nonsense-approach-to-ai-agent-development` |
-| 2025-02-28 | Hugging Face | [Trace & Evaluate your Agent with Arize Phoenix](../by-focus-area/agentic-systems.md#hf-r-smolagents-phoenix) | `hf-r-smolagents-phoenix` |
 | 2024-04-22 | Hugging Face | [Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent](../by-focus-area/agentic-systems.md#hf-r-jat) | `hf-r-jat` |
 | 2023-01-24 | Hugging Face | [What Makes a Dialog Agent Useful?](../by-focus-area/agentic-systems.md#hf-r-dialog-agents) | `hf-r-dialog-agents` |
 | ? | OpenAI | [Practices for Governing Agentic AI Systems](../by-focus-area/agentic-systems.md#oai-r-practices-for-governing-agentic-ai-systems) | `oai-r-practices-for-governing-agentic-ai-systems` |

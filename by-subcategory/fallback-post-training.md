@@ -1,6 +1,6 @@
 # Other post-training
 
-**Post count:** 14  |  **Focus area:** Post-training & Fine-tuning ([canonical](../by-focus-area/post-training-and-fine-tuning.md#fallback-post-training))
+**Post count:** 15  |  **Focus area:** Post-training & Fine-tuning ([canonical](../by-focus-area/post-training-and-fine-tuning.md#fallback-post-training))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -17,4 +17,5 @@
 | ? | OpenAI | [Meta-learning for wrestling](../by-focus-area/post-training-and-fine-tuning.md#oai-r-meta-learning-for-wrestling) | `oai-r-meta-learning-for-wrestling` |
 | ? | OpenAI | [One-shot imitation learning](../by-focus-area/post-training-and-fine-tuning.md#oai-r-one-shot-imitation-learning) | `oai-r-one-shot-imitation-learning` |
 | ? | Meta AI / FAIR | [Open Sourcing Polygames A New Framework For Training Ai Bots Through Self Play](../by-focus-area/post-training-and-fine-tuning.md#meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play) | `meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play` |
+| ? | Google DeepMind | [Creating Interactive Agents With Imitation Learning](../by-focus-area/post-training-and-fine-tuning.md#dm-r-creating-interactive-agents-with-imitation-learning) | `dm-r-creating-interactive-agents-with-imitation-learning` |
 | ? | Google DeepMind | [Learning Through Human Feedback](../by-focus-area/post-training-and-fine-tuning.md#dm-r-learning-through-human-feedback) | `dm-r-learning-through-human-feedback` |

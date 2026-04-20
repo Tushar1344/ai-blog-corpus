@@ -4,53 +4,40 @@
 
 Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
-## Pretraining & Architecture (107)
+## Pretraining & Architecture (93)
 
 | Date | Title | ID |
 |---|---|---|
 | 2025-12-12 | [How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas](../by-focus-area/pretraining-and-architecture.md#oai-e-building-chatgpt-atlas) | `oai-e-building-chatgpt-atlas` |
 | ? | [DALL·E 3](../by-focus-area/pretraining-and-architecture.md#oai-r-dall-e-3) | `oai-r-dall-e-3` |
-| ? | [Evaluating chain-of-thought monitorability](../by-focus-area/pretraining-and-architecture.md#oai-r-evaluating-chain-of-thought-monitorability) | `oai-r-evaluating-chain-of-thought-monitorability` |
-| ? | [Evaluating AI’s ability to perform scientific research tasks](../by-focus-area/pretraining-and-architecture.md#oai-r-frontierscience) | `oai-r-frontierscience` |
 | ? | [AI and efficiency](../by-focus-area/pretraining-and-architecture.md#oai-r-ai-and-efficiency) | `oai-r-ai-and-efficiency` |
 | ? | [Prediction and control with temporal segment models](../by-focus-area/pretraining-and-architecture.md#oai-r-prediction-and-control-with-temporal-segment-models) | `oai-r-prediction-and-control-with-temporal-segment-models` |
 | ? | [Pioneering an AI clinical copilot with Penda Health](../by-focus-area/pretraining-and-architecture.md#oai-r-ai-clinical-copilot-penda-health) | `oai-r-ai-clinical-copilot-penda-health` |
 | ? | [Accelerating life sciences research](../by-focus-area/pretraining-and-architecture.md#oai-r-accelerating-life-sciences-research-with-retro-biosciences) | `oai-r-accelerating-life-sciences-research-with-retro-biosciences` |
 | ? | [Fine-tuning GPT-2 from human preferences](../by-focus-area/pretraining-and-architecture.md#oai-r-fine-tuning-gpt-2) | `oai-r-fine-tuning-gpt-2` |
 | ? | [Improving language model behavior by training on a curated dataset](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-language-model-behavior) | `oai-r-improving-language-model-behavior` |
-| ? | [Democratic inputs to AI](../by-focus-area/pretraining-and-architecture.md#oai-r-democratic-inputs-to-ai) | `oai-r-democratic-inputs-to-ai` |
 | ? | [Improving GANs using optimal transport](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-gans-using-optimal-transport) | `oai-r-improving-gans-using-optimal-transport` |
 | ? | [Transfer from simulation to real world through learning deep inverse dynamics model](../by-focus-area/pretraining-and-architecture.md#oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model) | `oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model` |
 | ? | [Computational limitations in robust classification and win-win results](../by-focus-area/pretraining-and-architecture.md#oai-r-computational-limitations-in-robust-classification-and-win-win-results) | `oai-r-computational-limitations-in-robust-classification-and-win-win-results` |
 | ? | [gpt-oss-120b & gpt-oss-20b Model Card](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-oss-model-card) | `oai-r-gpt-oss-model-card` |
 | ? | [Consistency Models](../by-focus-area/pretraining-and-architecture.md#oai-r-consistency-models) | `oai-r-consistency-models` |
-| ? | [Detecting misbehavior in frontier reasoning models](../by-focus-area/pretraining-and-architecture.md#oai-r-chain-of-thought-monitoring) | `oai-r-chain-of-thought-monitoring` |
 | ? | [Text and code embeddings by contrastive pre-training](../by-focus-area/pretraining-and-architecture.md#oai-r-text-and-code-embeddings-by-contrastive-pre-training) | `oai-r-text-and-code-embeddings-by-contrastive-pre-training` |
-| ? | [AI-written critiques help humans notice flaws](../by-focus-area/pretraining-and-architecture.md#oai-r-critiques) | `oai-r-critiques` |
 | ? | [Teaching models to express their uncertainty in words](../by-focus-area/pretraining-and-architecture.md#oai-r-teaching-models-to-express-their-uncertainty-in-words) | `oai-r-teaching-models-to-express-their-uncertainty-in-words` |
 | ? | [Hindsight Experience Replay](../by-focus-area/pretraining-and-architecture.md#oai-r-hindsight-experience-replay) | `oai-r-hindsight-experience-replay` |
 | ? | [Quantifying generalization in reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-quantifying-generalization-in-reinforcement-learning) | `oai-r-quantifying-generalization-in-reinforcement-learning` |
-| ? | [TruthfulQA: Measuring how models mimic human falsehoods](../by-focus-area/pretraining-and-architecture.md#oai-r-truthfulqa) | `oai-r-truthfulqa` |
 | ? | [Understanding the source of what we see and hear online](../by-focus-area/pretraining-and-architecture.md#oai-r-understanding-the-source-of-what-we-see-and-hear-online) | `oai-r-understanding-the-source-of-what-we-see-and-hear-online` |
-| ? | [Evaluating fairness in ChatGPT](../by-focus-area/pretraining-and-architecture.md#oai-r-evaluating-fairness-in-chatgpt) | `oai-r-evaluating-fairness-in-chatgpt` |
-| ? | [Aligning language models to follow instructions](../by-focus-area/pretraining-and-architecture.md#oai-r-instruction-following) | `oai-r-instruction-following` |
 | ? | [Ucb Exploration Via Q Ensembles](../by-focus-area/pretraining-and-architecture.md#oai-r-ucb-exploration-via-q-ensembles) | `oai-r-ucb-exploration-via-q-ensembles` |
 | ? | [Efficient training of language models to fill in the middle](../by-focus-area/pretraining-and-architecture.md#oai-r-efficient-training-of-language-models-to-fill-in-the-middle) | `oai-r-efficient-training-of-language-models-to-fill-in-the-middle` |
-| ? | [Solving math word problems](../by-focus-area/pretraining-and-architecture.md#oai-r-solving-math-word-problems) | `oai-r-solving-math-word-problems` |
 | ? | [Benchmarking safe exploration in deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning) | `oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning` |
 | ? | [GPT-2: 6-month follow-up](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-2-6-month-follow-up) | `oai-r-gpt-2-6-month-follow-up` |
 | ? | [Implicit generation and generalization methods for energy-based models](../by-focus-area/pretraining-and-architecture.md#oai-r-energy-based-models) | `oai-r-energy-based-models` |
 | ? | [Some considerations on learning to explore via meta-reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning) | `oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning` |
 | ? | [Early methods for studying affective use and emotional well-being on ChatGPT](../by-focus-area/pretraining-and-architecture.md#oai-r-affective-use-study) | `oai-r-affective-use-study` |
 | ? | [Image GPT](../by-focus-area/pretraining-and-architecture.md#oai-r-image-gpt) | `oai-r-image-gpt` |
-| ? | [A hazard analysis framework for code synthesis large language models](../by-focus-area/pretraining-and-architecture.md#oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models) | `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models` |
-| ? | [GamePad: A learning environment for theorem proving](../by-focus-area/pretraining-and-architecture.md#oai-r-gamepad) | `oai-r-gamepad` |
-| ? | [PaperBench: Evaluating AI’s Ability to Replicate AI Research](../by-focus-area/pretraining-and-architecture.md#oai-r-paperbench) | `oai-r-paperbench` |
 | ? | [Preparing for malicious uses of AI](../by-focus-area/pretraining-and-architecture.md#oai-r-preparing-for-malicious-uses-of-ai) | `oai-r-preparing-for-malicious-uses-of-ai` |
 | ? | [How people are using ChatGPT](../by-focus-area/pretraining-and-architecture.md#oai-r-how-people-are-using-chatgpt) | `oai-r-how-people-are-using-chatgpt` |
 | ? | [Extracting Concepts from GPT-4](../by-focus-area/pretraining-and-architecture.md#oai-r-extracting-concepts-from-gpt-4) | `oai-r-extracting-concepts-from-gpt-4` |
 | ? | [Finding GPT-4’s mistakes with GPT-4](../by-focus-area/pretraining-and-architecture.md#oai-r-finding-gpt4s-mistakes-with-gpt-4) | `oai-r-finding-gpt4s-mistakes-with-gpt-4` |
-| ? | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/pretraining-and-architecture.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
 | ? | [Variational Lossy Autoencoder](../by-focus-area/pretraining-and-architecture.md#oai-r-variational-lossy-autoencoder) | `oai-r-variational-lossy-autoencoder` |
 | ? | [Language models can explain neurons in language models](../by-focus-area/pretraining-and-architecture.md#oai-r-language-models-can-explain-neurons-in-language-models) | `oai-r-language-models-can-explain-neurons-in-language-models` |
 | ? | [DALL·E 2 pre-training mitigations](../by-focus-area/pretraining-and-architecture.md#oai-r-dall-e-2-pre-training-mitigations) | `oai-r-dall-e-2-pre-training-mitigations` |
@@ -61,7 +48,6 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Hierarchical text-conditional image generation with CLIP latents](../by-focus-area/pretraining-and-architecture.md#oai-r-hierarchical-text-conditional-image-generation-with-clip-latents) | `oai-r-hierarchical-text-conditional-image-generation-with-clip-latents` |
 | ? | [Measuring Goodhart’s law](../by-focus-area/pretraining-and-architecture.md#oai-r-measuring-goodharts-law) | `oai-r-measuring-goodharts-law` |
 | ? | [WebGPT: Improving the factual accuracy of language models through web browsing](../by-focus-area/pretraining-and-architecture.md#oai-r-webgpt) | `oai-r-webgpt` |
-| ? | [Generative language modeling for automated theorem proving](../by-focus-area/pretraining-and-architecture.md#oai-r-generative-language-modeling-for-automated-theorem-proving) | `oai-r-generative-language-modeling-for-automated-theorem-proving` |
 | ? | [Plan online, learn offline: Efficient learning and exploration via model-based control](../by-focus-area/pretraining-and-architecture.md#oai-r-plan-online-learn-offline) | `oai-r-plan-online-learn-offline` |
 | ? | [Deep double descent](../by-focus-area/pretraining-and-architecture.md#oai-r-deep-double-descent) | `oai-r-deep-double-descent` |
 | ? | [Improving verifiability in AI development](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-verifiability) | `oai-r-improving-verifiability` |
@@ -129,13 +115,14 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Meta-learning for wrestling](../by-focus-area/post-training-and-fine-tuning.md#oai-r-meta-learning-for-wrestling) | `oai-r-meta-learning-for-wrestling` |
 | ? | [One-shot imitation learning](../by-focus-area/post-training-and-fine-tuning.md#oai-r-one-shot-imitation-learning) | `oai-r-one-shot-imitation-learning` |
 
-## Alignment & Safety (51)
+## Alignment & Safety (60)
 
 | Date | Title | ID |
 |---|---|---|
 | ? | [Deliberative alignment: reasoning enables safer language models](../by-focus-area/alignment-and-safety.md#oai-r-deliberative-alignment) | `oai-r-deliberative-alignment` |
 | ? | [Improving instruction hierarchy in frontier LLMs](../by-focus-area/alignment-and-safety.md#oai-r-instruction-hierarchy-challenge) | `oai-r-instruction-hierarchy-challenge` |
 | ? | [GPT-5.1-Codex-Max System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-1-codex-max-system-card) | `oai-r-gpt-5-1-codex-max-system-card` |
+| ? | [Evaluating chain-of-thought monitorability](../by-focus-area/alignment-and-safety.md#oai-r-evaluating-chain-of-thought-monitorability) | `oai-r-evaluating-chain-of-thought-monitorability` |
 | ? | [GPT-5.3-Codex System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-3-codex-system-card) | `oai-r-gpt-5-3-codex-system-card` |
 | ? | [Inside our approach to the Model Spec](../by-focus-area/alignment-and-safety.md#oai-r-our-approach-to-the-model-spec) | `oai-r-our-approach-to-the-model-spec` |
 | ? | [Our updated Preparedness Framework](../by-focus-area/alignment-and-safety.md#oai-r-updating-our-preparedness-framework) | `oai-r-updating-our-preparedness-framework` |
@@ -145,12 +132,18 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Update to GPT-5 System Card: GPT-5.2](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-system-card-update-gpt-5-2) | `oai-r-gpt-5-system-card-update-gpt-5-2` |
 | ? | [Addendum to GPT-5 System Card: Sensitive conversations](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-system-card-sensitive-conversations) | `oai-r-gpt-5-system-card-sensitive-conversations` |
 | ? | [Adversarial attacks on neural network policies](../by-focus-area/alignment-and-safety.md#oai-r-adversarial-attacks-on-neural-network-policies) | `oai-r-adversarial-attacks-on-neural-network-policies` |
+| ? | [Democratic inputs to AI](../by-focus-area/alignment-and-safety.md#oai-r-democratic-inputs-to-ai) | `oai-r-democratic-inputs-to-ai` |
 | ? | [AI safety needs social scientists](../by-focus-area/alignment-and-safety.md#oai-r-ai-safety-needs-social-scientists) | `oai-r-ai-safety-needs-social-scientists` |
 | ? | [GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-system-card-addendum-gpt-5-1) | `oai-r-gpt-5-system-card-addendum-gpt-5-1` |
 | ? | [Sora 2 System Card](../by-focus-area/alignment-and-safety.md#oai-r-sora-2-system-card) | `oai-r-sora-2-system-card` |
+| ? | [Detecting misbehavior in frontier reasoning models](../by-focus-area/alignment-and-safety.md#oai-r-chain-of-thought-monitoring) | `oai-r-chain-of-thought-monitoring` |
+| ? | [AI-written critiques help humans notice flaws](../by-focus-area/alignment-and-safety.md#oai-r-critiques) | `oai-r-critiques` |
 | ? | [Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk](../by-focus-area/alignment-and-safety.md#oai-r-forecasting-misuse) | `oai-r-forecasting-misuse` |
 | ? | [Operator System Card](../by-focus-area/alignment-and-safety.md#oai-r-operator-system-card) | `oai-r-operator-system-card` |
+| ? | [TruthfulQA: Measuring how models mimic human falsehoods](../by-focus-area/alignment-and-safety.md#oai-r-truthfulqa) | `oai-r-truthfulqa` |
 | ? | [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](../by-focus-area/alignment-and-safety.md#oai-r-the-instruction-hierarchy) | `oai-r-the-instruction-hierarchy` |
+| ? | [Evaluating fairness in ChatGPT](../by-focus-area/alignment-and-safety.md#oai-r-evaluating-fairness-in-chatgpt) | `oai-r-evaluating-fairness-in-chatgpt` |
+| ? | [Aligning language models to follow instructions](../by-focus-area/alignment-and-safety.md#oai-r-instruction-following) | `oai-r-instruction-following` |
 | ? | [Addendum to GPT-5 system card: GPT-5-Codex](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-system-card-addendum-gpt-5-codex) | `oai-r-gpt-5-system-card-addendum-gpt-5-codex` |
 | ? | [OpenAI o3 and o4-mini System Card](../by-focus-area/alignment-and-safety.md#oai-r-o3-o4-mini-system-card) | `oai-r-o3-o4-mini-system-card` |
 | ? | [OpenAI o1 System Card](../by-focus-area/alignment-and-safety.md#oai-r-openai-o1-system-card) | `oai-r-openai-o1-system-card` |
@@ -161,9 +154,11 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [GPT-4.5 system card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4-5-system-card) | `oai-r-gpt-4-5-system-card` |
 | ? | [Deep research System Card](../by-focus-area/alignment-and-safety.md#oai-r-deep-research-system-card) | `oai-r-deep-research-system-card` |
 | ? | [Improving Model Safety Behavior with Rule-Based Rewards](../by-focus-area/alignment-and-safety.md#oai-r-improving-model-safety-behavior-with-rule-based-rewards) | `oai-r-improving-model-safety-behavior-with-rule-based-rewards` |
+| ? | [A hazard analysis framework for code synthesis large language models](../by-focus-area/alignment-and-safety.md#oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models) | `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models` |
 | ? | [Addendum to GPT-4o System Card: 4o image generation](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4o-image-generation-system-card-addendum) | `oai-r-gpt-4o-image-generation-system-card-addendum` |
 | ? | [GPT-4o System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4o-system-card) | `oai-r-gpt-4o-system-card` |
 | ? | [Why responsible AI development needs cooperation on safety](../by-focus-area/alignment-and-safety.md#oai-r-cooperation-on-safety) | `oai-r-cooperation-on-safety` |
+| ? | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/alignment-and-safety.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
 | ? | [Addendum to o3 and o4-mini system card: Codex](../by-focus-area/alignment-and-safety.md#oai-r-o3-o4-mini-codex-system-card-addendum) | `oai-r-o3-o4-mini-codex-system-card-addendum` |
 | ? | [Concrete AI safety problems](../by-focus-area/alignment-and-safety.md#oai-r-concrete-ai-safety-problems) | `oai-r-concrete-ai-safety-problems` |
 | ? | [Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator](../by-focus-area/alignment-and-safety.md#oai-r-o3-o4-mini-system-card-addendum-operator-o3) | `oai-r-o3-o4-mini-system-card-addendum-operator-o3` |
@@ -192,16 +187,21 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Understanding neural networks through sparse circuits](../by-focus-area/interpretability.md#oai-r-understanding-neural-networks-through-sparse-circuits) | `oai-r-understanding-neural-networks-through-sparse-circuits` |
 | ? | [Unsupervised sentiment neuron](../by-focus-area/interpretability.md#oai-r-unsupervised-sentiment-neuron) | `oai-r-unsupervised-sentiment-neuron` |
 
-## Evaluations & Benchmarks (7)
+## Evaluations & Benchmarks (12)
 
 | Date | Title | ID |
 |---|---|---|
 | ? | [Why SWE-bench Verified no longer measures frontier coding capabilities](../by-focus-area/evals-and-benchmarks.md#oai-r-why-we-no-longer-evaluate-swe-bench-verified) | `oai-r-why-we-no-longer-evaluate-swe-bench-verified` |
 | ? | [Measuring AI’s capability to accelerate biological research in the wet lab](../by-focus-area/evals-and-benchmarks.md#oai-r-accelerating-biological-research-in-the-wet-lab) | `oai-r-accelerating-biological-research-in-the-wet-lab` |
+| ? | [Evaluating AI’s ability to perform scientific research tasks](../by-focus-area/evals-and-benchmarks.md#oai-r-frontierscience) | `oai-r-frontierscience` |
 | ? | [Measuring the performance of our models on real-world tasks](../by-focus-area/evals-and-benchmarks.md#oai-r-gdpval) | `oai-r-gdpval` |
 | ? | [Gotta Learn Fast: A new benchmark for generalization in RL](../by-focus-area/evals-and-benchmarks.md#oai-r-gotta-learn-fast) | `oai-r-gotta-learn-fast` |
+| ? | [Solving math word problems](../by-focus-area/evals-and-benchmarks.md#oai-r-solving-math-word-problems) | `oai-r-solving-math-word-problems` |
+| ? | [GamePad: A learning environment for theorem proving](../by-focus-area/evals-and-benchmarks.md#oai-r-gamepad) | `oai-r-gamepad` |
+| ? | [PaperBench: Evaluating AI’s Ability to Replicate AI Research](../by-focus-area/evals-and-benchmarks.md#oai-r-paperbench) | `oai-r-paperbench` |
 | ? | [BrowseComp: a benchmark for browsing agents](../by-focus-area/evals-and-benchmarks.md#oai-r-browsecomp) | `oai-r-browsecomp` |
 | ? | [Scaling laws for reward model overoptimization](../by-focus-area/evals-and-benchmarks.md#oai-r-scaling-laws-for-reward-model-overoptimization) | `oai-r-scaling-laws-for-reward-model-overoptimization` |
+| ? | [Generative language modeling for automated theorem proving](../by-focus-area/evals-and-benchmarks.md#oai-r-generative-language-modeling-for-automated-theorem-proving) | `oai-r-generative-language-modeling-for-automated-theorem-proving` |
 | ? | [Introducing the SWE-Lancer benchmark](../by-focus-area/evals-and-benchmarks.md#oai-r-swe-lancer) | `oai-r-swe-lancer` |
 
 ## Agentic Systems (7)

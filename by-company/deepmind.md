@@ -10,10 +10,11 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 |---|---|---|
 | ? | [Alphago Zero Starting From Scratch](../by-focus-area/pretraining-and-architecture.md#dm-r-alphago-zero-starting-from-scratch) | `dm-r-alphago-zero-starting-from-scratch` |
 
-## Post-training & Fine-tuning (1)
+## Post-training & Fine-tuning (2)
 
 | Date | Title | ID |
 |---|---|---|
+| ? | [Creating Interactive Agents With Imitation Learning](../by-focus-area/post-training-and-fine-tuning.md#dm-r-creating-interactive-agents-with-imitation-learning) | `dm-r-creating-interactive-agents-with-imitation-learning` |
 | ? | [Learning Through Human Feedback](../by-focus-area/post-training-and-fine-tuning.md#dm-r-learning-through-human-feedback) | `dm-r-learning-through-human-feedback` |
 
 ## Alignment & Safety (5)
@@ -40,7 +41,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Facts Grounding A New Benchmark For Evaluating The Factuality Of Large Language Models](../by-focus-area/evals-and-benchmarks.md#dm-r-facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models) | `dm-r-facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models` |
 | ? | [Melting Pot An Evaluation Suite For Multi Agent Reinforcement Learning](../by-focus-area/evals-and-benchmarks.md#dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning) | `dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning` |
 
-## Agentic Systems (23)
+## Agentic Systems (22)
 
 | Date | Title | ID |
 |---|---|---|
@@ -51,7 +52,6 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | ? | [Building Interactive Agents In Video Game Worlds](../by-focus-area/agentic-systems.md#dm-r-building-interactive-agents-in-video-game-worlds) | `dm-r-building-interactive-agents-in-video-game-worlds` |
 | ? | [Building Safer Dialogue Agents](../by-focus-area/agentic-systems.md#dm-r-building-safer-dialogue-agents) | `dm-r-building-safer-dialogue-agents` |
 | ? | [Capture The Flag The Emergence Of Complex Cooperative Agents](../by-focus-area/agentic-systems.md#dm-r-capture-the-flag-the-emergence-of-complex-cooperative-agents) | `dm-r-capture-the-flag-the-emergence-of-complex-cooperative-agents` |
-| ? | [Creating Interactive Agents With Imitation Learning](../by-focus-area/agentic-systems.md#dm-r-creating-interactive-agents-with-imitation-learning) | `dm-r-creating-interactive-agents-with-imitation-learning` |
 | ? | [Discovering When An Agent Is Present In A System](../by-focus-area/agentic-systems.md#dm-r-discovering-when-an-agent-is-present-in-a-system) | `dm-r-discovering-when-an-agent-is-present-in-a-system` |
 | ? | [Emergent Bartering Behaviour In Multi Agent Reinforcement Learning](../by-focus-area/agentic-systems.md#dm-r-emergent-bartering-behaviour-in-multi-agent-reinforcement-learning) | `dm-r-emergent-bartering-behaviour-in-multi-agent-reinforcement-learning` |
 | ? | [Evaluating Multimodal Interactive Agents](../by-focus-area/agentic-systems.md#dm-r-evaluating-multimodal-interactive-agents) | `dm-r-evaluating-multimodal-interactive-agents` |

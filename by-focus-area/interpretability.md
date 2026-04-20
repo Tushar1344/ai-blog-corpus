@@ -2,11 +2,11 @@
 
 Sparse autoencoders (SAEs), circuits, steering, probing, dictionary learning, feature viz, monosemanticity.
 
-**Post count:** 17
+**Post count:** 21
 
 **Contributors:**
 
-- Anthropic: 14
+- Anthropic: 18
 - OpenAI: 2
 - Google DeepMind: 1
 
@@ -16,7 +16,7 @@ Sparse autoencoders (SAEs), circuits, steering, probing, dictionary learning, fe
 - [Circuits & mechanistic interpretability](#circuits-and-mechanistic) (10)
 - [Steering & intervention](#steering-and-intervention) (2)
 - [Feature viz & probing](#feature-viz-and-probing) (1)
-- [Other interpretability](#fallback-interp) (1)
+- [Other interpretability](#fallback-interp) (5)
 
 ---
 
@@ -245,7 +245,56 @@ _Summary pending — see link for details._
 
 ## <a id="fallback-interp"></a>Other interpretability
 
-_1 posts_
+_5 posts_
+
+### Tracing the thoughts of a large language model
+
+- **ID:** `ant-r-tracing-thoughts-language-model`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/tracing-thoughts-language-model
+- **Date:** 2025-03-27
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Insights on Crosscoder Model Diffing
+
+- **ID:** `ant-r-crosscoder-model-diffing`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/crosscoder-model-diffing
+- **Date:** 2025-02-20
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Using dictionary learning features as classifiers
+
+- **ID:** `ant-r-features-as-classifiers`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/features-as-classifiers
+- **Date:** 2024-10-16
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** interpretability-features
+
+_Summary pending — see link for details._
+
+
+### The engineering challenges of scaling interpretability
+
+- **ID:** `ant-r-engineering-challenges-interpretability`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/engineering-challenges-interpretability
+- **Date:** 2024-06-13
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
 
 ### Unsupervised sentiment neuron
 

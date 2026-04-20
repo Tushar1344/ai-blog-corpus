@@ -1,9 +1,10 @@
 # Classic RLHF (PPO, reward models)
 
-**Post count:** 7  |  **Focus area:** Post-training & Fine-tuning ([canonical](../by-focus-area/post-training-and-fine-tuning.md#rlhf-classic))
+**Post count:** 8  |  **Focus area:** Post-training & Fine-tuning ([canonical](../by-focus-area/post-training-and-fine-tuning.md#rlhf-classic))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
+| 2025-08-04 | Databricks Mosaic AI | [Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study) | `dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study` |
 | 2024-06-12 | Hugging Face | [Putting RL back in RLHF](../by-focus-area/post-training-and-fine-tuning.md#hf-r-putting_rl_back_in_rlhf_with_rloo) | `hf-r-putting_rl_back_in_rlhf_with_rloo` |
 | 2023-10-24 | Hugging Face | [The N Implementation Details of RLHF with PPO](../by-focus-area/post-training-and-fine-tuning.md#hf-r-the_n_implementation_details_of_rlhf_with_ppo) | `hf-r-the_n_implementation_details_of_rlhf_with_ppo` |
 | 2023-04-05 | Hugging Face | [StackLLaMA: A hands-on guide to train LLaMA with RLHF](../by-focus-area/post-training-and-fine-tuning.md#hf-r-stackllama) | `hf-r-stackllama` |

@@ -2,13 +2,13 @@
 
 New eval suites, benchmark analyses, eval methodology (SWE-bench, Tau-Bench, BrowseComp, GPQA, HELM, etc.).
 
-**Post count:** 77
+**Post count:** 83
 
 **Contributors:**
 
 - Hugging Face: 41
-- OpenAI: 7
-- Databricks Mosaic AI: 7
+- OpenAI: 12
+- Databricks Mosaic AI: 8
 - Meta AI / FAIR: 7
 - Anthropic: 6
 - Google DeepMind: 3
@@ -21,12 +21,15 @@ New eval suites, benchmark analyses, eval methodology (SWE-bench, Tau-Bench, Bro
 **Subcategories:**
 
 - [Agent evaluations](#agent-evals) (4)
-- [Coding evaluations](#coding-evals) (5)
+- [Coding evaluations](#coding-evals) (6)
 - [Reasoning & math evaluations](#reasoning-evals) (2)
+- [Leaderboards & community evals](#leaderboards-and-community-evals) (27)
 - [Judge models & eval methodology](#judge-models-and-methodology) (10)
-- [Eval systems & harnesses](#eval-systems-and-harnesses) (1)
+- [Eval systems & harnesses](#eval-systems-and-harnesses) (7)
+- [Benchmark releases](#benchmark-release) (2)
+- [Domain-specific evals (speech, vision, science, medical)](#domain-specific-evals) (9)
 - [Benchmark critique](#benchmark-critique) (4)
-- [Other evaluations & benchmarks](#fallback-evals) (51)
+- [Other evaluations & benchmarks](#fallback-evals) (12)
 
 ---
 
@@ -86,7 +89,7 @@ _Summary pending — see link for details._
 
 ## <a id="coding-evals"></a>Coding evaluations
 
-_5 posts_
+_6 posts_
 
 ### How we compare model quality in Cursor We use a hybrid online-offline eval process to keep our understanding of model quality aligned with what developers actually do. Naman Jain ·
 
@@ -152,6 +155,18 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### PaperBench: Evaluating AI’s Ability to Replicate AI Research
+
+- **ID:** `oai-r-paperbench`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/paperbench/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ## <a id="reasoning-evals"></a>Reasoning & math evaluations
 
 _2 posts_
@@ -180,209 +195,9 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-## <a id="judge-models-and-methodology"></a>Judge models & eval methodology
+## <a id="leaderboards-and-community-evals"></a>Leaderboards & community evals
 
-_10 posts_
-
-### Measuring AI agent autonomy in practice
-
-- **ID:** `ant-r-measuring-agent-autonomy`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/measuring-agent-autonomy
-- **Date:** 2026-02-18
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### From Pilot to Production with Custom Judges
-
-- **ID:** `dbx-r-pilot-production-custom-judges`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/pilot-production-custom-judges
-- **Date:** 2025-11-04
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Judging with Confidence: Meet PGRM, the Promptable Reward Model
-
-- **ID:** `dbx-r-judging-confidence-meet-pgrm-promptable-reward-model`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/judging-confidence-meet-pgrm-promptable-reward-model
-- **Date:** 2025-08-12
-- **Track:** research
-- **Contribution type:** new-method
-- **Techniques:** RLHF, reward-modeling
-
-_Summary pending — see link for details._
-
-
-### ScreenSuite - The most comprehensive evaluation suite for GUI Agents!
-
-- **ID:** `hf-r-screensuite`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/screensuite
-- **Date:** 2025-06-06
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Judge Arena: Benchmarking LLMs as Evaluators
-
-- **ID:** `hf-r-arena-atla`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/arena-atla
-- **Date:** 2024-11-19
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge
-
-- **ID:** `hf-r-digital-green-llm-judge`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/digital-green-llm-judge
-- **Date:** 2024-10-28
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Launching the Artificial Analysis Text to Image Leaderboard & Arena
-
-- **ID:** `hf-r-leaderboard-artificial-analysis2`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/leaderboard-artificial-analysis2
-- **Date:** 2024-06-06
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models
-
-- **ID:** `hf-r-leaderboard-llamaguard`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/leaderboard-llamaguard
-- **Date:** 2024-05-24
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Measuring AI’s capability to accelerate biological research in the wet lab
-
-- **ID:** `oai-r-accelerating-biological-research-in-the-wet-lab`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-biological-research-in-the-wet-lab/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Melting Pot An Evaluation Suite For Multi Agent Reinforcement Learning
-
-- **ID:** `dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-## <a id="eval-systems-and-harnesses"></a>Eval systems & harnesses
-
-_1 posts_
-
-### Demystifying evals for AI agents
-
-- **ID:** `ant-e-demystifying-evals-for-ai-agents`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
-- **Date:** 2026-01-09
-- **Authors:** Mikaela Grace|Jeremy Hadfield|Rodrigo Olivares|Jiri De Jonghe
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
-
-_Summary pending — see link for details._
-
-
-## <a id="benchmark-critique"></a>Benchmark critique
-
-_4 posts_
-
-### Quantifying infrastructure noise in agentic coding evals
-
-- **ID:** `ant-e-infrastructure-noise`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/infrastructure-noise
-- **Date:** 2026-02-03
-- **Authors:** Gian Segato
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
-
-_Summary pending — see link for details._
-
-
-### Beyond the Leaderboard: Unpacking Function Calling Evaluation
-
-- **ID:** `dbx-r-unpacking-function-calling-eval`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/unpacking-function-calling-eval
-- **Date:** 2024-08-16
-- **Authors:** Kartik Sreenivasan|Jeffrey Chen|Pallavi Koppol|Eitan Turok|Bay Foley-Cox|Asfandyar Qureshi|Sam Havens
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-- **Techniques:** tool-use, evals-eval-harness
-
-_Summary pending — see link for details._
-
-
-### Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs
-
-- **ID:** `hf-r-leaderboard-livecodebench`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/leaderboard-livecodebench
-- **Date:** 2024-04-16
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Why SWE-bench Verified no longer measures frontier coding capabilities
-
-- **ID:** `oai-r-why-we-no-longer-evaluate-swe-bench-verified`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-- **Techniques:** coding-agents, SWE-bench
-
-_Summary pending — see link for details._
-
-
-## <a id="fallback-evals"></a>Other evaluations & benchmarks
-
-_51 posts_
+_27 posts_
 
 ### Community Evals: Because we're done trusting black-box leaderboards over the community
 
@@ -392,20 +207,6 @@ _51 posts_
 - **Date:** 2026-02-04
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### AGENTS.md outperforms skills in our agent evals
-
-- **ID:** `vcl-e-agents-md-outperforms-skills-in-our-agent-evals`
-- **Company:** Vercel
-- **Link:** https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
-- **Date:** 2026-01-27
-- **Authors:** Jude Gao
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
 
 _Summary pending — see link for details._
 
@@ -506,19 +307,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### A statistical approach to model evaluations
-
-- **ID:** `ant-r-statistical-approach-to-model-evals`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/statistical-approach-to-model-evals
-- **Date:** 2024-11-19
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
-
-_Summary pending — see link for details._
-
-
 ### Introducing the Open FinLLM Leaderboard
 
 - **ID:** `hf-r-leaderboard-finbench`
@@ -563,19 +351,6 @@ _Summary pending — see link for details._
 - **Date:** 2024-05-03
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Calibrating the Mosaic Evaluation Gauntlet
-
-- **ID:** `dbx-r-calibrating-mosaic-evaluation-gauntlet`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/calibrating-mosaic-evaluation-gauntlet
-- **Date:** 2024-04-30
-- **Authors:** Tessa Barton
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -712,18 +487,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Llama 2 on Amazon SageMaker a Benchmark
-
-- **ID:** `hf-r-llama-sagemaker-benchmark`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/llama-sagemaker-benchmark
-- **Date:** 2023-09-26
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Object Detection Leaderboard
 
 - **ID:** `hf-r-object-detection-leaderboard`
@@ -732,6 +495,212 @@ _Summary pending — see link for details._
 - **Date:** 2023-09-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Can foundation models label data like humans?
+
+- **ID:** `hf-r-open-llm-leaderboard-rlhf`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open-llm-leaderboard-rlhf
+- **Date:** 2023-06-12
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B
+
+- **ID:** `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="judge-models-and-methodology"></a>Judge models & eval methodology
+
+_10 posts_
+
+### Measuring AI agent autonomy in practice
+
+- **ID:** `ant-r-measuring-agent-autonomy`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/measuring-agent-autonomy
+- **Date:** 2026-02-18
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### From Pilot to Production with Custom Judges
+
+- **ID:** `dbx-r-pilot-production-custom-judges`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/pilot-production-custom-judges
+- **Date:** 2025-11-04
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Judging with Confidence: Meet PGRM, the Promptable Reward Model
+
+- **ID:** `dbx-r-judging-confidence-meet-pgrm-promptable-reward-model`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/judging-confidence-meet-pgrm-promptable-reward-model
+- **Date:** 2025-08-12
+- **Track:** research
+- **Contribution type:** new-method
+- **Techniques:** RLHF, reward-modeling
+
+_Summary pending — see link for details._
+
+
+### ScreenSuite - The most comprehensive evaluation suite for GUI Agents!
+
+- **ID:** `hf-r-screensuite`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/screensuite
+- **Date:** 2025-06-06
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Judge Arena: Benchmarking LLMs as Evaluators
+
+- **ID:** `hf-r-arena-atla`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/arena-atla
+- **Date:** 2024-11-19
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge
+
+- **ID:** `hf-r-digital-green-llm-judge`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/digital-green-llm-judge
+- **Date:** 2024-10-28
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Launching the Artificial Analysis Text to Image Leaderboard & Arena
+
+- **ID:** `hf-r-leaderboard-artificial-analysis2`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/leaderboard-artificial-analysis2
+- **Date:** 2024-06-06
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models
+
+- **ID:** `hf-r-leaderboard-llamaguard`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/leaderboard-llamaguard
+- **Date:** 2024-05-24
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Measuring AI’s capability to accelerate biological research in the wet lab
+
+- **ID:** `oai-r-accelerating-biological-research-in-the-wet-lab`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/accelerating-biological-research-in-the-wet-lab/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Melting Pot An Evaluation Suite For Multi Agent Reinforcement Learning
+
+- **ID:** `dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="eval-systems-and-harnesses"></a>Eval systems & harnesses
+
+_7 posts_
+
+### Demystifying evals for AI agents
+
+- **ID:** `ant-e-demystifying-evals-for-ai-agents`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+- **Date:** 2026-01-09
+- **Authors:** Mikaela Grace|Jeremy Hadfield|Rodrigo Olivares|Jiri De Jonghe
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+_Summary pending — see link for details._
+
+
+### Benchmarking Domain Intelligence
+
+- **ID:** `dbx-r-benchmarking-domain-intelligence`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/benchmarking-domain-intelligence
+- **Date:** 2024-12-17
+- **Authors:** Pallavi Koppol|Erica Ji Yuen|Kartik Sreenivasan|Andy Zhang|Sam Havens|Michael Carbin|Matei Zaharia|Jonathan Frankle
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### A statistical approach to model evaluations
+
+- **ID:** `ant-r-statistical-approach-to-model-evals`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/statistical-approach-to-model-evals
+- **Date:** 2024-11-19
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+_Summary pending — see link for details._
+
+
+### Calibrating the Mosaic Evaluation Gauntlet
+
+- **ID:** `dbx-r-calibrating-mosaic-evaluation-gauntlet`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/calibrating-mosaic-evaluation-gauntlet
+- **Date:** 2024-04-30
+- **Authors:** Tessa Barton
+- **Track:** research
+- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -750,18 +719,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Can foundation models label data like humans?
-
-- **ID:** `hf-r-open-llm-leaderboard-rlhf`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open-llm-leaderboard-rlhf
-- **Date:** 2023-06-12
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Blazingly Fast LLM Evaluation for In-Context Learning
 
 - **ID:** `dbx-r-llm-evaluation-for-icl`
@@ -775,65 +732,21 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB
+### Evaluating AI’s ability to perform scientific research tasks
 
-- **ID:** `hf-r-habana-gaudi-2-benchmark`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/habana-gaudi-2-benchmark
-- **Date:** 2022-12-14
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### MTEB: Massive Text Embedding Benchmark
-
-- **ID:** `hf-r-mteb`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/mteb
-- **Date:** 2022-10-19
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Very Large Language Models and How to Evaluate Them
-
-- **ID:** `hf-r-zero-shot-eval-on-the-hub`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/zero-shot-eval-on-the-hub
-- **Date:** 2022-10-03
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Announcing Evaluation on the Hub
-
-- **ID:** `hf-r-eval-on-the-hub`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/eval-on-the-hub
-- **Date:** 2022-06-28
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Measuring the performance of our models on real-world tasks
-
-- **ID:** `oai-r-gdpval`
+- **ID:** `oai-r-frontierscience`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/gdpval/
+- **Link:** https://openai.com/index/frontierscience/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
+
+## <a id="benchmark-release"></a>Benchmark releases
+
+_2 posts_
 
 ### Gotta Learn Fast: A new benchmark for generalization in RL
 
@@ -848,18 +761,21 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Scaling laws for reward model overoptimization
+### Introducing The Temporal Data Set A Benchmark For Recognizing Actions In Videos
 
-- **ID:** `oai-r-scaling-laws-for-reward-model-overoptimization`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-laws-for-reward-model-overoptimization/
+- **ID:** `meta-r-introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos/
 - **Date:** _date unknown_
 - **Track:** research
-- **Contribution type:** new-method
-- **Techniques:** RLHF, reward-modeling, scaling-laws
+- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
+
+## <a id="domain-specific-evals"></a>Domain-specific evals (speech, vision, science, medical)
+
+_9 posts_
 
 ### Introducing the SWE-Lancer benchmark
 
@@ -898,35 +814,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning
-
-- **ID:** `meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Introducing Kilt A New Unified Benchmark For Knowledge Intensive Nlp Tasks
 
 - **ID:** `meta-r-introducing-kilt-a-new-unified-benchmark-for-knowledge-intensive-nlp-tasks`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/introducing-kilt-a-new-unified-benchmark-for-knowledge-intensive-nlp-tasks/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Introducing The Temporal Data Set A Benchmark For Recognizing Actions In Videos
-
-- **ID:** `meta-r-introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/introducing-the-temporal-data-set-a-benchmark-for-recognizing-actions-in-videos/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -994,11 +886,207 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B
+## <a id="benchmark-critique"></a>Benchmark critique
 
-- **ID:** `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b
+_4 posts_
+
+### Quantifying infrastructure noise in agentic coding evals
+
+- **ID:** `ant-e-infrastructure-noise`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/infrastructure-noise
+- **Date:** 2026-02-03
+- **Authors:** Gian Segato
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+_Summary pending — see link for details._
+
+
+### Beyond the Leaderboard: Unpacking Function Calling Evaluation
+
+- **ID:** `dbx-r-unpacking-function-calling-eval`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/unpacking-function-calling-eval
+- **Date:** 2024-08-16
+- **Authors:** Kartik Sreenivasan|Jeffrey Chen|Pallavi Koppol|Eitan Turok|Bay Foley-Cox|Asfandyar Qureshi|Sam Havens
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+- **Techniques:** tool-use, evals-eval-harness
+
+_Summary pending — see link for details._
+
+
+### Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs
+
+- **ID:** `hf-r-leaderboard-livecodebench`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/leaderboard-livecodebench
+- **Date:** 2024-04-16
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Why SWE-bench Verified no longer measures frontier coding capabilities
+
+- **ID:** `oai-r-why-we-no-longer-evaluate-swe-bench-verified`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+- **Techniques:** coding-agents, SWE-bench
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-evals"></a>Other evaluations & benchmarks
+
+_12 posts_
+
+### AGENTS.md outperforms skills in our agent evals
+
+- **ID:** `vcl-e-agents-md-outperforms-skills-in-our-agent-evals`
+- **Company:** Vercel
+- **Link:** https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
+- **Date:** 2026-01-27
+- **Authors:** Jude Gao
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+_Summary pending — see link for details._
+
+
+### Llama 2 on Amazon SageMaker a Benchmark
+
+- **ID:** `hf-r-llama-sagemaker-benchmark`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/llama-sagemaker-benchmark
+- **Date:** 2023-09-26
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB
+
+- **ID:** `hf-r-habana-gaudi-2-benchmark`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/habana-gaudi-2-benchmark
+- **Date:** 2022-12-14
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### MTEB: Massive Text Embedding Benchmark
+
+- **ID:** `hf-r-mteb`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/mteb
+- **Date:** 2022-10-19
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Very Large Language Models and How to Evaluate Them
+
+- **ID:** `hf-r-zero-shot-eval-on-the-hub`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/zero-shot-eval-on-the-hub
+- **Date:** 2022-10-03
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Announcing Evaluation on the Hub
+
+- **ID:** `hf-r-eval-on-the-hub`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/eval-on-the-hub
+- **Date:** 2022-06-28
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Measuring the performance of our models on real-world tasks
+
+- **ID:** `oai-r-gdpval`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gdpval/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Solving math word problems
+
+- **ID:** `oai-r-solving-math-word-problems`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/solving-math-word-problems/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GamePad: A learning environment for theorem proving
+
+- **ID:** `oai-r-gamepad`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gamepad/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Scaling laws for reward model overoptimization
+
+- **ID:** `oai-r-scaling-laws-for-reward-model-overoptimization`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/scaling-laws-for-reward-model-overoptimization/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** new-method
+- **Techniques:** RLHF, reward-modeling, scaling-laws
+
+_Summary pending — see link for details._
+
+
+### Generative language modeling for automated theorem proving
+
+- **ID:** `oai-r-generative-language-modeling-for-automated-theorem-proving`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/generative-language-modeling-for-automated-theorem-proving/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning
+
+- **ID:** `meta-r-ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/ctrl-and-mntdp-a-new-open-source-benchmark-and-model-for-continual-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_

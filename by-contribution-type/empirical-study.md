@@ -14,11 +14,11 @@
 | 2026-04-09 | Vercel | [Agentic Infrastructure](../by-focus-area/agentic-systems.md#vcl-e-agentic-infrastructure) | `vcl-e-agentic-infrastructure` |
 | 2026-04-08 | Cursor | [Bugbot now self-improves with learned rules](../by-focus-area/harness-and-context-engineering.md#cur-e-bugbot-learning) | `cur-e-bugbot-learning` |
 | 2026-04-02 | Anthropic | [Emotion concepts and their function in a large language model](../by-focus-area/pretraining-and-architecture.md#ant-r-emotion-concepts-function) | `ant-r-emotion-concepts-function` |
-| 2026-03-31 | Anthropic | [How Australia Uses Claude: Findings from the Anthropic Economic Index](../by-focus-area/pretraining-and-architecture.md#ant-r-how-australia-uses-claude) | `ant-r-how-australia-uses-claude` |
+| 2026-03-31 | Anthropic | [How Australia Uses Claude: Findings from the Anthropic Economic Index](../by-focus-area/alignment-and-safety.md#ant-r-how-australia-uses-claude) | `ant-r-how-australia-uses-claude` |
 | 2026-03-31 | Vercel | [How FLORA shipped a creative agent on Vercel's AI stack](../by-focus-area/agentic-systems.md#vcl-e-how-flora-shipped-a-creative-agent-on-vercels-ai-stack) | `vcl-e-how-flora-shipped-a-creative-agent-on-vercels-ai-stack` |
 | 2026-03-30 | Vercel | [Agent responsibly](../by-focus-area/agentic-systems.md#vcl-e-agent-responsibly) | `vcl-e-agent-responsibly` |
 | 2026-03-25 | Anthropic | [Claude Code auto mode: a safer way to skip permissions](../by-focus-area/agentic-systems.md#ant-e-claude-code-auto-mode) | `ant-e-claude-code-auto-mode` |
-| 2026-03-24 | Anthropic | [Anthropic Economic Index report: Learning curves](../by-focus-area/pretraining-and-architecture.md#ant-r-economic-index-march-2026-report) | `ant-r-economic-index-march-2026-report` |
+| 2026-03-24 | Anthropic | [Anthropic Economic Index report: Learning curves](../by-focus-area/alignment-and-safety.md#ant-r-economic-index-march-2026-report) | `ant-r-economic-index-march-2026-report` |
 | 2026-03-23 | Anthropic | [Long-running Claude for scientific computing](../by-focus-area/pretraining-and-architecture.md#ant-r-long-running-claude) | `ant-r-long-running-claude` |
 | 2026-03-23 | Anthropic | [Vibe physics: The AI grad student](../by-focus-area/pretraining-and-architecture.md#ant-r-vibe-physics) | `ant-r-vibe-physics` |
 | 2026-03-23 | Cursor | [Fast regex search: indexing text for agent tools](../by-focus-area/agentic-systems.md#cur-r-fast-regex-search) | `cur-r-fast-regex-search` |
@@ -31,29 +31,29 @@
 | 2026-02-25 | Anthropic | [An update on our model deprecation commitments for Claude Opus 3](../by-focus-area/pretraining-and-architecture.md#ant-r-deprecation-updates-opus-3) | `ant-r-deprecation-updates-opus-3` |
 | 2026-02-24 | Cursor | [Cursor agents can now control their own computers](../by-focus-area/agentic-systems.md#cur-e-agent-computer-use) | `cur-e-agent-computer-use` |
 | 2026-02-24 | Vercel | [Security boundaries in agentic architectures](../by-focus-area/agentic-systems.md#vcl-e-security-boundaries-in-agentic-architectures) | `vcl-e-security-boundaries-in-agentic-architectures` |
-| 2026-02-23 | Anthropic | [Anthropic Education Report: The AI Fluency Index](../by-focus-area/pretraining-and-architecture.md#ant-r-ai-fluency-index) | `ant-r-ai-fluency-index` |
+| 2026-02-23 | Anthropic | [Anthropic Education Report: The AI Fluency Index](../by-focus-area/alignment-and-safety.md#ant-r-ai-fluency-index) | `ant-r-ai-fluency-index` |
 | 2026-02-23 | Anthropic | [The persona selection model](../by-focus-area/alignment-and-safety.md#ant-r-persona-selection-model) | `ant-r-persona-selection-model` |
 | 2026-02-18 | Anthropic | [Measuring AI agent autonomy in practice](../by-focus-area/evals-and-benchmarks.md#ant-r-measuring-agent-autonomy) | `ant-r-measuring-agent-autonomy` |
 | 2026-02-18 | Cursor | [Implementing a secure sandbox for local agents](../by-focus-area/agentic-systems.md#cur-r-agent-sandboxing) | `cur-r-agent-sandboxing` |
-| 2026-02-16 | Anthropic | [India Country Brief: The Anthropic Economic Index](../by-focus-area/pretraining-and-architecture.md#ant-r-india-brief-economic-index) | `ant-r-india-brief-economic-index` |
+| 2026-02-16 | Anthropic | [India Country Brief: The Anthropic Economic Index](../by-focus-area/alignment-and-safety.md#ant-r-india-brief-economic-index) | `ant-r-india-brief-economic-index` |
 | 2026-02-13 | OpenAI | [From model to agent: Equipping the Responses API with a computer environment](../by-focus-area/agentic-systems.md#oai-e-equip-responses-api-computer-environment) | `oai-e-equip-responses-api-computer-environment` |
 | 2026-02-12 | Cursor | [Expanding our long-running agents research preview](../by-focus-area/agentic-systems.md#cur-e-long-running-agents) | `cur-e-long-running-agents` |
 | 2026-02-11 | OpenAI | [Beyond rate limits: scaling access to Codex and Sora](../by-focus-area/harness-and-context-engineering.md#oai-e-beyond-rate-limits) | `oai-e-beyond-rate-limits` |
 | 2026-02-10 | Cognition | [Closing the Agent Loop: Devin Autofixes Review Comments](../by-focus-area/agentic-systems.md#cog-e-closing-the-agent-loop-devin-autofixes-review-comments) | `cog-e-closing-the-agent-loop-devin-autofixes-review-comments` |
 | 2026-02-05 | Anthropic | [Building a C compiler with a team of parallel Claudes](../by-focus-area/harness-and-context-engineering.md#ant-e-building-c-compiler) | `ant-e-building-c-compiler` |
 | 2026-02-05 | Cursor | [Towards self-driving codebases](../by-focus-area/pretraining-and-architecture.md#cur-r-self-driving-codebases) | `cur-r-self-driving-codebases` |
-| 2026-02-04 | Anthropic | [Scaling Managed Agents: Decoupling the brain from the hands](../by-focus-area/agentic-systems.md#ant-e-managed-agents) | `ant-e-managed-agents` |
+| 2026-02-04 | Anthropic | [Scaling Managed Agents: Decoupling the brain from the hands](../by-focus-area/harness-and-context-engineering.md#ant-e-managed-agents) | `ant-e-managed-agents` |
 | 2026-02-03 | Databricks Mosaic AI | [MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory) | `dbx-r-memalign-building-better-llm-judges-human-feedback-scalable-memory` |
 | 2026-02-03 | Vercel | [Making agent-friendly pages with content negotiation](../by-focus-area/agentic-systems.md#vcl-e-making-agent-friendly-pages-with-content-negotiation) | `vcl-e-making-agent-friendly-pages-with-content-negotiation` |
 | 2026-01-29 | Anthropic | [How AI assistance impacts the formation of coding skills](../by-focus-area/pretraining-and-architecture.md#ant-r-ai-assistance-coding-skills) | `ant-r-ai-assistance-coding-skills` |
 | 2026-01-29 | Cognition | [Agent Trace: Capturing the Context Graph of Code](../by-focus-area/agentic-systems.md#cog-r-agent-trace) | `cog-r-agent-trace` |
-| 2026-01-28 | Anthropic | [Disempowerment patterns in real-world AI usage](../by-focus-area/pretraining-and-architecture.md#ant-r-disempowerment-patterns) | `ant-r-disempowerment-patterns` |
+| 2026-01-28 | Anthropic | [Disempowerment patterns in real-world AI usage](../by-focus-area/alignment-and-safety.md#ant-r-disempowerment-patterns) | `ant-r-disempowerment-patterns` |
 | 2026-01-26 | Databricks Mosaic AI | [Scaling Small LLMs with NVIDIA MPS](../by-focus-area/pretraining-and-architecture.md#dbx-r-scaling-small-llms-nvidia-mps) | `dbx-r-scaling-small-llms-nvidia-mps` |
 | 2026-01-26 | Vercel | [Agent skills explained: An FAQ](../by-focus-area/harness-and-context-engineering.md#vcl-e-agent-skills-explained-an-faq) | `vcl-e-agent-skills-explained-an-faq` |
 | 2026-01-21 | Anthropic | [Designing AI resistant technical evaluations](../by-focus-area/harness-and-context-engineering.md#ant-e-ai-resistant-technical-evaluations) | `ant-e-ai-resistant-technical-evaluations` |
 | 2026-01-19 | Anthropic | [The assistant axis: situating and stabilizing the character of large language models](../by-focus-area/pretraining-and-architecture.md#ant-r-assistant-axis) | `ant-r-assistant-axis` |
-| 2026-01-15 | Anthropic | [Anthropic Economic Index report: Economic primitives](../by-focus-area/pretraining-and-architecture.md#ant-r-anthropic-economic-index-january-2026-report) | `ant-r-anthropic-economic-index-january-2026-report` |
-| 2026-01-15 | Anthropic | [The Anthropic Economic Index report: New building blocks for understanding AI use](../by-focus-area/pretraining-and-architecture.md#ant-r-economic-index-primitives) | `ant-r-economic-index-primitives` |
+| 2026-01-15 | Anthropic | [Anthropic Economic Index report: Economic primitives](../by-focus-area/alignment-and-safety.md#ant-r-anthropic-economic-index-january-2026-report) | `ant-r-anthropic-economic-index-january-2026-report` |
+| 2026-01-15 | Anthropic | [The Anthropic Economic Index report: New building blocks for understanding AI use](../by-focus-area/alignment-and-safety.md#ant-r-economic-index-primitives) | `ant-r-economic-index-primitives` |
 | 2026-01-09 | Anthropic | [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](../by-focus-area/alignment-and-safety.md#ant-r-next-generation-constitutional-classifiers) | `ant-r-next-generation-constitutional-classifiers` |
 | 2026-01-07 | Vercel | [How we made v0 an effective coding agent](../by-focus-area/agentic-systems.md#vcl-a-how-we-made-v0-an-effective-coding-agent) | `vcl-a-how-we-made-v0-an-effective-coding-agent` |
 | 2026-01-06 | Databricks Mosaic AI | [Instructed Retriever: Unlocking System-Level Reasoning in Search Agents](../by-focus-area/agentic-systems.md#dbx-r-instructed-retriever-unlocking-system-level-reasoning-search-agents) | `dbx-r-instructed-retriever-unlocking-system-level-reasoning-search-agents` |
@@ -61,8 +61,8 @@
 | 2025-12-18 | Anthropic | [Project Vend: Phase two](../by-focus-area/pretraining-and-architecture.md#ant-r-project-vend-2) | `ant-r-project-vend-2` |
 | 2025-12-02 | Anthropic | [How AI Is Transforming Work at Anthropic](../by-focus-area/pretraining-and-architecture.md#ant-r-how-ai-is-transforming-work-at-anthropic) | `ant-r-how-ai-is-transforming-work-at-anthropic` |
 | 2025-12-01 | Databricks Mosaic AI | [Databricks at NeurIPS 2025](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2025) | `dbx-r-databricks-neurips-2025` |
-| 2025-11-26 | Anthropic | [Effective harnesses for long-running agents](../by-focus-area/agentic-systems.md#ant-e-effective-harnesses-for-long-running-agents) | `ant-e-effective-harnesses-for-long-running-agents` |
-| 2025-11-25 | Anthropic | [Estimating AI productivity gains](../by-focus-area/pretraining-and-architecture.md#ant-r-estimating-productivity-gains) | `ant-r-estimating-productivity-gains` |
+| 2025-11-26 | Anthropic | [Effective harnesses for long-running agents](../by-focus-area/harness-and-context-engineering.md#ant-e-effective-harnesses-for-long-running-agents) | `ant-e-effective-harnesses-for-long-running-agents` |
+| 2025-11-25 | Anthropic | [Estimating AI productivity gains](../by-focus-area/alignment-and-safety.md#ant-r-estimating-productivity-gains) | `ant-r-estimating-productivity-gains` |
 | 2025-11-24 | Anthropic | [Mitigating the risk of prompt injections in browser use](../by-focus-area/agentic-systems.md#ant-r-prompt-injection-defenses) | `ant-r-prompt-injection-defenses` |
 | 2025-11-12 | Anthropic | [Project Fetch: Can Claude train a robot dog?](../by-focus-area/pretraining-and-architecture.md#ant-r-project-fetch-robot-dog) | `ant-r-project-fetch-robot-dog` |
 | 2025-11-04 | Anthropic | [Code execution with MCP: building more efficient AI agents](../by-focus-area/harness-and-context-engineering.md#ant-e-code-execution-with-mcp) | `ant-e-code-execution-with-mcp` |
@@ -73,14 +73,14 @@
 | 2025-10-21 | Databricks Mosaic AI | [Fast PEFT Serving at Scale](../by-focus-area/quantization-and-efficiency.md#dbx-e-fast-peft-serving-scale) | `dbx-e-fast-peft-serving-scale` |
 | 2025-10-20 | Anthropic | [Making Claude Code more secure and autonomous with sandboxing](../by-focus-area/agentic-systems.md#ant-e-claude-code-sandboxing) | `ant-e-claude-code-sandboxing` |
 | 2025-10-16 | Anthropic | [Equipping agents for the real world with Agent Skills](../by-focus-area/harness-and-context-engineering.md#ant-e-equipping-agents-for-the-real-world-with-agent-skills) | `ant-e-equipping-agents-for-the-real-world-with-agent-skills` |
-| 2025-10-09 | Anthropic | [A small number of samples can poison LLMs of any size](../by-focus-area/pretraining-and-architecture.md#ant-r-small-samples-poison) | `ant-r-small-samples-poison` |
+| 2025-10-09 | Anthropic | [A small number of samples can poison LLMs of any size](../by-focus-area/alignment-and-safety.md#ant-r-small-samples-poison) | `ant-r-small-samples-poison` |
 | 2025-10-03 | Anthropic | [Building AI for cyber defenders](../by-focus-area/alignment-and-safety.md#ant-r-building-ai-cyber-defenders) | `ant-r-building-ai-cyber-defenders` |
 | 2025-09-29 | Anthropic | [Effective context engineering for AI agents](../by-focus-area/harness-and-context-engineering.md#ant-e-effective-context-engineering-for-ai-agents) | `ant-e-effective-context-engineering-for-ai-agents` |
 | 2025-09-29 | Thinking Machines | [LoRA Without Regret](../by-focus-area/quantization-and-efficiency.md#tm-r-lora) | `tm-r-lora` |
 | 2025-09-26 | Thinking Machines | [Modular Manifolds](../by-focus-area/pretraining-and-architecture.md#tm-r-modular-manifolds) | `tm-r-modular-manifolds` |
 | 2025-09-24 | Databricks Mosaic AI | [Building State-of-the-Art Enterprise Agents 90x Cheaper with Automated Prompt Optimization](../by-focus-area/agentic-systems.md#dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization) | `dbx-r-building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization` |
-| 2025-09-15 | Anthropic | [Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](../by-focus-area/pretraining-and-architecture.md#ant-r-anthropic-economic-index-september-2025-report) | `ant-r-anthropic-economic-index-september-2025-report` |
-| 2025-09-15 | Anthropic | [Anthropic Economic Index: Tracking AI's role in the US and global economy](../by-focus-area/pretraining-and-architecture.md#ant-r-economic-index-geography) | `ant-r-economic-index-geography` |
+| 2025-09-15 | Anthropic | [Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](../by-focus-area/alignment-and-safety.md#ant-r-anthropic-economic-index-september-2025-report) | `ant-r-anthropic-economic-index-september-2025-report` |
+| 2025-09-15 | Anthropic | [Anthropic Economic Index: Tracking AI's role in the US and global economy](../by-focus-area/alignment-and-safety.md#ant-r-economic-index-geography) | `ant-r-economic-index-geography` |
 | 2025-09-11 | Anthropic | [Writing effective tools for AI agents—using AI agents](../by-focus-area/agentic-systems.md#ant-e-writing-tools-for-agents) | `ant-e-writing-tools-for-agents` |
 | 2025-09-10 | Thinking Machines | [Defeating Nondeterminism in LLM Inference](../by-focus-area/pretraining-and-architecture.md#tm-r-defeating-nondeterminism-in-llm-inference) | `tm-r-defeating-nondeterminism-in-llm-inference` |
 | 2025-09-09 | Vercel | [The second wave of MCP: Building for LLMs, not developers](../by-focus-area/harness-and-context-engineering.md#vcl-e-the-second-wave-of-mcp-building-for-llms-not-developers) | `vcl-e-the-second-wave-of-mcp-building-for-llms-not-developers` |
@@ -100,27 +100,27 @@
 | 2025-06-04 | Vercel | [The no-nonsense approach to AI agent development](../by-focus-area/agentic-systems.md#vcl-e-the-no-nonsense-approach-to-ai-agent-development) | `vcl-e-the-no-nonsense-approach-to-ai-agent-development` |
 | 2025-05-21 | Vercel | [How Vapi built their MCP server on Vercel](../by-focus-area/harness-and-context-engineering.md#vcl-e-vapi-mcp-server-on-vercel) | `vcl-e-vapi-mcp-server-on-vercel` |
 | 2025-05-06 | Cognition | [Kevin-32B: Multi-Turn RL for Writing CUDA Kernels](../by-focus-area/pretraining-and-architecture.md#cog-r-kevin-32b) | `cog-r-kevin-32b` |
-| 2025-04-28 | Anthropic | [Anthropic Economic Index: AI's impact on software development](../by-focus-area/pretraining-and-architecture.md#ant-r-impact-software-development) | `ant-r-impact-software-development` |
+| 2025-04-28 | Anthropic | [Anthropic Economic Index: AI's impact on software development](../by-focus-area/alignment-and-safety.md#ant-r-impact-software-development) | `ant-r-impact-software-development` |
 | 2025-04-24 | Anthropic | [Exploring model welfare](../by-focus-area/alignment-and-safety.md#ant-r-exploring-model-welfare) | `ant-r-exploring-model-welfare` |
-| 2025-04-21 | Anthropic | [Values in the wild: Discovering and analyzing values in real-world language model interactions](../by-focus-area/pretraining-and-architecture.md#ant-r-values-wild) | `ant-r-values-wild` |
+| 2025-04-21 | Anthropic | [Values in the wild: Discovering and analyzing values in real-world language model interactions](../by-focus-area/alignment-and-safety.md#ant-r-values-wild) | `ant-r-values-wild` |
 | 2025-04-08 | Databricks Mosaic AI | [The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)](../by-focus-area/pretraining-and-architecture.md#dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel) | `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel` |
 | 2025-04-03 | Anthropic | [Reasoning models don't always say what they think](../by-focus-area/pretraining-and-architecture.md#ant-r-reasoning-models-dont-say-think) | `ant-r-reasoning-models-dont-say-think` |
-| 2025-03-27 | Anthropic | [Tracing the thoughts of a large language model](../by-focus-area/pretraining-and-architecture.md#ant-r-tracing-thoughts-language-model) | `ant-r-tracing-thoughts-language-model` |
+| 2025-03-27 | Anthropic | [Tracing the thoughts of a large language model](../by-focus-area/interpretability.md#ant-r-tracing-thoughts-language-model) | `ant-r-tracing-thoughts-language-model` |
 | 2025-03-25 | Databricks Mosaic AI | [TAO: Using test-time compute to train efficient LLMs without labeled data](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-tao-using-test-time-compute-train-efficient-llms-without-labeled-data) | `dbx-r-tao-using-test-time-compute-train-efficient-llms-without-labeled-data` |
 | 2025-03-20 | Anthropic | [The "think" tool: Enabling Claude to stop and think](../by-focus-area/harness-and-context-engineering.md#ant-e-claude-think-tool) | `ant-e-claude-think-tool` |
-| 2025-03-13 | Anthropic | [Auditing language models for hidden objectives](../by-focus-area/pretraining-and-architecture.md#ant-r-auditing-hidden-objectives) | `ant-r-auditing-hidden-objectives` |
+| 2025-03-13 | Anthropic | [Auditing language models for hidden objectives](../by-focus-area/alignment-and-safety.md#ant-r-auditing-hidden-objectives) | `ant-r-auditing-hidden-objectives` |
 | 2025-02-25 | Anthropic | [Forecasting rare language model behaviors](../by-focus-area/pretraining-and-architecture.md#ant-r-forecasting-rare-behaviors) | `ant-r-forecasting-rare-behaviors` |
-| 2025-02-24 | Anthropic | [Claude's extended thinking](../by-focus-area/pretraining-and-architecture.md#ant-r-visible-extended-thinking) | `ant-r-visible-extended-thinking` |
-| 2025-02-20 | Anthropic | [Insights on Crosscoder Model Diffing](../by-focus-area/pretraining-and-architecture.md#ant-r-crosscoder-model-diffing) | `ant-r-crosscoder-model-diffing` |
+| 2025-02-24 | Anthropic | [Claude's extended thinking](../by-focus-area/alignment-and-safety.md#ant-r-visible-extended-thinking) | `ant-r-visible-extended-thinking` |
+| 2025-02-20 | Anthropic | [Insights on Crosscoder Model Diffing](../by-focus-area/interpretability.md#ant-r-crosscoder-model-diffing) | `ant-r-crosscoder-model-diffing` |
 | 2025-02-03 | Anthropic | [Constitutional Classifiers: Defending against universal jailbreaks](../by-focus-area/alignment-and-safety.md#ant-r-constitutional-classifiers) | `ant-r-constitutional-classifiers` |
 | 2024-12-19 | Anthropic | [Building Effective AI Agents](../by-focus-area/agentic-systems.md#ant-e-building-effective-agents) | `ant-e-building-effective-agents` |
 | 2024-12-19 | Anthropic | [Building Effective AI Agents](../by-focus-area/agentic-systems.md#ant-r-building-effective-agents) | `ant-r-building-effective-agents` |
-| 2024-12-17 | Databricks Mosaic AI | [Benchmarking Domain Intelligence](../by-focus-area/pretraining-and-architecture.md#dbx-r-benchmarking-domain-intelligence) | `dbx-r-benchmarking-domain-intelligence` |
-| 2024-12-12 | Anthropic | [Clio: Privacy-preserving insights into real-world AI use](../by-focus-area/pretraining-and-architecture.md#ant-r-clio) | `ant-r-clio` |
+| 2024-12-17 | Databricks Mosaic AI | [Benchmarking Domain Intelligence](../by-focus-area/evals-and-benchmarks.md#dbx-r-benchmarking-domain-intelligence) | `dbx-r-benchmarking-domain-intelligence` |
+| 2024-12-12 | Anthropic | [Clio: Privacy-preserving insights into real-world AI use](../by-focus-area/alignment-and-safety.md#ant-r-clio) | `ant-r-clio` |
 | 2024-12-09 | Databricks Mosaic AI | [Databricks at NeurIPS 2024](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2024) | `dbx-r-databricks-neurips-2024` |
 | 2024-11-21 | Databricks Mosaic AI | [Characterizing Datasets and Building Better Models with Continued Pre-Training](../by-focus-area/pretraining-and-architecture.md#dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training) | `dbx-r-characterizing-datasets-and-building-better-models-continued-pre-training` |
 | 2024-10-18 | Anthropic | [Sabotage evaluations for frontier models](../by-focus-area/alignment-and-safety.md#ant-r-sabotage-evaluations) | `ant-r-sabotage-evaluations` |
-| 2024-10-16 | Anthropic | [Using dictionary learning features as classifiers](../by-focus-area/pretraining-and-architecture.md#ant-r-features-as-classifiers) | `ant-r-features-as-classifiers` |
+| 2024-10-16 | Anthropic | [Using dictionary learning features as classifiers](../by-focus-area/interpretability.md#ant-r-features-as-classifiers) | `ant-r-features-as-classifiers` |
 | 2024-10-08 | Databricks Mosaic AI | [The Long Context RAG Capabilities of OpenAI o1 and Google Gemini](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini) | `dbx-r-long-context-rag-capabilities-openai-o1-and-google-gemini` |
 | 2024-09-19 | Anthropic | [Contextual Retrieval in AI Systems](../by-focus-area/harness-and-context-engineering.md#ant-e-contextual-retrieval) | `ant-e-contextual-retrieval` |
 | 2024-09-18 | Databricks Mosaic AI | [Inference-Friendly Models with MixAttention](../by-focus-area/pretraining-and-architecture.md#dbx-r-mixattention) | `dbx-r-mixattention` |
@@ -128,8 +128,8 @@
 | 2024-08-12 | Databricks Mosaic AI | [Long Context RAG Performance of LLMs](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-rag-performance-llms) | `dbx-r-long-context-rag-performance-llms` |
 | 2024-07-19 | Databricks Mosaic AI | [How Long Should You Train Your Language Model?](../by-focus-area/pretraining-and-architecture.md#dbx-r-how-long-should-you-train-your-language-model) | `dbx-r-how-long-should-you-train-your-language-model` |
 | 2024-07-01 | Databricks Mosaic AI | [Training MoEs at Scale with PyTorch and Databricks](../by-focus-area/harness-and-context-engineering.md#dbx-e-training-moes-scale-pytorch-and-databricks) | `dbx-e-training-moes-scale-pytorch-and-databricks` |
-| 2024-06-13 | Anthropic | [The engineering challenges of scaling interpretability](../by-focus-area/pretraining-and-architecture.md#ant-r-engineering-challenges-interpretability) | `ant-r-engineering-challenges-interpretability` |
-| 2024-06-08 | Anthropic | [Claude’s Character](../by-focus-area/pretraining-and-architecture.md#ant-r-claude-character) | `ant-r-claude-character` |
+| 2024-06-13 | Anthropic | [The engineering challenges of scaling interpretability](../by-focus-area/interpretability.md#ant-r-engineering-challenges-interpretability) | `ant-r-engineering-challenges-interpretability` |
+| 2024-06-08 | Anthropic | [Claude’s Character](../by-focus-area/alignment-and-safety.md#ant-r-claude-character) | `ant-r-claude-character` |
 | 2024-05-23 | Databricks Mosaic AI | [Optimizing Databricks LLM Pipelines with DSPy](../by-focus-area/pretraining-and-architecture.md#dbx-r-optimizing-databricks-llm-pipelines-dspy) | `dbx-r-optimizing-databricks-llm-pipelines-dspy` |
 | 2024-05-21 | Anthropic | [Mapping the Mind of a Large Language Model](../by-focus-area/pretraining-and-architecture.md#ant-r-mapping-mind-language-model) | `ant-r-mapping-mind-language-model` |
 | 2024-05-14 | Databricks Mosaic AI | [Building DBRX-class Custom LLMs with Mosaic AI Training](../by-focus-area/pretraining-and-architecture.md#dbx-e-mosaic-ai-training-capabilities) | `dbx-e-mosaic-ai-training-capabilities` |
@@ -193,10 +193,10 @@
 | ? | OpenAI | [Improving instruction hierarchy in frontier LLMs](../by-focus-area/alignment-and-safety.md#oai-r-instruction-hierarchy-challenge) | `oai-r-instruction-hierarchy-challenge` |
 | ? | OpenAI | [How we monitor internal coding agents for misalignment](../by-focus-area/agentic-systems.md#oai-r-how-we-monitor-internal-coding-agents-misalignment) | `oai-r-how-we-monitor-internal-coding-agents-misalignment` |
 | ? | OpenAI | [GPT-5.1-Codex-Max System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-1-codex-max-system-card) | `oai-r-gpt-5-1-codex-max-system-card` |
-| ? | OpenAI | [Evaluating chain-of-thought monitorability](../by-focus-area/pretraining-and-architecture.md#oai-r-evaluating-chain-of-thought-monitorability) | `oai-r-evaluating-chain-of-thought-monitorability` |
+| ? | OpenAI | [Evaluating chain-of-thought monitorability](../by-focus-area/alignment-and-safety.md#oai-r-evaluating-chain-of-thought-monitorability) | `oai-r-evaluating-chain-of-thought-monitorability` |
 | ? | OpenAI | [GPT-5.3-Codex System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-3-codex-system-card) | `oai-r-gpt-5-3-codex-system-card` |
 | ? | OpenAI | [Measuring AI’s capability to accelerate biological research in the wet lab](../by-focus-area/evals-and-benchmarks.md#oai-r-accelerating-biological-research-in-the-wet-lab) | `oai-r-accelerating-biological-research-in-the-wet-lab` |
-| ? | OpenAI | [Evaluating AI’s ability to perform scientific research tasks](../by-focus-area/pretraining-and-architecture.md#oai-r-frontierscience) | `oai-r-frontierscience` |
+| ? | OpenAI | [Evaluating AI’s ability to perform scientific research tasks](../by-focus-area/evals-and-benchmarks.md#oai-r-frontierscience) | `oai-r-frontierscience` |
 | ? | OpenAI | [Measuring the performance of our models on real-world tasks](../by-focus-area/evals-and-benchmarks.md#oai-r-gdpval) | `oai-r-gdpval` |
 | ? | OpenAI | [Addendum to GPT-5.2 System Card: GPT-5.2-Codex](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-2-codex-system-card) | `oai-r-gpt-5-2-codex-system-card` |
 | ? | OpenAI | [How confessions can keep language models honest](../by-focus-area/alignment-and-safety.md#oai-r-how-confessions-can-keep-language-models-honest) | `oai-r-how-confessions-can-keep-language-models-honest` |
@@ -213,7 +213,7 @@
 | ? | OpenAI | [Reptile: A scalable meta-learning algorithm](../by-focus-area/post-training-and-fine-tuning.md#oai-r-reptile) | `oai-r-reptile` |
 | ? | OpenAI | [Adversarial attacks on neural network policies](../by-focus-area/alignment-and-safety.md#oai-r-adversarial-attacks-on-neural-network-policies) | `oai-r-adversarial-attacks-on-neural-network-policies` |
 | ? | OpenAI | [Learning complex goals with iterated amplification](../by-focus-area/post-training-and-fine-tuning.md#oai-r-learning-complex-goals-with-iterated-amplification) | `oai-r-learning-complex-goals-with-iterated-amplification` |
-| ? | OpenAI | [Democratic inputs to AI](../by-focus-area/pretraining-and-architecture.md#oai-r-democratic-inputs-to-ai) | `oai-r-democratic-inputs-to-ai` |
+| ? | OpenAI | [Democratic inputs to AI](../by-focus-area/alignment-and-safety.md#oai-r-democratic-inputs-to-ai) | `oai-r-democratic-inputs-to-ai` |
 | ? | OpenAI | [Improving GANs using optimal transport](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-gans-using-optimal-transport) | `oai-r-improving-gans-using-optimal-transport` |
 | ? | OpenAI | [AI safety needs social scientists](../by-focus-area/alignment-and-safety.md#oai-r-ai-safety-needs-social-scientists) | `oai-r-ai-safety-needs-social-scientists` |
 | ? | OpenAI | [Transfer from simulation to real world through learning deep inverse dynamics model](../by-focus-area/pretraining-and-architecture.md#oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model) | `oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model` |
@@ -222,27 +222,27 @@
 | ? | OpenAI | [GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-system-card-addendum-gpt-5-1) | `oai-r-gpt-5-system-card-addendum-gpt-5-1` |
 | ? | OpenAI | [Sora 2 System Card](../by-focus-area/alignment-and-safety.md#oai-r-sora-2-system-card) | `oai-r-sora-2-system-card` |
 | ? | OpenAI | [Consistency Models](../by-focus-area/pretraining-and-architecture.md#oai-r-consistency-models) | `oai-r-consistency-models` |
-| ? | OpenAI | [Detecting misbehavior in frontier reasoning models](../by-focus-area/pretraining-and-architecture.md#oai-r-chain-of-thought-monitoring) | `oai-r-chain-of-thought-monitoring` |
+| ? | OpenAI | [Detecting misbehavior in frontier reasoning models](../by-focus-area/alignment-and-safety.md#oai-r-chain-of-thought-monitoring) | `oai-r-chain-of-thought-monitoring` |
 | ? | OpenAI | [Text and code embeddings by contrastive pre-training](../by-focus-area/pretraining-and-architecture.md#oai-r-text-and-code-embeddings-by-contrastive-pre-training) | `oai-r-text-and-code-embeddings-by-contrastive-pre-training` |
-| ? | OpenAI | [AI-written critiques help humans notice flaws](../by-focus-area/pretraining-and-architecture.md#oai-r-critiques) | `oai-r-critiques` |
+| ? | OpenAI | [AI-written critiques help humans notice flaws](../by-focus-area/alignment-and-safety.md#oai-r-critiques) | `oai-r-critiques` |
 | ? | OpenAI | [Teaching models to express their uncertainty in words](../by-focus-area/pretraining-and-architecture.md#oai-r-teaching-models-to-express-their-uncertainty-in-words) | `oai-r-teaching-models-to-express-their-uncertainty-in-words` |
 | ? | OpenAI | [Operator System Card](../by-focus-area/alignment-and-safety.md#oai-r-operator-system-card) | `oai-r-operator-system-card` |
 | ? | OpenAI | [Hindsight Experience Replay](../by-focus-area/pretraining-and-architecture.md#oai-r-hindsight-experience-replay) | `oai-r-hindsight-experience-replay` |
 | ? | OpenAI | [Quantifying generalization in reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-quantifying-generalization-in-reinforcement-learning) | `oai-r-quantifying-generalization-in-reinforcement-learning` |
-| ? | OpenAI | [TruthfulQA: Measuring how models mimic human falsehoods](../by-focus-area/pretraining-and-architecture.md#oai-r-truthfulqa) | `oai-r-truthfulqa` |
+| ? | OpenAI | [TruthfulQA: Measuring how models mimic human falsehoods](../by-focus-area/alignment-and-safety.md#oai-r-truthfulqa) | `oai-r-truthfulqa` |
 | ? | OpenAI | [Understanding the source of what we see and hear online](../by-focus-area/pretraining-and-architecture.md#oai-r-understanding-the-source-of-what-we-see-and-hear-online) | `oai-r-understanding-the-source-of-what-we-see-and-hear-online` |
 | ? | OpenAI | [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](../by-focus-area/alignment-and-safety.md#oai-r-the-instruction-hierarchy) | `oai-r-the-instruction-hierarchy` |
 | ? | OpenAI | [On first-order meta-learning algorithms](../by-focus-area/post-training-and-fine-tuning.md#oai-r-on-first-order-meta-learning-algorithms) | `oai-r-on-first-order-meta-learning-algorithms` |
 | ? | OpenAI | [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](../by-focus-area/agentic-systems.md#oai-r-mle-bench) | `oai-r-mle-bench` |
-| ? | OpenAI | [Evaluating fairness in ChatGPT](../by-focus-area/pretraining-and-architecture.md#oai-r-evaluating-fairness-in-chatgpt) | `oai-r-evaluating-fairness-in-chatgpt` |
-| ? | OpenAI | [Aligning language models to follow instructions](../by-focus-area/pretraining-and-architecture.md#oai-r-instruction-following) | `oai-r-instruction-following` |
+| ? | OpenAI | [Evaluating fairness in ChatGPT](../by-focus-area/alignment-and-safety.md#oai-r-evaluating-fairness-in-chatgpt) | `oai-r-evaluating-fairness-in-chatgpt` |
+| ? | OpenAI | [Aligning language models to follow instructions](../by-focus-area/alignment-and-safety.md#oai-r-instruction-following) | `oai-r-instruction-following` |
 | ? | OpenAI | [Addendum to GPT-5 system card: GPT-5-Codex](../by-focus-area/alignment-and-safety.md#oai-r-gpt-5-system-card-addendum-gpt-5-codex) | `oai-r-gpt-5-system-card-addendum-gpt-5-codex` |
 | ? | OpenAI | [OpenAI o3 and o4-mini System Card](../by-focus-area/alignment-and-safety.md#oai-r-o3-o4-mini-system-card) | `oai-r-o3-o4-mini-system-card` |
 | ? | OpenAI | [OpenAI o1 System Card](../by-focus-area/alignment-and-safety.md#oai-r-openai-o1-system-card) | `oai-r-openai-o1-system-card` |
 | ? | OpenAI | [Ucb Exploration Via Q Ensembles](../by-focus-area/pretraining-and-architecture.md#oai-r-ucb-exploration-via-q-ensembles) | `oai-r-ucb-exploration-via-q-ensembles` |
 | ? | OpenAI | [Trading Inference-Time Compute for Adversarial Robustness](../by-focus-area/alignment-and-safety.md#oai-r-trading-inference-time-compute-for-adversarial-robustness) | `oai-r-trading-inference-time-compute-for-adversarial-robustness` |
 | ? | OpenAI | [Efficient training of language models to fill in the middle](../by-focus-area/pretraining-and-architecture.md#oai-r-efficient-training-of-language-models-to-fill-in-the-middle) | `oai-r-efficient-training-of-language-models-to-fill-in-the-middle` |
-| ? | OpenAI | [Solving math word problems](../by-focus-area/pretraining-and-architecture.md#oai-r-solving-math-word-problems) | `oai-r-solving-math-word-problems` |
+| ? | OpenAI | [Solving math word problems](../by-focus-area/evals-and-benchmarks.md#oai-r-solving-math-word-problems) | `oai-r-solving-math-word-problems` |
 | ? | OpenAI | [Benchmarking safe exploration in deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning) | `oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning` |
 | ? | OpenAI | [OpenAI o3-mini System Card](../by-focus-area/alignment-and-safety.md#oai-r-o3-mini-system-card) | `oai-r-o3-mini-system-card` |
 | ? | OpenAI | [GPT-2: 6-month follow-up](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-2-6-month-follow-up) | `oai-r-gpt-2-6-month-follow-up` |
@@ -256,14 +256,14 @@
 | ? | OpenAI | [Early methods for studying affective use and emotional well-being on ChatGPT](../by-focus-area/pretraining-and-architecture.md#oai-r-affective-use-study) | `oai-r-affective-use-study` |
 | ? | OpenAI | [Image GPT](../by-focus-area/pretraining-and-architecture.md#oai-r-image-gpt) | `oai-r-image-gpt` |
 | ? | OpenAI | [Addendum to GPT-4o System Card: 4o image generation](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4o-image-generation-system-card-addendum) | `oai-r-gpt-4o-image-generation-system-card-addendum` |
-| ? | OpenAI | [GamePad: A learning environment for theorem proving](../by-focus-area/pretraining-and-architecture.md#oai-r-gamepad) | `oai-r-gamepad` |
-| ? | OpenAI | [PaperBench: Evaluating AI’s Ability to Replicate AI Research](../by-focus-area/pretraining-and-architecture.md#oai-r-paperbench) | `oai-r-paperbench` |
+| ? | OpenAI | [GamePad: A learning environment for theorem proving](../by-focus-area/evals-and-benchmarks.md#oai-r-gamepad) | `oai-r-gamepad` |
+| ? | OpenAI | [PaperBench: Evaluating AI’s Ability to Replicate AI Research](../by-focus-area/evals-and-benchmarks.md#oai-r-paperbench) | `oai-r-paperbench` |
 | ? | OpenAI | [Preparing for malicious uses of AI](../by-focus-area/pretraining-and-architecture.md#oai-r-preparing-for-malicious-uses-of-ai) | `oai-r-preparing-for-malicious-uses-of-ai` |
 | ? | OpenAI | [How people are using ChatGPT](../by-focus-area/pretraining-and-architecture.md#oai-r-how-people-are-using-chatgpt) | `oai-r-how-people-are-using-chatgpt` |
 | ? | OpenAI | [GPT-4o System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4o-system-card) | `oai-r-gpt-4o-system-card` |
 | ? | OpenAI | [Extracting Concepts from GPT-4](../by-focus-area/pretraining-and-architecture.md#oai-r-extracting-concepts-from-gpt-4) | `oai-r-extracting-concepts-from-gpt-4` |
 | ? | OpenAI | [Finding GPT-4’s mistakes with GPT-4](../by-focus-area/pretraining-and-architecture.md#oai-r-finding-gpt4s-mistakes-with-gpt-4) | `oai-r-finding-gpt4s-mistakes-with-gpt-4` |
-| ? | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/pretraining-and-architecture.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
+| ? | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/alignment-and-safety.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
 | ? | OpenAI | [Addendum to o3 and o4-mini system card: Codex](../by-focus-area/alignment-and-safety.md#oai-r-o3-o4-mini-codex-system-card-addendum) | `oai-r-o3-o4-mini-codex-system-card-addendum` |
 | ? | OpenAI | [Concrete AI safety problems](../by-focus-area/alignment-and-safety.md#oai-r-concrete-ai-safety-problems) | `oai-r-concrete-ai-safety-problems` |
 | ? | OpenAI | [Variational Lossy Autoencoder](../by-focus-area/pretraining-and-architecture.md#oai-r-variational-lossy-autoencoder) | `oai-r-variational-lossy-autoencoder` |
@@ -278,7 +278,7 @@
 | ? | OpenAI | [Hierarchical text-conditional image generation with CLIP latents](../by-focus-area/pretraining-and-architecture.md#oai-r-hierarchical-text-conditional-image-generation-with-clip-latents) | `oai-r-hierarchical-text-conditional-image-generation-with-clip-latents` |
 | ? | OpenAI | [Measuring Goodhart’s law](../by-focus-area/pretraining-and-architecture.md#oai-r-measuring-goodharts-law) | `oai-r-measuring-goodharts-law` |
 | ? | OpenAI | [WebGPT: Improving the factual accuracy of language models through web browsing](../by-focus-area/pretraining-and-architecture.md#oai-r-webgpt) | `oai-r-webgpt` |
-| ? | OpenAI | [Generative language modeling for automated theorem proving](../by-focus-area/pretraining-and-architecture.md#oai-r-generative-language-modeling-for-automated-theorem-proving) | `oai-r-generative-language-modeling-for-automated-theorem-proving` |
+| ? | OpenAI | [Generative language modeling for automated theorem proving](../by-focus-area/evals-and-benchmarks.md#oai-r-generative-language-modeling-for-automated-theorem-proving) | `oai-r-generative-language-modeling-for-automated-theorem-proving` |
 | ? | OpenAI | [Summarizing books with human feedback](../by-focus-area/post-training-and-fine-tuning.md#oai-r-summarizing-books) | `oai-r-summarizing-books` |
 | ? | OpenAI | [Plan online, learn offline: Efficient learning and exploration via model-based control](../by-focus-area/pretraining-and-architecture.md#oai-r-plan-online-learn-offline) | `oai-r-plan-online-learn-offline` |
 | ? | OpenAI | [Deep double descent](../by-focus-area/pretraining-and-architecture.md#oai-r-deep-double-descent) | `oai-r-deep-double-descent` |

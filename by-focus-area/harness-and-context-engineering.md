@@ -2,13 +2,13 @@
 
 Agent scaffolding, context engineering, long-running harnesses, prompt caching strategy, agent skills, MCP integrations.
 
-**Post count:** 69
+**Post count:** 71
 
 **Contributors:**
 
 - Vercel: 22
 - Databricks Mosaic AI: 19
-- Anthropic: 10
+- Anthropic: 12
 - Hugging Face: 9
 - OpenAI: 5
 - Cursor: 2
@@ -16,74 +16,18 @@ Agent scaffolding, context engineering, long-running harnesses, prompt caching s
 
 **Subcategories:**
 
-- [Context engineering](#context-engineering) (2)
-- [Long-running harnesses](#long-running-harnesses) (2)
 - [MCP & tool protocols](#mcp-and-tool-protocols) (17)
+- [Product engineering case studies (Codex, Sora, Atlas)](#codex-and-sora-harness) (6)
+- [Long-running harnesses](#long-running-harnesses) (3)
+- [Context engineering](#context-engineering) (2)
 - [Scaffolding patterns](#scaffolding-patterns) (1)
 - [Agent skills & prompt libraries](#agent-skills-and-prompt-libraries) (1)
-- [Product engineering case studies (Codex, Sora, Atlas)](#codex-and-sora-harness) (6)
-- [Other harness & context engineering](#fallback-harness) (40)
+- [AI SDK & product tooling (Vercel v0, AI SDK)](#ai-sdk-and-product-tooling) (16)
+- [Workflow agents (data analyst, code review, Bugbot)](#data-analyst-and-workflow-agents) (4)
+- [Databricks training stack (misplaced; should be pretraining/training-stack)](#databricks-training-stack-misc) (12)
+- [Other harness & context engineering](#fallback-harness) (9)
 
 ---
-
-## <a id="context-engineering"></a>Context engineering
-
-_2 posts_
-
-### Effective context engineering for AI agents
-
-- **ID:** `ant-e-effective-context-engineering-for-ai-agents`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
-- **Date:** 2025-09-29
-- **Authors:** Prithvi Rajasekaran|Ethan Dixon|Carly Ryan|Jeremy Hadfield|Hannah Moran|Cal Rueb|Connor Jennings
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** context-engineering
-
-_Summary pending — see link for details._
-
-
-### Contextual Retrieval in AI Systems
-
-- **ID:** `ant-e-contextual-retrieval`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/contextual-retrieval
-- **Date:** 2024-09-19
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-## <a id="long-running-harnesses"></a>Long-running harnesses
-
-_2 posts_
-
-### Harness design for long-running application development
-
-- **ID:** `ant-e-harness-design-long-running-apps`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/harness-design-long-running-apps
-- **Date:** 2026-03-24
-- **Authors:** Prithvi Rajasekaran
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-
-_Summary pending — see link for details._
-
-
-### Harness engineering: leveraging Codex in an agent-first world
-
-- **ID:** `oai-e-harness-engineering`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/harness-engineering/
-- **Date:** 2026-02-04
-- **Track:** engineering
-- **Contribution type:** dataset-benchmark
-
-_Summary pending — see link for details._
-
 
 ## <a id="mcp-and-tool-protocols"></a>MCP & tool protocols
 
@@ -307,39 +251,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-## <a id="scaffolding-patterns"></a>Scaffolding patterns
-
-_1 posts_
-
-### The "think" tool: Enabling Claude to stop and think
-
-- **ID:** `ant-e-claude-think-tool`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/claude-think-tool
-- **Date:** 2025-03-20
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-## <a id="agent-skills-and-prompt-libraries"></a>Agent skills & prompt libraries
-
-_1 posts_
-
-### Equipping agents for the real world with Agent Skills
-
-- **ID:** `ant-e-equipping-agents-for-the-real-world-with-agent-skills`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
-- **Date:** 2025-10-16
-- **Authors:** Barry Zhang|Keith Lazuka|Mahesh Murag
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ## <a id="codex-and-sora-harness"></a>Product engineering case studies (Codex, Sora, Atlas)
 
 _6 posts_
@@ -418,9 +329,114 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-## <a id="fallback-harness"></a>Other harness & context engineering
+## <a id="long-running-harnesses"></a>Long-running harnesses
 
-_40 posts_
+_3 posts_
+
+### Harness design for long-running application development
+
+- **ID:** `ant-e-harness-design-long-running-apps`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/harness-design-long-running-apps
+- **Date:** 2026-03-24
+- **Authors:** Prithvi Rajasekaran
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+
+_Summary pending — see link for details._
+
+
+### Harness engineering: leveraging Codex in an agent-first world
+
+- **ID:** `oai-e-harness-engineering`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/harness-engineering/
+- **Date:** 2026-02-04
+- **Track:** engineering
+- **Contribution type:** dataset-benchmark
+
+_Summary pending — see link for details._
+
+
+### Effective harnesses for long-running agents
+
+- **ID:** `ant-e-effective-harnesses-for-long-running-agents`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+- **Date:** 2025-11-26
+- **Authors:** Justin Young
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="context-engineering"></a>Context engineering
+
+_2 posts_
+
+### Effective context engineering for AI agents
+
+- **ID:** `ant-e-effective-context-engineering-for-ai-agents`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+- **Date:** 2025-09-29
+- **Authors:** Prithvi Rajasekaran|Ethan Dixon|Carly Ryan|Jeremy Hadfield|Hannah Moran|Cal Rueb|Connor Jennings
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** context-engineering
+
+_Summary pending — see link for details._
+
+
+### Contextual Retrieval in AI Systems
+
+- **ID:** `ant-e-contextual-retrieval`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/contextual-retrieval
+- **Date:** 2024-09-19
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="scaffolding-patterns"></a>Scaffolding patterns
+
+_1 posts_
+
+### The "think" tool: Enabling Claude to stop and think
+
+- **ID:** `ant-e-claude-think-tool`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/claude-think-tool
+- **Date:** 2025-03-20
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="agent-skills-and-prompt-libraries"></a>Agent skills & prompt libraries
+
+_1 posts_
+
+### Equipping agents for the real world with Agent Skills
+
+- **ID:** `ant-e-equipping-agents-for-the-real-world-with-agent-skills`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- **Date:** 2025-10-16
+- **Authors:** Barry Zhang|Keith Lazuka|Mahesh Murag
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+## <a id="ai-sdk-and-product-tooling"></a>AI SDK & product tooling (Vercel v0, AI SDK)
+
+_16 posts_
 
 ### A new programming model for durable execution
 
@@ -435,34 +451,6 @@ _40 posts_
 _Summary pending — see link for details._
 
 
-### Bugbot now self-improves with learned rules
-
-- **ID:** `cur-e-bugbot-learning`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/bugbot-learning
-- **Date:** 2026-04-08
-- **Authors:** Michael Zhao
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### Closing the code review loop with Bugbot
-
-- **ID:** `cur-e-bugbot-autofix`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/bugbot-autofix
-- **Date:** 2026-02-26
-- **Authors:** Autofix Jon Kaplan
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
 ### Agent skills explained: An FAQ
 
 - **ID:** `vcl-e-agent-skills-explained-an-faq`
@@ -470,19 +458,6 @@ _Summary pending — see link for details._
 - **Link:** https://vercel.com/blog/agent-skills-explained-an-faq
 - **Date:** 2026-01-26
 - **Authors:** Eric Dodds|Andrew Qu
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Designing AI resistant technical evaluations
-
-- **ID:** `ant-e-ai-resistant-technical-evaluations`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
-- **Date:** 2026-01-21
-- **Authors:** Tristan Hume
 - **Track:** engineering
 - **Contribution type:** empirical-study
 
@@ -515,18 +490,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Build Your Own AI Data Analyst
-
-- **ID:** `cog-e-ai-data-analyst`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/ai-data-analyst
-- **Date:** 2025-08-28
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### AI SDK 5
 
 - **ID:** `vcl-a-ai-sdk-5`
@@ -536,18 +499,6 @@ _Summary pending — see link for details._
 - **Authors:** Lars Grammel|Nico Albanese|Josh Singh
 - **Track:** applied
 - **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### Blockdiff: How we built our own file format for VM disk snapshots
-
-- **ID:** `cog-e-blockdiff`
-- **Company:** Cognition
-- **Link:** https://cognition.ai/blog/blockdiff
-- **Date:** 2025-06-23
-- **Track:** engineering
-- **Contribution type:** retrospective-case-study
 
 _Summary pending — see link for details._
 
@@ -669,19 +620,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Training MoEs at Scale with PyTorch and Databricks
-
-- **ID:** `dbx-e-training-moes-scale-pytorch-and-databricks`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/training-moes-scale-pytorch-and-databricks
-- **Date:** 2024-07-01
-- **Authors:** Brian Chu|Mihir Patel|Vitaliy Chiley|Evan Racah
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Vercel AI SDK 3.1: ModelFusion joins the team
 
 - **ID:** `vcl-a-vercel-ai-sdk-3-1-modelfusion-joins-the-team`
@@ -695,19 +633,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Bringing MegaBlocks to Databricks
-
-- **ID:** `dbx-e-bringing-megablocks-databricks`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/bringing-megablocks-databricks
-- **Date:** 2024-04-09
-- **Authors:** Mihir Patel|Trevor Gale|Vitaliy Chiley
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Composable AI for ecommerce: Hands-on with Vercel’s AI SDK
 
 - **ID:** `vcl-a-composable-ai-for-ecommerce-hands-on-with-vercels-ai-sdk`
@@ -717,6 +642,92 @@ _Summary pending — see link for details._
 - **Authors:** Malte Ubl
 - **Track:** applied
 - **Contribution type:** infra-release
+
+_Summary pending — see link for details._
+
+
+## <a id="data-analyst-and-workflow-agents"></a>Workflow agents (data analyst, code review, Bugbot)
+
+_4 posts_
+
+### Bugbot now self-improves with learned rules
+
+- **ID:** `cur-e-bugbot-learning`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/bugbot-learning
+- **Date:** 2026-04-08
+- **Authors:** Michael Zhao
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Closing the code review loop with Bugbot
+
+- **ID:** `cur-e-bugbot-autofix`
+- **Company:** Cursor
+- **Link:** https://cursor.com/blog/bugbot-autofix
+- **Date:** 2026-02-26
+- **Authors:** Autofix Jon Kaplan
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Build Your Own AI Data Analyst
+
+- **ID:** `cog-e-ai-data-analyst`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/ai-data-analyst
+- **Date:** 2025-08-28
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Blockdiff: How we built our own file format for VM disk snapshots
+
+- **ID:** `cog-e-blockdiff`
+- **Company:** Cognition
+- **Link:** https://cognition.ai/blog/blockdiff
+- **Date:** 2025-06-23
+- **Track:** engineering
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+## <a id="databricks-training-stack-misc"></a>Databricks training stack (misplaced; should be pretraining/training-stack)
+
+_12 posts_
+
+### Training MoEs at Scale with PyTorch and Databricks
+
+- **ID:** `dbx-e-training-moes-scale-pytorch-and-databricks`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/training-moes-scale-pytorch-and-databricks
+- **Date:** 2024-07-01
+- **Authors:** Brian Chu|Mihir Patel|Vitaliy Chiley|Evan Racah
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Bringing MegaBlocks to Databricks
+
+- **ID:** `dbx-e-bringing-megablocks-databricks`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/bringing-megablocks-databricks
+- **Date:** 2024-04-09
+- **Authors:** Mihir Patel|Trevor Gale|Vitaliy Chiley
+- **Track:** engineering
+- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -825,19 +836,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Mosaic LLMs (Part 1): Billion-Parameter GPT Training Made Easy
-
-- **ID:** `dbx-e-billion-parameter-gpt-training-made-easy`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/billion-parameter-gpt-training-made-easy
-- **Date:** 2022-08-11
-- **Authors:** Abhi Venigalla|Linden Li
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Farewell, CUDA OOM: Automatic Gradient Accumulation
 
 - **ID:** `dbx-e-farewell-oom`
@@ -848,6 +846,61 @@ _Summary pending — see link for details._
 - **Track:** engineering
 - **Contribution type:** empirical-study
 - **Techniques:** training-dynamics
+
+_Summary pending — see link for details._
+
+
+### How We Trained Stable Diffusion for Less than $50k (Part 1)
+
+- **ID:** `dbx-r-stable-diffusion-1`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/stable-diffusion-1
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-harness"></a>Other harness & context engineering
+
+_9 posts_
+
+### Scaling Managed Agents: Decoupling the brain from the hands
+
+- **ID:** `ant-e-managed-agents`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/managed-agents
+- **Date:** 2026-02-04
+- **Authors:** Lance Martin|Gabe Cemaj|Michael Cohen
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Designing AI resistant technical evaluations
+
+- **ID:** `ant-e-ai-resistant-technical-evaluations`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/engineering/AI-resistant-technical-evaluations
+- **Date:** 2026-01-21
+- **Authors:** Tristan Hume
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Mosaic LLMs (Part 1): Billion-Parameter GPT Training Made Easy
+
+- **ID:** `dbx-e-billion-parameter-gpt-training-made-easy`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/billion-parameter-gpt-training-made-easy
+- **Date:** 2022-08-11
+- **Authors:** Abhi Venigalla|Linden Li
+- **Track:** engineering
+- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -908,18 +961,6 @@ _Summary pending — see link for details._
 - **Date:** _date unknown_
 - **Track:** engineering
 - **Contribution type:** infra-release
-
-_Summary pending — see link for details._
-
-
-### How We Trained Stable Diffusion for Less than $50k (Part 1)
-
-- **ID:** `dbx-r-stable-diffusion-1`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://web.archive.org/web/2023/https://www.mosaicml.com/blog/stable-diffusion-1
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** retrospective-case-study
 
 _Summary pending — see link for details._
 

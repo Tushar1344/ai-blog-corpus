@@ -2,27 +2,27 @@
 
 RLHF, RLAIF, RLVR, DPO, SFT, LoRA, on-policy distillation, reward modeling, preference optimization.
 
-**Post count:** 34
+**Post count:** 36
 
 **Contributors:**
 
 - Hugging Face: 11
 - OpenAI: 8
-- Databricks Mosaic AI: 5
+- Databricks Mosaic AI: 6
 - Allen Institute for AI: 5
 - Meta AI / FAIR: 2
+- Google DeepMind: 2
 - Anthropic: 1
 - Google Research: 1
-- Google DeepMind: 1
 
 **Subcategories:**
 
 - [RLVR & verifiable-reward RL](#rlvr-verifiable-rewards) (3)
-- [Classic RLHF (PPO, reward models)](#rlhf-classic) (7)
+- [Classic RLHF (PPO, reward models)](#rlhf-classic) (8)
 - [Direct preference (DPO, KTO, ORPO, SimPO)](#direct-preference) (1)
 - [SFT & instruction tuning](#sft-and-instruction-tuning) (6)
 - [Distillation](#distillation) (3)
-- [Other post-training](#fallback-post-training) (14)
+- [Other post-training](#fallback-post-training) (15)
 
 ---
 
@@ -70,7 +70,19 @@ _Summary pending — see link for details._
 
 ## <a id="rlhf-classic"></a>Classic RLHF (PPO, reward models)
 
-_7 posts_
+_8 posts_
+
+### Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study
+
+- **ID:** `dbx-r-agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study
+- **Date:** 2025-08-04
+- **Track:** research
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
+
 
 ### Putting RL back in RLHF
 
@@ -292,7 +304,7 @@ _Summary pending — see link for details._
 
 ## <a id="fallback-post-training"></a>Other post-training
 
-_14 posts_
+_15 posts_
 
 ### MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory
 
@@ -444,6 +456,18 @@ _Summary pending — see link for details._
 - **ID:** `meta-r-open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/open-sourcing-polygames-a-new-framework-for-training-ai-bots-through-self-play/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Creating Interactive Agents With Imitation Learning
+
+- **ID:** `dm-r-creating-interactive-agents-with-imitation-learning`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/creating-interactive-agents-with-imitation-learning/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
