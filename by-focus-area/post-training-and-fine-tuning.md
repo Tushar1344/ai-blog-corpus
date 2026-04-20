@@ -73,7 +73,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-improving-mathematical-reasoning-with-process-supervision`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/improving-mathematical-reasoning-with-process-supervision/
-- **Date:** _date unknown_
+- **Date:** 2023-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -131,6 +131,42 @@ _Summary pending — see link for details._
 - Shows higher inter-annotator agreement and cleaner data at lower labeling cost
 - Adjusting reward model weights lets practitioners tailor LM behavior (e.g., short vs detailed outputs)
 - Matters as improved RLHF recipe with more controllable outputs
+
+
+### Aligning language models to follow instructions
+
+- **ID:** `oai-r-instruction-following`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/instruction-following/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- InstructGPT: fine-tunes GPT-3 via RLHF (supervised fine-tuning, reward model from human comparisons, PPO) to follow user instructions while being more truthful and less toxic
+- Labelers prefer 1.3B InstructGPT outputs over 175B GPT-3 despite >100x fewer params
+- Addresses 'alignment tax' by mixing in pretraining data during RL
+- Deployed as default API models at the time
+- Canonical reference for RLHF applied to instruction-following language models.
+
+
+### Summarizing books with human feedback
+
+- **ID:** `oai-r-summarizing-books`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/summarizing-books/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Trains a book-summarization model via recursive task decomposition and human feedback (RLHF)
+- Breaks book into sections, summarizes each, then summarizes summaries to produce whole-book summaries
+- Targets scalable oversight for tasks too long for humans to evaluate end-to-end
+- Shows RLHF scales to long-horizon tasks difficult to grade
+- Matters as a proof-of-concept for scalable human oversight via recursive decomposition.
 
 
 ### The N Implementation Details of RLHF with PPO
@@ -210,6 +246,23 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Learning Through Human Feedback
+
+- **ID:** `dm-r-learning-through-human-feedback`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/learning-through-human-feedback/
+- **Date:** 2017-06-12
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Foundational (2017) DeepMind+OpenAI collaboration demonstrating RL from human preferences: non-expert humans teach an RL agent complex goals (including backflips) by comparing short trajectory clips
+- as little as 30 minutes of feedback can suffice
+- removes need to hand-specify reward functions, which could otherwise be mis-specified with dangerous consequences
+- canonical RLHF precursor paper, hence rlhf-classic.
+
+
 ### Learning to summarize with human feedback
 
 - **ID:** `oai-r-learning-to-summarize-with-human-feedback`
@@ -220,59 +273,6 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
-
-
-### Aligning language models to follow instructions
-
-- **ID:** `oai-r-instruction-following`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/instruction-following/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- InstructGPT: fine-tunes GPT-3 via RLHF (supervised fine-tuning, reward model from human comparisons, PPO) to follow user instructions while being more truthful and less toxic
-- Labelers prefer 1.3B InstructGPT outputs over 175B GPT-3 despite >100x fewer params
-- Addresses 'alignment tax' by mixing in pretraining data during RL
-- Deployed as default API models at the time
-- Canonical reference for RLHF applied to instruction-following language models.
-
-
-### Summarizing books with human feedback
-
-- **ID:** `oai-r-summarizing-books`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/summarizing-books/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Trains a book-summarization model via recursive task decomposition and human feedback (RLHF)
-- Breaks book into sections, summarizes each, then summarizes summaries to produce whole-book summaries
-- Targets scalable oversight for tasks too long for humans to evaluate end-to-end
-- Shows RLHF scales to long-horizon tasks difficult to grade
-- Matters as a proof-of-concept for scalable human oversight via recursive decomposition.
-
-
-### Learning Through Human Feedback
-
-- **ID:** `dm-r-learning-through-human-feedback`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/learning-through-human-feedback/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- Foundational (2017) DeepMind+OpenAI collaboration demonstrating RL from human preferences: non-expert humans teach an RL agent complex goals (including backflips) by comparing short trajectory clips
-- as little as 30 minutes of feedback can suffice
-- removes need to hand-specify reward functions, which could otherwise be mis-specified with dangerous consequences
-- canonical RLHF precursor paper, hence rlhf-classic.
 
 
 ## <a id="direct-preference"></a>Direct preference (DPO, KTO, ORPO, SimPO)
@@ -313,6 +313,18 @@ _13 posts_
 - Matters for scaling domain-specific LLM-as-judge alignment in enterprise agent evaluation
 
 
+### Dr Tulu
+
+- **ID:** `ai2-r-dr-tulu`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/dr-tulu
+- **Date:** 2025-11-18
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### The Power of Fine-Tuning on Your Data: Quick Fixing Bugs with LLMs via Never Ending Learning (NEL)
 
 - **ID:** `dbx-r-power-fine-tuning-your-data-quick-fixing-bugs-llms-never-ending-learning-nel`
@@ -349,6 +361,30 @@ _13 posts_
 - classified as SFT/instruction-tuning since the generated datasets feed supervised fine-tuning pipelines.
 
 
+### Tulu 3
+
+- **ID:** `ai2-r-tulu-3`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/tulu-3
+- **Date:** 2024-11-21
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Tulu 3 Technical
+
+- **ID:** `ai2-r-tulu-3-technical`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/tulu-3-technical
+- **Date:** 2024-11-21
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### LIMIT: Less Is More for Instruction Tuning
 
 - **ID:** `dbx-r-limit-less-more-instruction-tuning`
@@ -363,12 +399,58 @@ _13 posts_
 _Summary pending — see link for details._
 
 
+### Camels In A Changing Climate Enhancing Lm Adaptation With Tulu 2 0Eb692698A78
+
+- **ID:** `ai2-r-camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78
+- **Date:** 2023-12-08
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### On first-order meta-learning algorithms
+
+- **ID:** `oai-r-on-first-order-meta-learning-algorithms`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/on-first-order-meta-learning-algorithms/
+- **Date:** 2022-10-19
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Formal paper accompanying Reptile: analyzes first-order meta-learning algorithms that only use first-order derivatives for meta-updates
+- Generalizes first-order MAML and introduces Reptile (sample task, train, move initialization toward trained weights)
+- Theoretical analysis of why these simple algorithms work on few-shot classification benchmarks
+- Meta-learning foundations paper.
+
+
+### Creating Interactive Agents With Imitation Learning
+
+- **ID:** `dm-r-creating-interactive-agents-with-imitation-learning`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/creating-interactive-agents-with-imitation-learning/
+- **Date:** 2021-12-08
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind presents MIA (Multimodal Interactive Agent), trained via imitation learning in a 3D 'Playhouse' environment where humans and agents interact by locomoting, manipulating objects, and chatting
+- extends Abramson et al. 2020 by combining vision, language, navigation, and manipulation
+- produces a behavioral prior intended for later human-feedback refinement
+- SFT-style imitation learning on human-agent interaction traces, hence sft-and-instruction-tuning.
+
+
 ### Third-person imitation learning
 
 - **ID:** `oai-r-third-person-imitation-learning`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/third-person-imitation-learning/
-- **Date:** _date unknown_
+- **Date:** 2019-10-15
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -386,7 +468,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-reptile`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/reptile/
-- **Date:** _date unknown_
+- **Date:** 2019-10-15
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -399,93 +481,11 @@ _Summary pending — see link for details._
 - Influential meta-learning / initialization-finding method.
 
 
-### On first-order meta-learning algorithms
-
-- **ID:** `oai-r-on-first-order-meta-learning-algorithms`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/on-first-order-meta-learning-algorithms/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Formal paper accompanying Reptile: analyzes first-order meta-learning algorithms that only use first-order derivatives for meta-updates
-- Generalizes first-order MAML and introduces Reptile (sample task, train, move initialization toward trained weights)
-- Theoretical analysis of why these simple algorithms work on few-shot classification benchmarks
-- Meta-learning foundations paper.
-
-
-### Creating Interactive Agents With Imitation Learning
-
-- **ID:** `dm-r-creating-interactive-agents-with-imitation-learning`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/creating-interactive-agents-with-imitation-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind presents MIA (Multimodal Interactive Agent), trained via imitation learning in a 3D 'Playhouse' environment where humans and agents interact by locomoting, manipulating objects, and chatting
-- extends Abramson et al. 2020 by combining vision, language, navigation, and manipulation
-- produces a behavioral prior intended for later human-feedback refinement
-- SFT-style imitation learning on human-agent interaction traces, hence sft-and-instruction-tuning.
-
-
-### Camels In A Changing Climate Enhancing Lm Adaptation With Tulu 2 0Eb692698A78
-
-- **ID:** `ai2-r-camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/camels-in-a-changing-climate-enhancing-lm-adaptation-with-tulu-2-0eb692698a78
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Dr Tulu
-
-- **ID:** `ai2-r-dr-tulu`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/dr-tulu
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Tulu 2
 
 - **ID:** `ai2-r-tulu-2`
 - **Company:** Allen Institute for AI
 - **Link:** https://allenai.org/blog/tulu-2
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Tulu 3
-
-- **ID:** `ai2-r-tulu-3`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/tulu-3
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Tulu 3 Technical
-
-- **ID:** `ai2-r-tulu-3-technical`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/tulu-3-technical
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -551,7 +551,7 @@ _Summary pending — see link for details._
 - **ID:** `gr-r-training-machine-learning-models-more-efficiently-with-dataset-distillation`
 - **Company:** Google Research
 - **Link:** https://research.google/blog/training-machine-learning-models-more-efficiently-with-dataset-distillation/
-- **Date:** _date unknown_
+- **Date:** 2021-12-15
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 

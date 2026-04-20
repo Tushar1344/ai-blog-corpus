@@ -194,6 +194,19 @@ _Summary pending — see link for details._
 
 _11 posts_
 
+### Understanding neural networks through sparse circuits
+
+- **ID:** `oai-r-understanding-neural-networks-through-sparse-circuits`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/understanding-neural-networks-through-sparse-circuits/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** interpretability-finding
+- **Techniques:** circuits
+
+_Summary pending — see link for details._
+
+
 ### Open-sourcing circuit-tracing tools
 
 - **ID:** `ant-r-open-source-circuit-tracing`
@@ -329,19 +342,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Understanding neural networks through sparse circuits
-
-- **ID:** `oai-r-understanding-neural-networks-through-sparse-circuits`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/understanding-neural-networks-through-sparse-circuits/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
 ## <a id="steering-and-intervention"></a>Steering & intervention
 
 _2 posts_
@@ -376,6 +376,24 @@ _Summary pending — see link for details._
 
 _4 posts_
 
+### Language models can explain neurons in language models
+
+- **ID:** `oai-r-language-models-can-explain-neurons-in-language-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/language-models-can-explain-neurons-in-language-models/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Uses GPT-4 to automatically generate natural-language explanations for GPT-2 neurons at scale
+- Scores explanations by simulating the explained neuron's activations on new text
+- Releases a full dataset of explanations and scores for every GPT-2 neuron
+- Technique works poorly on larger/later layers, highlighting interpretability scaling challenges
+- Matters as an early automated-interpretability pipeline applied at model-wide scale.
+
+
 ### Tracing Model Outputs to the Training Data
 
 - **ID:** `ant-r-influence-functions`
@@ -396,22 +414,16 @@ _4 posts_
 - influence can also be localized within network layers.
 
 
-### Language models can explain neurons in language models
+### Probing Image Language Transformers For Verb Understanding
 
-- **ID:** `oai-r-language-models-can-explain-neurons-in-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/language-models-can-explain-neurons-in-language-models/
-- **Date:** _date unknown_
+- **ID:** `dm-r-probing-image-language-transformers-for-verb-understanding`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/probing-image-language-transformers-for-verb-understanding/
+- **Date:** 2022-02-23
 - **Track:** research
-- **Contribution type:** empirical-study
+- **Contribution type:** _(uncategorized)_
 
-**Summary:**
-
-- Uses GPT-4 to automatically generate natural-language explanations for GPT-2 neurons at scale
-- Scores explanations by simulating the explained neuron's activations on new text
-- Releases a full dataset of explanations and scores for every GPT-2 neuron
-- Technique works poorly on larger/later layers, highlighting interpretability scaling challenges
-- Matters as an early automated-interpretability pipeline applied at model-wide scale.
+_Summary pending — see link for details._
 
 
 ### Unsupervised sentiment neuron
@@ -430,16 +442,4 @@ _4 posts_
 - Matches supervised models with 30-100x fewer labels
 - Can control generated-text sentiment by overwriting the neuron's value
 - Matters as landmark finding on emergent interpretable features from next-token prediction.
-
-
-### Probing Image Language Transformers For Verb Understanding
-
-- **ID:** `dm-r-probing-image-language-transformers-for-verb-understanding`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/probing-image-language-transformers-for-verb-understanding/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
 

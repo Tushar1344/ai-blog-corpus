@@ -4,6 +4,7 @@
 
 | Date | Company | Title | ID |
 |---|---|---|---|
+| 2026-03-25 | OpenAI | [Accelerating life sciences research](../by-focus-area/pretraining-and-architecture.md#oai-r-accelerating-life-sciences-research-with-retro-biosciences) | `oai-r-accelerating-life-sciences-research-with-retro-biosciences` |
 | 2026-01-23 | OpenAI | [Inside OpenAI’s in-house data agent](../by-focus-area/agentic-systems.md#oai-e-inside-our-in-house-data-agent) | `oai-e-inside-our-in-house-data-agent` |
 | 2025-12-12 | OpenAI | [How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas](../by-focus-area/pretraining-and-architecture.md#oai-e-building-chatgpt-atlas) | `oai-e-building-chatgpt-atlas` |
 | 2025-10-30 | OpenAI | [How we used Codex to build Sora for Android in 28 days](../by-focus-area/harness-and-context-engineering.md#oai-e-shipping-sora-for-android-with-codex) | `oai-e-shipping-sora-for-android-with-codex` |
@@ -15,5 +16,4 @@
 | 2023-04-28 | Databricks Mosaic AI | [How We Trained Stable Diffusion for Less than $50k (Part 3)](../by-focus-area/harness-and-context-engineering.md#dbx-r-diffusion) | `dbx-r-diffusion` |
 | 2022-08-22 | Anthropic | [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](../by-focus-area/alignment-and-safety.md#ant-r-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned) | `ant-r-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned` |
 | 2022-07-28 | Databricks Mosaic AI | [Behind the Scenes: Setting a Baseline for Image Segmentation Speedups](../by-focus-area/pretraining-and-architecture.md#dbx-r-behind-the-scenes) | `dbx-r-behind-the-scenes` |
-| ? | OpenAI | [Accelerating life sciences research](../by-focus-area/pretraining-and-architecture.md#oai-r-accelerating-life-sciences-research-with-retro-biosciences) | `oai-r-accelerating-life-sciences-research-with-retro-biosciences` |
 | ? | Databricks Mosaic AI | [How We Trained Stable Diffusion for Less than $50k (Part 1)](../by-focus-area/harness-and-context-engineering.md#dbx-r-stable-diffusion-1) | `dbx-r-stable-diffusion-1` |

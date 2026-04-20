@@ -4,6 +4,7 @@
 
 | Date | Company | Title | ID |
 |---|---|---|---|
+| 2026-04-16 | OpenAI | [Detecting and reducing scheming in AI models](../by-focus-area/alignment-and-safety.md#oai-r-detecting-and-reducing-scheming-in-ai-models) | `oai-r-detecting-and-reducing-scheming-in-ai-models` |
 | 2025-11-21 | Anthropic | [From shortcuts to sabotage: natural emergent misalignment from reward hacking](../by-focus-area/alignment-and-safety.md#ant-r-emergent-misalignment-reward-hacking) | `ant-r-emergent-misalignment-reward-hacking` |
 | 2025-10-09 | Anthropic | [A small number of samples can poison LLMs of any size](../by-focus-area/alignment-and-safety.md#ant-r-small-samples-poison) | `ant-r-small-samples-poison` |
 | 2025-06-20 | Anthropic | [Agentic Misalignment: How LLMs could be insider threats](../by-focus-area/alignment-and-safety.md#ant-r-agentic-misalignment) | `ant-r-agentic-misalignment` |
@@ -13,4 +14,3 @@
 | 2024-01-14 | Anthropic | [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](../by-focus-area/alignment-and-safety.md#ant-r-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training) | `ant-r-sleeper-agents-training-deceptive-llms-that-persist-through-safety-training` |
 | 2023-08-08 | Anthropic | [Studying Large Language Model Generalization with Influence Functions](../by-focus-area/alignment-and-safety.md#ant-r-studying-large-language-model-generalization-with-influence-functions) | `ant-r-studying-large-language-model-generalization-with-influence-functions` |
 | ? | OpenAI | [Deliberative alignment: reasoning enables safer language models](../by-focus-area/alignment-and-safety.md#oai-r-deliberative-alignment) | `oai-r-deliberative-alignment` |
-| ? | OpenAI | [Detecting and reducing scheming in AI models](../by-focus-area/alignment-and-safety.md#oai-r-detecting-and-reducing-scheming-in-ai-models) | `oai-r-detecting-and-reducing-scheming-in-ai-models` |

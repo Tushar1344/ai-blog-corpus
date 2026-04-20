@@ -31,108 +31,12 @@ Constitutional methods, responsible scaling policies, red-teaming, jailbreaking,
 
 _27 posts_
 
-### GPT-5.1-Codex-Max System Card
-
-- **ID:** `oai-r-gpt-5-1-codex-max-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-1-codex-max-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GPT-5.3-Codex System Card
-
-- **ID:** `oai-r-gpt-5-3-codex-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-3-codex-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Addendum to GPT-5.2 System Card: GPT-5.2-Codex
-
-- **ID:** `oai-r-gpt-5-2-codex-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-2-codex-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Sora System Card
-
-- **ID:** `oai-r-sora-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/sora-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Update to GPT-5 System Card: GPT-5.2
-
-- **ID:** `oai-r-gpt-5-system-card-update-gpt-5-2`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-system-card-update-gpt-5-2/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Addendum to GPT-5 System Card: Sensitive conversations
 
 - **ID:** `oai-r-gpt-5-system-card-sensitive-conversations`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/gpt-5-system-card-sensitive-conversations/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum
-
-- **ID:** `oai-r-gpt-5-system-card-addendum-gpt-5-1`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Sora 2 System Card
-
-- **ID:** `oai-r-sora-2-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/sora-2-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Operator System Card
-
-- **ID:** `oai-r-operator-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/operator-system-card/
-- **Date:** _date unknown_
+- **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -144,7 +48,139 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-gpt-5-system-card-addendum-gpt-5-codex`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/
-- **Date:** _date unknown_
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### ChatGPT agent System Card
+
+- **ID:** `oai-r-chatgpt-agent-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/chatgpt-agent-system-card/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5 System Card
+
+- **ID:** `oai-r-gpt-5-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-system-card/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5.1-Codex-Max System Card
+
+- **ID:** `oai-r-gpt-5-1-codex-max-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-1-codex-max-system-card/
+- **Date:** 2026-03-25
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5.4 Thinking System Card
+
+- **ID:** `oai-r-gpt-5-4-thinking-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-4-thinking-system-card/
+- **Date:** 2026-03-05
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5.3 Instant System Card
+
+- **ID:** `oai-r-gpt-5-3-instant-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-3-instant-system-card/
+- **Date:** 2026-03-03
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5.3-Codex System Card
+
+- **ID:** `oai-r-gpt-5-3-codex-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-3-codex-system-card/
+- **Date:** 2026-02-05
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Addendum to GPT-5.2 System Card: GPT-5.2-Codex
+
+- **ID:** `oai-r-gpt-5-2-codex-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-2-codex-system-card/
+- **Date:** 2025-12-18
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Update to GPT-5 System Card: GPT-5.2
+
+- **ID:** `oai-r-gpt-5-system-card-update-gpt-5-2`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-system-card-update-gpt-5-2/
+- **Date:** 2025-12-11
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum
+
+- **ID:** `oai-r-gpt-5-system-card-addendum-gpt-5-1`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/
+- **Date:** 2025-08-07
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator
+
+- **ID:** `oai-r-o3-o4-mini-system-card-addendum-operator-o3`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3/
+- **Date:** 2025-05-23
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Addendum to o3 and o4-mini system card: Codex
+
+- **ID:** `oai-r-o3-o4-mini-codex-system-card-addendum`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/o3-o4-mini-codex-system-card-addendum/
+- **Date:** 2025-05-16
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -156,6 +192,66 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-o3-o4-mini-system-card`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/o3-o4-mini-system-card/
+- **Date:** 2025-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Sora 2 System Card
+
+- **ID:** `oai-r-sora-2-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/sora-2-system-card/
+- **Date:** 2024-12-09
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Sora System Card
+
+- **ID:** `oai-r-sora-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/sora-system-card/
+- **Date:** 2024-12-06
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### System Cards A New Resource For
+
+- **ID:** `meta-r-system-cards-a-new-resource-for-`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/system-cards-a-new-resource-for-/
+- **Date:** 2024-10-03
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### System Cards A New Resource For Understanding How Ai Systems Work
+
+- **ID:** `meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-work`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/
+- **Date:** 2022-02-23
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Operator System Card
+
+- **ID:** `oai-r-operator-system-card`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/operator-system-card/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** empirical-study
@@ -236,95 +332,11 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Addendum to o3 and o4-mini system card: Codex
-
-- **ID:** `oai-r-o3-o4-mini-codex-system-card-addendum`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/o3-o4-mini-codex-system-card-addendum/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator
-
-- **ID:** `oai-r-o3-o4-mini-system-card-addendum-operator-o3`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### ChatGPT agent System Card
-
-- **ID:** `oai-r-chatgpt-agent-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/chatgpt-agent-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GPT-5 System Card
-
-- **ID:** `oai-r-gpt-5-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GPT-5.4 Thinking System Card
-
-- **ID:** `oai-r-gpt-5-4-thinking-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-4-thinking-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### GPT-5.3 Instant System Card
-
-- **ID:** `oai-r-gpt-5-3-instant-system-card`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-3-instant-system-card/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### How Ai Powers Experiences Facebook Instagram System Cards
 
 - **ID:** `meta-r-how-ai-powers-experiences-facebook-instagram-system-cards`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/how-ai-powers-experiences-facebook-instagram-system-cards/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### System Cards A New Resource For
-
-- **ID:** `meta-r-system-cards-a-new-resource-for-`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/system-cards-a-new-resource-for-/
 - **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
@@ -344,21 +356,27 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### System Cards A New Resource For Understanding How Ai Systems Work
-
-- **ID:** `meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-work`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/system-cards-a-new-resource-for-understanding-how-ai-systems-work/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ## <a id="responsible-scaling-and-policy"></a>Responsible scaling & safety policy
 
 _31 posts_
+
+### Advancing independent research on AI alignment
+
+- **ID:** `oai-r-advancing-independent-research-ai-alignment`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/advancing-independent-research-ai-alignment/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- OpenAI commits $7.5M grant to The Alignment Project, a UK AISI-run global fund for independent alignment research
+- Argues a diverse ecosystem outside frontier labs is essential for AGI safety
+- Fund totals £27M+ supporting projects from complexity theory to game theory, cognitive science, cryptography
+- Aligns with OpenAI's iterative deployment philosophy
+- Matters as funding mechanism to broaden alignment field beyond labs
+
 
 ### How Australia Uses Claude: Findings from the Anthropic Economic Index
 
@@ -366,6 +384,18 @@ _31 posts_
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/how-australia-uses-claude
 - **Date:** 2026-03-31
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Collective alignment: public input on our Model Spec
+
+- **ID:** `oai-r-collective-alignment-aug-2025-updates`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/collective-alignment-aug-2025-updates/
+- **Date:** 2026-03-25
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -380,6 +410,18 @@ _Summary pending — see link for details._
 - **Date:** 2026-03-24
 - **Track:** research
 - **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Inside our approach to the Model Spec
+
+- **ID:** `oai-r-our-approach-to-the-model-spec`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/our-approach-to-the-model-spec/
+- **Date:** 2026-03-19
+- **Track:** research
+- **Contribution type:** position-policy
 
 _Summary pending — see link for details._
 
@@ -432,6 +474,18 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Strengthening Our Frontier Safety Framework
+
+- **ID:** `dm-r-strengthening-our-frontier-safety-framework`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/strengthening-our-frontier-safety-framework/
+- **Date:** 2025-09-22
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### Anthropic Economic Index report: Uneven geographic and enterprise AI adoption
 
 - **ID:** `ant-r-anthropic-economic-index-september-2025-report`
@@ -468,50 +522,50 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### OpenRAIL: Towards open and responsible AI licensing frameworks
-
-- **ID:** `hf-r-open_rail`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open_rail
-- **Date:** 2022-08-31
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Inside our approach to the Model Spec
-
-- **ID:** `oai-r-our-approach-to-the-model-spec`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/our-approach-to-the-model-spec/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
 ### Our updated Preparedness Framework
 
 - **ID:** `oai-r-updating-our-preparedness-framework`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/updating-our-preparedness-framework/
-- **Date:** _date unknown_
+- **Date:** 2025-04-15
 - **Track:** research
 - **Contribution type:** infra-release
 
 _Summary pending — see link for details._
 
 
-### Democratic inputs to AI
+### Updating The Frontier Safety Framework
 
-- **ID:** `oai-r-democratic-inputs-to-ai`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/democratic-inputs-to-ai/
-- **Date:** _date unknown_
+- **ID:** `dm-r-updating-the-frontier-safety-framework`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/
+- **Date:** 2025-02-04
 - **Track:** research
-- **Contribution type:** empirical-study
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Mapping The Misuse Of Generative Ai
+
+- **ID:** `dm-r-mapping-the-misuse-of-generative-ai`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/mapping-the-misuse-of-generative-ai/
+- **Date:** 2024-08-02
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing The Frontier Safety Framework
+
+- **ID:** `dm-r-introducing-the-frontier-safety-framework`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/
+- **Date:** 2024-05-17
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
@@ -521,7 +575,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-forecasting-misuse`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/forecasting-misuse/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** position-policy
 
@@ -539,7 +593,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** infra-release
 
@@ -557,7 +611,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-preparing-for-malicious-uses-of-ai`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/preparing-for-malicious-uses-of-ai/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -575,51 +629,9 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-cooperation-on-safety`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/cooperation-on-safety/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** position-policy
-
-_Summary pending — see link for details._
-
-
-### A research agenda for assessing the economic impacts of code generation models
-
-- **ID:** `oai-r-economic-impacts-research`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/economic-impacts-research/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### Improving verifiability in AI development
-
-- **ID:** `oai-r-improving-verifiability`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improving-verifiability/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Multi-stakeholder report with 58 co-authors at 30 orgs on mechanisms for verifiable AI claims
-- Proposes 10 mechanisms across institutional (auditing, red teaming, bounties, incident sharing), software (audit trails, interpretability, privacy-preserving ML), and hardware (secure ML hardware, compute measurement, academic compute support)
-- Aims to let users/regulators/researchers verify safety/fairness/privacy claims
-- Matters as blueprint for AI accountability, auditing, and governance infrastructure.
-
-
-### Collective alignment: public input on our Model Spec
-
-- **ID:** `oai-r-collective-alignment-aug-2025-updates`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/collective-alignment-aug-2025-updates/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
@@ -629,7 +641,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-frontier-ai-regulation`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/frontier-ai-regulation/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** position-policy
 
@@ -642,22 +654,70 @@ _Summary pending — see link for details._
 - Matters as an influential policy template for frontier AI governance.
 
 
-### Advancing independent research on AI alignment
+### Improving verifiability in AI development
 
-- **ID:** `oai-r-advancing-independent-research-ai-alignment`
+- **ID:** `oai-r-improving-verifiability`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/advancing-independent-research-ai-alignment/
-- **Date:** _date unknown_
+- **Link:** https://openai.com/index/improving-verifiability/
+- **Date:** 2024-01-16
 - **Track:** research
 - **Contribution type:** empirical-study
 
 **Summary:**
 
-- OpenAI commits $7.5M grant to The Alignment Project, a UK AISI-run global fund for independent alignment research
-- Argues a diverse ecosystem outside frontier labs is essential for AGI safety
-- Fund totals £27M+ supporting projects from complexity theory to game theory, cognitive science, cryptography
-- Aligns with OpenAI's iterative deployment philosophy
-- Matters as funding mechanism to broaden alignment field beyond labs
+- Multi-stakeholder report with 58 co-authors at 30 orgs on mechanisms for verifiable AI claims
+- Proposes 10 mechanisms across institutional (auditing, red teaming, bounties, incident sharing), software (audit trails, interpretability, privacy-preserving ML), and hardware (secure ML hardware, compute measurement, academic compute support)
+- Aims to let users/regulators/researchers verify safety/fairness/privacy claims
+- Matters as blueprint for AI accountability, auditing, and governance infrastructure.
+
+
+### A research agenda for assessing the economic impacts of code generation models
+
+- **ID:** `oai-r-economic-impacts-research`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/economic-impacts-research/
+- **Date:** 2023-10-26
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** coding-agents
+
+_Summary pending — see link for details._
+
+
+### Democratic inputs to AI
+
+- **ID:** `oai-r-democratic-inputs-to-ai`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/democratic-inputs-to-ai/
+- **Date:** 2023-06-24
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### OpenRAIL: Towards open and responsible AI licensing frameworks
+
+- **ID:** `hf-r-open_rail`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open_rail
+- **Date:** 2022-08-31
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Artificial Intelligence Values And Alignment
+
+- **ID:** `dm-r-artificial-intelligence-values-and-alignment`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/artificial-intelligence-values-and-alignment/
+- **Date:** 2020-01-13
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
 
 
 ### Facebooks Five Pillars Of Responsible Ai
@@ -708,69 +768,21 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Artificial Intelligence Values And Alignment
-
-- **ID:** `dm-r-artificial-intelligence-values-and-alignment`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/artificial-intelligence-values-and-alignment/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Introducing The Frontier Safety Framework
-
-- **ID:** `dm-r-introducing-the-frontier-safety-framework`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Mapping The Misuse Of Generative Ai
-
-- **ID:** `dm-r-mapping-the-misuse-of-generative-ai`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/mapping-the-misuse-of-generative-ai/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Strengthening Our Frontier Safety Framework
-
-- **ID:** `dm-r-strengthening-our-frontier-safety-framework`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/strengthening-our-frontier-safety-framework/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Updating The Frontier Safety Framework
-
-- **ID:** `dm-r-updating-the-frontier-safety-framework`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/updating-the-frontier-safety-framework/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ## <a id="constitutional-and-self-critique"></a>Constitutional methods & self-critique
 
 _12 posts_
+
+### Improving instruction hierarchy in frontier LLMs
+
+- **ID:** `oai-r-instruction-hierarchy-challenge`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/instruction-hierarchy-challenge/
+- **Date:** 2026-03-05
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
 
 ### The persona selection model
 
@@ -826,6 +838,18 @@ _Summary pending — see link for details._
 - Important piece on Anthropic's explicit alignment methodology.
 
 
+### AI-written critiques help humans notice flaws
+
+- **ID:** `oai-r-critiques`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/critiques/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Constitutional AI with Open LLMs
 
 - **ID:** `hf-r-constitutional_ai`
@@ -877,30 +901,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Improving instruction hierarchy in frontier LLMs
-
-- **ID:** `oai-r-instruction-hierarchy-challenge`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/instruction-hierarchy-challenge/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### AI-written critiques help humans notice flaws
-
-- **ID:** `oai-r-critiques`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/critiques/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
 
 - **ID:** `oai-r-the-instruction-hierarchy`
@@ -935,6 +935,18 @@ _Summary pending — see link for details._
 ## <a id="deceptive-alignment"></a>Deceptive alignment & scheming
 
 _10 posts_
+
+### Detecting and reducing scheming in AI models
+
+- **ID:** `oai-r-detecting-and-reducing-scheming-in-ai-models`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
 
 ### From shortcuts to sabotage: natural emergent misalignment from reward hacking
 
@@ -1053,21 +1065,27 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Detecting and reducing scheming in AI models
-
-- **ID:** `oai-r-detecting-and-reducing-scheming-in-ai-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ## <a id="capability-evals-for-safety"></a>Dangerous-capability evaluations
 
 _9 posts_
+
+### Estimating worst case frontier risks of open weight LLMs
+
+- **ID:** `oai-r-estimating-worst-case-frontier-risks-of-open-weight-llms`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces malicious fine-tuning (MFT) to estimate worst-case harms from releasing gpt-oss
+- MFT gpt-oss trained via RL on biorisk web-browsing tasks and on agentic CTF coding
+- MFT gpt-oss underperforms o3 on frontier risk evals and only marginally exceeds open-weight baselines
+- Informed the decision to release gpt-oss
+- Matters as methodology template for pre-release open-weight safety assessment.
+
 
 ### Building AI for cyber defenders
 
@@ -1112,6 +1130,42 @@ _Summary pending — see link for details._
 - relevant as a capability-for-harm evaluation (disinformation, manipulation).
 
 
+### Transfer of adversarial robustness between perturbation types
+
+- **ID:** `oai-r-transfer-of-adversarial-robustness-between-perturbation-types`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Studies whether adversarial robustness transfers across perturbation types (beyond typical L_inf and L_2 work)
+- Evaluates 32 attacks of 5 different types on ImageNet-100 adversarially-trained models
+- Robustness to one type doesn't always imply (and can sometimes hurt) robustness to others
+- Recommends evaluating defenses across a diverse range of perturbation types and sizes
+- Vision-era adversarial robustness evaluation methodology paper.
+
+
+### Testing robustness against unforeseen adversaries
+
+- **ID:** `oai-r-testing-robustness`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/testing-robustness/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Proposes UAR (Unforeseen Attack Robustness) metric for evaluating model robustness to unseen adversarial attack types
+- Evaluates across diverse distortion types (L1, L2-JPEG, Elastic, Fog, Gabor, Snow) at calibrated sizes against adversarially-trained baselines
+- Shows robustness to one distortion often fails to transfer to others
+- Releases code with attacks and pretrained defenses
+- Matters as methodology for more realistic adversarial-robustness evaluation.
+
+
 ### Evaluating and Mitigating Discrimination in Language Model Decisions
 
 - **ID:** `ant-r-evaluating-and-mitigating-discrimination-in-language-model-decisions`
@@ -1148,60 +1202,6 @@ _Summary pending — see link for details._
 - Limitations: some tasks need a minimum compute threshold
 - attackers can sometimes prevent the model from 'thinking'
 - Evidence that test-time reasoning is a promising robustness lever.
-
-
-### Transfer of adversarial robustness between perturbation types
-
-- **ID:** `oai-r-transfer-of-adversarial-robustness-between-perturbation-types`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Studies whether adversarial robustness transfers across perturbation types (beyond typical L_inf and L_2 work)
-- Evaluates 32 attacks of 5 different types on ImageNet-100 adversarially-trained models
-- Robustness to one type doesn't always imply (and can sometimes hurt) robustness to others
-- Recommends evaluating defenses across a diverse range of perturbation types and sizes
-- Vision-era adversarial robustness evaluation methodology paper.
-
-
-### Testing robustness against unforeseen adversaries
-
-- **ID:** `oai-r-testing-robustness`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/testing-robustness/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Proposes UAR (Unforeseen Attack Robustness) metric for evaluating model robustness to unseen adversarial attack types
-- Evaluates across diverse distortion types (L1, L2-JPEG, Elastic, Fog, Gabor, Snow) at calibrated sizes against adversarially-trained baselines
-- Shows robustness to one distortion often fails to transfer to others
-- Releases code with attacks and pretrained defenses
-- Matters as methodology for more realistic adversarial-robustness evaluation.
-
-
-### Estimating worst case frontier risks of open weight LLMs
-
-- **ID:** `oai-r-estimating-worst-case-frontier-risks-of-open-weight-llms`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Introduces malicious fine-tuning (MFT) to estimate worst-case harms from releasing gpt-oss
-- MFT gpt-oss trained via RL on biorisk web-browsing tasks and on agentic CTF coding
-- MFT gpt-oss underperforms o3 on frontier risk evals and only marginally exceeds open-weight baselines
-- Informed the decision to release gpt-oss
-- Matters as methodology template for pre-release open-weight safety assessment.
 
 
 ### Building an early warning system for LLM-aided biological threat creation
@@ -1274,24 +1274,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned
-
-- **ID:** `ant-r-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned
-- **Date:** 2022-08-22
-- **Track:** research
-- **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
 ### Adversarial attacks on neural network policies
 
 - **ID:** `oai-r-adversarial-attacks-on-neural-network-policies`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/adversarial-attacks-on-neural-network-policies/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1302,6 +1290,36 @@ _Summary pending — see link for details._
 - Characterizes vulnerability across tasks and training algorithms in both white-box and black-box settings
 - Significant performance drops regardless of task or algorithm
 - Foundational paper extending adversarial-robustness concerns to reinforcement learning agents.
+
+
+### Robust adversarial inputs
+
+- **ID:** `oai-r-robust-adversarial-inputs`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/robust-adversarial-inputs/
+- **Date:** 2022-12-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Demonstrates robust adversarial examples that fool image classifiers across scales and transformations
+- Built via optimization over ensembles of stochastic classifiers (random rescaling, rotation, translation)
+- Challenges claim that self-driving cars are safe because they observe from multiple angles
+- Shows an adversarial 'kitten' image misclassified as monitor under any zoom/rotation
+- Matters as early evidence adversarial examples transfer to the physical world.
+
+
+### Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned
+
+- **ID:** `ant-r-red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned
+- **Date:** 2022-08-22
+- **Track:** research
+- **Contribution type:** retrospective-case-study
+
+_Summary pending — see link for details._
 
 
 ### Advancing red teaming with people and AI
@@ -1316,27 +1334,28 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Robust adversarial inputs
-
-- **ID:** `oai-r-robust-adversarial-inputs`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/robust-adversarial-inputs/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Demonstrates robust adversarial examples that fool image classifiers across scales and transformations
-- Built via optimization over ensembles of stochastic classifiers (random rescaling, rotation, translation)
-- Challenges claim that self-driving cars are safe because they observe from multiple angles
-- Shows an adversarial 'kitten' image misclassified as monitor under any zoom/rotation
-- Matters as early evidence adversarial examples transfer to the physical world.
-
-
 ## <a id="scalable-oversight"></a>Scalable oversight & debate
 
 _5 posts_
+
+### Reasoning models struggle to control their chains of thought, and that’s good
+
+- **ID:** `oai-r-reasoning-models-chain-of-thought-controllability`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/reasoning-models-chain-of-thought-controllability/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** chain-of-thought
+
+**Summary:**
+
+- Introduces CoT-Control (13k tasks across GPQA/MMLU-Pro/HLE/BFCL/SWE-Bench Verified) to measure reasoning models' ability to control their CoT
+- All 13 frontier models tested score 0.1%-15.4% — current models can't deliberately obscure CoT
+- Controllability increases with model size but decreases with RL training and longer reasoning
+- Argues low controllability is good news for CoT monitorability as a safety signal
+- Matters as canary eval OpenAI will report in future system cards.
+
 
 ### Automated Alignment Researchers: Using large language models to scale scalable oversight
 
@@ -1350,24 +1369,12 @@ _5 posts_
 _Summary pending — see link for details._
 
 
-### Measuring Progress on Scalable Oversight for Large Language Models
-
-- **ID:** `ant-r-measuring-progress-on-scalable-oversight-for-large-language-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models
-- **Date:** 2022-11-04
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Learning complex goals with iterated amplification
 
 - **ID:** `oai-r-learning-complex-goals-with-iterated-amplification`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/learning-complex-goals-with-iterated-amplification/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1386,35 +1393,53 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-debate`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/debate/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
 
-### Reasoning models struggle to control their chains of thought, and that’s good
+### Measuring Progress on Scalable Oversight for Large Language Models
 
-- **ID:** `oai-r-reasoning-models-chain-of-thought-controllability`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/reasoning-models-chain-of-thought-controllability/
-- **Date:** _date unknown_
+- **ID:** `ant-r-measuring-progress-on-scalable-oversight-for-large-language-models`
+- **Company:** Anthropic
+- **Link:** https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models
+- **Date:** 2022-11-04
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Techniques:** chain-of-thought
 
-**Summary:**
-
-- Introduces CoT-Control (13k tasks across GPQA/MMLU-Pro/HLE/BFCL/SWE-Bench Verified) to measure reasoning models' ability to control their CoT
-- All 13 frontier models tested score 0.1%-15.4% — current models can't deliberately obscure CoT
-- Controllability increases with model size but decreases with RL training and longer reasoning
-- Argues low controllability is good news for CoT monitorability as a safety signal
-- Matters as canary eval OpenAI will report in future system cards.
+_Summary pending — see link for details._
 
 
 ## <a id="reward-hacking-and-sycophancy"></a>Reward hacking, monitorability & honesty
 
 _12 posts_
+
+### How confessions can keep language models honest
+
+- **ID:** `oai-r-how-confessions-can-keep-language-models-honest`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/how-confessions-can-keep-language-models-honest/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Evaluating chain-of-thought monitorability
+
+- **ID:** `oai-r-evaluating-chain-of-thought-monitorability`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/evaluating-chain-of-thought-monitorability/
+- **Date:** 2026-03-19
+- **Track:** research
+- **Contribution type:** empirical-study
+- **Techniques:** chain-of-thought
+
+_Summary pending — see link for details._
+
 
 ### Eval awareness in Claude Opus 4.6’s BrowseComp performance
 
@@ -1466,6 +1491,36 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Measuring Goodhart’s law
+
+- **ID:** `oai-r-measuring-goodharts-law`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/measuring-goodharts-law/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Explains mathematical framework for measuring Goodhart's law in best-of-n sampling
+- Derives efficient estimators for true objective expectations and KL divergence in BoN
+- Shows BoN often competitive with RL at low KL budgets (e.g., best-of-64 beat RL in WebGPT)
+- Contextualizes the tradeoff between proxy reward and true objective
+- Matters for practical RLHF diagnostics and reward-model evaluation.
+
+
+### TruthfulQA: Measuring how models mimic human falsehoods
+
+- **ID:** `oai-r-truthfulqa`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/truthfulqa/
+- **Date:** 2024-01-12
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Towards Understanding Sycophancy in Language Models
 
 - **ID:** `ant-r-towards-understanding-sycophancy-in-language-models`
@@ -1496,29 +1551,23 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Evaluating chain-of-thought monitorability
+### Scaling laws for reward model overoptimization
 
-- **ID:** `oai-r-evaluating-chain-of-thought-monitorability`
+- **ID:** `oai-r-scaling-laws-for-reward-model-overoptimization`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/evaluating-chain-of-thought-monitorability/
-- **Date:** _date unknown_
+- **Link:** https://openai.com/index/scaling-laws-for-reward-model-overoptimization/
+- **Date:** 2022-06-23
 - **Track:** research
-- **Contribution type:** empirical-study
-- **Techniques:** chain-of-thought
+- **Contribution type:** new-method
+- **Techniques:** RLHF, reward-modeling, scaling-laws
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### How confessions can keep language models honest
-
-- **ID:** `oai-r-how-confessions-can-keep-language-models-honest`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/how-confessions-can-keep-language-models-honest/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
+- Empirical study of reward-model overoptimization (Goodhart's law) in RLHF
+- Uses gold reward model as synthetic ground truth to study proxy-vs-gold divergence under RL and best-of-n
+- Finds distinct functional forms for RL vs BoN that scale smoothly with RM parameter count
+- Analyzes impact of RM data size, policy size, and KL penalty
+- Matters as core reference for understanding RLHF overoptimization dynamics.
 
 
 ### Detecting misbehavior in frontier reasoning models
@@ -1534,58 +1583,33 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### TruthfulQA: Measuring how models mimic human falsehoods
+## <a id="safety-research-general"></a>General safety research
 
-- **ID:** `oai-r-truthfulqa`
+_19 posts_
+
+### From hard refusals to safe-completions: toward output-centric safety training
+
+- **ID:** `oai-r-gpt-5-safe-completions`
 - **Company:** OpenAI
-- **Link:** https://openai.com/index/truthfulqa/
-- **Date:** _date unknown_
+- **Link:** https://openai.com/index/gpt-5-safe-completions/
+- **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 
 
-### Scaling laws for reward model overoptimization
+### Evaluating alignment of behavioral dispositions in LLMs
 
-- **ID:** `oai-r-scaling-laws-for-reward-model-overoptimization`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-laws-for-reward-model-overoptimization/
-- **Date:** _date unknown_
+- **ID:** `gr-r-evaluating-alignment-of-behavioral-dispositions-in-llms`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/
+- **Date:** 2026-04-03
 - **Track:** research
-- **Contribution type:** new-method
-- **Techniques:** RLHF, reward-modeling, scaling-laws
+- **Contribution type:** _(uncategorized)_
 
-**Summary:**
+_Summary pending — see link for details._
 
-- Empirical study of reward-model overoptimization (Goodhart's law) in RLHF
-- Uses gold reward model as synthetic ground truth to study proxy-vs-gold divergence under RL and best-of-n
-- Finds distinct functional forms for RL vs BoN that scale smoothly with RM parameter count
-- Analyzes impact of RM data size, policy size, and KL penalty
-- Matters as core reference for understanding RLHF overoptimization dynamics.
-
-
-### Measuring Goodhart’s law
-
-- **ID:** `oai-r-measuring-goodharts-law`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/measuring-goodharts-law/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Explains mathematical framework for measuring Goodhart's law in best-of-n sampling
-- Derives efficient estimators for true objective expectations and KL divergence in BoN
-- Shows BoN often competitive with RL at low KL budgets (e.g., best-of-64 beat RL in WebGPT)
-- Contextualizes the tradeoff between proxy reward and true objective
-- Matters for practical RLHF diagnostics and reward-model evaluation.
-
-
-## <a id="safety-research-general"></a>General safety research
-
-_19 posts_
 
 ### Vision Language Model Alignment in TRL ⚡️
 
@@ -1647,6 +1671,24 @@ _Summary pending — see link for details._
 - Accompanies a full research paper and informs Anthropic's enforcement systems.
 
 
+### A Holistic Approach to Undesired Content Detection in the Real World
+
+- **ID:** `oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/
+- **Date:** 2024-06-20
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Describes end-to-end recipe for real-world content moderation classifiers (OpenAI Moderation API)
+- Covers taxonomy design, labeling instructions, data quality, active learning for rare events, robustness tricks
+- Detects sexual, hateful, violent, self-harm, and harassment content
+- Outperforms off-the-shelf moderation models
+- Matters as blueprint for production content-moderation systems.
+
+
 ### StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation
 
 - **ID:** `hf-r-sc2-instruct`
@@ -1657,6 +1699,43 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
+
+
+### AI safety needs social scientists
+
+- **ID:** `oai-r-ai-safety-needs-social-scientists`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/ai-safety-needs-social-scientists/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Argues long-term AI alignment research needs social scientists, not just ML researchers, to properly study human value elicitation
+- Human answers to value questions are unreliable due to cognitive biases and reflective inconsistencies
+- proposes human-only experiments (e.g., debate with two human debaters + human judge) to stress-test alignment methods
+- Calls for collaboration with experimental psychology, cognitive science, economics, political science, neuroscience, law
+- Accompanies a paper and an OpenAI hiring push
+- Position piece shaping alignment methodology.
+
+
+### Concrete AI safety problems
+
+- **ID:** `oai-r-concrete-ai-safety-problems`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/concrete-ai-safety-problems/
+- **Date:** 2024-02-14
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Co-authored foundational Concrete Problems in AI Safety paper (Amodei et al.)
+- Identifies 5 core safety research problems: safe exploration, robustness to distributional shift, avoiding negative side effects, avoiding reward hacking/wireheading, and scalable oversight
+- Grounds each problem in practical RL scenarios
+- Establishes the vocabulary still used today in alignment research
+- Matters as the foundational agenda-setting paper for modern AI safety.
 
 
 ### Measuring Faithfulness in Chain-of-Thought Reasoning
@@ -1715,6 +1794,24 @@ _Summary pending — see link for details._
 - Early work on alignment via natural-language principles.
 
 
+### Discovering When An Agent Is Present In A System
+
+- **ID:** `dm-r-discovering-when-an-agent-is-present-in-a-system`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/discovering-when-an-agent-is-present-in-a-system/
+- **Date:** 2022-08-18
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind introduces a formal causal definition of agency: agents are systems that would adapt their policy if their actions influenced the world differently
+- uses causal influence diagrams (CIDs) to reason about incentives
+- provides an algorithm to discover agents from empirical data and a translation between causal models and CIDs
+- motivated by building safe/aligned AGI and resolving earlier modelling errors
+- classified under safety-research-general because framing is alignment/agent-incentive foundations.
+
+
 ### Language Models (Mostly) Know What They Know
 
 - **ID:** `ant-r-language-models-mostly-know-what-they-know`
@@ -1746,31 +1843,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### AI safety needs social scientists
-
-- **ID:** `oai-r-ai-safety-needs-social-scientists`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/ai-safety-needs-social-scientists/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Argues long-term AI alignment research needs social scientists, not just ML researchers, to properly study human value elicitation
-- Human answers to value questions are unreliable due to cognitive biases and reflective inconsistencies
-- proposes human-only experiments (e.g., debate with two human debaters + human judge) to stress-test alignment methods
-- Calls for collaboration with experimental psychology, cognitive science, economics, political science, neuroscience, law
-- Accompanies a paper and an OpenAI hiring push
-- Position piece shaping alignment methodology.
-
-
 ### Computational limitations in robust classification and win-win results
 
 - **ID:** `oai-r-computational-limitations-in-robust-classification-and-win-win-results`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results/
-- **Date:** _date unknown_
+- **Date:** 2019-12-03
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1795,66 +1873,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Concrete AI safety problems
-
-- **ID:** `oai-r-concrete-ai-safety-problems`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/concrete-ai-safety-problems/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Co-authored foundational Concrete Problems in AI Safety paper (Amodei et al.)
-- Identifies 5 core safety research problems: safe exploration, robustness to distributional shift, avoiding negative side effects, avoiding reward hacking/wireheading, and scalable oversight
-- Grounds each problem in practical RL scenarios
-- Establishes the vocabulary still used today in alignment research
-- Matters as the foundational agenda-setting paper for modern AI safety.
-
-
-### From hard refusals to safe-completions: toward output-centric safety training
-
-- **ID:** `oai-r-gpt-5-safe-completions`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-safe-completions/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### A Holistic Approach to Undesired Content Detection in the Real World
-
-- **ID:** `oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Describes end-to-end recipe for real-world content moderation classifiers (OpenAI Moderation API)
-- Covers taxonomy design, labeling instructions, data quality, active learning for rare events, robustness tricks
-- Detects sexual, hateful, violent, self-harm, and harassment content
-- Outperforms off-the-shelf moderation models
-- Matters as blueprint for production content-moderation systems.
-
-
-### Evaluating alignment of behavioral dispositions in LLMs
-
-- **ID:** `gr-r-evaluating-alignment-of-behavioral-dispositions-in-llms`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Practical Ai Agent Security
 
 - **ID:** `meta-r-practical-ai-agent-security`
@@ -1871,22 +1889,4 @@ _Summary pending — see link for details._
 - uses an Email-Bot example (summarize inbox, send replies) to show attack surface
 - argues for constraining agent capability combinations so no single session has all three risky powers at once
 - safety/red-teaming-adjacent design principle for agent deployments.
-
-
-### Discovering When An Agent Is Present In A System
-
-- **ID:** `dm-r-discovering-when-an-agent-is-present-in-a-system`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/discovering-when-an-agent-is-present-in-a-system/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind introduces a formal causal definition of agency: agents are systems that would adapt their policy if their actions influenced the world differently
-- uses causal influence diagrams (CIDs) to reason about incentives
-- provides an algorithm to discover agents from empirical data and a translation between causal models and CIDs
-- motivated by building safe/aligned AGI and resolving earlier modelling errors
-- classified under safety-research-general because framing is alignment/agent-incentive foundations.
 

@@ -253,6 +253,18 @@ _Summary pending — see link for details._
 
 _6 posts_
 
+### Scaling PostgreSQL to power 800 million ChatGPT users
+
+- **ID:** `oai-e-scaling-postgresql`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/scaling-postgresql/
+- **Date:** 2026-03-11
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Beyond rate limits: scaling access to Codex and Sora
 
 - **ID:** `oai-e-beyond-rate-limits`
@@ -311,18 +323,6 @@ _Summary pending — see link for details._
 - **Authors:** Sam McAllister|Jonathan Gray|Kashyap Murali|Brennan Saeta|Oliver Rausch|Alex Palcuie
 - **Track:** engineering
 - **Contribution type:** retrospective-case-study
-
-_Summary pending — see link for details._
-
-
-### Scaling PostgreSQL to power 800 million ChatGPT users
-
-- **ID:** `oai-e-scaling-postgresql`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-postgresql/
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** empirical-study
 
 _Summary pending — see link for details._
 

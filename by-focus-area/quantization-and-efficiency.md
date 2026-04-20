@@ -299,12 +299,24 @@ _Summary pending — see link for details._
 
 _3 posts_
 
+### Sparsity-preserving differentially private training
+
+- **ID:** `gr-r-sparsity-preserving-differentially-private-training`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/sparsity-preserving-differentially-private-training/
+- **Date:** 2023-12-08
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### Learning sparse neural networks through L₀ regularization
 
 - **ID:** `oai-r-learning-sparse-neural-networks-through-l0-regularization`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization/
-- **Date:** _date unknown_
+- **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -317,24 +329,12 @@ _3 posts_
 - Matters as a foundational differentiable-pruning method.
 
 
-### Sparsity-preserving differentially private training
-
-- **ID:** `gr-r-sparsity-preserving-differentially-private-training`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/sparsity-preserving-differentially-private-training/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### Training With Quantization Noise For Extreme Model Compression
 
 - **ID:** `meta-r-training-with-quantization-noise-for-extreme-model-compression`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/training-with-quantization-noise-for-extreme-model-compression/
-- **Date:** _date unknown_
+- **Date:** 2020-04-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 

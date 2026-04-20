@@ -93,6 +93,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Evaluating Multimodal Interactive Agents
+
+- **ID:** `dm-r-evaluating-multimodal-interactive-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/evaluating-multimodal-interactive-agents/
+- **Date:** 2022-05-27
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind proposes the Standardised Test Suite (STS) for evaluating multimodal interactive agents in temporally extended 3D human interactions
+- replays behavioral scenarios mined from real human-human interactions, lets the agent take control to finish the interaction, and has human raters annotate success
+- rank agents by success rate across scenarios
+- argues Atari-style RL metrics don't work for fluid human interaction
+- classic agent-evals methodology contribution.
+
+
 ### BrowseComp: a benchmark for browsing agents
 
 - **ID:** `oai-r-browsecomp`
@@ -104,24 +122,6 @@ _Summary pending — see link for details._
 - **Techniques:** BrowseComp, evals-eval-harness
 
 _Summary pending — see link for details._
-
-
-### Evaluating Multimodal Interactive Agents
-
-- **ID:** `dm-r-evaluating-multimodal-interactive-agents`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/evaluating-multimodal-interactive-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind proposes the Standardised Test Suite (STS) for evaluating multimodal interactive agents in temporally extended 3D human interactions
-- replays behavioral scenarios mined from real human-human interactions, lets the agent take control to finish the interaction, and has human raters annotate success
-- rank agents by success rate across scenarios
-- argues Atari-style RL metrics don't work for fluid human interaction
-- classic agent-evals methodology contribution.
 
 
 ## <a id="coding-evals"></a>Coding evaluations
@@ -159,6 +159,18 @@ _Summary pending — see link for details._
 - Each Claude upgrade forced changes because Claude could match or beat top humans in the time limit
 - Discusses what makes evaluations robust (or not) to AI assistance and releases the original take-home as an open challenge
 - Relevant to designing AI-resistant hiring/coding evals in the agent era.
+
+
+### PaperBench: Evaluating AI’s Ability to Replicate AI Research
+
+- **ID:** `oai-r-paperbench`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/paperbench/
+- **Date:** 2025-04-02
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
 
 
 ### Claude SWE-Bench Performance
@@ -212,28 +224,16 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### PaperBench: Evaluating AI’s Ability to Replicate AI Research
-
-- **ID:** `oai-r-paperbench`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/paperbench/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ## <a id="reasoning-evals"></a>Reasoning & math evaluations
 
 _3 posts_
 
-### What's going on with the Open LLM Leaderboard?
+### Olmo 1 7 7B A 24 Point Improvement On Mmlu 92B43F7D269D
 
-- **ID:** `hf-r-open-llm-leaderboard-mmlu`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/open-llm-leaderboard-mmlu
-- **Date:** 2023-06-23
+- **ID:** `ai2-r-olmo-1-7-7b-a-24-point-improvement-on-mmlu-92b43f7d269d`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/olmo-1-7-7b-a-24-point-improvement-on-mmlu-92b43f7d269d
+- **Date:** 2024-04-17
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -245,7 +245,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-solving-math-word-problems`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/solving-math-word-problems/
-- **Date:** _date unknown_
+- **Date:** 2024-01-12
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -258,12 +258,12 @@ _Summary pending — see link for details._
 - Matters for evaluating and improving multistep mathematical reasoning in LLMs.
 
 
-### Olmo 1 7 7B A 24 Point Improvement On Mmlu 92B43F7D269D
+### What's going on with the Open LLM Leaderboard?
 
-- **ID:** `ai2-r-olmo-1-7-7b-a-24-point-improvement-on-mmlu-92b43f7d269d`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/olmo-1-7-7b-a-24-point-improvement-on-mmlu-92b43f7d269d
-- **Date:** _date unknown_
+- **ID:** `hf-r-open-llm-leaderboard-mmlu`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/open-llm-leaderboard-mmlu
+- **Date:** 2023-06-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -454,6 +454,18 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B
+
+- **ID:** `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b
+- **Date:** 2024-03-20
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### Introducing ConTextual: How well can your Multimodal model jointly reason over text and image in text-rich scenes?
 
 - **ID:** `hf-r-leaderboard-contextual`
@@ -586,18 +598,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B
-
-- **ID:** `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ## <a id="judge-models-and-methodology"></a>Judge models & eval methodology
 
 _10 posts_
@@ -608,6 +608,18 @@ _10 posts_
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/measuring-agent-autonomy
 - **Date:** 2026-02-18
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### Measuring AI’s capability to accelerate biological research in the wet lab
+
+- **ID:** `oai-r-accelerating-biological-research-in-the-wet-lab`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/accelerating-biological-research-in-the-wet-lab/
+- **Date:** 2025-12-18
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -699,24 +711,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Measuring AI’s capability to accelerate biological research in the wet lab
-
-- **ID:** `oai-r-accelerating-biological-research-in-the-wet-lab`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-biological-research-in-the-wet-lab/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Melting Pot An Evaluation Suite For Multi Agent Reinforcement Learning
 
 - **ID:** `dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning/
-- **Date:** _date unknown_
+- **Date:** 2021-07-14
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -726,6 +726,18 @@ _Summary pending — see link for details._
 ## <a id="eval-systems-and-harnesses"></a>Eval systems & harnesses
 
 _11 posts_
+
+### Evaluating AI’s ability to perform scientific research tasks
+
+- **ID:** `oai-r-frontierscience`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/frontierscience/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
 
 ### Demystifying evals for AI agents
 
@@ -877,21 +889,59 @@ _Summary pending — see link for details._
 - eval systems/harness post.
 
 
-### Evaluating AI’s ability to perform scientific research tasks
-
-- **ID:** `oai-r-frontierscience`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/frontierscience/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ## <a id="benchmark-release"></a>Benchmark releases
 
 _6 posts_
+
+### Measuring the performance of our models on real-world tasks
+
+- **ID:** `oai-r-gdpval`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gdpval/
+- **Date:** 2026-04-16
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces GDPval, a benchmark of 1,320 economically-valuable tasks (220 in an open gold set) across 44 occupations in the top 9 US GDP industries
+- Tasks drawn from real professional work products (legal briefs, engineering blueprints, nursing care plans, etc.) vetted by experts with 14+ years experience
+- Goes beyond academic benchmarks (MMLU, SWE-Bench) to economically realistic knowledge work
+- One-shot only in v1
+- deliverables span docs, slides, spreadsheets, diagrams, multimedia
+- Intended to ground discussions of AI's real-world capability and economic impact.
+
+
+### GamePad: A learning environment for theorem proving
+
+- **ID:** `oai-r-gamepad`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gamepad/
+- **Date:** 2024-03-21
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Introduces GamePad, a Coq-based learning environment for ML-driven theorem proving
+- Trains baselines on Feit-Thompson formalization for position evaluation and tactic prediction
+- Supports supervised step-by-step proof construction with machine-checkable proofs
+- Provides a platform for studying interactive theorem proving with human supervision
+- Matters as foundational environment for later neural theorem provers.
+
+
+### Gotta Learn Fast: A new benchmark for generalization in RL
+
+- **ID:** `oai-r-gotta-learn-fast`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/gotta-learn-fast/
+- **Date:** 2022-10-19
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+_Summary pending — see link for details._
+
 
 ### MTEB: Massive Text Embedding Benchmark
 
@@ -909,56 +959,6 @@ _6 posts_
 - extensible design for new tasks/datasets
 - paper analyzes leaderboard results and model trade-offs
 - canonical benchmark-release post.
-
-
-### Measuring the performance of our models on real-world tasks
-
-- **ID:** `oai-r-gdpval`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gdpval/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Introduces GDPval, a benchmark of 1,320 economically-valuable tasks (220 in an open gold set) across 44 occupations in the top 9 US GDP industries
-- Tasks drawn from real professional work products (legal briefs, engineering blueprints, nursing care plans, etc.) vetted by experts with 14+ years experience
-- Goes beyond academic benchmarks (MMLU, SWE-Bench) to economically realistic knowledge work
-- One-shot only in v1
-- deliverables span docs, slides, spreadsheets, diagrams, multimedia
-- Intended to ground discussions of AI's real-world capability and economic impact.
-
-
-### Gotta Learn Fast: A new benchmark for generalization in RL
-
-- **ID:** `oai-r-gotta-learn-fast`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gotta-learn-fast/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
-
-_Summary pending — see link for details._
-
-
-### GamePad: A learning environment for theorem proving
-
-- **ID:** `oai-r-gamepad`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gamepad/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-**Summary:**
-
-- Introduces GamePad, a Coq-based learning environment for ML-driven theorem proving
-- Trains baselines on Feit-Thompson formalization for position evaluation and tactic prediction
-- Supports supervised step-by-step proof construction with machine-checkable proofs
-- Provides a platform for studying interactive theorem proving with human supervision
-- Matters as foundational environment for later neural theorem provers.
 
 
 ### Ctrl And Mntdp A New Open Source Benchmark And Model For Continual Learning
@@ -1016,6 +1016,43 @@ _11 posts_
 - Matters as empirical evidence on how model quality drives developer behavior
 
 
+### From Waveforms to Wisdom: The New Benchmark for Auditory Intelligence
+
+- **ID:** `gr-r-from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/
+- **Date:** 2025-12-03
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing the SWE-Lancer benchmark
+
+- **ID:** `oai-r-swe-lancer`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/swe-lancer/
+- **Date:** 2025-07-28
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+- **Techniques:** evals-eval-harness
+
+_Summary pending — see link for details._
+
+
+### Facts Grounding A New Benchmark For Evaluating The Factuality Of Large Language Models
+
+- **ID:** `dm-r-facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/
+- **Date:** 2024-12-17
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### Long Context RAG Performance of LLMs
 
 - **ID:** `dbx-r-long-context-rag-performance-llms`
@@ -1036,25 +1073,12 @@ _11 posts_
 - Matters for practitioners tuning RAG systems with long-context LLMs
 
 
-### Introducing the SWE-Lancer benchmark
+### Agent57 Outperforming The Human Atari Benchmark
 
-- **ID:** `oai-r-swe-lancer`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/swe-lancer/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-- **Techniques:** evals-eval-harness
-
-_Summary pending — see link for details._
-
-
-### From Waveforms to Wisdom: The New Benchmark for Auditory Intelligence
-
-- **ID:** `gr-r-from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/
-- **Date:** _date unknown_
+- **ID:** `dm-r-agent57-outperforming-the-human-atari-benchmark`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/agent57-outperforming-the-human-atari-benchmark/
+- **Date:** 2020-03-31
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -1121,33 +1145,22 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Agent57 Outperforming The Human Atari Benchmark
-
-- **ID:** `dm-r-agent57-outperforming-the-human-atari-benchmark`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/agent57-outperforming-the-human-atari-benchmark/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Facts Grounding A New Benchmark For Evaluating The Factuality Of Large Language Models
-
-- **ID:** `dm-r-facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ## <a id="benchmark-critique"></a>Benchmark critique
 
 _5 posts_
+
+### Why SWE-bench Verified no longer measures frontier coding capabilities
+
+- **ID:** `oai-r-why-we-no-longer-evaluate-swe-bench-verified`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/
+- **Date:** 2026-03-25
+- **Track:** research
+- **Contribution type:** dataset-benchmark
+- **Techniques:** coding-agents, SWE-bench
+
+_Summary pending — see link for details._
+
 
 ### Quantifying infrastructure noise in agentic coding evals
 
@@ -1205,17 +1218,4 @@ _Summary pending — see link for details._
 - Concrete examples: prompt-format sensitivity changing MMLU accuracy ~5%, BBQ bias-score misinterpretation when models weren't answering at all
 - Concludes with policy recommendations for governance
 - Foundational critique of evaluation methodology.
-
-
-### Why SWE-bench Verified no longer measures frontier coding capabilities
-
-- **ID:** `oai-r-why-we-no-longer-evaluate-swe-bench-verified`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** dataset-benchmark
-- **Techniques:** coding-agents, SWE-bench
-
-_Summary pending — see link for details._
 

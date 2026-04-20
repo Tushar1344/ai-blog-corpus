@@ -4,15 +4,15 @@
 
 | Date | Company | Title | ID |
 |---|---|---|---|
+| 2026-03-05 | OpenAI | [Improving instruction hierarchy in frontier LLMs](../by-focus-area/alignment-and-safety.md#oai-r-instruction-hierarchy-challenge) | `oai-r-instruction-hierarchy-challenge` |
 | 2026-02-23 | Anthropic | [The persona selection model](../by-focus-area/alignment-and-safety.md#ant-r-persona-selection-model) | `ant-r-persona-selection-model` |
 | 2025-08-01 | Anthropic | [Persona vectors: Monitoring and controlling character traits in language models](../by-focus-area/alignment-and-safety.md#ant-r-persona-vectors) | `ant-r-persona-vectors` |
 | 2025-04-24 | Anthropic | [Exploring model welfare](../by-focus-area/alignment-and-safety.md#ant-r-exploring-model-welfare) | `ant-r-exploring-model-welfare` |
 | 2024-06-08 | Anthropic | [Claude’s Character](../by-focus-area/alignment-and-safety.md#ant-r-claude-character) | `ant-r-claude-character` |
+| 2024-02-14 | OpenAI | [AI-written critiques help humans notice flaws](../by-focus-area/alignment-and-safety.md#oai-r-critiques) | `oai-r-critiques` |
 | 2024-02-01 | Hugging Face | [Constitutional AI with Open LLMs](../by-focus-area/alignment-and-safety.md#hf-r-constitutional_ai) | `hf-r-constitutional_ai` |
 | 2023-10-24 | Anthropic | [Specific versus General Principles for Constitutional AI](../by-focus-area/alignment-and-safety.md#ant-r-specific-versus-general-principles-for-constitutional-ai) | `ant-r-specific-versus-general-principles-for-constitutional-ai` |
 | 2023-10-17 | Anthropic | [Collective Constitutional AI: Aligning a Language Model with Public Input](../by-focus-area/alignment-and-safety.md#ant-r-collective-constitutional-ai-aligning-a-language-model-with-public-input) | `ant-r-collective-constitutional-ai-aligning-a-language-model-with-public-input` |
 | 2022-12-15 | Anthropic | [Constitutional AI: Harmlessness from AI Feedback](../by-focus-area/alignment-and-safety.md#ant-r-constitutional-ai-harmlessness-from-ai-feedback) | `ant-r-constitutional-ai-harmlessness-from-ai-feedback` |
-| ? | OpenAI | [Improving instruction hierarchy in frontier LLMs](../by-focus-area/alignment-and-safety.md#oai-r-instruction-hierarchy-challenge) | `oai-r-instruction-hierarchy-challenge` |
-| ? | OpenAI | [AI-written critiques help humans notice flaws](../by-focus-area/alignment-and-safety.md#oai-r-critiques) | `oai-r-critiques` |
 | ? | OpenAI | [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](../by-focus-area/alignment-and-safety.md#oai-r-the-instruction-hierarchy) | `oai-r-the-instruction-hierarchy` |
 | ? | OpenAI | [Improving Model Safety Behavior with Rule-Based Rewards](../by-focus-area/alignment-and-safety.md#oai-r-improving-model-safety-behavior-with-rule-based-rewards) | `oai-r-improving-model-safety-behavior-with-rule-based-rewards` |

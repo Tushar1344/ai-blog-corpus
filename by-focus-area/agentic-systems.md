@@ -54,6 +54,18 @@ _10 posts_
 _Summary pending — see link for details._
 
 
+### Unrolling the Codex agent loop
+
+- **ID:** `oai-e-unrolling-the-codex-agent-loop`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/unrolling-the-codex-agent-loop/
+- **Date:** 2026-03-11
+- **Track:** engineering
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### Custom Kernels for All from Codex and Claude
 
 - **ID:** `hf-r-custom-cuda-kernels-agent-skills`
@@ -127,6 +139,24 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### Introducing Codemender An Ai Agent For Code Security
+
+- **ID:** `dm-r-introducing-codemender-an-ai-agent-for-code-security`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/
+- **Date:** 2025-10-06
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind unveils CodeMender, an AI agent that autonomously finds and patches software security vulnerabilities using Gemini Deep Think reasoning
+- both reactive (patching new vulns) and proactive (rewriting code to eliminate vuln classes)
+- has already upstreamed 72 security fixes to open source, including 4.5M-LOC projects
+- equipped with tools for reasoning about code before modifying
+- direct coding-agent application focused on security.
+
+
 ### Rebuilding Devin for Claude Sonnet 4.5: Lessons and Challenges
 
 - **ID:** `cog-e-devin-sonnet-4-5-lessons-and-challenges`
@@ -140,46 +170,16 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Unrolling the Codex agent loop
-
-- **ID:** `oai-e-unrolling-the-codex-agent-loop`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/unrolling-the-codex-agent-loop/
-- **Date:** _date unknown_
-- **Track:** engineering
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Alphaevolve A Gemini Powered Coding Agent For Designing Advanced Algorithms
 
 - **ID:** `dm-r-alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/
-- **Date:** _date unknown_
+- **Date:** 2025-05-14
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
-
-
-### Introducing Codemender An Ai Agent For Code Security
-
-- **ID:** `dm-r-introducing-codemender-an-ai-agent-for-code-security`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind unveils CodeMender, an AI agent that autonomously finds and patches software security vulnerabilities using Gemini Deep Think reasoning
-- both reactive (patching new vulns) and proactive (rewriting code to eliminate vuln classes)
-- has already upstreamed 72 security fixes to open source, including 4.5M-LOC projects
-- equipped with tools for reasoning about code before modifying
-- direct coding-agent application focused on security.
 
 
 ## <a id="multi-agent-orchestration"></a>Multi-agent orchestration
@@ -219,12 +219,65 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-emergence-of-grounded-compositional-language-in-multi-agent-populations`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations/
-- **Date:** _date unknown_
+- **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Techniques:** multi-agent
 
 _Summary pending — see link for details._
+
+
+### Emergent Bartering Behaviour In Multi Agent Reinforcement Learning
+
+- **ID:** `dm-r-emergent-bartering-behaviour-in-multi-agent-reinforcement-learning`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/emergent-bartering-behaviour-in-multi-agent-reinforcement-learning/
+- **Date:** 2022-05-16
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Alphastar Grandmaster Level In Starcraft Ii Using Multi Agent Reinforcement Learning
+
+- **ID:** `dm-r-alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/
+- **Date:** 2019-10-30
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Game Theory Insights Into Asymmetric Multi Agent Games
+
+- **ID:** `dm-r-game-theory-insights-into-asymmetric-multi-agent-games`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/game-theory-insights-into-asymmetric-multi-agent-games/
+- **Date:** 2018-01-17
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Understanding Agent Cooperation
+
+- **ID:** `dm-r-understanding-agent-cooperation`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/understanding-agent-cooperation/
+- **Date:** 2017-02-02
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind uses deep multi-agent RL to study emergence of cooperation via 'sequential social dilemmas' (repeated Prisoner's-Dilemma-like games with temporal structure)
+- shows cooperation vs defection depends on environment structure and agents' cognitive capacity
+- aims to illuminate control of complex multi-agent systems (economy, traffic, climate)
+- classic multi-agent cooperation research.
 
 
 ### Egg A Toolkit For Multi Agent Language Emergence Simulations
@@ -249,59 +302,6 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
-
-
-### Alphastar Grandmaster Level In Starcraft Ii Using Multi Agent Reinforcement Learning
-
-- **ID:** `dm-r-alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Emergent Bartering Behaviour In Multi Agent Reinforcement Learning
-
-- **ID:** `dm-r-emergent-bartering-behaviour-in-multi-agent-reinforcement-learning`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/emergent-bartering-behaviour-in-multi-agent-reinforcement-learning/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Game Theory Insights Into Asymmetric Multi Agent Games
-
-- **ID:** `dm-r-game-theory-insights-into-asymmetric-multi-agent-games`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/game-theory-insights-into-asymmetric-multi-agent-games/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Understanding Agent Cooperation
-
-- **ID:** `dm-r-understanding-agent-cooperation`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/understanding-agent-cooperation/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind uses deep multi-agent RL to study emergence of cooperation via 'sequential social dilemmas' (repeated Prisoner's-Dilemma-like games with temporal structure)
-- shows cooperation vs defection depends on environment structure and agents' cognitive capacity
-- aims to illuminate control of complex multi-agent systems (economy, traffic, climate)
-- classic multi-agent cooperation research.
 
 
 ## <a id="computer-use-and-browser-use"></a>Computer use & browser use
@@ -539,12 +539,54 @@ _12 posts_
 - frames NVIDIA's open models (Nemotron, Isaac GR00T N1.6 VLA, Cosmos world models) as building blocks for embodied agents.
 
 
+### Sima Generalist Ai Agent For 3D Virtual Environments
+
+- **ID:** `dm-r-sima-generalist-ai-agent-for-3d-virtual-environments`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/
+- **Date:** 2024-03-13
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- DeepMind introduces SIMA (Scalable Instructable Multiworld Agent), a generalist AI agent that follows natural-language instructions across many commercial 3D video games
+- partnered with game developers to train on varied games
+- focus is not score-maximization but instruction-following across diverse environments, as a path to useful embodied agents
+- positions video games as sandboxes for AI-agent research
+- embodied/simulation agent work.
+
+
+### Robocat A Self Improving Robotic Agent
+
+- **ID:** `dm-r-robocat-a-self-improving-robotic-agent`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/robocat-a-self-improving-robotic-agent/
+- **Date:** 2023-06-20
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Introducing The Habitat Matterport 3D Research Data Set For Training Embodied Ai
+
+- **ID:** `meta-r-introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai/
+- **Date:** 2021-06-30
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
 ### 2021 Habitat Challenge Launches To Advance Embodied Ai Research
 
 - **ID:** `meta-r-2021-habitat-challenge-launches-to-advance-embodied-ai-research`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/2021-habitat-challenge-launches-to-advance-embodied-ai-research/
-- **Date:** _date unknown_
+- **Date:** 2021-02-17
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -611,18 +653,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Introducing The Habitat Matterport 3D Research Data Set For Training Embodied Ai
-
-- **ID:** `meta-r-introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/introducing-the-habitat-matterport-3d-research-data-set-for-training-embodied-ai/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### New Milestones In Embodied Ai
 
 - **ID:** `meta-r-new-milestones-in-embodied-ai`
@@ -645,36 +675,6 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
-
-
-### Robocat A Self Improving Robotic Agent
-
-- **ID:** `dm-r-robocat-a-self-improving-robotic-agent`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/robocat-a-self-improving-robotic-agent/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Sima Generalist Ai Agent For 3D Virtual Environments
-
-- **ID:** `dm-r-sima-generalist-ai-agent-for-3d-virtual-environments`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind introduces SIMA (Scalable Instructable Multiworld Agent), a generalist AI agent that follows natural-language instructions across many commercial 3D video games
-- partnered with game developers to train on varied games
-- focus is not score-maximization but instruction-following across diverse environments, as a path to useful embodied agents
-- positions video games as sandboxes for AI-agent research
-- embodied/simulation agent work.
 
 
 ## <a id="game-and-rl-agents"></a>Game-playing & RL agents
@@ -717,21 +717,16 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Introducing Snowball Fight ☃️, our first ML-Agents environment
+### Building Interactive Agents In Video Game Worlds
 
-- **ID:** `hf-r-snowball-fight`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/snowball-fight
-- **Date:** 2021-12-02
+- **ID:** `dm-r-building-interactive-agents-in-video-game-worlds`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/building-interactive-agents-in-video-game-worlds/
+- **Date:** 2022-11-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
-**Summary:**
-
-- HF launches its first custom Deep RL environment, Snowball Fight 1v1, built with Unity ML-Agents and playable on Spaces
-- announces a broader ecosystem for sharing custom ML-Agents environments, models, and demos on the Hub
-- invites community contributions and a Discord
-- agent/RL-environment tooling post oriented at hobbyist/game-RL community.
+_Summary pending — see link for details._
 
 
 ### Learning policy representations in multiagent systems
@@ -739,7 +734,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-learning-policy-representations-in-multiagent-systems`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/learning-policy-representations-in-multiagent-systems/
-- **Date:** _date unknown_
+- **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** position-policy
 
@@ -757,7 +752,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-learning-to-model-other-minds`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/learning-to-model-other-minds/
-- **Date:** _date unknown_
+- **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -775,7 +770,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-learning-with-opponent-learning-awareness`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/learning-with-opponent-learning-awareness/
-- **Date:** _date unknown_
+- **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -793,7 +788,7 @@ _Summary pending — see link for details._
 - **ID:** `oai-r-learning-to-cooperate-compete-and-communicate`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/learning-to-cooperate-compete-and-communicate/
-- **Date:** _date unknown_
+- **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -806,12 +801,65 @@ _Summary pending — see link for details._
 - Matters as a foundational multi-agent RL algorithm and particle-envs benchmark release.
 
 
+### Introducing Snowball Fight ☃️, our first ML-Agents environment
+
+- **ID:** `hf-r-snowball-fight`
+- **Company:** Hugging Face
+- **Link:** https://huggingface.co/blog/snowball-fight
+- **Date:** 2021-12-02
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- HF launches its first custom Deep RL environment, Snowball Fight 1v1, built with Unity ML-Agents and playable on Spaces
+- announces a broader ecosystem for sharing custom ML-Agents environments, models, and demos on the Hub
+- invites community contributions and a Discord
+- agent/RL-environment tooling post oriented at hobbyist/game-RL community.
+
+
 ### Droidlet A One Stop Shop For Modularly Building Intelligent Agents
 
 - **ID:** `meta-r-droidlet-a-one-stop-shop-for-modularly-building-intelligent-agents`
 - **Company:** Meta AI / FAIR
 - **Link:** https://ai.meta.com/blog/droidlet-a-one-stop-shop-for-modularly-building-intelligent-agents/
-- **Date:** _date unknown_
+- **Date:** 2021-07-28
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Generally Capable Agents Emerge From Open Ended Play
+
+- **ID:** `dm-r-generally-capable-agents-emerge-from-open-ended-play`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/
+- **Date:** 2021-07-27
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Capture The Flag The Emergence Of Complex Cooperative Agents
+
+- **ID:** `dm-r-capture-the-flag-the-emergence-of-complex-cooperative-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/
+- **Date:** 2019-05-30
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Agents That Imagine And Plan
+
+- **ID:** `dm-r-agents-that-imagine-and-plan`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/agents-that-imagine-and-plan/
+- **Date:** 2017-07-20
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -842,54 +890,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Agents That Imagine And Plan
-
-- **ID:** `dm-r-agents-that-imagine-and-plan`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/agents-that-imagine-and-plan/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Building Interactive Agents In Video Game Worlds
-
-- **ID:** `dm-r-building-interactive-agents-in-video-game-worlds`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/building-interactive-agents-in-video-game-worlds/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Capture The Flag The Emergence Of Complex Cooperative Agents
-
-- **ID:** `dm-r-capture-the-flag-the-emergence-of-complex-cooperative-agents`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
-### Generally Capable Agents Emerge From Open Ended Play
-
-- **ID:** `dm-r-generally-capable-agents-emerge-from-open-ended-play`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ## <a id="dialogue-and-conversational-agents"></a>Dialogue & conversational agents
 
 _3 posts_
@@ -906,24 +906,24 @@ _3 posts_
 _Summary pending — see link for details._
 
 
-### A Facebook Scale Simulator To Detect Harmful Behaviors
+### Building Safer Dialogue Agents
 
-- **ID:** `meta-r-a-facebook-scale-simulator-to-detect-harmful-behaviors`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/a-facebook-scale-simulator-to-detect-harmful-behaviors/
-- **Date:** _date unknown_
+- **ID:** `dm-r-building-safer-dialogue-agents`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/building-safer-dialogue-agents/
+- **Date:** 2022-09-22
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
 
-### Building Safer Dialogue Agents
+### A Facebook Scale Simulator To Detect Harmful Behaviors
 
-- **ID:** `dm-r-building-safer-dialogue-agents`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/building-safer-dialogue-agents/
-- **Date:** _date unknown_
+- **ID:** `meta-r-a-facebook-scale-simulator-to-detect-harmful-behaviors`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/a-facebook-scale-simulator-to-detect-harmful-behaviors/
+- **Date:** 2020-07-23
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -933,6 +933,18 @@ _Summary pending — see link for details._
 ## <a id="agent-frameworks-and-tooling"></a>Agent frameworks & tooling
 
 _10 posts_
+
+### Open Coding Agents
+
+- **ID:** `ai2-r-open-coding-agents`
+- **Company:** Allen Institute for AI
+- **Link:** https://allenai.org/blog/open-coding-agents
+- **Date:** 2026-01-27
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
 
 ### DeepMath: A lightweight math reasoning Agent with smolagents
 
@@ -944,6 +956,24 @@ _10 posts_
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
+
+
+### Introducing Pytorch Native Agentic Stack
+
+- **ID:** `meta-r-introducing-pytorch-native-agentic-stack`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/introducing-pytorch-native-agentic-stack/
+- **Date:** 2025-10-24
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+**Summary:**
+
+- Meta unveils five PyTorch-native projects at PyTorch Conference 2025: ExecuTorch 1.0, Torchforge, Monarch, TorchComms, Helion, plus OpenEnv (with HF) for RL environment hub
+- stack spans kernel languages, distributed systems, RL, agentic frameworks, and edge deployment
+- scales from thousands to hundreds of thousands of GPUs across heterogeneous hardware
+- publishes RFC for standard environment interface
+- covers full agentic AI lifecycle from post-trained LLM deployment to RL training.
 
 
 ### Back to The Future: Evaluating AI Agents on Predicting Future Events
@@ -1030,39 +1060,33 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Introducing Pytorch Native Agentic Stack
+## <a id="agent-research-applications"></a>Agent research applications (scientific, robotic)
 
-- **ID:** `meta-r-introducing-pytorch-native-agentic-stack`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/introducing-pytorch-native-agentic-stack/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
+_8 posts_
 
-**Summary:**
+### Improving the academic workflow: Introducing two AI agents for better figures and peer review
 
-- Meta unveils five PyTorch-native projects at PyTorch Conference 2025: ExecuTorch 1.0, Torchforge, Monarch, TorchComms, Helion, plus OpenEnv (with HF) for RL environment hub
-- stack spans kernel languages, distributed systems, RL, agentic frameworks, and edge deployment
-- scales from thousands to hundreds of thousands of GPUs across heterogeneous hardware
-- publishes RFC for standard environment interface
-- covers full agentic AI lifecycle from post-trained LLM deployment to RL training.
-
-
-### Open Coding Agents
-
-- **ID:** `ai2-r-open-coding-agents`
-- **Company:** Allen Institute for AI
-- **Link:** https://allenai.org/blog/open-coding-agents
-- **Date:** _date unknown_
+- **ID:** `gr-r-improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review`
+- **Company:** Google Research
+- **Link:** https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/
+- **Date:** 2026-04-08
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
 
 
-## <a id="agent-research-applications"></a>Agent research applications (scientific, robotic)
+### Gemini Robotics 15 Brings Ai Agents Into The Physical World
 
-_8 posts_
+- **ID:** `dm-r-gemini-robotics-15-brings-ai-agents-into-the-physical-world`
+- **Company:** Google DeepMind
+- **Link:** https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
+- **Date:** 2025-09-25
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
 
 ### Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent
 
@@ -1086,7 +1110,7 @@ _8 posts_
 - **ID:** `oai-r-practices-for-governing-agentic-ai-systems`
 - **Company:** OpenAI
 - **Link:** https://openai.com/index/practices-for-governing-agentic-ai-systems/
-- **Date:** _date unknown_
+- **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1100,24 +1124,12 @@ _8 posts_
 - Matters as early governance framework specific to agents.
 
 
-### Improving the academic workflow: Introducing two AI agents for better figures and peer review
-
-- **ID:** `gr-r-improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review`
-- **Company:** Google Research
-- **Link:** https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
-
-
 ### A Generalist Agent
 
 - **ID:** `dm-r-a-generalist-agent`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/a-generalist-agent/
-- **Date:** _date unknown_
+- **Date:** 2022-05-12
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -1130,16 +1142,21 @@ _Summary pending — see link for details._
 - landmark generalist-agent paper.
 
 
-### Gemini Robotics 15 Brings Ai Agents Into The Physical World
+### Spurious Normativity Enhances Learning Of Compliance And Enforcement Behavior In Artificial Agents
 
-- **ID:** `dm-r-gemini-robotics-15-brings-ai-agents-into-the-physical-world`
+- **ID:** `dm-r-spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents`
 - **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
-- **Date:** _date unknown_
+- **Link:** https://deepmind.google/discover/blog/spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents/
+- **Date:** 2022-01-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepMind paper on multi-agent deep RL as a model of complex social interactions (norm formation)
+- shows spurious norms (arbitrary rules with no intrinsic payoff) can accelerate learning of compliance-and-enforcement behaviors and thereby support emergence of socially beneficial norms
+- framed as a path to richer simulations of social-ecological systems (cooperation, resource management, governance)
+- multi-agent RL research on social norm emergence.
 
 
 ### Opening Up A Physics Simulator For Robotics
@@ -1147,7 +1164,7 @@ _Summary pending — see link for details._
 - **ID:** `dm-r-opening-up-a-physics-simulator-for-robotics`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/opening-up-a-physics-simulator-for-robotics/
-- **Date:** _date unknown_
+- **Date:** 2021-10-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -1159,7 +1176,7 @@ _Summary pending — see link for details._
 - **ID:** `dm-r-safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control/
-- **Date:** _date unknown_
+- **Date:** 2018-08-17
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -1169,23 +1186,6 @@ _Summary pending — see link for details._
 - every five minutes it ingests sensor snapshots and predicts energy outcomes of candidate action combinations via deep neural networks, then picks the minimal-energy action satisfying safety constraints
 - first-of-its-kind deployment delivering energy savings across multiple data centres
 - classified as agent-research-applications since it is a deployed autonomous control agent.
-
-
-### Spurious Normativity Enhances Learning Of Compliance And Enforcement Behavior In Artificial Agents
-
-- **ID:** `dm-r-spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents`
-- **Company:** Google DeepMind
-- **Link:** https://deepmind.google/discover/blog/spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- DeepMind paper on multi-agent deep RL as a model of complex social interactions (norm formation)
-- shows spurious norms (arbitrary rules with no intrinsic payoff) can accelerate learning of compliance-and-enforcement behaviors and thereby support emergence of socially beneficial norms
-- framed as a path to richer simulations of social-ecological systems (cooperation, resource management, governance)
-- multi-agent RL research on social norm emergence.
 
 
 ## <a id="agent-traces-and-observability"></a>Agent traces & observability
@@ -1214,6 +1214,18 @@ _14 posts_
 - **Company:** Anthropic
 - **Link:** https://www.anthropic.com/research/trustworthy-agents
 - **Date:** 2026-04-09
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
+### How we monitor internal coding agents for misalignment
+
+- **ID:** `oai-r-how-we-monitor-internal-coding-agents-misalignment`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
+- **Date:** 2026-03-17
 - **Track:** research
 - **Contribution type:** empirical-study
 
@@ -1359,6 +1371,18 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
+### MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering
+
+- **ID:** `oai-r-mle-bench`
+- **Company:** OpenAI
+- **Link:** https://openai.com/index/mle-bench/
+- **Date:** 2024-10-10
+- **Track:** research
+- **Contribution type:** empirical-study
+
+_Summary pending — see link for details._
+
+
 ### A review of OpenAI’s o1 and how we evaluate coding agents
 
 - **ID:** `cog-r-evaluating-coding-agents`
@@ -1372,36 +1396,12 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### How we monitor internal coding agents for misalignment
-
-- **ID:** `oai-r-how-we-monitor-internal-coding-agents-misalignment`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
-### MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering
-
-- **ID:** `oai-r-mle-bench`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/mle-bench/
-- **Date:** _date unknown_
-- **Track:** research
-- **Contribution type:** empirical-study
-
-_Summary pending — see link for details._
-
-
 ### Scalable Agent Architecture For Distributed Training
 
 - **ID:** `dm-r-scalable-agent-architecture-for-distributed-training`
 - **Company:** Google DeepMind
 - **Link:** https://deepmind.google/discover/blog/scalable-agent-architecture-for-distributed-training/
-- **Date:** _date unknown_
+- **Date:** 2018-02-05
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 

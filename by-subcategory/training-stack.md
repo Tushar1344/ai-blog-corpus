@@ -25,7 +25,7 @@
 | 2022-07-18 | Databricks Mosaic AI | [Mosaic ResNet Deep Dive](../by-focus-area/pretraining-and-architecture.md#dbx-r-mosaic-resnet-deep-dive) | `dbx-r-mosaic-resnet-deep-dive` |
 | 2022-06-23 | Databricks Mosaic AI | [Farewell, CUDA OOM: Automatic Gradient Accumulation](../by-focus-area/pretraining-and-architecture.md#dbx-e-farewell-oom) | `dbx-e-farewell-oom` |
 | 2022-06-09 | Databricks Mosaic AI | [Blazingly Fast Computer Vision Training with the Mosaic ResNet and Composer](../by-focus-area/pretraining-and-architecture.md#dbx-r-mosaic-resnet) | `dbx-r-mosaic-resnet` |
-| ? | OpenAI | [Techniques for training large neural networks](../by-focus-area/pretraining-and-architecture.md#oai-r-techniques-for-training-large-neural-networks) | `oai-r-techniques-for-training-large-neural-networks` |
+| 2021-07-28 | OpenAI | [Techniques for training large neural networks](../by-focus-area/pretraining-and-architecture.md#oai-r-techniques-for-training-large-neural-networks) | `oai-r-techniques-for-training-large-neural-networks` |
 | ? | Databricks Mosaic AI | [5 Best Practices for Efficient Model Training](../by-focus-area/pretraining-and-architecture.md#dbx-r-5-best-practices-for-efficient-model-training) | `dbx-r-5-best-practices-for-efficient-model-training` |
 | ? | Databricks Mosaic AI | [Composer on AWS](../by-focus-area/pretraining-and-architecture.md#dbx-e-aws-composer) | `dbx-e-aws-composer` |
 | ? | Databricks Mosaic AI | [Best Practices (Dec 2021)](../by-focus-area/pretraining-and-architecture.md#dbx-r-best-practices-dec-2021) | `dbx-r-best-practices-dec-2021` |

@@ -10,8 +10,8 @@
 | 2026-01-27 | Vercel | [AGENTS.md outperforms skills in our agent evals](../by-focus-area/evals-and-benchmarks.md#vcl-e-agents-md-outperforms-skills-in-our-agent-evals) | `vcl-e-agents-md-outperforms-skills-in-our-agent-evals` |
 | 2026-01-09 | Anthropic | [Demystifying evals for AI agents](../by-focus-area/evals-and-benchmarks.md#ant-e-demystifying-evals-for-ai-agents) | `ant-e-demystifying-evals-for-ai-agents` |
 | 2025-12-09 | Databricks Mosaic AI | [Introducing OfficeQA: A Benchmark for End-to-End Grounded Reasoning](../by-focus-area/evals-and-benchmarks.md#dbx-r-introducing-officeqa-benchmark-end-to-end-grounded-reasoning) | `dbx-r-introducing-officeqa-benchmark-end-to-end-grounded-reasoning` |
+| 2025-07-28 | OpenAI | [Introducing the SWE-Lancer benchmark](../by-focus-area/evals-and-benchmarks.md#oai-r-swe-lancer) | `oai-r-swe-lancer` |
 | 2024-11-19 | Anthropic | [A statistical approach to model evaluations](../by-focus-area/evals-and-benchmarks.md#ant-r-statistical-approach-to-model-evals) | `ant-r-statistical-approach-to-model-evals` |
 | 2024-08-16 | Databricks Mosaic AI | [Beyond the Leaderboard: Unpacking Function Calling Evaluation](../by-focus-area/evals-and-benchmarks.md#dbx-r-unpacking-function-calling-eval) | `dbx-r-unpacking-function-calling-eval` |
-| ? | OpenAI | [Gotta Learn Fast: A new benchmark for generalization in RL](../by-focus-area/evals-and-benchmarks.md#oai-r-gotta-learn-fast) | `oai-r-gotta-learn-fast` |
+| 2022-10-19 | OpenAI | [Gotta Learn Fast: A new benchmark for generalization in RL](../by-focus-area/evals-and-benchmarks.md#oai-r-gotta-learn-fast) | `oai-r-gotta-learn-fast` |
 | ? | OpenAI | [BrowseComp: a benchmark for browsing agents](../by-focus-area/evals-and-benchmarks.md#oai-r-browsecomp) | `oai-r-browsecomp` |
-| ? | OpenAI | [Introducing the SWE-Lancer benchmark](../by-focus-area/evals-and-benchmarks.md#oai-r-swe-lancer) | `oai-r-swe-lancer` |

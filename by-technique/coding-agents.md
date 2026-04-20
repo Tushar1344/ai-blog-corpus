@@ -10,6 +10,7 @@
 | 2026-03-27 | Cursor | [A technical report on Composer 2](../by-focus-area/pretraining-and-architecture.md#cur-r-composer-2-technical-report) | `cur-r-composer-2-technical-report` |
 | 2026-03-26 | Cursor | [Improving Composer through real-time RL](../by-focus-area/pretraining-and-architecture.md#cur-r-real-time-rl-for-composer) | `cur-r-real-time-rl-for-composer` |
 | 2026-03-25 | Anthropic | [Claude Code auto mode: a safer way to skip permissions](../by-focus-area/agentic-systems.md#ant-e-claude-code-auto-mode) | `ant-e-claude-code-auto-mode` |
+| 2026-03-25 | OpenAI | [Why SWE-bench Verified no longer measures frontier coding capabilities](../by-focus-area/evals-and-benchmarks.md#oai-r-why-we-no-longer-evaluate-swe-bench-verified) | `oai-r-why-we-no-longer-evaluate-swe-bench-verified` |
 | 2026-03-23 | Cursor | [Fast regex search: indexing text for agent tools](../by-focus-area/harness-and-context-engineering.md#cur-r-fast-regex-search) | `cur-r-fast-regex-search` |
 | 2026-03-17 | Cursor | [Training Composer for longer horizons](../by-focus-area/pretraining-and-architecture.md#cur-r-self-summarization) | `cur-r-self-summarization` |
 | 2026-03-16 | Cursor | [Securing our codebase with autonomous agents](../by-focus-area/agentic-systems.md#cur-e-security-agents) | `cur-e-security-agents` |
@@ -26,6 +27,5 @@
 | 2025-01-06 | Anthropic | [Claude SWE-Bench Performance](../by-focus-area/evals-and-benchmarks.md#ant-e-swe-bench-sonnet) | `ant-e-swe-bench-sonnet` |
 | 2025-01-06 | Anthropic | [Claude SWE-Bench Performance](../by-focus-area/evals-and-benchmarks.md#ant-r-swe-bench-sonnet) | `ant-r-swe-bench-sonnet` |
 | 2024-03-15 | Cognition | [SWE-bench technical report](../by-focus-area/evals-and-benchmarks.md#cog-r-swe-bench-technical-report) | `cog-r-swe-bench-technical-report` |
+| 2023-10-26 | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/alignment-and-safety.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |
 | 2023-08-10 | Databricks Mosaic AI | [End-to-End Secure Evaluation of Code Generation Models](../by-focus-area/evals-and-benchmarks.md#dbx-r-secure-code-evaluation) | `dbx-r-secure-code-evaluation` |
-| ? | OpenAI | [Why SWE-bench Verified no longer measures frontier coding capabilities](../by-focus-area/evals-and-benchmarks.md#oai-r-why-we-no-longer-evaluate-swe-bench-verified) | `oai-r-why-we-no-longer-evaluate-swe-bench-verified` |
-| ? | OpenAI | [A research agenda for assessing the economic impacts of code generation models](../by-focus-area/alignment-and-safety.md#oai-r-economic-impacts-research) | `oai-r-economic-impacts-research` |

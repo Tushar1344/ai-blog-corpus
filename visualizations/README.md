@@ -30,9 +30,11 @@ Open **[heatmap.html](heatmap.html)** in a browser for the full interactive dash
 - **2025** — Test-time compute era. R1. Thinking Machines launches. Claude Code. Agent harness emerges as a discipline.
 - **2026 YTD** — Dense and broad. Agent infra, enterprise agents, multi-agent debates, eval-awareness research.
 
-## Coverage gaps
+## Coverage
 
-The heatmaps only show the ~385 in-scope posts that have publish dates. ~310 posts are missing dates because their source pages are blocked by Cloudflare (OpenAI) or Facebook login (Meta AI via Wayback). Those are still in the Sheet and markdown library — they just don't appear in the temporal view.
+- **598 of 695 in-scope posts (86%) have dates** and appear in the heatmaps (up from 55% in the initial pass).
+- **Time range**: earliest post 2017, latest 2026-04.
+- **Remaining gap**: ~97 posts (mostly Meta FAIR via Facebook-login-gated Wayback, plus stubborn OpenAI pre-2020 research pages). These are still in the Sheet and markdown library — they just don't appear in the temporal view.
 
 ## Regeneration
 
