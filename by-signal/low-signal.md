@@ -2,7 +2,7 @@
 
 Likely low signal (product announcements, customer stories, reruns). Skim or skip unless you're completionist.
 
-**Count:** 353
+**Count:** 381
 
 | Priority | Signal | Company | Country | Date | Focus area | Title |
 |---|---|---|---|---|---|---|
@@ -66,7 +66,9 @@ Likely low signal (product announcements, customer stories, reruns). Skim or ski
 | 4.4 | L=M/N=L/A=L | DeepMind | UK |  | agentic-systems | [Spurious Normativity Enhances Learning Of Compliance And Enforcement Behavior In Artificial Agents](../by-focus-area/agentic-systems.md#dm-r-spurious-normativity-enhances-learning-of-compliance-and-enforcement-behavior-in-artificial-agents) |
 | 4.4 | L=M/N=L/A=L | DeepMind | UK |  | agentic-systems | [Understanding Agent Cooperation](../by-focus-area/agentic-systems.md#dm-r-understanding-agent-cooperation) |
 | 4.4 | L=M/N=L/A=L | OpenAI | USA | 2022-10-19 | agentic-systems | [Learning policy representations in multiagent systems](../by-focus-area/agentic-systems.md#oai-r-learning-policy-representations-in-multiagent-systems) |
+| 4.4 | L=M/N=L/A=L | OpenAI | USA | 2022-10-19 | pretraining-and-architecture | [Dota 2 with large scale deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-dota-2-with-large-scale-deep-reinforcement-learning) |
 | 4.4 | L=M/N=L/A=L | OpenAI | USA | 2024-02-14 | agentic-systems | [Practices for Governing Agentic AI Systems](../by-focus-area/agentic-systems.md#oai-r-practices-for-governing-agentic-ai-systems) |
+| 4.4 | L=M/N=L/A=L | Anthropic | USA | 2025-04-24 | alignment-and-safety | [Exploring model welfare](../by-focus-area/alignment-and-safety.md#ant-r-exploring-model-welfare) |
 | 4.3 | L=L/N=L/A=M | Databricks Mosaic | USA |  | pretraining-and-architecture | [Best Practices (Dec 2021)](../by-focus-area/pretraining-and-architecture.md#dbx-r-best-practices-dec-2021) |
 | 4.3 | L=L/N=L/A=M | Databricks Mosaic | USA |  | pretraining-and-architecture | [Natural Synthetics](../by-focus-area/pretraining-and-architecture.md#dbx-r-natural-synthetics) |
 | 4.3 | L=L/N=L/A=M | Databricks Mosaic | USA |  | pretraining-and-architecture | [Training Stable Diffusion from Scratch (Part 3)](../by-focus-area/pretraining-and-architecture.md#dbx-r-stable-diffusion-part-3) |
@@ -323,6 +325,10 @@ Likely low signal (product announcements, customer stories, reruns). Skim or ski
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Introducing Wordtune Read](../by-focus-area/pretraining-and-architecture.md#a21-r-introducing-wordtune-read) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Is Genai Living Up To Its Expectations Insights From 3 Years In The Trenches](../by-focus-area/pretraining-and-architecture.md#a21-r-is-genai-living-up-to-its-expectations-insights-from-3-years-in-the-trenches) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Iso 42001 Ai Development](../by-focus-area/pretraining-and-architecture.md#a21-r-iso-42001-ai-development) |
+| 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Jamba Instruct Amazon Bedrock](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-amazon-bedrock) |
+| 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Jamba Instruct Microsoft Azure Ai](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-microsoft-azure-ai) |
+| 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Jamba Instruct On Snowflake Cortex](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-on-snowflake-cortex) |
+| 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Jamba Instruct On Snowflake Cortex Ai](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-on-snowflake-cortex-ai) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Jurassic X Crossing The Neuro Symbolic Chasm With The Mrkl System](../by-focus-area/pretraining-and-architecture.md#a21-r-jurassic-x-crossing-the-neuro-symbolic-chasm-with-the-mrkl-system) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Karpathys Leash](../by-focus-area/pretraining-and-architecture.md#a21-r-karpathys-leash) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Latitude Case Study](../by-focus-area/pretraining-and-architecture.md#a21-r-latitude-case-study) |
@@ -350,11 +356,33 @@ Likely low signal (product announcements, customer stories, reruns). Skim or ski
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Summarizing Legal Documents For Different Personas Using Ai21 Studio](../by-focus-area/pretraining-and-architecture.md#a21-r-summarizing-legal-documents-for-different-personas-using-ai21-studio) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Tom Nides Joins Ai21](../by-focus-area/pretraining-and-architecture.md#a21-r-tom-nides-joins-ai21) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Top Ten Genai Enterprise Use Cases](../by-focus-area/pretraining-and-architecture.md#a21-r-top-ten-genai-enterprise-use-cases) |
+| 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Transforming The Future Of Ai With Long Context Jamba Instruct](../by-focus-area/pretraining-and-architecture.md#a21-r-transforming-the-future-of-ai-with-long-context-jamba-instruct) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Tweet Hunter Case Study](../by-focus-area/pretraining-and-architecture.md#a21-r-tweet-hunter-case-study) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Ubisoft Case Study](../by-focus-area/pretraining-and-architecture.md#a21-r-ubisoft-case-study) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Verb Ai Case Study](../by-focus-area/pretraining-and-architecture.md#a21-r-verb-ai-case-study) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Why Enterprises Struggle With Ai Integration](../by-focus-area/pretraining-and-architecture.md#a21-r-why-enterprises-struggle-with-ai-integration) |
 | 3.3 | L=L/N=L/A=L | AI21 Labs | Israel |  | pretraining-and-architecture | [Zero To Production In Ai21 Studio](../by-focus-area/pretraining-and-architecture.md#a21-r-zero-to-production-in-ai21-studio) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2019-10-15 | pretraining-and-architecture | [Transfer from simulation to real world through learning deep inverse dynamics model](../by-focus-area/pretraining-and-architecture.md#oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2019-10-15 | pretraining-and-architecture | [Asymmetric Actor Critic For Image Based Robot Learning](../by-focus-area/pretraining-and-architecture.md#oai-r-asymmetric-actor-critic-for-image-based-robot-learning) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-04-13 | pretraining-and-architecture | [Prediction and control with temporal segment models](../by-focus-area/pretraining-and-architecture.md#oai-r-prediction-and-control-with-temporal-segment-models) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-04-13 | pretraining-and-architecture | [Improving GANs using optimal transport](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-gans-using-optimal-transport) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-04-13 | pretraining-and-architecture | [FFJORD: Free-form continuous dynamics for scalable reversible generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-ffjord) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-04-13 | pretraining-and-architecture | [On the quantitative analysis of decoder-based generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-10-19 | evals-and-benchmarks | [Gotta Learn Fast: A new benchmark for generalization in RL](../by-focus-area/evals-and-benchmarks.md#oai-r-gotta-learn-fast) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-10-19 | pretraining-and-architecture | [Ucb Exploration Via Q Ensembles](../by-focus-area/pretraining-and-architecture.md#oai-r-ucb-exploration-via-q-ensembles) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-10-19 | pretraining-and-architecture | [Some considerations on learning to explore via meta-reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-some-considerations-on-learning-to-explore-via-meta-reinforcement-learning) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-10-19 | pretraining-and-architecture | [Plan online, learn offline: Efficient learning and exploration via model-based control](../by-focus-area/pretraining-and-architecture.md#oai-r-plan-online-learn-offline) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-10-19 | pretraining-and-architecture | [Variational option discovery algorithms](../by-focus-area/pretraining-and-architecture.md#oai-r-variational-option-discovery-algorithms) |
+| 3.3 | L=L/N=L/A=L | OpenAI | USA | 2022-10-19 | pretraining-and-architecture | [Stochastic Neural Networks for hierarchical reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning) |
+| 3.3 | L=L/N=L/A=L | Anthropic | USA | 2023-05-24 | interpretability | [Circuits Updates — May 2023](../by-focus-area/interpretability.md#ant-r-circuits-updates-may-2023) |
+| 3.3 | L=L/N=L/A=L | Mistral | France | 2023-09-27 | pretraining-and-architecture | [Bringing open AI models to the frontier \| Mistral AI \| Frontier AI in your hands](../by-focus-area/pretraining-and-architecture.md#mt-r-about-mistral-ai) |
+| 3.3 | L=L/N=L/A=L | Anthropic | USA | 2024-04-26 | interpretability | [Circuits Updates – April 2024](../by-focus-area/interpretability.md#ant-r-circuits-updates-april-2024) |
+| 3.3 | L=L/N=L/A=L | Qwen | China | 2024-05-11 | pretraining-and-architecture | [Notes on Qwen-Max-0428](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen-max-0428) |
+| 3.3 | L=L/N=L/A=L | Mistral | France | 2024-06-05 | pretraining-and-architecture | [Mistral AI Fine-tuning Hackathon \| Mistral AI \| Frontier AI in your hands](../by-focus-area/pretraining-and-architecture.md#mt-r-2024-ft-hackathon) |
+| 3.3 | L=L/N=L/A=L | Anthropic | USA | 2024-06-28 | interpretability | [Circuits Updates – June 2024](../by-focus-area/interpretability.md#ant-r-circuits-updates-june-2024) |
+| 3.3 | L=L/N=L/A=L | Anthropic | USA | 2024-07-31 | interpretability | [Circuits Updates – July 2024](../by-focus-area/interpretability.md#ant-r-circuits-updates-july-2024) |
+| 3.3 | L=L/N=L/A=L | Anthropic | USA | 2024-09-06 | interpretability | [Circuits Updates – August 2024](../by-focus-area/interpretability.md#ant-r-circuits-updates-august-2024) |
+| 3.3 | L=L/N=L/A=L | Anthropic | USA | 2024-10-01 | interpretability | [Circuits Updates – September 2024](../by-focus-area/interpretability.md#ant-r-circuits-updates-sept-2024) |
 | 3.3 | L=L/N=L/A=L | Moonshot (Kimi) | China | 2025-06-16 | pretraining-and-architecture | [clone repo](../by-focus-area/pretraining-and-architecture.md#mn-r-kimi-dev) |
 | 3.3 | L=L/N=L/A=L | Moonshot (Kimi) | China | 2025-10-15 | pretraining-and-architecture | [Kimi Code CLI](../by-focus-area/pretraining-and-architecture.md#mn-r-kimi-cli) |
 | 3.3 | L=L/N=L/A=L | Moonshot (Kimi) | China | 2025-10-29 | pretraining-and-architecture | [Kimi-Linear](../by-focus-area/pretraining-and-architecture.md#mn-r-kimi-linear) |

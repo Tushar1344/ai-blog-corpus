@@ -13,7 +13,7 @@ Sparse autoencoders (SAEs), circuits, steering, probing, dictionary learning, fe
 **Subcategories:**
 
 - [SAEs & dictionary learning](#saes-and-dictionary-learning) (3)
-- [Circuits & mechanistic interpretability](#circuits-and-mechanistic) (10)
+- [Circuits & mechanistic interpretability](#circuits-and-mechanistic) (2)
 - [Steering & intervention](#steering-and-intervention) (2)
 - [Feature viz & probing](#feature-viz-and-probing) (1)
 - [Other interpretability](#fallback-interp) (11)
@@ -32,10 +32,15 @@ _3 posts_
 - **Date:** 2023-05-04
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=H/N=M/A=L (priority 6.7)
 - **Techniques:** interpretability-features
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Essay clarifying that 'distributed representations' contain two distinct ideas with a fundamental trade-off: composition (features combine linearly) vs superposition (more features than neurons via interference)
+- Uses Thorpe (1989) shape-color examples to position local/semi-local/semi-distributed/highly-distributed along two axes, not one
+- Important conceptual framing for mech interp and SAEs
+- Extends the superposition paper's discussion.
 
 
 ### Superposition, Memorization, and Double Descent
@@ -46,10 +51,16 @@ _Summary pending — see link for details._
 - **Date:** 2023-01-05
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=L (priority 7.9)
 - **Techniques:** interpretability-features
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Extends superposition work to limited-data regime: overfitting corresponds to storing data points (not features) in superposition
+- Two regimes—overfit (points) vs generalize (features)—with double-descent at transition
+- Toy ReLU models connect memorization, overfitting, and superposition mechanistically
+- Provides mechanistic account for double descent phenomenon
+- Foundational for interpretability understanding of memorization.
 
 
 ### Toy Models of Superposition
@@ -60,15 +71,21 @@ _Summary pending — see link for details._
 - **Date:** 2022-09-14
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=L (priority 7.9)
 - **Techniques:** interpretability-features
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Foundational paper: small ReLU networks trained on sparse synthetic features represent more features than they have dimensions ('superposition')
+- Shows superposition enables compression when features are sparse at cost of interference
+- Kicks off modern mechanistic-interpretability research program
+- Origin of SAE-based dictionary learning
+- Canonical read for interpretability researchers.
 
 
 ## <a id="circuits-and-mechanistic"></a>Circuits & mechanistic interpretability
 
-_10 posts_
+_2 posts_
 
 ### Understanding neural networks through sparse circuits
 
@@ -78,10 +95,16 @@ _10 posts_
 - **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** circuits
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Trains models using a sparse architecture so internal reasoning forms traceable, simpler circuits
+- Demonstrates mechanistic interpretability by producing models whose neurons and connections are easier to attribute
+- Offers a path toward transparent, safer AI systems and supports chain-of-thought monitoring
+- Evaluates interpretability quantitatively against dense baselines
+- Frames sparse training as a first-class approach to making models legible
 
 
 ### Open-sourcing circuit-tracing tools
@@ -92,122 +115,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-05-29
 - **Track:** research
 - **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 - **Techniques:** circuits
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Circuits Updates – September 2024
-
-- **ID:** `ant-r-circuits-updates-sept-2024`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/circuits-updates-sept-2024
-- **Date:** 2024-10-01
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### Circuits Updates – August 2024
-
-- **ID:** `ant-r-circuits-updates-august-2024`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/circuits-updates-august-2024
-- **Date:** 2024-09-06
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### Circuits Updates – July 2024
-
-- **ID:** `ant-r-circuits-updates-july-2024`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/circuits-updates-july-2024
-- **Date:** 2024-07-31
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### Circuits Updates – June 2024
-
-- **ID:** `ant-r-circuits-updates-june-2024`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/circuits-updates-june-2024
-- **Date:** 2024-06-28
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### Circuits Updates – April 2024
-
-- **ID:** `ant-r-circuits-updates-april-2024`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/circuits-updates-april-2024
-- **Date:** 2024-04-26
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### Reflections on Qualitative Research
-
-- **ID:** `ant-r-transformer-circuits`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/transformer-circuits
-- **Date:** 2024-03-08
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### Circuits Updates — May 2023
-
-- **ID:** `ant-r-circuits-updates-may-2023`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/circuits-updates-may-2023
-- **Date:** 2023-05-24
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
-
-
-### A Mathematical Framework for Transformer Circuits
-
-- **ID:** `ant-r-a-mathematical-framework-for-transformer-circuits`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits
-- **Date:** 2021-12-22
-- **Track:** research
-- **Contribution type:** interpretability-finding
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** circuits
-
-_Summary pending — see link for details._
+- Open-sources Anthropic's circuit-tracing library for generating attribution graphs on popular open-weight models (Gemma-2-2b, Llama-3.2-1b)
+- Neuronpedia hosts an interactive frontend for viewing, annotating, and modifying features
+- Enables community interpretability research on multi-step reasoning, multilingual features, and more
+- Direct follow-up to their earlier circuit-tracing methods
+- Concrete tooling release with low adoption friction.
 
 
 ## <a id="steering-and-intervention"></a>Steering & intervention

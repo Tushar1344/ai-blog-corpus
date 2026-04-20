@@ -20,7 +20,7 @@ Agent scaffolding, context engineering, long-running harnesses, prompt caching s
 **Subcategories:**
 
 - [MCP & tool protocols](#mcp-and-tool-protocols) (20)
-- [Product engineering case studies (Codex, Sora, Atlas)](#codex-and-sora-harness) (6)
+- [Product engineering case studies (Codex, Sora, Atlas)](#codex-and-sora-harness) (5)
 - [Long-running harnesses](#long-running-harnesses) (6)
 - [Context engineering](#context-engineering) (22)
 - [Scaffolding patterns](#scaffolding-patterns) (1)
@@ -88,9 +88,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-08-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF shows how to generate images with Claude via HF's MCP server by enabling FLUX.1-Krea-dev or Qwen-Image as Space Tools in hf.co/mcp settings
+- Advantages: Claude helps craft prompts, sees outputs to iterate, and you can swap models easily
+- Practical: add Spaces via huggingface.co/mcp/settings
+- Claude Desktop requires custom connector URL after Anthropic policy update
+- Krea targets natural photographic realism (no AI plastic look)
+- Qwen-Image excels at accurate text rendering for posters/signs/infographics
 
 
 ### MCP for Research: How to Connect AI to Research Tools
@@ -101,9 +108,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-08-18
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Conceptual post on using MCP for academic research discovery (arXiv, GitHub, HF) via natural-language commands across three abstraction layers: manual, scripted, MCP
+- Shows a Research Tracker MCP that finds papers, implementations, and related models/datasets in one agent call
+- Takeaway: Software 3.0 analogy—natural language is the new programming language, but still error-prone without human oversight
+- Setup via huggingface.co/settings/mcp by adding `research-tracker-mcp` and following client-specific config
+- Light on code details, mostly conceptual framing
 
 
 ### Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio
@@ -114,9 +127,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-07-31
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Tutorial building an AI shopping assistant that combines Gradio MCP server + IDM-VTON virtual try-on diffusion model + Playwright MCP + VS Code chat
+- Shows how `mcp_server=True` in gr.Interface.launch() auto-converts Python functions to MCP tools with docstring-generated schemas
+- Assistant browses stores with Playwright and calls vton_generation to show how clothes look on the user
+- Practical value: concrete end-to-end integration with code for adding AI features to existing Gradio apps
+- Requires Node.js for Playwright MCP server
 
 
 ### Model Context Protocol (MCP) explained: An FAQ
@@ -159,7 +178,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Gradio 5.38.0 adds five MCP server improvements: seamless local file upload MCP server, real-time progress notifications, gr.load_openapi for OpenAPI→MCP in one line, gr.Header typed args for auth, and custom api_description
+- File Upload server solves remote Gradio servers needing public URLs for file inputs
+- OpenAPI→MCP means existing REST backends become LLM-accessible with minimal code
+- gr.Header auto-extracts headers and surfaces them in connection docs
+- Progress notifications stream status to MCP clients for long-running tasks
 
 
 ### Building the Hugging Face MCP Server
@@ -170,9 +195,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-07-10
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF details architecture choices building hf.co/mcp MCP Server: picked Streamable HTTP (stateless, direct response) over deprecated SSE for simple scaling
+- Walks through 3 MCP communication patterns (direct response, request-scoped streams, server push streams) and tradeoffs
+- Practical for MCP server builders: stateless direct-response is lowest-overhead when you don't need sampling/elicitation
+- Observability dashboard shows client connection behaviors
+- MCP has had 3 protocol revisions in 9 months creating client-compat challenges
+- Supports dynamic per-user tools and thousands of Gradio-backed Spaces
 
 
 ### Upskill your LLMs With Gradio MCP Servers
@@ -183,9 +215,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-07-09
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF pitches HF Spaces as the ''MCP App Store''—thousands of Gradio-powered AI apps are now MCP-compatible and installable into any LLM client
+- Walkthrough: enable Flux.1-Kontext-Dev in HF MCP settings, then configure Cursor to use it for image editing via natural-language prompts
+- Takeaway: MCP + Spaces lets any LLM gain specialized abilities (image edit, OCR, TTS) without building integrations
+- Filter for MCP-compatible Spaces on HF
+- Pro account needed to duplicate ZeroGPU Spaces for private use
 
 
 ### Claude Desktop Extensions: One-click MCP server installation for Claude Desktop
@@ -227,7 +265,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF ports Tiny Agents to Python in ~70 lines: extends huggingface_hub with an MCPClient so huggingface_hub acts as MCP client feeding tools to LLMs during chat completions
+- Core insight: an agent is just a while loop on top of an MCP Client
+- CLI `tiny-agents run` loads agent.json configs from HF Dataset or local path, connects to multiple MCP servers (filesystem, Playwright, Gradio Spaces) simultaneously
+- Default config uses Qwen2.5-72B via Nebius provider
+- Now supports AGENTS.md standard
+- Full MCPClient adds/runs tools via OpenAI-compatible tool-calling interface
 
 
 ### How Vapi built their MCP server on Vercel
@@ -255,7 +300,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Gradio makes building an MCP server 5 lines: set mcp_server=True in gr.Interface.launch() and any Python function becomes an LLM-callable tool
+- Docstring generates the tool description, endpoints appear at /gradio_api/mcp/sse
+- Also covers Resources, Prompts (gr.mcp.resource, gr.mcp.prompt decorators), MCP-only functions via gr.api(), auto file upload, performance analytics, and free hosting on HF Spaces
+- For Claude Desktop use mcp-remote as a shim since it doesn't support SSE directly
+- Concrete toy example: letter-counting tool to help LLMs count 'r's in 'strawberry'
 
 
 ### Tiny Agents: an MCP-powered agent in 50 lines of code
@@ -268,7 +319,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Original JS Tiny Agents: MCP-powered agent in 50 lines of TypeScript on top of @huggingface/inference, running via `npx @huggingface/mcp-client`
+- Key insight: once you have an MCP Client, an Agent is just a while loop on top of it
+- Default model Qwen2.5-72B on Nebius
+- Connects to local filesystem and Playwright MCP servers by default and passes tools via OpenAI-compatible tool_choice:auto chat completions
+- Shows haiku-writing and web-search demos
+- Uses async generators for streaming LLM output
 
 
 ### MCP: Flash in the Pan or Future Standard?
@@ -315,7 +373,7 @@ _Summary pending — see link for details._
 
 ## <a id="codex-and-sora-harness"></a>Product engineering case studies (Codex, Sora, Atlas)
 
-_6 posts_
+_5 posts_
 
 ### Scaling PostgreSQL to power 800 million ChatGPT users
 
@@ -326,19 +384,6 @@ _6 posts_
 - **Track:** engineering
 - **Contribution type:** empirical-study
 - **Signal:** M — L=M/N=M/A=M (priority 6.6)
-
-_Summary pending — see link for details._
-
-
-### Beyond rate limits: scaling access to Codex and Sora
-
-- **ID:** `oai-e-beyond-rate-limits`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/beyond-rate-limits/
-- **Date:** 2026-02-11
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
 _Summary pending — see link for details._
 
@@ -365,9 +410,16 @@ _Summary pending — see link for details._
 - **Date:** 2026-01-29
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- OpenAI shares how they built the Codex App Server—a JSON-RPC protocol and long-lived process hosting Codex core threads—that powers CLI, VS Code, JetBrains, Xcode, macOS app, web all via the same agent harness
+- Started as internal tool for IDE extension, evolved after MCP semantics proved awkward for VS Code
+- Three core primitives: Item (atomic input/output with started/delta/completed lifecycle), Turn (one user-initiated unit of work), Thread (durable session container)
+- Bidirectional: server can initiate requests (approvals) mid-turn
+- Backward-compat designed so partner integrations can depend on it safely
+- Architecture: stdio reader + message processor + thread manager + core threads
 
 
 ### How we used Codex to build Sora for Android in 28 days
@@ -392,9 +444,15 @@ _Summary pending — see link for details._
 - **Authors:** Sam McAllister|Jonathan Gray|Kashyap Murali|Brennan Saeta|Oliver Rausch|Alex Palcuie
 - **Track:** engineering
 - **Contribution type:** retrospective-case-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Anthropic postmortem on three independent infrastructure bugs that degraded Claude responses Aug-Sep 2025
+- Root causes: context-window routing error, output corruption, and approximate top-k XLA:TPU miscompilation
+- Explicitly states quality was never reduced for load/demand reasons—only bugs
+- Details how detection was delayed because user feedback is noisy
+- Excellent engineering case study on debugging production model-quality issues
 
 
 ## <a id="long-running-harnesses"></a>Long-running harnesses
@@ -410,9 +468,16 @@ _6 posts_
 - **Authors:** Prithvi Rajasekaran
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Anthropic's Prithvi Rajasekaran on harness design pushing frontend design and long-running autonomous coding
+- GAN-inspired generator/evaluator agent structure with explicit criteria makes subjective design 'gradable'
+- Full three-agent (planner/generator/evaluator) architecture with sprint contracts yields rich multi-hour full-stack apps
+- Addresses 'context anxiety' (premature wrapping-up) via context resets or upgraded Opus 4.5
+- Evaluator weighs design/originality over craft/functionality to escape AI-slop defaults
+- Uses Playwright MCP for live-page inspection to catch real UI bugs that static screenshots miss
 
 
 ### Improving Deep Agents with harness engineering
@@ -424,9 +489,14 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- LangChain's deepagents-cli jumped from Top 30 to Top 5 on Terminal Bench 2.0 (52.8→66.5) by only changing the harness (system prompt, tools, middleware) with gpt-5.2-codex fixed
+- Key tactics: PreCompletionChecklistMiddleware forces verification before exit (Ralph Wiggum loop), LocalContextMiddleware injects cwd map at start, LoopDetectionMiddleware breaks doom loops after N edits, reasoning-mode budget tuning (low/med/high/xhigh)
+- Process: Trace Analyzer Skill fetches LangSmith traces, spawns parallel error-analysis agents, synthesizes harness changes
+- Testing emphasis and test writing are key hill-climbing signals for autonomous coding
 
 
 ### Expanding our long-running agents research preview
@@ -458,9 +528,15 @@ _Summary pending — see link for details._
 - **Date:** 2026-02-04
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- OpenAI's 5-month experiment: shipped ~1M-line internal product with zero human-written code using Codex agents (3→7 engineers, 1,500 PRs, 3.5 PRs/engineer/day)
+- Core insight: engineer's job becomes designing environments, specifications, and feedback loops—not coding
+- Agent-legibility principles: repository as system of record (structured docs/, short AGENTS.md as TOC), enforced architectural layers via custom linters, Chrome DevTools/observability exposed to agents
+- Minimal blocking merge gates, ~6-hour autonomous Codex runs via Ralph-Wiggum self-review loops
+- Humans provide taste and steer, agents execute at 10x velocity
 
 
 ### Effective harnesses for long-running agents
@@ -504,9 +580,15 @@ _22 posts_
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- LangChain argues filesystems are a first-class context-engineering tool for deep agents: ls/glob/grep/read/edit/write tools let agents store unlimited context and retrieve only what's needed
+- Solves 4 context failure modes: too many tokens (offload tool results to files), needs large context (plans/sub-agent knowledge persisted to disk), niche info lookup (grep beats semantic search on structured data like code/APIs), and learning over time (user clues saved as files)
+- Claude Code heavily uses glob/grep
+- Modern LLMs are trained to traverse filesystems
+- Manus referenced as early public example
 
 
 ### Effective context engineering for AI agents
@@ -521,7 +603,13 @@ _Summary pending — see link for details._
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** context-engineering
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Anthropic reframes prompt engineering as 'context engineering'—curating the minimal high-signal token set for LLM agents
+- Claims context rot (attention budget decay with length) requires treating context as finite
+- Recommends 'just-in-time' retrieval via lightweight identifiers and tool-driven exploration over pre-computed RAG
+- For long-horizon tasks uses compaction, structured note-taking, multi-agent architectures
+- Advocates clear altitude in system prompts, minimal tool sets, and canonical few-shot examples over exhaustive edge-case lists
 
 
 ### Context Engineering
@@ -533,9 +621,15 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- LangChain's framework for context engineering: four strategies—write, select, compress, isolate—for managing the LLM context window (like OS-managed RAM per Karpathy)
+- Covers scratchpads, short/long-term memories (episodic/procedural/semantic), tool-RAG (3x improvement in selection), code-agent RAG (Cursor/Windsurf challenges)
+- Takeaway for agent builders: context engineering is #1 skill because long-running agents suffer context poisoning/distraction/confusion/clash
+- LangGraph designed to enable all four strategies
+- Memory selection is challenging—ChatGPT leaking locations into images is a cautionary tale
 
 
 ### The rise of "context engineering"
@@ -547,9 +641,16 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Harrison Chase defines context engineering as ''building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task''
+- Argues it's the most important AI engineering skill, subsuming prompt engineering
+- Failure modes split into model-ability issues vs context-delivery issues—often the latter
+- Examples: tool use (with digestible outputs), short/long-term memory, retrieval, instructions
+- LangGraph is designed to enable full control over what goes into the LLM
+- References 12-Factor Agents and ''Communication is all you need''
 
 
 ### Contextual Retrieval in AI Systems
@@ -560,9 +661,16 @@ _Summary pending — see link for details._
 - **Date:** 2024-09-19
 - **Track:** engineering
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Describes Contextual Retrieval: prepend per-chunk LLM-generated context before embedding and BM25 indexing
+- Combined with reranking, cuts retrieval failure rate by 67% (49% without rerank)
+- Practical RAG upgrade actionable via cookbook
+- Notes prompt caching makes contextualization cheap
+- For sub-200k-token corpora, simply stuff into prompt with caching
+- Strong actionable RAG playbook.
 
 
 ### Graph-based metadata filtering for improving vector search in RAG applications

@@ -27,7 +27,7 @@ New eval suites, benchmark analyses, eval methodology (SWE-bench, Tau-Bench, Bro
 - [Coding evaluations](#coding-evals) (8)
 - [Reasoning & math evaluations](#reasoning-evals) (2)
 - [Leaderboards & community evals](#leaderboards-and-community-evals) (27)
-- [Judge models & eval methodology](#judge-models-and-methodology) (13)
+- [Judge models & eval methodology](#judge-models-and-methodology) (10)
 - [Eval systems & harnesses](#eval-systems-and-harnesses) (9)
 - [Benchmark releases](#benchmark-release) (2)
 - [Domain-specific evals (speech, vision, science, medical)](#domain-specific-evals) (9)
@@ -51,7 +51,14 @@ _4 posts_
 - **Signal:** H — L=M/N=H/A=M (priority 7.8)
 - **Techniques:** evals-eval-harness
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks introduces OfficeQA: 246 enterprise-style grounded-reasoning questions over ~89K-page US Treasury Bulletin corpus
+- Best agents achieve <70% on full set and <40% on hard subset despite frontier models excelling on Olympiad-style evals
+- Without corpus access agents get 2%
+- ai_parse_document pre-parsing delivers huge lifts (+32.4pp for GPT-5.1 oracle, +30.2pp for Claude agent)
+- Designed to proxy real enterprise tasks requiring precision, retrieval, and multi-document aggregation
+- Announces Databricks Grounded Reasoning Cup competition Spring 2026
 
 
 ### DABStep: Data Agent Benchmark for Multi-step Reasoning
@@ -106,10 +113,16 @@ _8 posts_
 - **Date:** 2026-03-11
 - **Track:** research
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 - **Techniques:** coding-agents, evals-eval-harness
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Cursor describes CursorBench: an internal coding-agent eval built from real Cursor sessions via 'Cursor Blame' (tracing commits back to agent requests)
+- Argues public benchmarks suffer alignment, grading, and contamination problems (OpenAI stopped reporting SWE-bench Verified over this)
+- CursorBench-3 has ~2x scope of earlier versions, real monorepos, and underspecified prompts
+- Supplements offline bench with controlled online A/B evals on live traffic
+- Useful methodology template for product-aligned coding evals.
 
 
 ### PaperBench: Evaluating AI’s Ability to Replicate AI Research
@@ -177,7 +190,14 @@ _Summary pending — see link for details._
 - **Signal:** H — L=H/N=M/A=H (priority 8.7)
 - **Techniques:** coding-agents, SWE-bench
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Cognition's 2024 SWE-bench technical report evaluating Devin end-to-end on the benchmark
+- Devin resolved 13.86% of issues (79/570) vs 4.80% best prior assisted baseline and 1.96% unassisted BM25+Claude 2
+- Devin given 45-min runtime limit, no file hints (more realistic than static LLM evals)
+- 72% of passes took >10 minutes, showing value of multi-step iteration
+- Test-driven variant reaches 23% with oracle tests
+- Early agent milestone showing substantial lift over single-shot LLM approaches
 
 
 ### Scaling Agentic Evaluation Swe Bench
@@ -538,7 +558,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- End-to-end example setting up Vectara's HHEM hallucination leaderboard using HF's open leaderboard template
+- HHEM (Hughes Hallucination Evaluation Model) scores LLMs on document summary hallucination rates across open and closed models (Llama 2, GPT-4, Claude, Gemini)
+- Setup: clone Space repo, create 'requests' and 'results' datasets, customize SummaryGenerator and EvaluationModel classes to produce Factual Consistency Rate and Hallucination Rate
+- Takeaway for anyone building a leaderboard: the HF template handles submissions/results datasets as a lightweight Open LLM Leaderboard
+- Named in memory of Simon Hughes
 
 
 ### Open LLM Leaderboard: DROP deep dive
@@ -549,9 +575,15 @@ _Summary pending — see link for details._
 - **Date:** 2023-12-01
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Deep-dive explaining why DROP scores on the Open LLM Leaderboard were mysteriously low (<10 for most models)
+- Root causes: number normalization breaking on non-space whitespace, and f1-on-bag-of-words penalizing long answers and wrong generation-end tokens
+- Found floating-point answers were never correctly scored
+- Shows generation-endpoint token choice was a major bug
+- Concrete case study in benchmark-evaluation pitfalls.
 
 
 ### Object Detection Leaderboard
@@ -595,33 +627,7 @@ _Summary pending — see link for details._
 
 ## <a id="judge-models-and-methodology"></a>Judge models & eval methodology
 
-_13 posts_
-
-### Measuring AI agent autonomy in practice
-
-- **ID:** `ant-r-measuring-agent-autonomy`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/measuring-agent-autonomy
-- **Date:** 2026-02-18
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### Measuring AI’s capability to accelerate biological research in the wet lab
-
-- **ID:** `oai-r-accelerating-biological-research-in-the-wet-lab`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-biological-research-in-the-wet-lab/
-- **Date:** 2025-12-18
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
+_10 posts_
 
 ### From Pilot to Production with Custom Judges
 
@@ -631,9 +637,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-11-04
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks playbook for moving GenAI from pilot to production via custom LLM-as-a-judge evaluators
+- Introduces MLflow Judge Builder, Agent-as-a-Judge, and Tunable Judges
+- Workflow: design judge portfolio, codify SME expertise in annotation guidelines, iterative batch alignment
+- Underpins Agent Bricks evaluation methodology
+- Highly actionable recipe for enterprise eval infrastructure
 
 
 ### Judging with Confidence: Meet PGRM, the Promptable Reward Model
@@ -644,10 +656,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-08-12
 - **Track:** research
 - **Contribution type:** new-method
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 - **Techniques:** RLHF, reward-modeling
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Introduces PGRM (Prompt-Guided Reward Model)—hybrid of LLM-judge flexibility and classifier efficiency + calibration
+- Provides confidence-backed scores and can adapt to new rules via prompting, unlike rigid classifiers
+- Benchmarked as judge and as reward model (RewardBench2) with strong calibration
+- Enables safety enforcement, best-of-N selection, and RL fine-tuning workflows
+- Novel methodology for evaluation and reward modeling at scale
 
 
 ### ScreenSuite - The most comprehensive evaluation suite for GUI Agents!
@@ -658,9 +676,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-06
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=H (priority 8.7)
+- **Signal:** H — L=H/N=L/A=H (priority 7.5)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- ScreenSuite aggregates 13 GUI-agent benchmarks across perception/grounding, single-step actions, and multi-step agents (OSWorld, AndroidWorld, GAIA-Web, etc.)
+- Vision-only evaluation (no DOM/accessibility tree) aligns better with how humans use interfaces but makes it harder than prior leaderboards
+- Dockerized Ubuntu/Android VMs plus E2B sandbox integration for easy local deployment via smolagents
+- Ranks Qwen2.5-VL (3B-72B), UI-Tars-1.5-7B, Holo1-7B, GPT-4o
+- Runnable in ~30 seconds with uv sync
+- Comprehensive open benchmark for GUI VLMs
 
 
 ### Judge Arena: Benchmarking LLMs as Evaluators
@@ -671,9 +696,15 @@ _Summary pending — see link for details._
 - **Date:** 2024-11-19
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- AtlaAI+HF+Cohere launch Judge Arena, a crowdsourced LMSYS-style arena for LLM-as-a-Judge: randomized battles with human votes produce an Elo leaderboard
+- Covers 18 models from OpenAI/Anthropic/Meta/Alibaba/Google/Mistral scoring+critiquing generations (classifier-only models excluded)
+- Early findings: Llama 3.1 70B and 405B rank 2nd-3rd behind GPT-4 Turbo, small Qwen 2.5 7B and Llama 3.1 8B compete with larger models
+- 20% of anonymized voting data to be released
+- Supports Atla's thesis that Llama base is well-suited for judge post-training
 
 
 ### Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge
@@ -684,9 +715,15 @@ _Summary pending — see link for details._
 - **Date:** 2024-10-28
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Guest case study: Digital Green's Farmer.Chat (serving 20k farmers, 340k queries) uses LLM-as-a-Judge to evaluate a RAG system on 46k agricultural research papers from GARDIAN
+- System uses Qdrant vector DB with semantic chunking, ReAct-style planning agent (GPT-4o), tools: RAG QA, video retrieval, weather, crop table
+- Key metrics scored by LLM: Prompt Clarity, Question Type (6 cognitive categories), plus faithfulness/accuracy
+- Takeaway for PMs: use LLM-as-a-Judge for non-deterministic quality metrics with clear task + criteria + integer rating scale
+- HF Expert Support program collaboration
 
 
 ### Aligning LLM-as-a-Judge with Human Preferences
@@ -712,19 +749,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 - **Signal:** M — L=L/N=M/A=H (priority 6.5)
-
-_Summary pending — see link for details._
-
-
-### CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models
-
-- **ID:** `hf-r-leaderboard-llamaguard`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/leaderboard-llamaguard
-- **Date:** 2024-05-24
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
 _Summary pending — see link for details._
 
@@ -825,9 +849,15 @@ _Summary pending — see link for details._
 - **Authors:** Pallavi Koppol|Erica Ji Yuen|Kartik Sreenivasan|Andy Zhang|Sam Havens|Michael Carbin|Matei Zaharia|Jonathan Frankle
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Introduces DIBS—Domain Intelligence Benchmark Suite—for evaluating LLMs on realistic enterprise tasks (finance, retrieval, function-calling)
+- Finds academic benchmarks (MMLU, BIG-Bench) hide large enterprise performance gaps
+- No single model dominates all domains
+- High-quality retrieval can outweigh larger context windows for function calling
+- Case for domain-specific evaluation in procurement decisions
 
 
 ### A statistical approach to model evaluations
@@ -855,7 +885,13 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks calibrates their 39-benchmark Mosaic Evaluation Gauntlet by testing which benchmarks scale monotonically with training FLOPs
+- Tested 5 models at 2.1e22-5.4e23 FLOPs and sorted benchmarks into 4 groups: well-behaved, shot-dependent, poorly behaved, and noise-level
+- Takeaway: drop benchmarks that don't track scale (Group 3), use specific shot settings for Group 2, and be cautious with noisy MMLU-like benchmarks at small scales
+- Group 1 winners: Lambada, BoolQ, ARC, Hellaswag
+- Some benchmarks like BigBench Logical Deduction got worse with scale due to label imbalance or inter-labeler disagreement
 
 
 ### Challenges in evaluating AI systems
@@ -886,10 +922,16 @@ _Summary pending — see link for details._
 - **Authors:** Rishab Parthasarathy
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 - **Techniques:** coding-agents
 
-_Summary pending — see link for details._
+**Summary:**
+
+- MosaicML adds end-to-end secure code evaluation for LLMs (HumanEval etc.) using sandboxed AWS Lambda serverless compute with one-line Composer integration
+- AWS Lambda is up to 7x cheaper than EC2 with sub-second startup and VPC-isolated (no internet) execution, enabling live code eval during training
+- Useful because code-gen models can emit malicious code and current harnesses like BigCode need manual Docker setup
+- Benchmarked across 30+ models on HumanEval with parity to external numbers
+- Live WandB plots show HumanEval accuracy tracking during MPT-7B finetuning
 
 
 ### Blazingly Fast LLM Evaluation for In-Context Learning
@@ -903,7 +945,13 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- MosaicML's Composer ICL eval is ~7.45x faster per GPU than EleutherAI lm-evaluation-harness and scales near-linearly across GPUs, enabling 70B LAMBADA eval in 100s on 64 A100s
+- Achieves 760x speedup (16min to 1.38s) for GPT-Neo 125M LAMBADA on 256 GPUs via tensor-native ops and FSDP model sharding
+- Enables live ICL evals every 25 batches during training, and eval of 1.2T-parameter models on 256 GPUs
+- Replaces Python list ops with PyTorch tensor ops keeping data on GPU
+- PIQA multiple-choice uses per-word perplexity on concatenated goal+solution
 
 
 ## <a id="benchmark-release"></a>Benchmark releases
@@ -918,10 +966,15 @@ _2 posts_
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 - **Techniques:** evals-eval-harness
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Short abstract page (2018): OpenAI introduces Sonic-the-Hedgehog-based RL benchmark for transfer and few-shot learning in RL
+- Presents some baseline algorithm evaluations (not detailed in this snippet)
+- Purely historical interest now, pre-LLM
+- Thin content on the archived page—mostly abstract and authors
 
 
 ### Introducing The Temporal Data Set A Benchmark For Recognizing Actions In Videos
@@ -1074,7 +1127,13 @@ _4 posts_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** coding-agents, SWE-bench
 
-_Summary pending — see link for details._
+**Summary:**
+
+- OpenAI argues SWE-bench Verified is now contaminated and unreliable for frontier coding evaluation (Feb 2026)
+- Audit of 138 tasks o3 couldn't consistently solve found 59.4% had flawed tests: 35.5% narrow (reject correct solutions), 18.8% wide (test unspecified functionality)
+- Automated red-teaming showed GPT-5.2, Claude Opus 4.5, and Gemini 3 Flash reproduce verbatim gold patches from memory
+- Recommends retiring SWE-bench Verified scores and using SWE-bench Pro instead
+- Contamination is inherent since SWE-bench sources open repos that model providers train on
 
 
 ### Quantifying infrastructure noise in agentic coding evals
@@ -1086,10 +1145,16 @@ _Summary pending — see link for details._
 - **Authors:** Gian Segato
 - **Track:** engineering
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=H/N=H/A=M (priority 8.9)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 - **Techniques:** evals-eval-harness
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Anthropic quantifies how container resource limits and enforcement swing agentic-coding benchmark scores
+- Strict per-task resource enforcement on Terminal-Bench 2.0 dropped scores ~6 points vs uncapped, exceeding model-vs-model leaderboard gaps
+- Benchmark maintainers should specify BOTH a guaranteed allocation and a separate kill threshold (~3x headroom neutralizes infra noise)
+- Replicated pattern on SWE-bench (+1.54pp at 5x RAM)
+- Leaderboard differences below 3 percentage points deserve skepticism until configuration is documented
 
 
 ### Beyond the Leaderboard: Unpacking Function Calling Evaluation
@@ -1101,10 +1166,17 @@ _Summary pending — see link for details._
 - **Authors:** Kartik Sreenivasan|Jeffrey Chen|Pallavi Koppol|Eitan Turok|Bay Foley-Cox|Asfandyar Qureshi|Sam Havens
 - **Track:** research
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 - **Techniques:** tool-use, evals-eval-harness
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks breakdown of BFCL (Berkeley Function Calling Leaderboard) and NFCL (Nexus) function-calling evals (Aug 2024)
+- BFCL has Simple/Multiple/Parallel/Relevance-Detection categories but many are saturated
+- NFCL tests longer-tail APIs and has harder argument complexity
+- Different evals disagree wildly (NexusRaven-v2 only 68% on BFCL despite leading NFCL)
+- Shows careful prompting + parsing elevates DBRX and Llama-3-70B closer to GPT-4
+- Actionable: combine multiple evals and understand category semantics, don't rely on leaderboard rank alone
 
 
 ### Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs

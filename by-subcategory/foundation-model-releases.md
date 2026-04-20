@@ -1,13 +1,11 @@
 # Foundation model releases
 
-**Post count:** 81  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#foundation-model-releases))
+**Post count:** 68  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#foundation-model-releases))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
 | 2026-04-16 | OpenAI | [gpt-oss-120b & gpt-oss-20b Model Card](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-oss-model-card) | `oai-r-gpt-oss-model-card` |
-| 2026-02-25 | Anthropic | [An update on our model deprecation commitments for Claude Opus 3](../by-focus-area/pretraining-and-architecture.md#ant-r-deprecation-updates-opus-3) | `ant-r-deprecation-updates-opus-3` |
 | 2025-11-27 | DeepSeek | [DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-math-v2) | `dsk-r-deepseek-math-v2` |
-| 2025-10-24 | Mistral AI | [Introducing Mistral AI Studio.](../by-focus-area/pretraining-and-architecture.md#mt-r-ai-studio) | `mt-r-ai-studio` |
 | 2025-08-19 | Qwen (Alibaba) | [Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen-image-edit) | `qw-r-qwen-image-edit` |
 | 2025-08-15 | Anthropic | [Claude Opus 4 and 4.1 can now end a rare subset of conversations](../by-focus-area/pretraining-and-architecture.md#ant-r-end-subset-conversations) | `ant-r-end-subset-conversations` |
 | 2025-08-04 | Qwen (Alibaba) | [Qwen-Image: Crafting with Native Text Rendering](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen-image) | `qw-r-qwen-image` |
@@ -24,17 +22,12 @@
 | 2024-07-22 | Hugging Face | [WWDC 24: Running Mistral 7B with Core ML](../by-focus-area/pretraining-and-architecture.md#hf-r-mistral-coreml) | `hf-r-mistral-coreml` |
 | 2024-07-16 | Hugging Face | [SmolLM - blazingly fast and remarkably powerful](../by-focus-area/pretraining-and-architecture.md#hf-r-smollm) | `hf-r-smollm` |
 | 2024-06-14 | DeepSeek | [DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-coder-v2) | `dsk-r-deepseek-coder-v2` |
-| 2024-06-05 | Mistral AI | [Mistral AI Fine-tuning Hackathon \| Mistral AI \| Frontier AI in your hands](../by-focus-area/pretraining-and-architecture.md#mt-r-2024-ft-hackathon) | `mt-r-2024-ft-hackathon` |
-| 2024-05-11 | Qwen (Alibaba) | [Notes on Qwen-Max-0428](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen-max-0428) | `qw-r-qwen-max-0428` |
 | 2024-04-22 | DeepSeek | [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-v2) | `dsk-r-deepseek-v2` |
-| 2024-02-14 | OpenAI | [Fine-tuning GPT-2 from human preferences](../by-focus-area/pretraining-and-architecture.md#oai-r-fine-tuning-gpt-2) | `oai-r-fine-tuning-gpt-2` |
 | 2024-02-05 | DeepSeek | [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-math) | `dsk-r-deepseek-math` |
 | 2024-01-25 | Qwen (Alibaba) | [Introducing Qwen-VL](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen-vl) | `qw-r-qwen-vl` |
 | 2024-01-23 | Qwen (Alibaba) | [Introducing Qwen](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen) | `qw-r-qwen` |
-| 2024-01-16 | OpenAI | [GPT-2: 6-month follow-up](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-2-6-month-follow-up) | `oai-r-gpt-2-6-month-follow-up` |
 | 2023-11-29 | DeepSeek | [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-llm) | `dsk-r-deepseek-llm` |
 | 2023-10-20 | DeepSeek | [DeepSeek-Coder: When the Large Language Model Meets Programming](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-coder) | `dsk-r-deepseek-coder` |
-| 2023-09-27 | Mistral AI | [Bringing open AI models to the frontier \| Mistral AI \| Frontier AI in your hands](../by-focus-area/pretraining-and-architecture.md#mt-r-about-mistral-ai) | `mt-r-about-mistral-ai` |
 | 2023-09-27 | Mistral AI | [Mistral 7B \| Mistral AI \| Frontier AI in your hands](../by-focus-area/pretraining-and-architecture.md#mt-r-announcing-mistral-7b) | `mt-r-announcing-mistral-7b` |
 | 2023-07-18 | Databricks Mosaic AI | [Announcing MPT-7B-8K: 8K Context Length for Document Understanding](../by-focus-area/pretraining-and-architecture.md#dbx-r-long-context-mpt-7b-8k) | `dbx-r-long-context-mpt-7b-8k` |
 | 2023-06-22 | Databricks Mosaic AI | [MPT-30B: Raising the bar for open-source foundation models](../by-focus-area/pretraining-and-architecture.md#dbx-r-mpt-30b) | `dbx-r-mpt-30b` |
@@ -78,10 +71,4 @@
 | ? | AI21 Labs | [Announcing Jamba Model Family](../by-focus-area/pretraining-and-architecture.md#a21-r-announcing-jamba-model-family) | `a21-r-announcing-jamba-model-family` |
 | ? | AI21 Labs | [Introducing Jamba 1 6](../by-focus-area/pretraining-and-architecture.md#a21-r-introducing-jamba-1-6) | `a21-r-introducing-jamba-1-6` |
 | ? | AI21 Labs | [Introducing Jamba Reasoning 3B](../by-focus-area/pretraining-and-architecture.md#a21-r-introducing-jamba-reasoning-3b) | `a21-r-introducing-jamba-reasoning-3b` |
-| ? | AI21 Labs | [Jamba 3B Vs Qwen3 4B](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-3b-vs-qwen3-4b) | `a21-r-jamba-3b-vs-qwen3-4b` |
 | ? | AI21 Labs | [Jamba Care](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-care) | `a21-r-jamba-care` |
-| ? | AI21 Labs | [Jamba Instruct Amazon Bedrock](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-amazon-bedrock) | `a21-r-jamba-instruct-amazon-bedrock` |
-| ? | AI21 Labs | [Jamba Instruct Microsoft Azure Ai](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-microsoft-azure-ai) | `a21-r-jamba-instruct-microsoft-azure-ai` |
-| ? | AI21 Labs | [Jamba Instruct On Snowflake Cortex](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-on-snowflake-cortex) | `a21-r-jamba-instruct-on-snowflake-cortex` |
-| ? | AI21 Labs | [Jamba Instruct On Snowflake Cortex Ai](../by-focus-area/pretraining-and-architecture.md#a21-r-jamba-instruct-on-snowflake-cortex-ai) | `a21-r-jamba-instruct-on-snowflake-cortex-ai` |
-| ? | AI21 Labs | [Transforming The Future Of Ai With Long Context Jamba Instruct](../by-focus-area/pretraining-and-architecture.md#a21-r-transforming-the-future-of-ai-with-long-context-jamba-instruct) | `a21-r-transforming-the-future-of-ai-with-long-context-jamba-instruct` |

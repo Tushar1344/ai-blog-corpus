@@ -1,21 +1,14 @@
 # Research techniques & methods
 
-**Post count:** 70  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#research-techniques-and-methods))
+**Post count:** 53  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#research-techniques-and-methods))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
-| 2026-04-16 | OpenAI | [Early experiments in accelerating science with GPT-5](../by-focus-area/pretraining-and-architecture.md#oai-r-accelerating-science-gpt-5) | `oai-r-accelerating-science-gpt-5` |
-| 2026-04-16 | OpenAI | [Advancing science and math with GPT-5.2](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-5-2-for-science-and-math) | `oai-r-gpt-5-2-for-science-and-math` |
 | 2026-04-16 | OpenAI | [Why language models hallucinate](../by-focus-area/pretraining-and-architecture.md#oai-r-why-language-models-hallucinate) | `oai-r-why-language-models-hallucinate` |
-| 2026-04-16 | OpenAI | [GPT-5 lowers the cost of cell-free protein synthesis](../by-focus-area/pretraining-and-architecture.md#oai-r-gpt-5-lowers-protein-synthesis-cost) | `oai-r-gpt-5-lowers-protein-synthesis-cost` |
-| 2026-04-16 | OpenAI | [GPT-5.2 derives a new result in theoretical physics](../by-focus-area/pretraining-and-architecture.md#oai-r-new-result-theoretical-physics) | `oai-r-new-result-theoretical-physics` |
 | 2026-04-02 | Anthropic | [Emotion concepts and their function in a large language model](../by-focus-area/pretraining-and-architecture.md#ant-r-emotion-concepts-function) | `ant-r-emotion-concepts-function` |
 | 2026-03-13 | Anthropic | [A “diff” tool for AI: Finding behavioral differences in new models](../by-focus-area/pretraining-and-architecture.md#ant-r-diff-tool) | `ant-r-diff-tool` |
 | 2025-12-01 | Databricks Mosaic AI | [Databricks at NeurIPS 2025](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2025) | `dbx-r-databricks-neurips-2025` |
-| 2025-09-25 | Sakana AI | [ShinkaEvolve: Evolving New Algorithms with LLMs, Orders of Magnitude More Efficiently](../by-focus-area/pretraining-and-architecture.md#sk-r-shinka-evolve) | `sk-r-shinka-evolve` |
 | 2025-07-27 | Qwen (Alibaba) | [GSPO: Towards Scalable Reinforcement Learning for Language Models](../by-focus-area/pretraining-and-architecture.md#qw-r-gspo) | `qw-r-gspo` |
-| 2025-07-01 | Sakana AI | [Inference-Time Scaling and Collective Intelligence for Frontier AI](../by-focus-area/pretraining-and-architecture.md#sk-r-ab-mcts) | `sk-r-ab-mcts` |
-| 2025-06-23 | Sakana AI | [Reinforcement Learning Teachers of Test Time Scaling](../by-focus-area/pretraining-and-architecture.md#sk-r-rlt) | `sk-r-rlt` |
 | 2025-06-18 | Anthropic | [Confidential Inference via Trusted Virtual Machines](../by-focus-area/pretraining-and-architecture.md#ant-r-confidential-inference-trusted-vms) | `ant-r-confidential-inference-trusted-vms` |
 | 2025-06-05 | Qwen (Alibaba) | [Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen3-embedding) | `qw-r-qwen3-embedding` |
 | 2025-05-06 | Cognition | [Kevin-32B: Multi-Turn RL for Writing CUDA Kernels](../by-focus-area/pretraining-and-architecture.md#cog-r-kevin-32b) | `cog-r-kevin-32b` |
@@ -24,16 +17,9 @@
 | 2025-03-06 | Qwen (Alibaba) | [QwQ-32B: Embracing the Power of Reinforcement Learning](../by-focus-area/pretraining-and-architecture.md#qw-r-qwq-32b) | `qw-r-qwq-32b` |
 | 2025-02-25 | Anthropic | [Forecasting rare language model behaviors](../by-focus-area/pretraining-and-architecture.md#ant-r-forecasting-rare-behaviors) | `ant-r-forecasting-rare-behaviors` |
 | 2025-01-19 | Moonshot (Kimi) | [Kimi k1.5: Scaling Reinforcement Learning with LLMs](../by-focus-area/pretraining-and-architecture.md#mn-r-kimi-k1.5) | `mn-r-kimi-k1.5` |
-| 2025-01-15 | Sakana AI | [Transformer²: Self-Adaptive LLMs](../by-focus-area/pretraining-and-architecture.md#sk-r-transformer-squared) | `sk-r-transformer-squared` |
-| 2024-12-10 | Sakana AI | [An Evolved Universal Transformer Memory](../by-focus-area/pretraining-and-architecture.md#sk-r-namm) | `sk-r-namm` |
 | 2024-12-09 | Databricks Mosaic AI | [Databricks at NeurIPS 2024](../by-focus-area/pretraining-and-architecture.md#dbx-r-databricks-neurips-2024) | `dbx-r-databricks-neurips-2024` |
-| 2024-08-04 | OpenAI | [Understanding the source of what we see and hear online](../by-focus-area/pretraining-and-architecture.md#oai-r-understanding-the-source-of-what-we-see-and-hear-online) | `oai-r-understanding-the-source-of-what-we-see-and-hear-online` |
-| 2024-06-20 | OpenAI | [Consistency Models](../by-focus-area/pretraining-and-architecture.md#oai-r-consistency-models) | `oai-r-consistency-models` |
-| 2024-06-20 | OpenAI | [Improved Techniques for Training Consistency Models](../by-focus-area/pretraining-and-architecture.md#oai-r-improved-techniques-for-training-consistency-models) | `oai-r-improved-techniques-for-training-consistency-models` |
 | 2024-02-14 | OpenAI | [Improving language model behavior by training on a curated dataset](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-language-model-behavior) | `oai-r-improving-language-model-behavior` |
 | 2024-02-14 | OpenAI | [Benchmarking safe exploration in deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning) | `oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning` |
-| 2024-01-12 | OpenAI | [Text and code embeddings by contrastive pre-training](../by-focus-area/pretraining-and-architecture.md#oai-r-text-and-code-embeddings-by-contrastive-pre-training) | `oai-r-text-and-code-embeddings-by-contrastive-pre-training` |
-| 2024-01-12 | OpenAI | [Teaching models to express their uncertainty in words](../by-focus-area/pretraining-and-architecture.md#oai-r-teaching-models-to-express-their-uncertainty-in-words) | `oai-r-teaching-models-to-express-their-uncertainty-in-words` |
 | 2024-01-12 | OpenAI | [Efficient training of language models to fill in the middle](../by-focus-area/pretraining-and-architecture.md#oai-r-efficient-training-of-language-models-to-fill-in-the-middle) | `oai-r-efficient-training-of-language-models-to-fill-in-the-middle` |
 | 2023-10-23 | DeepSeek | [DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior](../by-focus-area/pretraining-and-architecture.md#dsk-r-dreamcraft3d) | `dsk-r-dreamcraft3d` |
 | 2023-08-24 | Databricks Mosaic AI | [Introducing Llama2-70B-Chat with MosaicML Inference](../by-focus-area/pretraining-and-architecture.md#dbx-r-llama2-inference) | `dbx-r-llama2-inference` |
@@ -54,7 +40,6 @@
 | 2022-10-19 | OpenAI | [#Exploration: A study of count-based exploration for deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-exploration) | `oai-r-exploration` |
 | 2022-10-19 | OpenAI | [Stochastic Neural Networks for hierarchical reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning) | `oai-r-stochastic-neural-networks-for-hierarchical-reinforcement-learning` |
 | 2022-10-19 | OpenAI | [Evolution strategies as a scalable alternative to reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-evolution-strategies) | `oai-r-evolution-strategies` |
-| 2022-09-21 | OpenAI | [Generative modeling with sparse transformers](../by-focus-area/pretraining-and-architecture.md#oai-r-sparse-transformer) | `oai-r-sparse-transformer` |
 | 2022-06-29 | Databricks Mosaic AI | [MosaicML Satisfies the Need for Speed with MLPerf Results](../by-focus-area/pretraining-and-architecture.md#dbx-r-mlperf-2022) | `dbx-r-mlperf-2022` |
 | 2022-04-13 | OpenAI | [Prediction and control with temporal segment models](../by-focus-area/pretraining-and-architecture.md#oai-r-prediction-and-control-with-temporal-segment-models) | `oai-r-prediction-and-control-with-temporal-segment-models` |
 | 2022-04-13 | OpenAI | [Improving GANs using optimal transport](../by-focus-area/pretraining-and-architecture.md#oai-r-improving-gans-using-optimal-transport) | `oai-r-improving-gans-using-optimal-transport` |
@@ -62,8 +47,6 @@
 | 2022-04-13 | OpenAI | [FFJORD: Free-form continuous dynamics for scalable reversible generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-ffjord) | `oai-r-ffjord` |
 | 2022-04-13 | OpenAI | [On the quantitative analysis of decoder-based generative models](../by-focus-area/pretraining-and-architecture.md#oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models) | `oai-r-on-the-quantitative-analysis-of-decoder-based-generative-models` |
 | 2022-04-13 | OpenAI | [Domain randomization and generative models for robotic grasping](../by-focus-area/pretraining-and-architecture.md#oai-r-domain-randomization-and-generative-models-for-robotic-grasping) | `oai-r-domain-randomization-and-generative-models-for-robotic-grasping` |
-| 2022-03-08 | Anthropic | [In-context Learning and Induction Heads](../by-focus-area/pretraining-and-architecture.md#ant-r-in-context-learning-and-induction-heads) | `ant-r-in-context-learning-and-induction-heads` |
-| 2022-02-15 | Anthropic | [Predictability and Surprise in Large Generative Models](../by-focus-area/pretraining-and-architecture.md#ant-r-predictability-and-surprise-in-large-generative-models) | `ant-r-predictability-and-surprise-in-large-generative-models` |
 | 2020-02-14 | Hugging Face | [How to train a new language model from scratch using Transformers and Tokenizers](../by-focus-area/pretraining-and-architecture.md#hf-r-how-to-train) | `hf-r-how-to-train` |
 | 2019-10-15 | OpenAI | [Transfer from simulation to real world through learning deep inverse dynamics model](../by-focus-area/pretraining-and-architecture.md#oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model) | `oai-r-transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model` |
 | 2019-10-15 | OpenAI | [Asymmetric Actor Critic For Image Based Robot Learning](../by-focus-area/pretraining-and-architecture.md#oai-r-asymmetric-actor-critic-for-image-based-robot-learning) | `oai-r-asymmetric-actor-critic-for-image-based-robot-learning` |

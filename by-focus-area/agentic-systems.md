@@ -34,10 +34,10 @@ Agents, tool use, multi-agent, computer use, coding agents, agent benchmarks, ag
 - [Embodied agents & simulation](#embodied-and-simulation) (10)
 - [Game-playing & RL agents](#game-and-rl-agents) (10)
 - [Dialogue & conversational agents](#dialogue-and-conversational-agents) (3)
-- [Agent frameworks & tooling](#agent-frameworks-and-tooling) (16)
+- [Agent frameworks & tooling](#agent-frameworks-and-tooling) (15)
 - [Agent research applications (scientific, robotic)](#agent-research-applications) (3)
 - [Agent traces & observability](#agent-traces-and-observability) (4)
-- [Agent design & patterns / opinion pieces](#agent-design-and-patterns) (11)
+- [Agent design & patterns / opinion pieces](#agent-design-and-patterns) (10)
 - [General agentic systems](#agents-general) (78)
 - [Other agentic systems](#fallback-agents) (59)
 
@@ -83,9 +83,15 @@ _Summary pending — see link for details._
 - **Date:** 2026-02-13
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF+Anthropic/OpenAI build an agent skill that teaches Claude Code and Codex to write production CUDA kernels with PyTorch bindings and benchmarks
+- The skill (~550 tokens + reference scripts) packages H100/A100/T4 architecture guides, diffusers/transformers integration patterns, kernel templates, and troubleshooting
+- Shows agent-written kernels achieving real speedups: RMSNorm 1.88x avg over PyTorch on H100, with 34.7% bandwidth efficiency
+- Install via `kernels skills add cuda-kernels --claude`, then prompt agent to build kernels for a specific model/architecture
+- Real targets: LTX-Video diffusers pipeline and Qwen3-8B transformers
 
 
 ### Closing the Agent Loop: Devin Autofixes Review Comments
@@ -99,7 +105,13 @@ _Summary pending — see link for details._
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 - **Techniques:** coding-agents
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Devin now autofixes comments from review bots (Devin Review, linters, CI, security scanners) to close the agent loop
+- Eliminates copy-paste between coding and review agents
+- 'massively increased' internal token spend but cuts bugs and review cycles
+- Part of a broader write-catch-fix-merge pattern
+- Actionable pattern for anyone building multi-agent coding systems
 
 
 ### How we made v0 an effective coding agent
@@ -139,10 +151,17 @@ _Summary pending — see link for details._
 - **Date:** 2025-09-29
 - **Track:** engineering
 - **Contribution type:** retrospective-case-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 - **Techniques:** coding-agents
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Cognition rebuilt Devin on Claude Sonnet 4.5
+- 2x faster, 12% better on Junior Developer Evals
+- Key observations: model is aware of its context window, takes extensive notes, works in parallel
+- Biggest capability jump since Sonnet 3.6
+- required re-architecting agent harness around new behaviors
+- Concrete harness-engineering guidance for anyone adapting agents to new model generations
 
 
 ### How to turn Claude Code into a domain specific coding agent
@@ -183,7 +202,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- AlphaEvolve is a DeepMind evolutionary coding agent combining Gemini Flash+Pro with automated evaluators to discover/optimize algorithms
+- Deployed across Google: 0.7% compute recovered in Borg data-center scheduling, 23% matmul speedup in Gemini training (1% total training-time reduction), 32.5% FlashAttention kernel speedup, Verilog rewrite integrated into upcoming TPU
+- Discovered 4x4 complex matrix multiplication in 48 scalar multiplications—beating Strassen's 1969 result
+- On 50 open math problems: rediscovered SOTA in 75% and improved it in 20% (including kissing number in 11D)
+- Applicable wherever solutions are algorithmic and auto-verifiable
 
 
 ## <a id="multi-agent-orchestration"></a>Multi-agent orchestration
@@ -298,10 +323,16 @@ _Summary pending — see link for details._
 - **Authors:** Jeremy Hadfield|Barry Zhang|Kenneth Lien|Florian Scholz|Jeremy Fox|Daniel Ford
 - **Track:** engineering
 - **Contribution type:** retrospective-case-study
-- **Signal:** H — L=M/N=H/A=H (priority 8.8)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 - **Techniques:** multi-agent
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Anthropic's engineering account of the multi-agent Research feature using orchestrator-worker pattern with a lead Claude Opus 4 and parallel Sonnet 4 subagents
+- Multi-agent system outperforms single Opus by 90.2% on internal research eval
+- 95% of BrowseComp variance explained by token usage, tool calls, and model choice
+- Multi-agent uses ~15x tokens vs chat—economic viability requires high-value tasks
+- Key lessons: teach orchestrator to delegate with detailed briefs, scale effort to query complexity, prefer parallelization (3-5 subagents, 3+ tools)—cut research time 90%
 
 
 ### Benchmarking Multi-Agent Architectures
@@ -1078,7 +1109,7 @@ _Summary pending — see link for details._
 
 ## <a id="agent-frameworks-and-tooling"></a>Agent frameworks & tooling
 
-_16 posts_
+_15 posts_
 
 ### A Developer’s First 10 Minutes: Secure LangChain Agents with Cisco AI Defense
 
@@ -1116,9 +1147,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-12-04
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=M/N=H/A=H (priority 8.8)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Intel's DeepMath uses smolagents + GRPO fine-tuning on Qwen3-4B Thinking so model emits short Python snippets executed in a sandbox instead of verbose chain-of-thought
+- Achieves up to 66% shorter outputs with improved accuracy on MATH500, AIME, HMMT, HLE vs baseline Qwen3-4B
+- Rewards: +1 accuracy, +1 code-snippet use (10:1 weighted), 5k token cap for length reduction, linear temperature schedule T=1.2→0.7
+- Trained on Tool-Integrated Reasoning subset of OpenMathReasoning
+- Ablations show both GRPO training AND agentic inference needed for best results
 
 
 ### Agent Frameworks, Runtimes, and Harnesses- oh my!
@@ -1149,19 +1186,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Back to The Future: Evaluating AI Agents on Predicting Future Events
-
-- **ID:** `hf-r-futurebench`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/futurebench
-- **Date:** 2025-07-17
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-
-_Summary pending — see link for details._
-
-
 ### How to think about agent frameworks
 
 - **ID:** `lc-r-how-to-think-about-agent-frameworks`
@@ -1184,9 +1208,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-02-28
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Tutorial integrating Arize Phoenix with smolagents for tracing and LLM-as-a-judge evaluation via OpenTelemetry+OpenInference auto-instrumentation
+- Walks through: building CodeAgent with DuckDuckGo+VisitWebpage tools, tracing every call in Phoenix, then evaluating DuckDuckGo relevance with GPT-4o using RAG_RELEVANCY_PROMPT_TEMPLATE
+- Practical takeaway: instrument+score agents in real-time to debug decisions and improve tool selection
+- SmolagentsInstrumentor().instrument(tracer_provider) captures traces automatically
+- Extract tool spans via SpanQuery, then llm_classify to score, then log_evaluations back to Phoenix
 
 
 ### Open-source DeepResearch – Freeing our search agents
@@ -1199,7 +1229,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF reproduces OpenAI's Deep Research in 24 hours, open-sourcing a CodeAgent-based search agent that closes much of the GAIA benchmark gap (OpenAI DR: 67.36%)
+- Uses smolagents with code-actions (30% fewer steps than JSON per Wang et al. 2024), plus text-based web browser and text file inspector from Microsoft's Magentic-One
+- Key finding: agent frameworks bump LLM performance by up to 60 points on agentic tasks
+- Next steps: vision-based browser, more file format support, and Operator-style browser interaction
+- GAIA examples require multi-step planning and multimodal skills that foil vanilla GPT-4 (<7% on validation)
 
 
 ### Introducing smolagents: simple agents that write actions in code.
@@ -1212,7 +1248,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF introduces smolagents, a minimalist (~thousands of lines) library for building ReAct-style agents that write actions as Python code via CodeAgent, not JSON
+- Claim: code-actions give ~30% fewer steps, better composability/state management, and reuse common libraries
+- Supports E2B sandboxing for security, Hub tool sharing, and any LLM (HF API, OpenAI, Anthropic via LiteLLM)
+- Will replace transformers.agents
+- Agency levels defined on a continuous spectrum from simple processor to multi-agent
+- Rule of thumb: avoid agents if a deterministic workflow works—reach for them only when flexibility is required
 
 
 ### License to Call: Introducing Transformers Agents 2.0
@@ -1225,7 +1268,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF 2024 release of Transformers Agents 2.0 with new ReactCodeAgent and ReactJsonAgent iterating on observations, plus tool/toolbox sharing on Hub
+- ReactCodeAgent lets a Llama-3-70B agent beat GPT-4-based agents on GAIA leaderboard
+- Clean abstractions: Tool (name, description, inputs, output_type), Toolbox (pre-instantiated), separate LLM engine from agent
+- Examples: self-correcting RAG where agent dynamically adjusts retrieval params, multi-agent web browsing setup
+- Now deprecated in favor of smolagents (similar API, easier switch)
 
 
 ### Open-source LLMs as LangChain Agents
@@ -1238,7 +1287,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF+LangChain benchmark open-source LLMs (Mixtral, Llama 3) as ReAct agents via new ChatHuggingFace LangChain integration, showing Mixtral surpasses GPT-3.5 on their tool-use benchmark
+- Walks through inner workings of a barebones ReAct agent (Thought/Action/Observation loop with JSON tool calls) and common failure modes: wrong tool choice, bad argument formatting, poor observation re-use
+- Takeaway: open LLMs are now viable agent reasoning engines and can be fine-tuned for further gains
+- Example: convert_time tool called with {time: '1:23:45'} returns {seconds: '5025'}
+- Now superseded by smolagents
 
 
 ### How to Safely Query Enterprise Data with LangChain Agents + SQL + OpenAI + Gretel
@@ -1265,7 +1320,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Introduces @huggingface/agents—a lightweight JS/TS library exposing HfAgent class that gives LLMs tools in browser or Node
+- Tools defined by name/description/examples/call function (e.g., textToImage, imageToText, englishToGerman via inference.translation)
+- agent.generateCode produces code, agent.evaluateCode runs it, agent.run does both (security warning—arbitrary code eval)
+- Customizable LLM (default OpenAssistant 30B) by passing any async function
+- Accepts file inputs via FileList for multimodal tasks
+- Earlier generation of HF agents—see smolagents/tiny-agents for modern replacement
 
 
 ### Agent Toolkits
@@ -1399,7 +1461,7 @@ _Summary pending — see link for details._
 
 ## <a id="agent-design-and-patterns"></a>Agent design & patterns / opinion pieces
 
-_11 posts_
+_10 posts_
 
 ### Trustworthy agents in practice
 
@@ -1409,22 +1471,15 @@ _11 posts_
 - **Date:** 2026-04-09
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### How we monitor internal coding agents for misalignment
-
-- **ID:** `oai-r-how-we-monitor-internal-coding-agents-misalignment`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
-- **Date:** 2026-03-17
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- Updates Anthropic's framework for trustworthy agents with five principles: human control, alignment, security, transparency, privacy
+- Defines agents as models directing their own tool use in plan-act-observe loops
+- Maps the agent stack (model, harness, tools, environment) and product design decisions that flow from each principle
+- Argues prompt-injection and misuse risks intensify with agent autonomy
+- Useful template for enterprise agent governance.
 
 
 ### Coding Agents 101: The Art of Actually Getting Things Done
@@ -1448,9 +1503,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-12
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Cognition's Walden Yan argues against building multi-agent systems as of 2025—production agent reliability demands context engineering discipline
+- Principle 1: share context and full agent traces, not just messages
+- Principle 2: actions carry implicit decisions and conflicting decisions break things
+- Use single-threaded linear agents by default, add a compression model for truly long horizons
+- Counterpoint to Anthropic's multi-agent research system—contextual consistency > parallelism
+- Cites Claude Code subagents as a purposefully limited good design
 
 
 ### AI Agents Are Here. What Now?
@@ -1475,9 +1537,15 @@ _Summary pending — see link for details._
 - **Authors:** Erik S.|Barry Zhang
 - **Track:** engineering
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Anthropic's practitioner guide from dozens of customer agent builds: successful agents use simple composable patterns rather than complex frameworks
+- Distinguishes 'workflows' (orchestrated code paths) from 'agents' (LLM-directed) and catalogues patterns: prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer
+- Recommends starting with LLM APIs directly and adding complexity only when needed
+- Warns that frameworks obscure prompts and add bugs
+- Cornerstone reference for production agent architecture.
 
 
 ### Building Effective AI Agents
@@ -1489,9 +1557,15 @@ _Summary pending — see link for details._
 - **Authors:** Erik S.|Barry Zhang
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Duplicate of the engineering-section 'Building effective agents' post
+- Same content: simple composable patterns (prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer) beat complex frameworks
+- Workflows vs agents distinction
+- Recommends starting with LLM APIs directly
+- Canonical Anthropic agent design reference.
 
 
 ### MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering
@@ -1502,9 +1576,15 @@ _Summary pending — see link for details._
 - **Date:** 2024-10-10
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Introduces MLE-bench, a benchmark of 75 Kaggle ML-engineering competitions for evaluating AI agents on end-to-end ML tasks
+- Establishes human baselines and measures agents on training, data prep, experimentation
+- GPT-4o with AIDE scaffolding achieves bronze-medal level on 16.9% of competitions
+- Open-sourced benchmark enabling comparable agent evals on realistic ML work
+- Now a standard benchmark for ML-agent research
 
 
 ### A review of OpenAI’s o1 and how we evaluate coding agents

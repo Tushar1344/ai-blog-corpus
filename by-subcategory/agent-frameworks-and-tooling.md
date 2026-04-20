@@ -1,6 +1,6 @@
 # Agent frameworks & tooling
 
-**Post count:** 16  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#agent-frameworks-and-tooling))
+**Post count:** 15  |  **Focus area:** Agentic Systems ([canonical](../by-focus-area/agentic-systems.md#agent-frameworks-and-tooling))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -9,7 +9,6 @@
 | 2025-12-04 | Hugging Face | [DeepMath: A lightweight math reasoning Agent with smolagents](../by-focus-area/agentic-systems.md#hf-r-intel-deepmath) | `hf-r-intel-deepmath` |
 | 2025-10-25 | LangChain | [Agent Frameworks, Runtimes, and Harnesses- oh my!](../by-focus-area/agentic-systems.md#lc-r-agent-frameworks-runtimes-and-harnesses-oh-my) | `lc-r-agent-frameworks-runtimes-and-harnesses-oh-my` |
 | 2025-10-22 | LangChain | [LangChain and LangGraph Agent Frameworks Reach v1.0 Milestones](../by-focus-area/agentic-systems.md#lc-r-langchain-langgraph-1dot0) | `lc-r-langchain-langgraph-1dot0` |
-| 2025-07-17 | Hugging Face | [Back to The Future: Evaluating AI Agents on Predicting Future Events](../by-focus-area/agentic-systems.md#hf-r-futurebench) | `hf-r-futurebench` |
 | 2025-04-20 | LangChain | [How to think about agent frameworks](../by-focus-area/agentic-systems.md#lc-r-how-to-think-about-agent-frameworks) | `lc-r-how-to-think-about-agent-frameworks` |
 | 2025-02-28 | Hugging Face | [Trace & Evaluate your Agent with Arize Phoenix](../by-focus-area/agentic-systems.md#hf-r-smolagents-phoenix) | `hf-r-smolagents-phoenix` |
 | 2025-02-04 | Hugging Face | [Open-source DeepResearch – Freeing our search agents](../by-focus-area/agentic-systems.md#hf-r-open-deep-research) | `hf-r-open-deep-research` |

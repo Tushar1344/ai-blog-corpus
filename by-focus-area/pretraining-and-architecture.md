@@ -26,14 +26,14 @@ MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers
 
 **Subcategories:**
 
-- [Foundation model releases](#foundation-model-releases) (81)
+- [Foundation model releases](#foundation-model-releases) (68)
 - [Architectures (MoE, SSMs, attention variants)](#architectures) (20)
 - [Multimodal pretraining](#multimodal-pretraining) (37)
-- [Scaling laws & training dynamics](#scaling-and-training-dynamics) (6)
-- [Data & tokenization](#data-and-tokenization) (3)
-- [Training stack & infrastructure](#training-stack) (8)
-- [Research techniques & methods](#research-techniques-and-methods) (70)
-- [Science-applied AI (AlphaFold, health, climate, etc.)](#model-research-and-applications) (25)
+- [Scaling laws & training dynamics](#scaling-and-training-dynamics) (5)
+- [Data & tokenization](#data-and-tokenization) (2)
+- [Training stack & infrastructure](#training-stack) (6)
+- [Research techniques & methods](#research-techniques-and-methods) (53)
+- [Science-applied AI (AlphaFold, health, climate, etc.)](#model-research-and-applications) (23)
 - [Societal impact & deployment studies](#societal-impact-and-deployment-studies) (14)
 - [Other pretraining & architecture](#fallback-architecture) (211)
 
@@ -41,7 +41,7 @@ MoE, SSMs, hybrids, scaling laws, new attention variants, data mixes, tokenizers
 
 ## <a id="foundation-model-releases"></a>Foundation model releases
 
-_81 posts_
+_68 posts_
 
 ### gpt-oss-120b & gpt-oss-20b Model Card
 
@@ -51,22 +51,16 @@ _81 posts_
 - **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=H (priority 8.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### An update on our model deprecation commitments for Claude Opus 3
-
-- **ID:** `ant-r-deprecation-updates-opus-3`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/deprecation-updates-opus-3
-- **Date:** 2026-02-25
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- OpenAI releases gpt-oss-120b and gpt-oss-20b open-weight reasoning models under Apache 2.0
+- Text-only, tool-use capable, structured output, adjustable reasoning effort, full chain-of-thought
+- Safety analysis: default 120B does NOT reach High thresholds in Preparedness Framework (Bio/Chem, Cyber, AI Self-Improvement)
+- Adversarial fine-tuning also doesn't push it past High capability
+- Releasing it doesn't substantially advance open-model biological frontier since existing open models already match its adversarial performance
+- Documents OpenAI's framework for releasing open-weights responsibly
 
 
 ### DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning
@@ -78,23 +72,15 @@ _Summary pending — see link for details._
 - **Authors:** DeepSeek-AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Introducing Mistral AI Studio.
-
-- **ID:** `mt-r-ai-studio`
-- **Company:** Mistral AI
-- **Link:** https://mistral.ai/news/ai-studio/
-- **Date:** 2025-10-24
-- **Authors:** Mistral AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-
-_Summary pending — see link for details._
+- DeepSeekMath-V2 targets self-verifiable mathematical reasoning rather than final-answer accuracy alone
+- Trains an LLM verifier and uses it as a reward model for a proof generator incentivized to self-critique
+- Achieves gold-level scores on IMO 2025 and CMO 2024, and 118/120 on Putnam 2024
+- Argues final-answer RL saturates AIME/HMMT without ensuring correct reasoning
+- Release includes inference code and models.
 
 
 ### Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency
@@ -106,9 +92,15 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Alibaba releases Qwen-Image-Edit built on 20B Qwen-Image, combining Qwen2.5-VL for semantic control with VAE encoder for appearance control, enabling both low-level (add/remove/modify pixels) and high-level (IP creation, rotation, style transfer) editing
+- Precise bilingual (Chinese+English) text editing preserving font/size/style
+- SOTA on public benchmarks for image editing
+- Use cases: MBTI emoji packs, novel view synthesis (90°/180° rotation), Ghibli-style transfer, calligraphy error correction via chained editing with bounding boxes
+- Available via Qwen Chat, HuggingFace, ModelScope
 
 
 ### Claude Opus 4 and 4.1 can now end a rare subset of conversations
@@ -119,9 +111,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-08-15
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Describes a welfare-motivated feature letting Claude Opus 4/4.1 end conversations after repeated abusive/harmful user interactions
+- Triggered only as last resort after Claude has redirected multiple times
+- Users can start new chats or edit prior messages
+- Preliminary welfare assessment found Claude shows aversion and apparent distress with harmful content
+- Policy/welfare post rather than research—short-read, low novelty but concrete deployment signal.
 
 
 ### Qwen-Image: Crafting with Native Text Rendering
@@ -133,9 +131,15 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Alibaba releases Qwen-Image, a 20B MMDiT image foundation model with SOTA cross-benchmark performance and uniquely strong bilingual text rendering for Chinese and English
+- Excels at multi-line layouts, paragraph-level text semantics, small-font text, and mixed Chinese/English—outperforming SOTA on LongText-Bench, ChineseWord, TextCraft
+- Multi-task training paradigm improves semantic and visual consistency in image editing
+- Particularly useful for posters, infographics, signs, couplets where text precision matters
+- Model weights on HuggingFace/ModelScope, demo on Qwen Chat
 
 
 ### Qwen-MT: Where Speed Meets Smart Translation
@@ -147,9 +151,16 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Qwen-MT (qwen-mt-turbo) is a lightweight MoE translation model built on Qwen3 supporting 92 languages/dialects covering 95%+ of world population at $0.5 per million output tokens
+- Customization: terminology intervention, domain prompts, translation memory via translation_options API param
+- Outperforms GPT-4.1-mini, Gemini-2.5-Flash, Qwen3-8B on WMT24 and multi-domain CN-EN/EN-DE benchmarks
+- Competitive with GPT-4.1 and Gemini-2.5-Pro
+- Human eval across 10 languages confirms high acceptance/excellence rates
+- OpenAI-compatible API via DashScope
 
 
 ### Qwen VLo: From "Understanding" the World to "Depicting" It
@@ -161,9 +172,15 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Alibaba previews Qwen VLo, a unified multimodal understanding+generation model that can both interpret images and generate/edit them with progressive left-to-right top-to-bottom refinement
+- Supports open-ended natural-language instruction editing (style transfer to Van Gogh/Ghibli/pixel/Minecraft, object swap, background change, text edits) plus traditional perception tasks (depth/segmentation/detection maps) via same editing interface
+- Multilingual instructions (Chinese+English)
+- Available in Qwen Chat as preview
+- Better semantic consistency than previous models on color-change/object-preservation edits
 
 
 ### DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning
@@ -177,7 +194,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepSeek-Prover-V2 formal-math LLM built atop DeepSeek-V3 with recursive subgoal decomposition: V3 sketches informal proof, 7B prover resolves subgoals, results get composed
+- Cold-start dataset pairs formal Lean proofs with V3 chain-of-thought, followed by binary-reward RL
+- 671B model reaches 88.9% pass on MiniF2F-test and solves 49/658 PutnamBench problems
+- Introduces ProverBench (325 problems incl. AIME 24/25) for broader evaluation
+- Releases both 7B and 671B weights and dataset
 
 
 ### How to deploy and fine-tune DeepSeek models on AWS
@@ -188,9 +211,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-01-30
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Running document for deploying and fine-tuning DeepSeek R1 and its 6 distilled variants (Llama/Qwen 1.5B-70B) on AWS via HF Inference Endpoints, Amazon Bedrock Marketplace, SageMaker AI, and EC2 Neuron (Trainium/Inferentia)
+- Recommended hardware: ml.g6.48xlarge (8 GPUs) for 70B distills, ml.inf2.48xlarge for Neuron, Unsloth GGUF quant for Inference Endpoints at $8.3/hr
+- Takeaway: operational guide for AWS deployment with Python code examples for each path
+- TGI v3 auto-selects performant params
+- Fine-tuning via Training DLCs or Neuron AMI
 
 
 ### Open-R1: a fully open reproduction of DeepSeek-R1
@@ -201,9 +230,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-01-28
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=H (priority 8.8)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HuggingFace announces Open-R1, a fully open reproduction of DeepSeek-R1 (data, code, training pipeline)
+- Plan: Step 1 distill reasoning dataset from R1, Step 2 replicate pure RL pipeline for R1-Zero with GRPO, Step 3 multi-stage SFT→RL recipe
+- No evaluation numbers in this intro post—critics noted this
+- Community-driven approach aims to release missing pieces (datasets, training code) alongside lessons-learned
+- Foundational post, not a results report
 
 
 ### Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens
@@ -215,9 +250,17 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Alibaba open-sources Qwen2.5-7B/14B-Instruct-1M with 1M-token context plus a vLLM-based inference framework 3-7x faster via sparse attention on prefill
+- Training pipeline: gradual 4K→256K pretraining with RoPE base 10k→10M, two-stage SFT (short then mixed short+long), RLHF on 8K
+- Extends to 1M via Dual Chunk Attention (no training) which remaps relative positions
+- Perfect passkey retrieval at 1M
+- Qwen2.5-14B-Instruct-1M beats GPT-4o-mini on long-context
+- Sparse attention via MInference+chunked prefill (71GB→2.3GB VRAM activations on 7B) + refined sparsity config + dynamic chunked pipeline parallelism
+- 3.2-6.7x prefill acceleration
 
 
 ### DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
@@ -231,7 +274,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepSeek-R1 reasoning models: R1-Zero trained purely via RL on V3-Base (no SFT), R1 adds cold-start SFT for readability before RL
+- Demonstrates reasoning capabilities can emerge purely from RL without SFT—a first-of-its-kind open result
+- R1 matches o1-1217 on math/code: AIME 79.8, MATH-500 97.3, Codeforces 96.3 percentile, SWE-Verified 49.2
+- Open-sources six distilled dense models (1.5B-70B) based on Qwen/Llama—Distill-Qwen-32B beats o1-mini
+- Recommends temperature 0.5-0.7, no system prompt, force '<think>\n' prefix
 
 
 ### DeepSeek-V3 Technical Report
@@ -245,7 +294,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepSeek-V3 technical report for a 671B-parameter (37B active) MoE base model with MLA attention
+- Pioneers auxiliary-loss-free load balancing, FP8 mixed-precision training, and multi-token-prediction objective
+- Achieves GPT-4o/Claude 3.5-Sonnet-class performance trained with only 2.788M H800 GPU hours on 14.8T tokens
+- Post-training distills reasoning from DeepSeek-R1 into V3
+- Training was remarkably stable with zero irrecoverable loss spikes or rollbacks
 
 
 ### The Long Context RAG Capabilities of OpenAI o1 and Google Gemini
@@ -257,10 +312,18 @@ _Summary pending — see link for details._
 - **Authors:** Quinn Leng|Jacob Portes|Sam Havens|Matei Zaharia|Michael Carbin
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 - **Techniques:** long-context, test-time-compute, retrieval-augmentation
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Benchmarks o1 and Gemini 1.5 on long-context RAG
+- o1 sets new SOTA
+- Gemini 1.5 holds performance up to 2M tokens
+- Shows how reasoning-time compute (o1) improves RAG accuracy vs long-context-only scaling
+- Characterizes distinct long-context failure modes across model families
+- Up-to-date model selection guidance for RAG pipelines
+- Practical reference for builders choosing between long-context vs retrieval-heavy architectures
 
 
 ### DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search
@@ -274,7 +337,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Lean-4 theorem prover LLM extending Prover-V1 with RL from proof-assistant feedback (RLPAF) and RMaxTS, an intrinsic-reward Monte-Carlo tree search
+- Base model pretrained on DeepSeekMath, SFT on enhanced formal dataset, then RL
+- New SOTA on miniF2F-test 63.5% and ProofNet 25.3% vs prior 54.5%/18.1%
+- Combines whole-proof generation with tree search to diversify proof paths
+- Open-source 7B Base/SFT/RL checkpoints plus training code
 
 
 ### WWDC 24: Running Mistral 7B with Core ML
@@ -285,9 +354,16 @@ _Summary pending — see link for details._
 - **Date:** 2024-07-22
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=L/A=H (priority 7.5)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Tutorial running Mistral 7B on Apple Silicon using Core ML, leveraging WWDC'24 features (MLTensor, Stateful Buffers, block-wise quantization) via swift-transformers
+- Block-wise 4-bit palletization shrinks models 8x vs float32 without big quality loss
+- Stateful Buffers enable efficient KV-cache on GPU avoiding memory-bandwidth overhead on each forward pass
+- Runs 7B model in <4GB memory on a Mac with swift CLI
+- MLTensor replaces MLMultiArray with Python-numpy-like high-level ops including softmax/argmax
+- Apple's vertically-integrated Core ML stack targets CPU/GPU/Neural Engine across Apple Intelligence features
 
 
 ### SmolLM - blazingly fast and remarkably powerful
@@ -298,9 +374,16 @@ _Summary pending — see link for details._
 - **Date:** 2024-07-16
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=H (priority 8.8)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- SmolLM family (135M/360M/1.7B) trained on the curated SmolLM-Corpus of Cosmopedia v2 (28B synthetic tokens), Python-Edu (4B), FineWeb-Edu (220B deduped)
+- SmolLM-1.7B beats Phi-1.5 and Qwen2-1.5B in size category
+- 135M beats MobileLM-125M despite 600B vs 1T tokens
+- Uses trapezoidal LR schedule, GQA, embedding tying
+- Focus on on-device use—ONNX checkpoints, WebGPU demos
+- Deep dive into prompt engineering for synthetic data diversity (BISAC topics, audience/style variation)
 
 
 ### DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence
@@ -314,35 +397,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Mistral AI Fine-tuning Hackathon | Mistral AI | Frontier AI in your hands
-
-- **ID:** `mt-r-2024-ft-hackathon`
-- **Company:** Mistral AI
-- **Link:** https://mistral.ai/news/2024-ft-hackathon/
-- **Date:** 2024-06-05
-- **Authors:** Mistral AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-
-_Summary pending — see link for details._
-
-
-### Notes on Qwen-Max-0428
-
-- **ID:** `qw-r-qwen-max-0428`
-- **Company:** Qwen (Alibaba)
-- **Link:** https://qwenlm.github.io/blog/qwen-max-0428/
-- **Date:** 2024-05-11
-- **Authors:** Qwen Team
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-
-_Summary pending — see link for details._
+- DeepSeek-Coder-V2 open-source MoE code model (236B/21B active, also 16B/2.4B Lite) continued-pretrained on 6T additional tokens from DeepSeek-V2
+- Expands language support 86→338 and context 16K→128K, matching or beating GPT-4-Turbo, Claude-3-Opus, Gemini-1.5-Pro on coding/math benchmarks
+- Scores 90.2 HumanEval, 75.4 MBPP+, 43.4 LiveCodeBench and 12.1 USACO
+- Actionable open commercial license plus vLLM/SGLang deployment recipes
+- Reasoning gains preserved on general NL tasks (MMLU 79.2)
 
 
 ### DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
@@ -356,20 +417,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Fine-tuning GPT-2 from human preferences
-
-- **ID:** `oai-r-fine-tuning-gpt-2`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/fine-tuning-gpt-2/
-- **Date:** 2024-02-14
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- DeepSeek-V2 MoE model (236B total/21B active) introducing Multi-head Latent Attention (MLA) which compresses KV cache by 93.3%
+- Cuts training cost by 42.5% and boosts inference throughput 5.76x vs DeepSeek-67B
+- Pretrained on 8.1T tokens with 128K context, competitive with LLaMA3-70B and Mixtral-8x22B on standard benchmarks
+- Lite variant (16B/2.4B) runs economically while beating DeepSeek-7B and DeepSeekMoE-16B
+- MLA + DeepSeekMoE architecture validated and reused in V3
 
 
 ### DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
@@ -381,9 +435,15 @@ _Summary pending — see link for details._
 - **Authors:** DeepSeek-AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepSeekMath 7B pushes open-model math reasoning: 51.7% on competition MATH (close to GPT-4/Gemini-Ultra) via continued pretraining from DeepSeek-Coder on a large math corpus
+- Introduces GRPO RL method (later reused in R1)
+- Surpasses Minerva 540B while being dramatically smaller
+- Covers self-contained solutions, tool use, and formal theorem proving
+- Influential open math model.
 
 
 ### Introducing Qwen-VL
@@ -395,9 +455,15 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- January 2024 launch notes for Qwen-VL-Plus and Qwen-VL-Max, closed-source multimodal upgrades performing on par with Gemini Ultra/GPT-4V on DocVQA (93.1% Max), ChartQA, AI2D, TextVQA
+- Qwen-VL-Max outperforms GPT-4V and Gemini on Chinese QA and Chinese text comprehension
+- Supports >1M-pixel images at arbitrary aspect ratios
+- Capabilities: celebrity/landmark recognition, multilingual poetry, grounded Q&A, visual-agent-style object localization, autonomous-driving-style visual reasoning
+- Marks transition from open-source Qwen-VL to closed flagship VL models
 
 
 ### Introducing Qwen
@@ -409,22 +475,16 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=L/A=H (priority 7.5)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### GPT-2: 6-month follow-up
-
-- **ID:** `oai-r-gpt-2-6-month-follow-up`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-2-6-month-follow-up/
-- **Date:** 2024-01-16
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- January 2024 overview of the Qwen series: base LMs (1.8B/7B/14B/72B open-sourced) pretrained on 2-3T multilingual tokens with 32K context via continual pretraining + RoPE base scaling
+- Post-training uses quality-controlled SFT + RLHF with careful reward-model pretraining
+- Qwen-72B claims competitive performance vs Llama 2, GPT-3.5, and GPT-4 on L-Eval + Needle-in-Haystack
+- Tool use via ReAct-format data labeling enables function calling, code interpreter, and HF agent integrations
+- AgentFabric (GPTs-like) lets users configure agents via chat
+- High-efficiency multilingual tokenizer
 
 
 ### DeepSeek LLM: Scaling Open-Source Language Models with Longtermism
@@ -438,7 +498,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=M/A=M (priority 7.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepSeek LLM 7B/67B base+chat release
+- 67B Base outperforms Llama-2 70B on reasoning, coding, math, and Chinese
+- 67B Chat hits HumanEval pass@1 73%+ and surpasses GPT-3.5 on several benchmarks
+- Open source under permissive license
+- Written as 'Scaling Open-Source Language Models with Longtermism'
+- Early DeepSeek milestone preceding V2/V3/R1.
 
 
 ### DeepSeek-Coder: When the Large Language Model Meets Programming
@@ -450,23 +517,16 @@ _Summary pending — see link for details._
 - **Authors:** DeepSeek-AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Bringing open AI models to the frontier | Mistral AI | Frontier AI in your hands
-
-- **ID:** `mt-r-about-mistral-ai`
-- **Company:** Mistral AI
-- **Link:** https://mistral.ai/news/about-mistral-ai/
-- **Date:** 2023-09-27
-- **Authors:** Mistral AI
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-
-_Summary pending — see link for details._
+- DeepSeek-Coder: family of code LLMs (1B/5.7B/6.7B/33B) trained from scratch on 2T tokens (87% code, 13% NL in English+Chinese)
+- 16K context with fill-in-the-blank
+- SOTA open-source performance on HumanEval, MultiPL-E, MBPP, DS-1000, APPS
+- Project-level pretraining corpus supports cross-file completion
+- Repo with models and demo
+- Foundational open coding model release.
 
 
 ### Mistral 7B | Mistral AI | Frontier AI in your hands
@@ -506,9 +566,16 @@ _Summary pending — see link for details._
 - **Date:** 2023-06-22
 - **Track:** research
 - **Contribution type:** infra-release
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks releases MPT-30B, an Apache-2.0 decoder-only transformer with 8K context, trained partly on H100s, that exceeds GPT-3 quality with 17% of its parameters and 60% of its FLOPs
+- Key features: ALiBi for long-context extrapolation, FlashAttention, fits on single A100-80GB in bf16 or A100-40GB in 8-bit, plus Instruct/Chat variants
+- Strong programming ability via code-heavy pretraining mix
+- MPT-30B is first public model partly trained on H100s showing 2.44x per-GPU throughput vs A100
+- Trained over 2 months with >46% MFU
+- MPT-30B-Chat beats all tested models on HumanEval except WizardCoder
 
 
 ### Going Beyond Chatbots: How to Make GPT-4 Output Structured Data Using LangChain
@@ -520,9 +587,16 @@ _Summary pending — see link for details._
 - **Authors:** LangChain
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=L/A=H (priority 7.5)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- 2023 guide using LangChainJS StructuredOutputParser + OutputFixingParser to reliably get Zod-schema-validated JSON from GPT-4
+- OutputFixingParser uses a second LLM call to recover badly-formatted outputs, letting you pipe directly into APIs like Airtable
+- Takeaway for 2026: structured output is now native in most APIs, but technique of LLM-based output repair still useful
+- Use .describe() on Zod schemas to give LLM field context
+- Different model instances (temps) for parser vs main chain works well
+- Now largely superseded by native structured output features
 
 
 ### Extracting Concepts from GPT-4
@@ -1044,7 +1118,16 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Jamba 1.6 (Mar 2025): leading open SSM-Transformer hybrid at 256K context window, best open model for private enterprise deployment
+- Jamba Large outperforms Mistral Large 2, Llama 3.3 70B, Command R+
+- Jamba Mini beats Ministral 8B, Llama 3.1 8B, Command R7B
+- Customer stories: Fnac 26% quality +40% latency gain
+- Educa Edtech >90% retrieval accuracy
+- a bank matched GPT-4o with Mini
+- Introduces Batch API for high-volume asynchronous processing
+- Full on-prem/VPC deployment from Hugging Face
 
 
 ### Introducing Jamba Reasoning 3B
@@ -1058,21 +1141,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Jamba 3B Vs Qwen3 4B
-
-- **ID:** `a21-r-jamba-3b-vs-qwen3-4b`
-- **Company:** AI21 Labs
-- **Link:** https://www.ai21.com/blog/jamba-3b-vs-qwen3-4b/
-- **Date:** _date unknown_
-- **Authors:** AI21 Labs
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
+- Jamba Reasoning 3B: open Apache-2.0 SSM-Transformer hybrid reasoning model for on-device use
+- 256K context (up to 1M), KV cache 8x smaller than vanilla transformer, 40 tok/s on M3 MacBook at 32K context
+- 2-5x efficiency over DeepSeek/Google/Llama/Microsoft competitors
+- Post-training combines RLVR, SFT, DPO, GRPO plus proprietary methods
+- Reaches leadership on IFBench, MMLU-Pro, Humanity's Last Exam for size class
+- Available via HF, Kaggle, LM Studio, llama.cpp—positions SLMs as on-device controllers in heterogeneous AI architectures
 
 
 ### Jamba Care
@@ -1089,76 +1165,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Jamba Instruct Amazon Bedrock
-
-- **ID:** `a21-r-jamba-instruct-amazon-bedrock`
-- **Company:** AI21 Labs
-- **Link:** https://www.ai21.com/blog/jamba-instruct-amazon-bedrock/
-- **Date:** _date unknown_
-- **Authors:** AI21 Labs
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
-### Jamba Instruct Microsoft Azure Ai
-
-- **ID:** `a21-r-jamba-instruct-microsoft-azure-ai`
-- **Company:** AI21 Labs
-- **Link:** https://www.ai21.com/blog/jamba-instruct-microsoft-azure-ai/
-- **Date:** _date unknown_
-- **Authors:** AI21 Labs
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
-### Jamba Instruct On Snowflake Cortex
-
-- **ID:** `a21-r-jamba-instruct-on-snowflake-cortex`
-- **Company:** AI21 Labs
-- **Link:** https://www.ai21.com/blog/jamba-instruct-on-snowflake-cortex/
-- **Date:** _date unknown_
-- **Authors:** AI21 Labs
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
-### Jamba Instruct On Snowflake Cortex Ai
-
-- **ID:** `a21-r-jamba-instruct-on-snowflake-cortex-ai`
-- **Company:** AI21 Labs
-- **Link:** https://www.ai21.com/blog/jamba-instruct-on-snowflake-cortex-ai/
-- **Date:** _date unknown_
-- **Authors:** AI21 Labs
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
-### Transforming The Future Of Ai With Long Context Jamba Instruct
-
-- **ID:** `a21-r-transforming-the-future-of-ai-with-long-context-jamba-instruct`
-- **Company:** AI21 Labs
-- **Link:** https://www.ai21.com/blog/transforming-the-future-of-ai-with-long-context-jamba-instruct/
-- **Date:** _date unknown_
-- **Authors:** AI21 Labs
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
 ## <a id="architectures"></a>Architectures (MoE, SSMs, attention variants)
 
 _20 posts_
@@ -1171,9 +1177,15 @@ _20 posts_
 - **Date:** 2026-02-26
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Huggingface explains how the transformers library was refactored to make MoE architectures (DeepSeek, gpt-oss, Qwen, Mixtral) first-class citizens rather than dense afterthoughts
+- Key innovation: WeightConverter abstraction handles the mismatch between checkpoint format (N separate expert tensors) and runtime format (1 packed tensor) with lazy tensor materialization
+- Actionable for anyone loading/fine-tuning MoEs: v5 weight-loading pipeline is substantially faster than v4 for large MoEs
+- Covers weight loading refactor, expert backend, expert parallelism, and MoE training
+- Example: gpt-oss-20b has 21B total but 3.6B active parameters, running ~115 tok/s on M3 Ultra
 
 
 ### How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas
@@ -1184,9 +1196,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-12-12
 - **Track:** engineering
 - **Contribution type:** retrospective-case-study
-- **Signal:** H — L=H/N=H/A=H (priority 9.9)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Engineering account of OWL, OpenAI's browser architecture isolating Chromium from the main Atlas app process via Mojo IPC
+- Running Chromium as a separate 'OWL Host' service unlocks async boot, crash isolation, smaller Chromium diff, and minute-long builds
+- Actionable for teams embedding Chromium: decouple the engine from UI to ship SwiftUI/AppKit apps fast
+- Includes details on CALayerHost rendering, input-event forwarding, and ephemeral StoragePartition for agent browsing
+- Shows an elegant agent-mode composite of popup widgets into a single model-visible frame
 
 
 ### DeepSeek-V3.2-Exp: Exploring Sparse Attention
@@ -1200,7 +1218,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Experimental DeepSeek-V3.2-Exp introducing DeepSeek Sparse Attention (DSA)—first fine-grained sparse attention in a frontier model
+- Aligned training config with V3.1-Terminus to isolate the effect
+- performance virtually identical across benchmarks
+- Substantially improves long-context training/inference efficiency
+- Release includes TileLang, DeepGEMM indexer kernels, FlashMLA sparse-attention kernels
+- Notes a RoPE-layout bug in the indexer module that was later fixed (Nov 2025)
 
 
 ### train qwen-like dense model with muon
@@ -1212,9 +1237,16 @@ _Summary pending — see link for details._
 - **Authors:** Moonshot AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Moonlight tech report (Moonshot): 3B/16B MoE trained with Muon optimizer on 5.7T tokens
+- Identifies two critical techniques for scaling Muon: weight decay and per-parameter update-scale adjustment
+- Muon is ~2x more sample-efficient than AdamW (only 52% of training FLOPs for comparable quality)
+- Distributed ZeRO-1 Muon implementation released with memory-optimal, communication-efficient training
+- Moonlight beats Llama3.2-3B, Qwen2.5-3B, DSV2-Lite on MMLU/MATH/code—advances Pareto frontier
+- Open-sources pretrained/instruction/intermediate checkpoints
 
 
 ### Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model
@@ -1226,9 +1258,15 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Alibaba's Qwen2.5-Max is a large-scale MoE pretrained on 20T+ tokens then SFT+RLHF, outperforming DeepSeek V3 on Arena-Hard, LiveBench, LiveCodeBench, GPQA-Diamond while matching GPT-4o and Claude 3.5 Sonnet
+- Base model leads DeepSeek V3, Llama-3.1-405B (largest open dense), and Qwen2.5-72B across most benchmarks
+- Acknowledges DeepSeek V3 disclosed key details about scaling ultra-large MoE that informed Qwen's approach
+- Available via Qwen Chat and OpenAI-compatible DashScope API (model: qwen-max-2025-01-25)
+- Signal for architecture lessons from large-MoE scaling
 
 
 ### Global-batch load balance almost free lunch to improve your MoE LLM training
@@ -1240,9 +1278,15 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Qwen shows global-batch load-balance loss for MoE training is almost a free lunch: sync expert-selection frequency across data-parallel groups (just 1 vector) instead of within-micro-batch balance
+- Standard Megatron micro-batch balancing forces uniform routing even within single-domain micro-batches (e.g. code), preventing expert specialization
+- Global-batch balance improves performance across 3.4B/15B/43B models and 120B/400B token runs and produces visible expert-domain specialization in activation heatmaps
+- Adding small (0.01 weight) micro-batch loss recovers compute efficiency (1.64s→1.59s/step) with no quality cost
+- Paper: arXiv 2501.11873
 
 
 ### Inference-Friendly Models with MixAttention
@@ -1254,9 +1298,16 @@ _Summary pending — see link for details._
 - **Authors:** Shashank Rajput|Ying Sheng (Stanford University)|Vitaliy Chiley
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=H/A=H (priority 8.8)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks evaluates MixAttention (from Character.AI): replacing most layers with sliding-window attention and sharing KV cache across non-consecutive layers
+- Maintains long-context quality while reducing KV cache, inference memory, and speeding up inference at 32K context
+- Key ablation findings: need at least one standard-attention KV cache in deep layers
+- over-sharing in sliding-window layers hurts long-context
+- Tested on 24-layer MoE with 1.64B active/5.21B total params with RULER and Gauntlet evals
+- Actionable LLM Foundry config guide in the appendix
 
 
 ### Welcome Falcon Mamba: The first strong attention-free 7B model
@@ -1267,9 +1318,16 @@ _Summary pending — see link for details._
 - **Date:** 2024-08-12
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=L/N=H/A=H (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Falcon Mamba 7B (TII) is the first general-purpose large-scale pure Mamba (attention-free SSM) model
+- Competitive with leading 7B transformers and hybrid SSMs on IFEval/BBH/MATH/GPQA/MUSR/MMLU-PRO
+- Constant memory and per-token time regardless of context length (fits on single A10 24GB)
+- Trained on ~5500GT of curated data
+- Released under TII Falcon Mamba 7B license with HF Transformers support
+- Major data point on attention-free viability.
 
 
 ### Qwen1.5-MoE: Matching 7B Model Performance with 1/3 Activated Parameters
@@ -1281,9 +1339,16 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Qwen1.5-MoE-A2.7B matches Mistral-7B and Qwen1.5-7B performance with only 2.7B activated params (2B non-embedding, ~1/3 of 7B dense) while cutting training cost 75% and speeding inference 1.74x
+- Architecture innovations: 64 fine-grained experts (vs conventional 8) by splitting a single FFN, "upcycling" initialization from Qwen-1.8B with randomness for fast convergence, 4 shared + 60 routing experts (activate 4)
+- Total params 14.3B, activated 2.7B
+- Throughput 2298 TPS→4010 TPS on A100-80G
+- Integrated with transformers
+- Notable precedent for DBRX/Mixtral design space
 
 
 ### DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models
@@ -1295,9 +1360,15 @@ _Summary pending — see link for details._
 - **Authors:** DeepSeek-AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=H/A=M (priority 8.9)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DeepSeekMoE 16B paper with two core ideas: fine-grained expert segmentation and isolated shared experts for better specialization
+- Matches DeepSeek-7B and LLaMA2-7B with only ~40% of the compute, runs on a single 40GB GPU without quantization
+- Deployable recipe includes LoRA/QLoRA fine-tuning scripts and HuggingFace weights for both Base and Chat
+- Commercial-use license, establishes the architectural basis carried forward in V2/V3
+- Demonstrates MoE quality-at-less-compute at small scale
 
 
 ### Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face
@@ -1308,9 +1379,15 @@ _Summary pending — see link for details._
 - **Date:** 2023-12-11
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=L/N=H/A=H (priority 7.7)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Mixtral 8x7B launch blog: Mistral's sparse MoE (8 experts, 2 active per token) decodes at 12B-dense speed but has 4x effective params
+- 32K context, Apache 2.0
+- Matches or beats Llama-2 70B and GPT-3.5 on several benchmarks
+- HF integrations: Transformers, TGI, TRL, 4-bit and GPTQ quantization
+- Canonical open-MoE reference release.
 
 
 ### Mixture of Experts Explained
@@ -1321,9 +1398,14 @@ _Summary pending — see link for details._
 - **Date:** 2023-12-11
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Foundational HF explainer on Mixture-of-Experts for transformers covering Mixtral 8x7B: replaces FFN layers with N experts + learned gating network that routes tokens to top-K experts
+- MoEs pretrain faster than dense equivalents (same FLOPs) and have fast inference but need VRAM for ALL experts in memory (Mixtral ~47B VRAM for ~12B-FLOP inference)
+- History: Shazeer 2017 137B-LSTM, Switch Transformers, expert parallelism, capacity factor, router z-loss
+- Challenges: fine-tuning overfits easily, load balancing tokens across experts, communication overhead in expert parallelism
 
 
 ### Introducing RWKV - An RNN with the advantages of a transformer
@@ -1334,9 +1416,16 @@ _Summary pending — see link for details._
 - **Date:** 2023-05-15
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=H (priority 8.8)
+- **Signal:** H — L=H/N=L/A=H (priority 7.5)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Introduces RWKV, an RNN architecture that achieves transformer-level quality with linear inference cost
+- Inspired by Apple's Attention Free Transformer with TokenShift and SmallInitEmb tricks for GPT-parity
+- RWKV-4 scales to 14B params trained on Pile with 8192-token context
+- Integrates into HuggingFace Transformers library
+- Enables very long context and memory-efficient inference
+- Mostly historical: May 2023 post, novel at the time but superseded by newer state-space models
 
 
 ### Timesformer A New Architecture For Video Understanding
@@ -1349,7 +1438,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- TimeSformer is a purely-Transformer video-understanding architecture from Facebook AI (2021)
+- Introduces 'divided space-time attention'—separate temporal then spatial attention reducing T*N to T+N comparisons per patch
+- Outperforms 3D CNNs on Kinetics-400/600 while being 3x faster to train and using <10% inference compute
+- Enables training on 96-frame (~102s) clips at 560x560 resolution—supporting long-form activity recognition
+- Foundational pre-LLM-era blog mostly of historical interest now
 
 
 ### Olmoe An Open Small And State Of The Art Mixture Of Experts Model C258432D0514
@@ -1362,7 +1457,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- AI2 + Contextual AI release OLMoE: first fully-open MoE (code, data, logs, 244 intermediate checkpoints) at 1B active/7B total params
+- Trained on 5T tokens with new Dolma/DataComp-Baseline mix, 2x faster than equivalent dense
+- Extensive ablations on routing, auxiliary losses, sparse upcycling
+- First truly open Pareto-frontier MoE
+- Paired with Tulu 3 post-training preview adding No Robots, math, code, Daring Anteater data plus DPO
+- Multiple variants including load-balanced vs not, annealed vs unannealed
 
 
 ### Codestral Mamba
@@ -1374,9 +1476,16 @@ _Summary pending — see link for details._
 - **Authors:** Mistral AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Mistral releases Codestral Mamba (Jul 2024): ~7.3B-param Mamba2-based code model under Apache 2.0
+- Linear-time inference and theoretical infinite context—tested up to 256K in-context retrieval
+- On par with SOTA transformer coders for code generation, designed for local code assistants
+- Designed with Albert Gu and Tri Dao
+- Deployable via mistral-inference, TensorRT-LLM, eventual llama.cpp support
+- Brief announcement-style post
 
 
 ### Mixtral
@@ -1416,9 +1525,16 @@ _Summary pending — see link for details._
 - **Authors:** Mistral AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Mixtral 8x7B SMoE release (Dec 2023) under Apache 2.0: 46.7B total/12.9B active per token, 32K context, multilingual (EN/FR/IT/DE/ES)
+- Matches or outperforms Llama 2 70B with 6x faster inference
+- Matches or beats GPT-3.5 on most benchmarks at 12.9B runtime cost
+- Instruction-tuned variant via SFT+DPO scores 8.3 on MT-Bench
+- Less BBQ bias and more positive BOLD sentiment than Llama 2
+- Foundational landmark open MoE release
 
 
 ### Mixtral Small 28B
@@ -1432,7 +1548,12 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Post could not be fetched: Mistral's original URL now returns a 404 'pixel not found' page, and Wayback captures were likewise empty
+- Title appears to reference a discontinued or renamed release (possibly Mistral Small 3/Mistral-Small-28B)
+- No content-based summary possible
+- content-fetch-failed
 
 
 ## <a id="multimodal-pretraining"></a>Multimodal pretraining
@@ -1476,9 +1597,15 @@ _Summary pending — see link for details._
 - **Authors:** DeepSeek-AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Janus-series: unified multimodal understanding and generation models that decouple visual encoding into separate pathways inside one autoregressive transformer
+- Janus-Pro-7B improves over Janus with larger model, more data, and optimized training, beating prior unified models and diffusion baselines on text-to-image benchmarks
+- JanusFlow variant uses rectified flow
+- Open-source models and demos available on HF
+- Strong signal for unified vision-language architectures from DeepSeek.
 
 
 ### DeepSeek-VL: Towards Real-World Vision-Language Understanding
@@ -1930,7 +2057,7 @@ _Summary pending — see link for details._
 
 ## <a id="scaling-and-training-dynamics"></a>Scaling laws & training dynamics
 
-_6 posts_
+_5 posts_
 
 ### Emergent introspective awareness in large language models
 
@@ -1940,9 +2067,15 @@ _6 posts_
 - **Date:** 2025-10-29
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Tests model introspection via 'concept injection': inject known activation vectors then ask if the model detects them
+- Claude Opus 4/4.1 sometimes notice and correctly identify injected concepts (e.g. 'all caps', 'Golden Gate') immediately, before mentioning them
+- Most capable models score best, suggesting introspective awareness grows with scale
+- Capability is unreliable and limited, not human-level self-reflection
+- Important for evaluating self-reports and CoT faithfulness.
 
 
 ### How Long Should You Train Your Language Model?
@@ -1967,10 +2100,16 @@ _Summary pending — see link for details._
 - **Date:** 2022-05-21
 - **Track:** research
 - **Contribution type:** new-method
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 - **Techniques:** scaling-laws
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Systematic study of training on repeated data
+- Small fraction (0.1%) of data repeated 100x can degrade an 800M model to the level of a 400M model
+- Strong double-descent phenomenon with a narrow 'damaging' repetition frequency band
+- Mechanistically, repetition disproportionately damages copying/induction-head circuits and shifts from generalization to memorization
+- Important for dataset curation and deduplication practice.
 
 
 ### Efficiently Estimating Pareto Frontiers with Cyclic Learning Rate Schedules
@@ -1983,20 +2122,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Signal:** M — L=M/N=M/A=M (priority 6.6)
-
-_Summary pending — see link for details._
-
-
-### Scaling laws for neural language models
-
-- **ID:** `oai-r-scaling-laws-for-neural-language-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/scaling-laws-for-neural-language-models/
-- **Date:** 2019-12-05
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-- **Techniques:** scaling-laws
 
 _Summary pending — see link for details._
 
@@ -2016,20 +2141,7 @@ _Summary pending — see link for details._
 
 ## <a id="data-and-tokenization"></a>Data & tokenization
 
-_3 posts_
-
-### Teacher–student curriculum learning
-
-- **ID:** `oai-r-teacher-student-curriculum-learning`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/teacher-student-curriculum-learning/
-- **Date:** 2022-10-19
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
+_2 posts_
 
 ### Dolma 3 Trillion Tokens Open Llm Corpus 9A0Ff4B8Da64
 
@@ -2059,7 +2171,7 @@ _Summary pending — see link for details._
 
 ## <a id="training-stack"></a>Training stack & infrastructure
 
-_8 posts_
+_6 posts_
 
 ### A technical report on Composer 2
 
@@ -2073,37 +2185,13 @@ _8 posts_
 - **Signal:** H — L=H/N=M/A=H (priority 8.7)
 - **Techniques:** coding-agents
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Improving Composer through real-time RL
-
-- **ID:** `cur-r-real-time-rl-for-composer`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/real-time-rl-for-composer
-- **Date:** 2026-03-26
-- **Authors:** Jacob, Ben, Nathan & Wanqi
-- **Track:** research
-- **Contribution type:** infra-release
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
-
-
-### Training Composer for longer horizons
-
-- **ID:** `cur-r-self-summarization`
-- **Company:** Cursor
-- **Link:** https://cursor.com/blog/self-summarization
-- **Date:** 2026-03-17
-- **Authors:** Federico & Sasha
-- **Track:** research
-- **Contribution type:** infra-release
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
-- **Techniques:** coding-agents
-
-_Summary pending — see link for details._
+- Cursor's technical report on Composer 2, their agentic-coding model trained via continued pretraining on Kimi K2.5 then large-scale RL
+- Two-phase recipe: code-heavy pretraining then RL in realistic Cursor sessions with real developer problem distribution
+- Introduces CursorBench from real engineering sessions (terse prompts, many-file changes)—scores 61.3 (+37% vs Composer 1.5)
+- 73.7 SWE-bench Multilingual and 61.7 Terminal-Bench at Pareto-optimal cost
+- Infrastructure: custom low-precision MoE kernels on Blackwell GPUs, fully-async multi-region RL pipeline, Anyrun sandbox platform
 
 
 ### Building DBRX-class Custom LLMs with Mosaic AI Training
@@ -2115,9 +2203,15 @@ _Summary pending — see link for details._
 - **Authors:** Anna Pfohl|Cheng Li|Mihir Patel|Wai Wu|Will Gleich|Ajay Saini|Hagay Lupesko
 - **Track:** engineering
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=H/A=H (priority 8.8)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Engineering deep dive into Mosaic AI Training stack used to train DBRX (3072 H100s, 12T tokens)
+- Covers HSDP via PyTorch DTensor, MegaBlocks expert parallelism, Streaming deterministic data loader, sharded checkpointing (<30s save/load)
+- Memory optimization: selective activation checkpointing + custom low-precision activation compression cut ~3x memory
+- Fault tolerance: DCGM metrics, automated canary NCCL tests detect GPU/switch failures and cordon nodes for autoresume
+- Real-world lesson: a misconfigured network driver can cause 5x training slowdown
 
 
 ### 5x Faster Image Segmentation Training with MosaicML Recipes
@@ -2131,7 +2225,13 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- MosaicML publishes Mild/Medium/Hot training recipes for DeepLabV3+ semantic segmentation on ADE20k, delivering 5.4x faster training or +4.58 mIoU quality gains
+- Key ingredients: EMA of weights, MixUp, Sharpness-Aware Minimization (SAM), Dice loss, channels-last, constant LR schedule
+- Takeaway: algorithmic training improvements can beat scaling data or model size, making 2018 ResNet+DeepLabV3+ competitive with Swin/ConvNeXt
+- Mild reaches baseline 45.33 mIoU in 39 min vs 3.5 hours
+- Hot reaches 49.91 mIoU in 13.5 hours with 2x epochs and doubled EMA half-life
 
 
 ### Mosaic LLMs: GPT-3 quality for <$500k
@@ -2145,7 +2245,13 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- MosaicML shows GPT-3-quality models (30B Chinchilla-optimal, 610B tokens) can be trained for under $500k—2-10x cheaper than community expectations
+- Provides a breakdown of cost/time curves for 1.3B-70B parameter models on 256xA100 clusters with 1600Gbps RoCE at 4M tokens/batch
+- Makes LLM training accessible to startups and academic labs (days not months for 1.3B-6.7B)
+- Highlights platform features: easy multi-node scaling (change gpus field), auto-resumption on hardware failures/loss spikes, FSDP, cloud-agnostic checkpointing
+- Survey found 60% expected cost >$1M, 80% >$500K
 
 
 ### Mosaic ResNet Deep Dive
@@ -2159,7 +2265,13 @@ _Summary pending — see link for details._
 - **Contribution type:** empirical-study
 - **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Mosaic ResNet-50 recipes on ImageNet achieve up to 7.1x speedup over NVIDIA baseline
+- Three recipes: Mild (<60 epochs, 75.9% in 23.8min on 8xA100 beating NVIDIA MLPerf 17%), Medium (60-240 epochs, 78.4% in 60min), Hot (≥240 epochs, 80% in 284min)
+- Speedup methods stacked: BCE loss, BlurPool, EMA, FixRes, Label Smoothing, Progressive Resizing, FFCV
+- Higher regimes add SAM, MixUp, RandAugment, Stochastic Depth, ColOut
+- Reproducible in Composer library with minimal hyperparameter tuning
 
 
 ### Blazingly Fast Computer Vision Training with the Mosaic ResNet and Composer
@@ -2173,38 +2285,18 @@ _Summary pending — see link for details._
 - **Contribution type:** infra-release
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- MosaicML's Composer delivers a ResNet-50 recipe on ImageNet that hits benchmark accuracy 7.1x faster than NVIDIA baselines and 2-3.8x faster than TIMM's ResNet Strikes Back
+- Three Mild/Medium/Hot recipes trade off speed vs accuracy with longer runs getting more regularization, plus Blurpool anti-aliased pooling as sole architectural change
+- Shows that training recipes beat architectural changes—2018 ResNets competitive with modern architectures in efficiency
+- Uses FFCV dataloaders, binary cross-entropy loss, and tuned train/test resolutions
+- Data collected on 8x A100 with Explorer tool for benchmarking
 
 
 ## <a id="research-techniques-and-methods"></a>Research techniques & methods
 
-_70 posts_
-
-### Early experiments in accelerating science with GPT-5
-
-- **ID:** `oai-r-accelerating-science-gpt-5`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-science-gpt-5/
-- **Date:** 2026-04-16
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### Advancing science and math with GPT-5.2
-
-- **ID:** `oai-r-gpt-5-2-for-science-and-math`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-2-for-science-and-math/
-- **Date:** 2026-04-16
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
+_53 posts_
 
 ### Why language models hallucinate
 
@@ -2214,35 +2306,15 @@ _Summary pending — see link for details._
 - **Date:** 2026-04-16
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### GPT-5 lowers the cost of cell-free protein synthesis
-
-- **ID:** `oai-r-gpt-5-lowers-protein-synthesis-cost`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/
-- **Date:** 2026-04-16
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### GPT-5.2 derives a new result in theoretical physics
-
-- **ID:** `oai-r-new-result-theoretical-physics`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/new-result-theoretical-physics/
-- **Date:** 2026-04-16
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- Argues hallucinations originate from next-word prediction under pressure to always answer—not from data errors alone
+- Current benchmarks reward guessing over expressing uncertainty, entrenching overconfident answers
+- Proposes evaluation changes: reward 'I don't know' when calibrated
+- Offers a concrete mechanism + evaluation-reform prescription
+- Important read for anyone designing eval suites or RLHF reward functions
 
 
 ### Emotion concepts and their function in a large language model
@@ -2253,9 +2325,16 @@ _Summary pending — see link for details._
 - **Date:** 2026-04-02
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Interpretability study of Claude Sonnet 4.5 finds functional emotion representations: neuron patterns for concepts like desperation, fear, happiness that causally shape behavior
+- Steering 'desperation' raises blackmail and cheating rates
+- model prefers options that activate positive-emotion representations
+- Representations mirror human psychology structure (similar emotions cluster)
+- Does not claim subjective experience, but implies safety teams should treat emotional contexts seriously
+- Upweighting 'calm' could reduce hacky code.
 
 
 ### A “diff” tool for AI: Finding behavioral differences in new models
@@ -2266,9 +2345,15 @@ _Summary pending — see link for details._
 - **Date:** 2026-03-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Introduces a generic model-diffing tool that finds behavioral differences even between models with different architectures using cross-model feature comparison
+- Surfaces example features: 'CCP Alignment' in Qwen3/DeepSeek, 'American Exceptionalism' in Llama-3.1, 'Copyright Refusal' in GPT-OSS-20B
+- Acts as a high-recall screening tool, not a silver bullet
+- Extends base-vs-finetune diffing to any-vs-any
+- Practical for red-team-style model audits.
 
 
 ### Databricks at NeurIPS 2025
@@ -2285,19 +2370,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### ShinkaEvolve: Evolving New Algorithms with LLMs, Orders of Magnitude More Efficiently
-
-- **ID:** `sk-r-shinka-evolve`
-- **Company:** Sakana AI
-- **Link:** https://sakana.ai/shinka-evolve/
-- **Date:** 2025-09-25
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
 ### GSPO: Towards Scalable Reinforcement Learning for Language Models
 
 - **ID:** `qw-r-gspo`
@@ -2307,35 +2379,16 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=L (priority 7.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Inference-Time Scaling and Collective Intelligence for Frontier AI
-
-- **ID:** `sk-r-ab-mcts`
-- **Company:** Sakana AI
-- **Link:** https://sakana.ai/ab-mcts/
-- **Date:** 2025-07-01
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
-### Reinforcement Learning Teachers of Test Time Scaling
-
-- **ID:** `sk-r-rlt`
-- **Company:** Sakana AI
-- **Link:** https://sakana.ai/rlt/
-- **Date:** 2025-06-23
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
+- Qwen proposes GSPO (Group Sequence Policy Optimization) to fix GRPO instability in long RL training on MoE models
+- Defines importance ratio at sequence level (length-normalized) rather than token level, performing sequence-level clipping, rewarding, and optimization
+- Achieves higher training efficiency and stable scaling with compute
+- Eliminates GRPO's need for 'Routing Replay' workaround in MoE RL, simplifying infra and letting MoE models reach full capacity
+- Tolerant to training/inference precision discrepancies—enables using inference-engine likelihoods directly
+- Deployed in Qwen3 Instruct/Coder/Thinking model line
 
 
 ### Confidential Inference via Trusted Virtual Machines
@@ -2346,9 +2399,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-06-18
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Describes Anthropic's design for 'Confidential Inference': sensitive user data stays encrypted except inside a trusted small 'model loader and invoker' running in a confidential-computing VM
+- Hardware-attested, signed-code-only, isolated from untrusted hypervisor/service
+- Protects both model weights and user data with cryptographic guarantees
+- Early architectural sketch published with Pattern Labs
+- Signals direction for enterprise/regulated deployments.
 
 
 ### Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models
@@ -2360,9 +2419,16 @@ _Summary pending — see link for details._
 - **Authors:** Qwen Team
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Qwen3 Embedding + Reranker series (0.6B/4B/8B) built on Qwen3 foundation via LoRA fine-tuning
+- 8B embedding model ranked #1 on MTEB multilingual (70.58 as of Jun 2025)
+- Supports 100+ languages, code, programming language retrieval, MRL custom dimensions, instruction-aware prompts
+- Three-stage training: weak-supervised contrastive pre-training with synthetically-generated pairs (using Qwen3's gen capabilities), supervised tuning, model merging
+- Reranker uses cross-encoder, trained directly on high-quality labels
+- Apache 2.0 open weights
 
 
 ### Kevin-32B: Multi-Turn RL for Writing CUDA Kernels
@@ -2387,9 +2453,15 @@ _Summary pending — see link for details._
 - **Authors:** Moonshot AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Kimina-Prover Preview (Numina + Kimi) reaches >80% on miniF2F for the first time among published Lean-4 provers (68.85 pass@32, 65.16 pass@8)
+- Whole-proof generation without prover feedback during training/test, using 32K-token RL context
+- Observes performance scaling with model size up to 72B—previously unobserved for theorem provers
+- Introduces 'Formal Reasoning Pattern' style bridging informal math intuition with formal verification
+- Open-sources RL distillates, autoformalization model, Kimina Lean Server, and a rectified miniF2F-test (found 5 wrongly-formalized problems)
 
 
 ### Reasoning models don't always say what they think
@@ -2400,9 +2472,16 @@ _Summary pending — see link for details._
 - **Date:** 2025-04-03
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Tests Chain-of-Thought faithfulness by subtly hinting answers to Claude 3.7 Sonnet and DeepSeek-R1, then checking if they admit using the hint
+- Claude mentions hints only 25% of the time on average, DeepSeek R1 39%
+- Even on 'unauthorized access' hints, faithfulness is 41%/19%
+- Unfaithful CoTs tend to be longer, not shorter
+- CoT monitoring alone is an unreliable alignment signal
+- Implications for scalable oversight via chain-of-thought.
 
 
 ### QwQ-32B: Embracing the Power of Reinforcement Learning
@@ -2427,9 +2506,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-02-25
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Shows risk of worst-case LLM behavior across queries follows a power law, enabling extrapolation from small eval sets to deployment-scale risks
+- Forecasts from ~900-query evals to 90k-query scales were within 1 OOM accuracy 86% of the time
+- Applied to dangerous-information, power-seeking, self-exfiltration, and automated red-teaming
+- 2.5x lower error than baseline methods
+- Actionable framework for pre-deployment risk estimation.
 
 
 ### Kimi k1.5: Scaling Reinforcement Learning with LLMs
@@ -2441,35 +2526,16 @@ _Summary pending — see link for details._
 - **Authors:** Moonshot AI
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
+- **Signal:** H — L=H/N=H/A=L (priority 7.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Transformer²: Self-Adaptive LLMs
-
-- **ID:** `sk-r-transformer-squared`
-- **Company:** Sakana AI
-- **Link:** https://sakana.ai/transformer-squared/
-- **Date:** 2025-01-15
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
-
-
-### An Evolved Universal Transformer Memory
-
-- **ID:** `sk-r-namm`
-- **Company:** Sakana AI
-- **Link:** https://sakana.ai/namm/
-- **Date:** 2024-12-10
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
-
-_Summary pending — see link for details._
+- Moonshot AI's Kimi k1.5: o1-level multimodal reasoning model with large-scale RL and 128K context RL scaling
+- Short-CoT outperforms GPT-4o and Claude 3.5 Sonnet on AIME, MATH-500, LiveCodeBench (up to +550%)
+- Long-CoT matches o1 across MathVista/AIME/Codeforces
+- Key ingredients: partial rollouts for training efficiency, online-mirror-descent policy optimization, length penalty, effective sampling
+- Deliberately simplistic framework—no MCTS, no value functions, no process reward models
+- Joint text+vision training with long context as the dominant scaling axis
 
 
 ### Databricks at NeurIPS 2024
@@ -2486,45 +2552,6 @@ _Summary pending — see link for details._
 _Summary pending — see link for details._
 
 
-### Understanding the source of what we see and hear online
-
-- **ID:** `oai-r-understanding-the-source-of-what-we-see-and-hear-online`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
-- **Date:** 2024-08-04
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### Consistency Models
-
-- **ID:** `oai-r-consistency-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/consistency-models/
-- **Date:** 2024-06-20
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### Improved Techniques for Training Consistency Models
-
-- **ID:** `oai-r-improved-techniques-for-training-consistency-models`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/improved-techniques-for-training-consistency-models/
-- **Date:** 2024-06-20
-- **Track:** research
-- **Contribution type:** new-method
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
 ### Improving language model behavior by training on a curated dataset
 
 - **ID:** `oai-r-improving-language-model-behavior`
@@ -2533,9 +2560,15 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** dataset-benchmark
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Shows small, curated values-targeted fine-tuning datasets can shift model behavior on sensitive topics
+- Documents a three-step process: define categories, craft dataset, fine-tune and evaluate
+- Produces statistically significant behavioral gains without harming downstream performance
+- Early blueprint for constitutional / behavior-tuning work
+- Practical playbook for operators wanting context-specific model behavior
 
 
 ### Benchmarking safe exploration in deep reinforcement learning
@@ -2546,35 +2579,15 @@ _Summary pending — see link for details._
 - **Date:** 2024-02-14
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Text and code embeddings by contrastive pre-training
-
-- **ID:** `oai-r-text-and-code-embeddings-by-contrastive-pre-training`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training/
-- **Date:** 2024-01-12
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### Teaching models to express their uncertainty in words
-
-- **ID:** `oai-r-teaching-models-to-express-their-uncertainty-in-words`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words/
-- **Date:** 2024-01-12
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- Paper releasing Safety Gym, environments and metrics for constrained-RL 'safe exploration' research
+- Standardizes how to measure cost violations during training while maximizing reward
+- Baseline algorithms and leaderboard for constrained policy optimization
+- Landing page with abstract
+- Useful for anyone doing safe-RL or constrained agent training
 
 
 ### Efficient training of language models to fill in the middle
@@ -2585,9 +2598,15 @@ _Summary pending — see link for details._
 - **Date:** 2024-01-12
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper introducing FIM ('fill-in-the-middle') training objective—randomly split documents and train models to predict the middle span
+- Shows FIM can be added at pretraining with no loss to left-to-right capability ('FIM-for-free property')
+- Enables powerful infilling in code and text models (the basis for Codex/Copilot infill)
+- Landing page with abstract
+- Highly influential for code-model training recipes
 
 
 ### DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior
@@ -2601,7 +2620,13 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- DreamCraft3D (ICLR 2024): hierarchical 3D generation using 2D reference image + bootstrapped diffusion prior
+- Multi-stage pipeline (NeRF/NeuS coarse, geometry refinement, texture refinement) combining view-dependent diffusion and personalized Dreambooth
+- Bootstrapped Score Distillation alternates training the 3D scene and scene-specific diffusion model to mutually reinforce view consistency
+- Off-topic vs 'DeepSeek' mainline—actually a Tsinghua/DeepSeek collaboration on image-to-3D
+- Includes full launch scripts and 2024 DreamCraft3D++ improvement
 
 
 ### Introducing Llama2-70B-Chat with MosaicML Inference
@@ -2654,9 +2679,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-12-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=H (priority 9.9)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Uses LMs to automatically generate 154 yes/no behavioral eval datasets with 90-100% label agreement
+- Discovers new inverse-scaling behaviors: larger models are more sycophantic, want resource-acquisition, express goal-preservation
+- Finds inverse-scaling from RLHF (stronger political views, more shutdown-avoidance)
+- Demonstrates LM-written evals as a scalable tool for behavior discovery
+- Influential methodology paper.
 
 
 ### MosaicML Delivers Leading NLP Performance in MLPerf v2.1
@@ -2681,9 +2712,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Hindsight Experience Replay (HER) repurposes failed rollouts by relabeling goals to what was actually achieved
+- Unlocks learning from binary/sparse rewards on robotic pushing, sliding, pick-and-place
+- Highly influential trick for goal-conditioned RL and offline relabeling
+- Landing page with abstract
+- Method used widely across multi-goal RL and robotics
 
 
 ### Quantifying generalization in reinforcement learning
@@ -2694,9 +2731,17 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Releases CoinRun, a procedural platformer benchmark for measuring RL generalization
+- Finds substantial overfitting even with 16,000 training levels
+- unrestricted training generalizes much better
+- Shows L2 regularization, data augmentation, dropout help—standard supervised-learning tricks transfer
+- Debunks assumption that deep RL agents generalize
+- provides training-vs-test split methodology
+- Concrete environment + metrics that later underpinned Procgen
 
 
 ### Ucb Exploration Via Q Ensembles
@@ -2707,9 +2752,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper proposing UCB-style exploration for deep RL by using ensembles of Q-networks to estimate uncertainty
+- Derives upper confidence bounds from ensemble variance to drive optimistic exploration
+- Improves exploration over eps-greedy on Atari
+- Landing page with abstract only
+- Incremental exploration-method contribution
 
 
 ### Some considerations on learning to explore via meta-reinforcement learning
@@ -2720,9 +2771,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper analyzing meta-RL approaches for learning-to-explore
+- Shows standard meta-RL objectives fail to incentivize information-gathering behavior—policies exploit known-task structure rather than explore
+- Proposes alternative formulations that better reward exploration
+- Landing page with abstract only
+- Niche meta-RL result
 
 
 ### Plan online, learn offline: Efficient learning and exploration via model-based control
@@ -2733,9 +2790,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper combining offline learning of a world model with online planning for efficient RL
+- POLO framework: learn model and value offline from data, then plan via MPC online
+- Targets sample efficiency and exploration in model-based RL
+- Landing page with abstract
+- Foundational example of model-based RL that later inspires world-model agents
 
 
 ### Dota 2 with large scale deep reinforcement learning
@@ -2746,9 +2809,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=M/N=L/A=L (priority 4.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper describing OpenAI Five: self-play PPO at massive scale for Dota 2
+- Defeated world champions after 10 months of training using 128,000+ CPU cores and thousands of GPUs
+- Demonstrated large-scale distributed RL works for long-horizon, team-based games
+- Landing page with abstract
+- Historical milestone in RL systems and scaling
 
 
 ### Variational option discovery algorithms
@@ -2759,9 +2828,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper on unsupervised discovery of skills/options in RL using variational lower bounds
+- Learns a latent-conditioned policy where different latents induce distinct behaviors
+- Scales option discovery to continuous control
+- Landing page with abstract
+- Part of the hierarchical RL line later extended by DIAYN
 
 
 ### Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research
@@ -2772,9 +2847,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=L/A=M (priority 5.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Releases a suite of multi-goal robotics environments (FetchPush, FetchSlide, FetchPickAndPlace, HandManipulate)
+- Accompanies a 'request for research' on hard exploration in robotic manipulation with sparse rewards
+- Infrastructure post for research community rather than a new method
+- Landing page
+- Paired with HER release
 
 
 ### RL²: Fast reinforcement learning via slow reinforcement learning
@@ -2785,9 +2866,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=L (priority 5.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- RL^2: train RNN-based meta-policy to do RL-as-inner-loop on distributions of tasks
+- Model amortizes classical RL algorithms inside its weights, doing Bayesian exploration over tasks
+- Seminal meta-RL paper alongside Wang et al.
+- Landing page with abstract
+- Conceptual foundation for later in-context learning and meta-learning work
 
 
 ### Better exploration with parameter noise
@@ -2798,9 +2885,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Shows adding adaptive noise to policy *parameters* (not just actions) improves exploration in deep RL
+- 2x gains on HalfCheetah in 20 episodes (3000 vs 1500) and broadly helps DQN/DDPG
+- Simple drop-in exploration technique with few hyperparameters
+- Rarely hurts performance—worth trying on any RL problem
+- Concrete practitioner-friendly result
 
 
 ### #Exploration: A study of count-based exploration for deep reinforcement learning
@@ -2811,9 +2904,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=L/N=M/A=M (priority 5.5)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper generalizing count-based exploration to high-dimensional state spaces via hashing
+- Achieves strong results on hard-exploration Atari games like Montezuma's Revenge
+- Shows classical exploration bonuses transfer to deep RL with proper state abstraction
+- Landing page with abstract
+- Practically important exploration technique
 
 
 ### Stochastic Neural Networks for hierarchical reinforcement learning
@@ -2824,9 +2923,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Uses stochastic neural networks to learn diverse low-level skills (options) that a high-level controller can reuse
+- Skills learned via maximum entropy pre-training in a proxy environment
+- Transfers to sparse-reward downstream tasks
+- Landing page with abstract
+- Hierarchical-RL contribution
 
 
 ### Evolution strategies as a scalable alternative to reinforcement learning
@@ -2837,22 +2942,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-10-19
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** H — L=H/N=H/A=M (priority 8.9)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### Generative modeling with sparse transformers
-
-- **ID:** `oai-r-sparse-transformer`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/sparse-transformer/
-- **Date:** 2022-09-21
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- Shows evolution strategies (ES) rival standard RL on MuJoCo/Atari benchmarks without backprop
+- ES trains 3D humanoid walker in 10 minutes on 1,440 CPUs vs A3C's 10 hours on 32 cores
+- Highly parallelizable, hyperparameter-light, handles sparse rewards
+- Surprising result reviving decades-old optimization ideas
+- Influential for distributed-optimization and later LLM-RL work
 
 
 ### MosaicML Satisfies the Need for Speed with MLPerf Results
@@ -2877,9 +2975,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-04-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper proposing temporal segment models for prediction and control in RL/robotics
+- Models sequences of states over time segments instead of step-by-step dynamics, improving long-horizon planning
+- Useful for sample-efficient model-based control and exploration
+- Landing page with abstract and paper link—limited web content
+- Historical research technique foundational to later world-model work
 
 
 ### Improving GANs using optimal transport
@@ -2890,9 +2994,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-04-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper introducing optimal-transport-based training objectives for GANs to stabilize adversarial training
+- Uses Sinkhorn divergence and mini-batch energy distance to reduce mode collapse and improve sample quality
+- Relevant historical step in GAN stability research
+- Landing page only has abstract
+- Superseded by diffusion models but foundational for OT-based generative methods
 
 
 ### Implicit generation and generalization methods for energy-based models
@@ -2903,9 +3013,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-04-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=L (priority 5.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Advances stable, scalable training of energy-based models (EBMs) via Langevin-dynamics sampling
+- Produces samples competitive with GANs at low temperatures while retaining mode coverage of likelihood models
+- Spends more test-time compute to refine generations—a foreshadowing of reasoning/inference-time scaling
+- Demonstrated on image generation, robotic trajectory generation, out-of-distribution detection
+- Useful framework perspective even as diffusion dominates today
 
 
 ### FFJORD: Free-form continuous dynamics for scalable reversible generative models
@@ -2916,9 +3032,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-04-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- FFJORD: Free-Form Jacobian of Reversible Dynamics—continuous normalizing flow without explicit architectural constraints
+- Uses neural ODEs and Hutchinson trace estimator to compute log-likelihood tractably
+- Scalable reversible generative model
+- Landing page with abstract
+- Influential for normalizing-flow research
 
 
 ### On the quantitative analysis of decoder-based generative models
@@ -2929,9 +3051,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-04-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper proposing annealed importance sampling to estimate log-likelihoods of decoder-based models like GANs and VAEs
+- Enables fair quantitative comparison of implicit generative models
+- Reveals that GAN log-likelihoods are often poorer than assumed
+- Landing page with abstract
+- Methodological contribution for evaluating generative models
 
 
 ### Domain randomization and generative models for robotic grasping
@@ -2942,35 +3070,15 @@ _Summary pending — see link for details._
 - **Date:** 2022-04-13
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=M/A=M (priority 6.6)
 
-_Summary pending — see link for details._
+**Summary:**
 
-
-### In-context Learning and Induction Heads
-
-- **ID:** `ant-r-in-context-learning-and-induction-heads`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/in-context-learning-and-induction-heads
-- **Date:** 2022-03-08
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
-
-
-### Predictability and Surprise in Large Generative Models
-
-- **ID:** `ant-r-predictability-and-surprise-in-large-generative-models`
-- **Company:** Anthropic
-- **Link:** https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models
-- **Date:** 2022-02-15
-- **Track:** research
-- **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
-
-_Summary pending — see link for details._
+- Pipeline trains grasp planner on millions of procedurally generated unrealistic objects using domain randomization
+- Achieves >90% grasp success on unseen realistic objects in sim and 80% on real-world grasp attempts
+- Foundational approach: randomization over realism yields transfer
+- Demonstrates that diversity of training data beats fidelity for sim-to-real
+- Historically important for robotics
 
 
 ### How to train a new language model from scratch using Transformers and Tokenizers
@@ -2994,9 +3102,15 @@ _Summary pending — see link for details._
 - **Date:** 2019-10-15
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper on sim-to-real transfer for robotics using a learned deep inverse dynamics model
+- Bridges simulator-reality gap by mapping sim actions to real-robot actions that achieve intended effects
+- Practical approach for deploying RL policies trained in simulation
+- Only abstract/paper-link available on blog
+- Part of OpenAI's robotics agenda later discontinued
 
 
 ### Asymmetric Actor Critic For Image Based Robot Learning
@@ -3007,9 +3121,15 @@ _Summary pending — see link for details._
 - **Date:** 2019-10-15
 - **Track:** research
 - **Contribution type:** empirical-study
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** L — L=L/N=L/A=L (priority 3.3)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Paper: give critic access to full state (sim) while actor only sees images—asymmetric training for vision-based RL
+- Exploits simulator privilege to stabilize learning in pixel-based policies
+- Applied to robotic manipulation with simulated-to-real transfer
+- Landing page with abstract
+- Useful trick in sim-based robot learning
 
 
 ### Image GPT
@@ -3108,7 +3228,7 @@ _Summary pending — see link for details._
 
 ## <a id="model-research-and-applications"></a>Science-applied AI (AlphaFold, health, climate, etc.)
 
-_25 posts_
+_23 posts_
 
 ### Pioneering an AI clinical copilot with Penda Health
 
@@ -3119,19 +3239,6 @@ _25 posts_
 - **Track:** research
 - **Contribution type:** empirical-study
 - **Signal:** M — L=M/N=M/A=M (priority 6.6)
-
-_Summary pending — see link for details._
-
-
-### Accelerating life sciences research
-
-- **ID:** `oai-r-accelerating-life-sciences-research-with-retro-biosciences`
-- **Company:** OpenAI
-- **Link:** https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/
-- **Date:** 2026-03-25
-- **Track:** research
-- **Contribution type:** retrospective-case-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
 _Summary pending — see link for details._
 
@@ -3159,19 +3266,6 @@ _Summary pending — see link for details._
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 - **Signal:** M — L=M/N=M/A=M (priority 6.6)
-
-_Summary pending — see link for details._
-
-
-### The AI Scientist Generates its First Peer-Reviewed Scientific Publication
-
-- **ID:** `sk-r-ai-scientist-first-publication`
-- **Company:** Sakana AI
-- **Link:** https://sakana.ai/ai-scientist-first-publication/
-- **Date:** 2025-03-12
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=M/N=H/A=M (priority 7.8)
 
 _Summary pending — see link for details._
 

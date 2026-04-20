@@ -1,0 +1,57 @@
+id,company,focus_area,subcategory,title,url,signal_priority
+dbx-r-calibrating-mosaic-evaluation-gauntlet,databricks,evals-and-benchmarks,eval-systems-and-harnesses,Calibrating the Mosaic Evaluation Gauntlet,https://www.databricks.com/blog/calibrating-mosaic-evaluation-gauntlet,7.6
+dbx-r-secure-code-evaluation,databricks,evals-and-benchmarks,eval-systems-and-harnesses,End-to-End Secure Evaluation of Code Generation Models,https://www.databricks.com/blog/secure-code-evaluation,7.6
+dbx-r-mpt-30b,databricks,pretraining-and-architecture,foundation-model-releases,MPT-30B: Raising the bar for open-source foundation models,https://www.databricks.com/blog/mpt-30b,7.6
+dbx-r-llm-evaluation-for-icl,databricks,evals-and-benchmarks,eval-systems-and-harnesses,Blazingly Fast LLM Evaluation for In-Context Learning,https://www.databricks.com/blog/llm-evaluation-for-icl,7.6
+dbx-r-mosaic-image-segmentation,databricks,pretraining-and-architecture,training-stack,5x Faster Image Segmentation Training with MosaicML Recipes,https://www.databricks.com/blog/mosaic-image-segmentation,7.6
+dbx-r-gpt-3-quality-for-500k,databricks,pretraining-and-architecture,training-stack,Mosaic LLMs: GPT-3 quality for <$500k,https://www.databricks.com/blog/gpt-3-quality-for-500k,7.6
+dbx-r-mosaic-resnet,databricks,pretraining-and-architecture,training-stack,Blazingly Fast Computer Vision Training with the Mosaic ResNet and Composer,https://www.databricks.com/blog/mosaic-resnet,7.6
+hf-r-moe-transformers,huggingface,pretraining-and-architecture,architectures,Mixture of Experts (MoEs) in Transformers,https://huggingface.co/blog/moe-transformers,7.6
+hf-r-custom-cuda-kernels-agent-skills,huggingface,agentic-systems,coding-agents,Custom Kernels for All from Codex and Claude,https://huggingface.co/blog/custom-cuda-kernels-agent-skills,7.6
+hf-r-intel-deepmath,huggingface,agentic-systems,agent-frameworks-and-tooling,DeepMath: A lightweight math reasoning Agent with smolagents,https://huggingface.co/blog/intel-deepmath,7.6
+hf-r-claude-and-mcp,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Generate Images with Claude and Hugging Face,https://huggingface.co/blog/claude-and-mcp,7.6
+hf-r-mcp-for-research,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,MCP for Research: How to Connect AI to Research Tools,https://huggingface.co/blog/mcp-for-research,7.6
+hf-r-gradio-vton-mcp,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio,https://huggingface.co/blog/gradio-vton-mcp,7.6
+hf-r-futurebench,huggingface,agentic-systems,agent-frameworks-and-tooling,Back to The Future: Evaluating AI Agents on Predicting Future Events,https://huggingface.co/blog/futurebench,7.6
+hf-r-gradio-mcp-updates,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Five Big Improvements to Gradio MCP Servers,https://huggingface.co/blog/gradio-mcp-updates,7.6
+hf-r-building-hf-mcp,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Building the Hugging Face MCP Server,https://huggingface.co/blog/building-hf-mcp,7.6
+hf-r-gradio-mcp-servers,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Upskill your LLMs With Gradio MCP Servers,https://huggingface.co/blog/gradio-mcp-servers,7.6
+hf-r-liger-grpo,huggingface,post-training-and-fine-tuning,rlvr-verifiable-rewards,🐯 Liger GRPO meets TRL,https://huggingface.co/blog/liger-grpo,7.6
+hf-r-python-tiny-agents,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Tiny Agents in Python: a MCP-powered agent in ~70 lines of code,https://huggingface.co/blog/python-tiny-agents,7.6
+hf-r-gradio-mcp,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,How to Build an MCP Server with Gradio,https://huggingface.co/blog/gradio-mcp,7.6
+hf-r-tiny-agents,huggingface,harness-and-context-engineering,mcp-and-tool-protocols,Tiny Agents: an MCP-powered agent in 50 lines of code,https://huggingface.co/blog/tiny-agents,7.6
+hf-r-smolagents-phoenix,huggingface,agentic-systems,agent-frameworks-and-tooling,Trace & Evaluate your Agent with Arize Phoenix,https://huggingface.co/blog/smolagents-phoenix,7.6
+hf-r-open-deep-research,huggingface,agentic-systems,agent-frameworks-and-tooling,Open-source DeepResearch – Freeing our search agents,https://huggingface.co/blog/open-deep-research,7.6
+hf-r-deepseek-r1-aws,huggingface,pretraining-and-architecture,foundation-model-releases,How to deploy and fine-tune DeepSeek models on AWS,https://huggingface.co/blog/deepseek-r1-aws,7.6
+hf-r-smolagents,huggingface,agentic-systems,agent-frameworks-and-tooling,Introducing smolagents: simple agents that write actions in code.,https://huggingface.co/blog/smolagents,7.6
+hf-r-arena-atla,huggingface,evals-and-benchmarks,judge-models-and-methodology,Judge Arena: Benchmarking LLMs as Evaluators,https://huggingface.co/blog/arena-atla,7.6
+hf-r-digital-green-llm-judge,huggingface,evals-and-benchmarks,judge-models-and-methodology,Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge,https://huggingface.co/blog/digital-green-llm-judge,7.6
+hf-r-mistral-coreml,huggingface,pretraining-and-architecture,foundation-model-releases,WWDC 24: Running Mistral 7B with Core ML,https://huggingface.co/blog/mistral-coreml,7.6
+hf-r-agents,huggingface,agentic-systems,agent-frameworks-and-tooling,License to Call: Introducing Transformers Agents 2.0,https://huggingface.co/blog/agents,7.6
+hf-r-open-source-llms-as-agents,huggingface,agentic-systems,agent-frameworks-and-tooling,Open-source LLMs as LangChain Agents,https://huggingface.co/blog/open-source-llms-as-agents,7.6
+hf-r-leaderboard-vectara,huggingface,evals-and-benchmarks,leaderboards-and-community-evals,A guide to setting up your own Hugging Face leaderboard: an end-to-end example with Vectara's hallucination leaderboard,https://huggingface.co/blog/leaderboard-vectara,7.6
+hf-r-moe,huggingface,pretraining-and-architecture,architectures,Mixture of Experts Explained,https://huggingface.co/blog/moe,7.6
+hf-r-lora-adapters-dynamic-loading,huggingface,quantization-and-efficiency,parameter-efficient-training,Goodbye cold boot - how we made LoRA Inference 300% faster,https://huggingface.co/blog/lora-adapters-dynamic-loading,7.6
+hf-r-agents-js,huggingface,agentic-systems,agent-frameworks-and-tooling,Introducing Agents.js: Give tools to your LLMs using JavaScript,https://huggingface.co/blog/agents-js,7.6
+hf-r-stackllama,huggingface,post-training-and-fine-tuning,rlhf-classic,StackLLaMA: A hands-on guide to train LLaMA with RLHF,https://huggingface.co/blog/stackllama,7.6
+lc-r-context-engineering-for-agents,langchain,harness-and-context-engineering,context-engineering,Context Engineering,https://www.langchain.com/blog/context-engineering-for-agents,7.6
+lc-r-going-beyond-chatbots-how-to-make-gpt-4-output-structured-data-using-langchain,langchain,pretraining-and-architecture,foundation-model-releases,Going Beyond Chatbots: How to Make GPT-4 Output Structured Data Using LangChain,https://www.langchain.com/blog/going-beyond-chatbots-how-to-make-gpt-4-output-structured-data-using-langchain,7.6
+lc-r-how-agents-can-use-filesystems-for-context-engineering,langchain,harness-and-context-engineering,context-engineering,How agents can use filesystems for context engineering,https://www.langchain.com/blog/how-agents-can-use-filesystems-for-context-engineering,7.6
+lc-r-improving-deep-agents-with-harness-engineering,langchain,harness-and-context-engineering,long-running-harnesses,Improving Deep Agents with harness engineering,https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering,7.6
+lc-r-the-rise-of-context-engineering,langchain,harness-and-context-engineering,context-engineering,"The rise of ""context engineering""",https://www.langchain.com/blog/the-rise-of-context-engineering,7.6
+mt-r-2024-ft-hackathon,mistral,pretraining-and-architecture,foundation-model-releases,Mistral AI Fine-tuning Hackathon | Mistral AI | Frontier AI in your hands,https://mistral.ai/news/2024-ft-hackathon/,7.6
+mt-r-about-mistral-ai,mistral,pretraining-and-architecture,foundation-model-releases,Bringing open AI models to the frontier | Mistral AI | Frontier AI in your hands,https://mistral.ai/news/about-mistral-ai/,7.6
+mt-r-ai-studio,mistral,pretraining-and-architecture,foundation-model-releases,Introducing Mistral AI Studio.,https://mistral.ai/news/ai-studio/,7.6
+oai-e-unlocking-the-codex-harness,openai,harness-and-context-engineering,codex-and-sora-harness,Unlocking the Codex harness: how we built the App Server,https://openai.com/index/unlocking-the-codex-harness/,7.6
+oai-r-accelerating-life-sciences-research-with-retro-biosciences,openai,pretraining-and-architecture,model-research-and-applications,Accelerating life sciences research,https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/,7.6
+qw-r-qwen-image-edit,qwen,pretraining-and-architecture,foundation-model-releases,Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency,https://qwenlm.github.io/blog/qwen-image-edit/,7.6
+qw-r-qwen-image,qwen,pretraining-and-architecture,foundation-model-releases,Qwen-Image: Crafting with Native Text Rendering,https://qwenlm.github.io/blog/qwen-image/,7.6
+qw-r-qwen-mt,qwen,pretraining-and-architecture,foundation-model-releases,Qwen-MT: Where Speed Meets Smart Translation,https://qwenlm.github.io/blog/qwen-mt/,7.6
+qw-r-qwen-vlo,qwen,pretraining-and-architecture,foundation-model-releases,"Qwen VLo: From ""Understanding"" the World to ""Depicting"" It",https://qwenlm.github.io/blog/qwen-vlo/,7.6
+qw-r-qwen2.5-max,qwen,pretraining-and-architecture,architectures,Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model,https://qwenlm.github.io/blog/qwen2.5-max/,7.6
+qw-r-qwen2.5-1m,qwen,pretraining-and-architecture,foundation-model-releases,Qwen2.5-1M: Deploy Your Own Qwen with Context Length up to 1M Tokens,https://qwenlm.github.io/blog/qwen2.5-1m/,7.6
+qw-r-global-load-balance,qwen,pretraining-and-architecture,architectures,Global-batch load balance almost free lunch to improve your MoE LLM training,https://qwenlm.github.io/blog/global-load-balance/,7.6
+qw-r-qwen-max-0428,qwen,pretraining-and-architecture,foundation-model-releases,Notes on Qwen-Max-0428,https://qwenlm.github.io/blog/qwen-max-0428/,7.6
+qw-r-qwen-moe,qwen,pretraining-and-architecture,architectures,Qwen1.5-MoE: Matching 7B Model Performance with 1/3 Activated Parameters,https://qwenlm.github.io/blog/qwen-moe/,7.6
+qw-r-qwen-vl,qwen,pretraining-and-architecture,foundation-model-releases,Introducing Qwen-VL,https://qwenlm.github.io/blog/qwen-vl/,7.6
+qw-r-qwen,qwen,pretraining-and-architecture,foundation-model-releases,Introducing Qwen,https://qwenlm.github.io/blog/qwen/,7.6

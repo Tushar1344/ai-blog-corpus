@@ -1,14 +1,12 @@
 # Science-applied AI (AlphaFold, health, climate, etc.)
 
-**Post count:** 25  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#model-research-and-applications))
+**Post count:** 23  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#model-research-and-applications))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
 | 2026-03-25 | OpenAI | [Pioneering an AI clinical copilot with Penda Health](../by-focus-area/pretraining-and-architecture.md#oai-r-ai-clinical-copilot-penda-health) | `oai-r-ai-clinical-copilot-penda-health` |
-| 2026-03-25 | OpenAI | [Accelerating life sciences research](../by-focus-area/pretraining-and-architecture.md#oai-r-accelerating-life-sciences-research-with-retro-biosciences) | `oai-r-accelerating-life-sciences-research-with-retro-biosciences` |
 | 2025-10-22 | AI21 Labs | [Five questions in five Minutes: Dr. Avi Tsur on AI in healthcare](../by-focus-area/pretraining-and-architecture.md#a21-r-five-in-five-healthcare) | `a21-r-five-in-five-healthcare` |
 | 2025-08-25 | Sakana AI | [Competition and Attraction Improve Model Fusion](../by-focus-area/pretraining-and-architecture.md#sk-r-m2n2) | `sk-r-m2n2` |
-| 2025-03-12 | Sakana AI | [The AI Scientist Generates its First Peer-Reviewed Scientific Publication](../by-focus-area/pretraining-and-architecture.md#sk-r-ai-scientist-first-publication) | `sk-r-ai-scientist-first-publication` |
 | 2025-01-02 | AI21 Labs | [2025 Predictions for Enterprise AI](../by-focus-area/pretraining-and-architecture.md#a21-r-2025-predictions-for-enterprise-ai) | `a21-r-2025-predictions-for-enterprise-ai` |
 | 2024-05-02 | AI21 Labs | [Generative AI for Financial Term Sheet Generation](../by-focus-area/pretraining-and-architecture.md#a21-r-generative-ai-for-financial-term-sheet-generation) | `a21-r-generative-ai-for-financial-term-sheet-generation` |
 | 2023-08-30 | AI21 Labs | [AI21 Labs to Integrate Generative AI Capabilities with BigQuery](../by-focus-area/pretraining-and-architecture.md#a21-r-ai21-bigquery) | `a21-r-ai21-bigquery` |

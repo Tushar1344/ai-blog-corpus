@@ -43,14 +43,14 @@
 
 ### Pretraining & Architecture
 
-- [Foundation model releases](by-subcategory/foundation-model-releases.md) (81)
+- [Foundation model releases](by-subcategory/foundation-model-releases.md) (68)
 - [Architectures (MoE, SSMs, attention variants)](by-subcategory/architectures.md) (20)
 - [Multimodal pretraining](by-subcategory/multimodal-pretraining.md) (37)
-- [Scaling laws & training dynamics](by-subcategory/scaling-and-training-dynamics.md) (6)
-- [Data & tokenization](by-subcategory/data-and-tokenization.md) (3)
-- [Training stack & infrastructure](by-subcategory/training-stack.md) (8)
-- [Research techniques & methods](by-subcategory/research-techniques-and-methods.md) (70)
-- [Science-applied AI (AlphaFold, health, climate, etc.)](by-subcategory/model-research-and-applications.md) (25)
+- [Scaling laws & training dynamics](by-subcategory/scaling-and-training-dynamics.md) (5)
+- [Data & tokenization](by-subcategory/data-and-tokenization.md) (2)
+- [Training stack & infrastructure](by-subcategory/training-stack.md) (6)
+- [Research techniques & methods](by-subcategory/research-techniques-and-methods.md) (53)
+- [Science-applied AI (AlphaFold, health, climate, etc.)](by-subcategory/model-research-and-applications.md) (23)
 - [Societal impact & deployment studies](by-subcategory/societal-impact-and-deployment-studies.md) (14)
 - [Other pretraining & architecture](by-subcategory/fallback-architecture.md) (211)
 
@@ -79,7 +79,7 @@
 ### Interpretability
 
 - [SAEs & dictionary learning](by-subcategory/saes-and-dictionary-learning.md) (3)
-- [Circuits & mechanistic interpretability](by-subcategory/circuits-and-mechanistic.md) (10)
+- [Circuits & mechanistic interpretability](by-subcategory/circuits-and-mechanistic.md) (2)
 - [Steering & intervention](by-subcategory/steering-and-intervention.md) (2)
 - [Feature viz & probing](by-subcategory/feature-viz-and-probing.md) (1)
 - [Other interpretability](by-subcategory/fallback-interp.md) (11)
@@ -90,7 +90,7 @@
 - [Coding evaluations](by-subcategory/coding-evals.md) (8)
 - [Reasoning & math evaluations](by-subcategory/reasoning-evals.md) (2)
 - [Leaderboards & community evals](by-subcategory/leaderboards-and-community-evals.md) (27)
-- [Judge models & eval methodology](by-subcategory/judge-models-and-methodology.md) (13)
+- [Judge models & eval methodology](by-subcategory/judge-models-and-methodology.md) (10)
 - [Eval systems & harnesses](by-subcategory/eval-systems-and-harnesses.md) (9)
 - [Benchmark releases](by-subcategory/benchmark-release.md) (2)
 - [Domain-specific evals (speech, vision, science, medical)](by-subcategory/domain-specific-evals.md) (9)
@@ -114,17 +114,17 @@
 - [Embodied agents & simulation](by-subcategory/embodied-and-simulation.md) (10)
 - [Game-playing & RL agents](by-subcategory/game-and-rl-agents.md) (10)
 - [Dialogue & conversational agents](by-subcategory/dialogue-and-conversational-agents.md) (3)
-- [Agent frameworks & tooling](by-subcategory/agent-frameworks-and-tooling.md) (16)
+- [Agent frameworks & tooling](by-subcategory/agent-frameworks-and-tooling.md) (15)
 - [Agent research applications (scientific, robotic)](by-subcategory/agent-research-applications.md) (3)
 - [Agent traces & observability](by-subcategory/agent-traces-and-observability.md) (4)
-- [Agent design & patterns / opinion pieces](by-subcategory/agent-design-and-patterns.md) (11)
+- [Agent design & patterns / opinion pieces](by-subcategory/agent-design-and-patterns.md) (10)
 - [General agentic systems](by-subcategory/agents-general.md) (78)
 - [Other agentic systems](by-subcategory/fallback-agents.md) (59)
 
 ### Harness & Context Engineering
 
 - [MCP & tool protocols](by-subcategory/mcp-and-tool-protocols.md) (20)
-- [Product engineering case studies (Codex, Sora, Atlas)](by-subcategory/codex-and-sora-harness.md) (6)
+- [Product engineering case studies (Codex, Sora, Atlas)](by-subcategory/codex-and-sora-harness.md) (5)
 - [Long-running harnesses](by-subcategory/long-running-harnesses.md) (6)
 - [Context engineering](by-subcategory/context-engineering.md) (22)
 - [Scaffolding patterns](by-subcategory/scaffolding-patterns.md) (1)

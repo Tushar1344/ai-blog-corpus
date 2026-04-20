@@ -91,9 +91,15 @@ _Summary pending — see link for details._
 - **Date:** 2025-10-21
 - **Track:** engineering
 - **Contribution type:** empirical-study
-- **Signal:** H — L=M/N=M/A=H (priority 7.6)
+- **Signal:** H — L=H/N=M/A=H (priority 8.7)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Databricks inference runtime outperforms open-source by up to 2x for LoRA/PEFT serving
+- Combines FP8 weight quantization that preserves base-model quality with hybrid attention
+- Rigorous quality validation across fine-tuned variants to prevent silent quality regressions
+- Targets fragmented enterprise workloads with many specialized adapters
+- Detailed engineering write-up for anyone serving many fine-tunes
 
 
 ### LoRA Without Regret
@@ -199,7 +205,14 @@ _Summary pending — see link for details._
 - **Contribution type:** _(uncategorized)_
 - **Signal:** H — L=M/N=M/A=H (priority 7.6)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- HF makes LoRA inference 300% faster by dynamically swapping LoRA adapters on top of a warm base model rather than spinning up a dedicated GPU per adapter
+- ~92% of 2500 public LoRAs share the SDXL base, so 1-2 warm A10G GPUs can serve all of them with ~3s adapter swap vs 25s cold start
+- End-to-end request time drops 35s→13s
+- Uses diffusers load_lora_weights/fuse_lora/unload_lora_weights
+- fuse_lora merge cuts inference time by 30% extra
+- Practical pattern for multi-tenant diffusion serving
 
 
 ### Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora
@@ -210,9 +223,15 @@ _Summary pending — see link for details._
 - **Date:** 2023-11-07
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
-- **Signal:** H — L=H/N=M/A=M (priority 7.7)
+- **Signal:** M — L=M/N=L/A=H (priority 6.4)
 
-_Summary pending — see link for details._
+**Summary:**
+
+- Tutorial comparing LoRA fine-tuning of RoBERTa-large (355M), Llama-2-7B, and Mistral-7B on disaster-tweet classification
+- Single-node A6000 48GB setup with PEFT/LoRA config for each
+- Covers weighted-loss custom Trainer, hyperparameter tuning, and final accuracy/F1 comparisons
+- Practical PEFT walkthrough rather than novel research
+- Useful onboarding for classification fine-tuning.
 
 
 ### Fine-Tune MMS Adapter Models for low-resource ASR
