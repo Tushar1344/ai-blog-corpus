@@ -19,6 +19,15 @@ A cross-indexed library of research and engineering blog posts from **12 AI orga
 1. **Google Sheet** — [Master Index](https://docs.google.com/spreadsheets/d/1td1T6wCEnw4EeG05I_hH1dK1aNkLR5HJZZ-4jr-Du9A/edit) (source of truth, one row per post; filter by `focus_area`, `company`, `year`, etc.)
 2. **Markdown library** (this repo) — canonical 3-5 bullet summaries organized by focus area, cross-linked to company/year/technique indexes
 3. **Google Doc synthesis** — opinionated executive narrative (cross-company themes, standout posts, divergences, gaps)
+4. **[Interactive temporal heatmap](visualizations/heatmap.html)** — focus area × month and company × month heatmaps with hover drill-down, plus stacked-area trends over time
+
+## Heatmap preview
+
+![Focus area × month](visualizations/heatmap-focus-area.svg)
+
+![Company × month](visualizations/heatmap-company.svg)
+
+Open **[visualizations/heatmap.html](visualizations/heatmap.html)** for the interactive version (hover for post lists, click legend to toggle series).
 
 ## Directory structure
 
