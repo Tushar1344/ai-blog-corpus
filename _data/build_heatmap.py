@@ -51,6 +51,22 @@ COMPANY_TITLES = {
     "huggingface": "Hugging Face",
     "ai2": "AI2",
     "deepseek": "DeepSeek",
+    "sakana": "Sakana AI",
+    "qwen": "Qwen (Alibaba)",
+    "mistral": "Mistral AI",
+    "ai21": "AI21 Labs",
+    "langchain": "LangChain",
+    "moonshot": "Moonshot (Kimi)",
+}
+
+COUNTRY_ORDER = ["USA", "China", "France", "UK", "Japan", "Israel"]
+COUNTRY_COLORS = {
+    "USA": "#3b82f6",
+    "China": "#ef4444",
+    "France": "#8b5cf6",
+    "UK": "#10b981",
+    "Japan": "#f59e0b",
+    "Israel": "#06b6d4",
 }
 
 # Company colors (inspired by brand colors where possible)
@@ -68,6 +84,12 @@ COMPANY_COLORS = {
     "huggingface": "#FFD21E",  # HF yellow
     "ai2": "#0A8754",        # AI2 green
     "deepseek": "#4D6BFE",   # DeepSeek blue
+    "sakana": "#EC4899",     # Sakana pink
+    "qwen": "#DC2626",       # Qwen red
+    "mistral": "#F97316",    # Mistral orange
+    "ai21": "#14B8A6",       # AI21 teal
+    "langchain": "#1C1917",  # LangChain dark
+    "moonshot": "#9333EA",   # Moonshot purple
 }
 
 def load_rows():
@@ -85,7 +107,7 @@ def aggregate(rows):
         year_month = date[:7]
         fa = r["focus_area"]
         co = r["company"]
-        cells[(year_month, fa, co)].append({
+        cells[(year_month, fa, co, r.get("country", ""))].append({
             "id": r["id"],
             "title": r["title"],
             "url": r["url"],
@@ -117,7 +139,7 @@ def build_html(rows, cells, months):
     fa_month_count = defaultdict(int)
     fa_month_top_co = defaultdict(lambda: Counter())
     fa_month_posts = defaultdict(list)
-    for (ym, fa, co), posts in cells.items():
+    for (ym, fa, co, country), posts in cells.items():
         fa_month_count[(fa, ym)] += len(posts)
         fa_month_top_co[(fa, ym)][co] += len(posts)
         fa_month_posts[(fa, ym)].extend(posts)
@@ -145,10 +167,10 @@ def build_html(rows, cells, months):
         text_primary.append(text_row)
         hover_primary.append(hover_row)
 
-    # Company heatmap (small multiples alternative): company × month, cell = count
+    # Company heatmap: company × month, cell = count
     co_month = defaultdict(int)
     co_month_top_fa = defaultdict(lambda: Counter())
-    for (ym, fa, co), posts in cells.items():
+    for (ym, fa, co, country), posts in cells.items():
         co_month[(co, ym)] += len(posts)
         co_month_top_fa[(co, ym)][fa] += len(posts)
     companies = sorted(set(r["company"] for r in rows), key=lambda c: -sum(co_month[(c, m)] for m in months))
@@ -173,10 +195,39 @@ def build_html(rows, cells, months):
         hover_co.append(h_row)
         text_co.append(text_row)
 
+    # Country heatmap: country × month
+    country_month = defaultdict(int)
+    country_month_top = defaultdict(lambda: Counter())
+    for (ym, fa, co, country), posts in cells.items():
+        if country:
+            country_month[(country, ym)] += len(posts)
+            country_month_top[(country, ym)][co] += len(posts)
+    countries = [c for c in COUNTRY_ORDER if any(country_month[(c, m)] for m in months)]
+    z_country = []
+    hover_country = []
+    text_country = []
+    for ctry in countries:
+        z_row = []
+        h_row = []
+        t_row = []
+        for ym in months:
+            c = country_month.get((ctry, ym), 0)
+            z_row.append(c)
+            t_row.append(str(c) if c > 0 else "")
+            if c > 0:
+                top = country_month_top[(ctry, ym)].most_common(3)
+                top_str = "<br>".join(f"  {COMPANY_TITLES.get(x, x)}: {n}" for x, n in top)
+                h_row.append(f"<b>{ctry}</b><br>{ym}<br><br><b>{c} posts</b><br><br>Top orgs:<br>{top_str}")
+            else:
+                h_row.append(f"{ctry} — {ym}<br>no posts")
+        z_country.append(z_row)
+        hover_country.append(h_row)
+        text_country.append(t_row)
+
     # Stacked stream chart: total posts per month, stacked by focus_area
     fa_monthly = defaultdict(lambda: [0] * len(months))
     month_idx = {m: i for i, m in enumerate(months)}
-    for (ym, fa, co), posts in cells.items():
+    for (ym, fa, co, country), posts in cells.items():
         if ym in month_idx:
             fa_monthly[fa][month_idx[ym]] += len(posts)
 
@@ -196,9 +247,27 @@ def build_html(rows, cells, months):
 
     # Company over time (stacked by company)
     co_monthly = defaultdict(lambda: [0] * len(months))
-    for (ym, fa, co), posts in cells.items():
+    for (ym, fa, co, country), posts in cells.items():
         if ym in month_idx:
             co_monthly[co][month_idx[ym]] += len(posts)
+
+    # Country over time (stacked by country)
+    country_monthly = defaultdict(lambda: [0] * len(months))
+    for (ym, fa, co, country), posts in cells.items():
+        if ym in month_idx and country:
+            country_monthly[country][month_idx[ym]] += len(posts)
+    country_stream_traces = []
+    for ctry in countries:
+        country_stream_traces.append({
+            "x": months,
+            "y": country_monthly.get(ctry, [0] * len(months)),
+            "name": ctry,
+            "mode": "lines",
+            "stackgroup": "one",
+            "type": "scatter",
+            "line": {"width": 0.5, "color": COUNTRY_COLORS.get(ctry, "#888")},
+            "fillcolor": COUNTRY_COLORS.get(ctry, "#888") + "CC",
+        })
 
     co_stream_traces = []
     for co in companies:
@@ -244,11 +313,17 @@ def build_html(rows, cells, months):
 <h2>Focus area × month — what got published when</h2>
 <div id="heatmap-fa" class="chart" style="height: 560px;"></div>
 
+<h2>Country × month — where the research came from</h2>
+<div id="heatmap-country" class="chart" style="height: 400px;"></div>
+
 <h2>Company × month — who was active when</h2>
-<div id="heatmap-co" class="chart" style="height: 640px;"></div>
+<div id="heatmap-co" class="chart" style="height: 680px;"></div>
 
 <h2>Focus areas over time (stacked volume)</h2>
 <div id="stream-fa" class="chart" style="height: 400px;"></div>
+
+<h2>Countries over time (stacked volume)</h2>
+<div id="stream-country" class="chart" style="height: 400px;"></div>
 
 <h2>Companies over time (stacked volume)</h2>
 <div id="stream-co" class="chart" style="height: 480px;"></div>
@@ -281,6 +356,34 @@ Plotly.newPlot('heatmap-fa', [{{
   margin: {{ l: 220, r: 80, t: 20, b: 80 }},
   xaxis: {{ title: '', tickangle: -60, type: 'category', tickfont: {{ size: 10 }}, nticks: 30 }},
   yaxis: {{ title: '', autorange: 'reversed', tickfont: {{ size: 12 }} }},
+  plot_bgcolor: 'white'
+}}, {{ displaylogo: false, responsive: true }});
+
+Plotly.newPlot('heatmap-country', [{{
+  z: {json.dumps(z_country)},
+  x: {json.dumps(months)},
+  y: {json.dumps(countries)},
+  text: {json.dumps(text_country)},
+  hoverinfo: 'text',
+  hovertext: {json.dumps(hover_country)},
+  type: 'heatmap',
+  colorscale: HEATMAP_COLOR,
+  showscale: true,
+  colorbar: {{ title: 'Posts', len: 0.7, x: 1.02 }},
+  xgap: 1, ygap: 1
+}}], {{
+  margin: {{ l: 120, r: 80, t: 20, b: 80 }},
+  xaxis: {{ title: '', tickangle: -60, type: 'category', tickfont: {{ size: 10 }}, nticks: 30 }},
+  yaxis: {{ title: '', autorange: 'reversed', tickfont: {{ size: 12 }} }},
+  plot_bgcolor: 'white'
+}}, {{ displaylogo: false, responsive: true }});
+
+Plotly.newPlot('stream-country', {json.dumps(country_stream_traces)}, {{
+  margin: {{ l: 60, r: 30, t: 20, b: 80 }},
+  xaxis: {{ title: '', tickangle: -60, type: 'category', nticks: 30 }},
+  yaxis: {{ title: 'Posts per month' }},
+  legend: {{ orientation: 'v', x: 1.02, y: 1 }},
+  showlegend: true,
   plot_bgcolor: 'white'
 }}, {{ displaylogo: false, responsive: true }});
 
@@ -331,12 +434,17 @@ Plotly.newPlot('stream-co', {json.dumps(co_stream_traces)}, {{
 def build_static_preview(rows, cells, months):
     """Generate static SVG heatmaps for README (no external deps)."""
     fa_month_count = defaultdict(int)
-    for (ym, fa, co), posts in cells.items():
+    for (ym, fa, co, country), posts in cells.items():
         fa_month_count[(fa, ym)] += len(posts)
 
     co_month_count = defaultdict(int)
-    for (ym, fa, co), posts in cells.items():
+    for (ym, fa, co, country), posts in cells.items():
         co_month_count[(co, ym)] += len(posts)
+
+    country_month_count = defaultdict(int)
+    for (ym, fa, co, country), posts in cells.items():
+        if country:
+            country_month_count[(country, ym)] += len(posts)
 
     companies = sorted(set(r["company"] for r in rows),
                        key=lambda c: -sum(co_month_count[(c, m)] for m in months))
@@ -430,7 +538,17 @@ def build_static_preview(rows, cells, months):
     )
     print(f"Wrote {p2}")
 
-    return [p1, p2]
+    # Country heatmap
+    countries_static = [c for c in COUNTRY_ORDER if any(country_month_count[(c, m)] for m in months)]
+    z_ctry = [[country_month_count.get((c, m), 0) for m in months] for c in countries_static]
+    p3 = render_heatmap(
+        z_ctry, countries_static,
+        "AI Blog Corpus — Country × month",
+        "heatmap-country.svg", row_label_width=120,
+    )
+    print(f"Wrote {p3}")
+
+    return [p1, p2, p3]
 
 def main():
     rows = load_rows()

@@ -10,9 +10,10 @@ A cross-indexed library of research and engineering blog posts from **12 AI orga
 
 ## Stats
 
-- **695 in-scope posts** (v1 had 548 across 7 companies; v2 adds 247 from 5 new labs after tighter filter)
-- **12 organizations**: Anthropic, OpenAI, Databricks Mosaic AI, Cursor, Vercel, Cognition, Thinking Machines, Google Research, Google DeepMind, Meta FAIR, Hugging Face, Allen Institute for AI (AI2), DeepSeek
-- **8 focus areas** × 5 axes of secondary categorization
+- **1360 in-scope posts** across **19 organizations** from **6 countries**
+- Organizations: Anthropic, OpenAI, Databricks Mosaic AI, Cursor, Vercel, Cognition, Thinking Machines, Google Research, Google DeepMind, Meta FAIR, Hugging Face, Allen Institute for AI (AI2), DeepSeek, **Sakana AI**, **Qwen (Alibaba)**, **Mistral**, **AI21 Labs**, **LangChain**, **Moonshot (Kimi)**
+- Countries: USA (906), France (186), Israel (116), China (83), Japan (35), UK (34)
+- **8 focus areas** × 6 axes of secondary categorization (company, country, year, contribution type, technique, subcategory)
 
 ## Artifacts
 
@@ -25,6 +26,8 @@ A cross-indexed library of research and engineering blog posts from **12 AI orga
 
 ![Focus area × month](visualizations/heatmap-focus-area.svg)
 
+![Country × month](visualizations/heatmap-country.svg)
+
 ![Company × month](visualizations/heatmap-company.svg)
 
 Open **[visualizations/heatmap.html](visualizations/heatmap.html)** for the interactive version (hover for post lists, click legend to toggle series).
@@ -33,11 +36,13 @@ Open **[visualizations/heatmap.html](visualizations/heatmap.html)** for the inte
 
 ```
 by-focus-area/        # CANONICAL — 8 focus-area files; full per-post entries organized by subcategory H2 sections
-by-subcategory/       # Cross-reference — ~56 files, one per subcategory (flat)
-by-company/           # Cross-reference — 13 company files
+by-subcategory/       # Cross-reference — 69 files, one per subcategory (flat)
+by-company/           # Cross-reference — 19 company files
+by-country/           # Cross-reference — 6 country files (USA, China, France, UK, Japan, Israel)
 by-contribution-type/ # Cross-reference by contribution kind
 by-year/              # Cross-reference by publish year
 by-technique/         # Cross-reference by technique tag (SAE, MoE, RLHF, etc.)
+visualizations/       # Interactive heatmap dashboard (HTML) + SVG previews
 _data/                # Source CSVs + scripts
 index.md              # Master nav (focus area → subcategory → entries)
 ```

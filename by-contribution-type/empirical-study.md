@@ -195,10 +195,10 @@
 | 2024-02-27 | Databricks Mosaic AI | [Fine-Grained Human Feedback](../by-focus-area/post-training-and-fine-tuning.md#dbx-r-fine-grained-human-feedback) | `dbx-r-fine-grained-human-feedback` |
 | 2024-02-14 | OpenAI | [Fine-tuning GPT-2 from human preferences](../by-focus-area/pretraining-and-architecture.md#oai-r-fine-tuning-gpt-2) | `oai-r-fine-tuning-gpt-2` |
 | 2024-02-14 | OpenAI | [Adversarial attacks on neural network policies](../by-focus-area/alignment-and-safety.md#oai-r-adversarial-attacks-on-neural-network-policies) | `oai-r-adversarial-attacks-on-neural-network-policies` |
-| 2024-02-14 | OpenAI | [Learning complex goals with iterated amplification](../by-focus-area/alignment-and-safety.md#oai-r-learning-complex-goals-with-iterated-amplification) | `oai-r-learning-complex-goals-with-iterated-amplification` |
+| 2024-02-14 | OpenAI | [Learning complex goals with iterated amplification](../by-focus-area/post-training-and-fine-tuning.md#oai-r-learning-complex-goals-with-iterated-amplification) | `oai-r-learning-complex-goals-with-iterated-amplification` |
 | 2024-02-14 | OpenAI | [AI safety needs social scientists](../by-focus-area/alignment-and-safety.md#oai-r-ai-safety-needs-social-scientists) | `oai-r-ai-safety-needs-social-scientists` |
 | 2024-02-14 | OpenAI | [AI-written critiques help humans notice flaws](../by-focus-area/alignment-and-safety.md#oai-r-critiques) | `oai-r-critiques` |
-| 2024-02-14 | OpenAI | [Aligning language models to follow instructions](../by-focus-area/post-training-and-fine-tuning.md#oai-r-instruction-following) | `oai-r-instruction-following` |
+| 2024-02-14 | OpenAI | [Aligning language models to follow instructions](../by-focus-area/alignment-and-safety.md#oai-r-instruction-following) | `oai-r-instruction-following` |
 | 2024-02-14 | OpenAI | [Benchmarking safe exploration in deep reinforcement learning](../by-focus-area/pretraining-and-architecture.md#oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning) | `oai-r-benchmarking-safe-exploration-in-deep-reinforcement-learning` |
 | 2024-02-14 | OpenAI | [Transfer of adversarial robustness between perturbation types](../by-focus-area/alignment-and-safety.md#oai-r-transfer-of-adversarial-robustness-between-perturbation-types) | `oai-r-transfer-of-adversarial-robustness-between-perturbation-types` |
 | 2024-02-14 | OpenAI | [Preparing for malicious uses of AI](../by-focus-area/alignment-and-safety.md#oai-r-preparing-for-malicious-uses-of-ai) | `oai-r-preparing-for-malicious-uses-of-ai` |

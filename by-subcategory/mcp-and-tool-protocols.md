@@ -1,6 +1,6 @@
 # MCP & tool protocols
 
-**Post count:** 17  |  **Focus area:** Harness & Context Engineering ([canonical](../by-focus-area/harness-and-context-engineering.md#mcp-and-tool-protocols))
+**Post count:** 20  |  **Focus area:** Harness & Context Engineering ([canonical](../by-focus-area/harness-and-context-engineering.md#mcp-and-tool-protocols))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -21,3 +21,6 @@
 | 2025-05-21 | Vercel | [How Vapi built their MCP server on Vercel](../by-focus-area/harness-and-context-engineering.md#vcl-e-vapi-mcp-server-on-vercel) | `vcl-e-vapi-mcp-server-on-vercel` |
 | 2025-04-30 | Hugging Face | [How to Build an MCP Server with Gradio](../by-focus-area/harness-and-context-engineering.md#hf-r-gradio-mcp) | `hf-r-gradio-mcp` |
 | 2025-04-25 | Hugging Face | [Tiny Agents: an MCP-powered agent in 50 lines of code](../by-focus-area/harness-and-context-engineering.md#hf-r-tiny-agents) | `hf-r-tiny-agents` |
+| 2025-03-08 | LangChain | [MCP: Flash in the Pan or Future Standard?](../by-focus-area/harness-and-context-engineering.md#lc-r-mcp-fad-or-fixture) | `lc-r-mcp-fad-or-fixture` |
+| ? | Mistral AI | [Le Chat Mcp Connectors Memories](../by-focus-area/harness-and-context-engineering.md#mt-r-le-chat-mcp-connectors-memories) | `mt-r-le-chat-mcp-connectors-memories` |
+| ? | AI21 Labs | [Stateful Agent Workspaces Mcp](../by-focus-area/harness-and-context-engineering.md#a21-r-stateful-agent-workspaces-mcp) | `a21-r-stateful-agent-workspaces-mcp` |

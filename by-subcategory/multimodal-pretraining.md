@@ -1,14 +1,16 @@
 # Multimodal pretraining
 
-**Post count:** 31  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#multimodal-pretraining))
+**Post count:** 37  |  **Focus area:** Pretraining & Architecture ([canonical](../by-focus-area/pretraining-and-architecture.md#multimodal-pretraining))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
-| 2025-11-19 | Meta AI / FAIR | [Sam 3D](../by-focus-area/pretraining-and-architecture.md#meta-r-sam-3d) | `meta-r-sam-3d` |
+| 2025-06-27 | Qwen (Alibaba) | [Time to Speak Some Dialects, Qwen-TTS!](../by-focus-area/pretraining-and-architecture.md#qw-r-qwen-tts) | `qw-r-qwen-tts` |
+| 2024-12-13 | DeepSeek | [DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-vl2) | `dsk-r-deepseek-vl2` |
+| 2024-10-18 | DeepSeek | [Janus / Janus-Pro: Unified Multimodal Understanding and Generation](../by-focus-area/pretraining-and-architecture.md#dsk-r-janus) | `dsk-r-janus` |
 | 2024-03-07 | DeepSeek | [DeepSeek-VL: Towards Real-World Vision-Language Understanding](../by-focus-area/pretraining-and-architecture.md#dsk-r-deepseek-vl) | `dsk-r-deepseek-vl` |
 | 2024-01-16 | OpenAI | [DALL·E 2 pre-training mitigations](../by-focus-area/pretraining-and-architecture.md#oai-r-dall-e-2-pre-training-mitigations) | `oai-r-dall-e-2-pre-training-mitigations` |
-| 2023-07-12 | Meta AI / FAIR | [Yann Lecun Ai Model I Jepa](../by-focus-area/pretraining-and-architecture.md#meta-r-yann-lecun-ai-model-i-jepa) | `meta-r-yann-lecun-ai-model-i-jepa` |
 | 2023-04-26 | Databricks Mosaic AI | [Training Stable Diffusion from Scratch for <$50k with MosaicML (Part 2)](../by-focus-area/pretraining-and-architecture.md#dbx-r-stable-diffusion-2) | `dbx-r-stable-diffusion-2` |
+| 2022-12-24 | Qwen (Alibaba) | [Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese](../by-focus-area/pretraining-and-architecture.md#qw-r-chinese-clip) | `qw-r-chinese-clip` |
 | 2022-09-21 | OpenAI | [Hierarchical text-conditional image generation with CLIP latents](../by-focus-area/pretraining-and-architecture.md#oai-r-hierarchical-text-conditional-image-generation-with-clip-latents) | `oai-r-hierarchical-text-conditional-image-generation-with-clip-latents` |
 | 2022-06-07 | Hugging Face | [The Annotated Diffusion Model](../by-focus-area/pretraining-and-architecture.md#hf-r-annotated-diffusion) | `hf-r-annotated-diffusion` |
 | 2022-04-13 | OpenAI | [Variational Lossy Autoencoder](../by-focus-area/pretraining-and-architecture.md#oai-r-variational-lossy-autoencoder) | `oai-r-variational-lossy-autoencoder` |
@@ -21,6 +23,7 @@
 | ? | Meta AI / FAIR | [Fair News Segment Anything 2 1 Meta Spirit Lm Layer Skip Salsa Sona](../by-focus-area/pretraining-and-architecture.md#meta-r-fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-sona) | `meta-r-fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-sona` |
 | ? | Meta AI / FAIR | [Instagram Edits Cutouts Segment Anything](../by-focus-area/pretraining-and-architecture.md#meta-r-instagram-edits-cutouts-segment-anything) | `meta-r-instagram-edits-cutouts-segment-anything` |
 | ? | Meta AI / FAIR | [Josephine Miller Designer Meta Segment Anything 2](../by-focus-area/pretraining-and-architecture.md#meta-r-josephine-miller-designer-meta-segment-anything-2) | `meta-r-josephine-miller-designer-meta-segment-anything-2` |
+| ? | Meta AI / FAIR | [Sam 3D](../by-focus-area/pretraining-and-architecture.md#meta-r-sam-3d) | `meta-r-sam-3d` |
 | ? | Meta AI / FAIR | [Sam Audio](../by-focus-area/pretraining-and-architecture.md#meta-r-sam-audio) | `meta-r-sam-audio` |
 | ? | Meta AI / FAIR | [Segment Anything](../by-focus-area/pretraining-and-architecture.md#meta-r-segment-anything) | `meta-r-segment-anything` |
 | ? | Meta AI / FAIR | [Segment Anything 2](../by-focus-area/pretraining-and-architecture.md#meta-r-segment-anything-2) | `meta-r-segment-anything-2` |
@@ -35,3 +38,6 @@
 | ? | Meta AI / FAIR | [Usra Sam Flood Emergencies](../by-focus-area/pretraining-and-architecture.md#meta-r-usra-sam-flood-emergencies) | `meta-r-usra-sam-flood-emergencies` |
 | ? | Meta AI / FAIR | [V Jepa 2 World Model Benchmarks](../by-focus-area/pretraining-and-architecture.md#meta-r-v-jepa-2-world-model-benchmarks) | `meta-r-v-jepa-2-world-model-benchmarks` |
 | ? | Meta AI / FAIR | [V Jepa Yann Lecun Ai Model Video Joint Embedding Predictive Architecture](../by-focus-area/pretraining-and-architecture.md#meta-r-v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture) | `meta-r-v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture` |
+| ? | Meta AI / FAIR | [Yann Lecun Ai Model I Jepa](../by-focus-area/pretraining-and-architecture.md#meta-r-yann-lecun-ai-model-i-jepa) | `meta-r-yann-lecun-ai-model-i-jepa` |
+| ? | Mistral AI | [Unlocking Potential Vision Language Models Satellite Imagery Fine Tuning](../by-focus-area/pretraining-and-architecture.md#mt-r-unlocking-potential-vision-language-models-satellite-imagery-fine-tuning) | `mt-r-unlocking-potential-vision-language-models-satellite-imagery-fine-tuning` |
+| ? | Mistral AI | [Voxtral Tts](../by-focus-area/pretraining-and-architecture.md#mt-r-voxtral-tts) | `mt-r-voxtral-tts` |

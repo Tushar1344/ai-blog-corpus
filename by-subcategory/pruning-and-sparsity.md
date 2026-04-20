@@ -1,9 +1,8 @@
 # Pruning & sparsity
 
-**Post count:** 3  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#pruning-and-sparsity))
+**Post count:** 2  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#pruning-and-sparsity))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
-| 2023-12-08 | Google Research | [Sparsity-preserving differentially private training](../by-focus-area/quantization-and-efficiency.md#gr-r-sparsity-preserving-differentially-private-training) | `gr-r-sparsity-preserving-differentially-private-training` |
-| 2022-10-19 | OpenAI | [Learning sparse neural networks through L₀ regularization](../by-focus-area/quantization-and-efficiency.md#oai-r-learning-sparse-neural-networks-through-l0-regularization) | `oai-r-learning-sparse-neural-networks-through-l0-regularization` |
-| 2020-04-23 | Meta AI / FAIR | [Training With Quantization Noise For Extreme Model Compression](../by-focus-area/quantization-and-efficiency.md#meta-r-training-with-quantization-noise-for-extreme-model-compression) | `meta-r-training-with-quantization-noise-for-extreme-model-compression` |
+| ? | Google Research | [Sparsity-preserving differentially private training](../by-focus-area/quantization-and-efficiency.md#gr-r-sparsity-preserving-differentially-private-training) | `gr-r-sparsity-preserving-differentially-private-training` |
+| ? | Meta AI / FAIR | [Training With Quantization Noise For Extreme Model Compression](../by-focus-area/quantization-and-efficiency.md#meta-r-training-with-quantization-noise-for-extreme-model-compression) | `meta-r-training-with-quantization-noise-for-extreme-model-compression` |

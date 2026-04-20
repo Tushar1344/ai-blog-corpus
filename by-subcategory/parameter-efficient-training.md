@@ -1,14 +1,15 @@
 # Parameter-efficient training (LoRA/PEFT)
 
-**Post count:** 15  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#parameter-efficient-training))
+**Post count:** 16  |  **Focus area:** Quantization & Efficiency ([canonical](../by-focus-area/quantization-and-efficiency.md#parameter-efficient-training))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
-| 2026-01-26 | Databricks Mosaic AI | [Scaling Small LLMs with NVIDIA MPS](../by-focus-area/quantization-and-efficiency.md#dbx-r-scaling-small-llms-nvidia-mps) | `dbx-r-scaling-small-llms-nvidia-mps` |
+| 2026-02-27 | Sakana AI | [Instant LLM Updates with Doc-to-LoRA and Text-to-LoRA](../by-focus-area/quantization-and-efficiency.md#sk-r-doc-to-lora) | `sk-r-doc-to-lora` |
 | 2025-10-21 | Databricks Mosaic AI | [Fast PEFT Serving at Scale](../by-focus-area/quantization-and-efficiency.md#dbx-e-fast-peft-serving-scale) | `dbx-e-fast-peft-serving-scale` |
 | 2025-09-29 | Thinking Machines | [LoRA Without Regret](../by-focus-area/quantization-and-efficiency.md#tm-r-lora) | `tm-r-lora` |
 | 2025-07-23 | Hugging Face | [Fast LoRA inference for Flux with Diffusers and PEFT](../by-focus-area/quantization-and-efficiency.md#hf-r-lora-fast) | `hf-r-lora-fast` |
 | 2025-06-19 | Hugging Face | [(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware](../by-focus-area/quantization-and-efficiency.md#hf-r-flux-qlora) | `hf-r-flux-qlora` |
+| 2025-06-12 | Sakana AI | [Text-to-LoRA: Instant Transformer Adaption](../by-focus-area/quantization-and-efficiency.md#sk-r-text-to-lora) | `sk-r-text-to-lora` |
 | 2024-02-23 | Hugging Face | [Fine-Tuning Gemma Models in Hugging Face](../by-focus-area/quantization-and-efficiency.md#hf-r-gemma-peft) | `hf-r-gemma-peft` |
 | 2024-02-19 | Hugging Face | [🤗 PEFT welcomes new merging methods](../by-focus-area/quantization-and-efficiency.md#hf-r-peft_merging) | `hf-r-peft_merging` |
 | 2024-01-02 | Hugging Face | [LoRA training scripts of the world, unite!](../by-focus-area/quantization-and-efficiency.md#hf-r-sdxl_lora_advanced_script) | `hf-r-sdxl_lora_advanced_script` |

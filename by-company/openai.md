@@ -92,7 +92,7 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 
 | Date | Title | ID |
 |---|---|---|
-| 2024-02-14 | [Aligning language models to follow instructions](../by-focus-area/post-training-and-fine-tuning.md#oai-r-instruction-following) | `oai-r-instruction-following` |
+| 2024-02-14 | [Learning complex goals with iterated amplification](../by-focus-area/post-training-and-fine-tuning.md#oai-r-learning-complex-goals-with-iterated-amplification) | `oai-r-learning-complex-goals-with-iterated-amplification` |
 | 2024-02-14 | [Summarizing books with human feedback](../by-focus-area/post-training-and-fine-tuning.md#oai-r-summarizing-books) | `oai-r-summarizing-books` |
 | 2023-10-19 | [Improving mathematical reasoning with process supervision](../by-focus-area/post-training-and-fine-tuning.md#oai-r-improving-mathematical-reasoning-with-process-supervision) | `oai-r-improving-mathematical-reasoning-with-process-supervision` |
 | 2022-10-19 | [On first-order meta-learning algorithms](../by-focus-area/post-training-and-fine-tuning.md#oai-r-on-first-order-meta-learning-algorithms) | `oai-r-on-first-order-meta-learning-algorithms` |
@@ -135,10 +135,10 @@ Cross-reference index. Canonical entries live in `../by-focus-area/`.
 | 2024-12-06 | [Sora System Card](../by-focus-area/alignment-and-safety.md#oai-r-sora-system-card) | `oai-r-sora-system-card` |
 | 2024-06-20 | [A Holistic Approach to Undesired Content Detection in the Real World](../by-focus-area/alignment-and-safety.md#oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world) | `oai-r-a-holistic-approach-to-undesired-content-detection-in-the-real-world` |
 | 2024-02-14 | [Adversarial attacks on neural network policies](../by-focus-area/alignment-and-safety.md#oai-r-adversarial-attacks-on-neural-network-policies) | `oai-r-adversarial-attacks-on-neural-network-policies` |
-| 2024-02-14 | [Learning complex goals with iterated amplification](../by-focus-area/alignment-and-safety.md#oai-r-learning-complex-goals-with-iterated-amplification) | `oai-r-learning-complex-goals-with-iterated-amplification` |
 | 2024-02-14 | [AI safety needs social scientists](../by-focus-area/alignment-and-safety.md#oai-r-ai-safety-needs-social-scientists) | `oai-r-ai-safety-needs-social-scientists` |
 | 2024-02-14 | [AI-written critiques help humans notice flaws](../by-focus-area/alignment-and-safety.md#oai-r-critiques) | `oai-r-critiques` |
 | 2024-02-14 | [Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk](../by-focus-area/alignment-and-safety.md#oai-r-forecasting-misuse) | `oai-r-forecasting-misuse` |
+| 2024-02-14 | [Aligning language models to follow instructions](../by-focus-area/alignment-and-safety.md#oai-r-instruction-following) | `oai-r-instruction-following` |
 | 2024-02-14 | [Transfer of adversarial robustness between perturbation types](../by-focus-area/alignment-and-safety.md#oai-r-transfer-of-adversarial-robustness-between-perturbation-types) | `oai-r-transfer-of-adversarial-robustness-between-perturbation-types` |
 | 2024-02-14 | [A hazard analysis framework for code synthesis large language models](../by-focus-area/alignment-and-safety.md#oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models) | `oai-r-a-hazard-analysis-framework-for-code-synthesis-large-language-models` |
 | 2024-02-14 | [Preparing for malicious uses of AI](../by-focus-area/alignment-and-safety.md#oai-r-preparing-for-malicious-uses-of-ai) | `oai-r-preparing-for-malicious-uses-of-ai` |

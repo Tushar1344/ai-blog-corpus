@@ -1,6 +1,6 @@
 # Leaderboards & community evals
 
-**Post count:** 28  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#leaderboards-and-community-evals))
+**Post count:** 27  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#leaderboards-and-community-evals))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -19,7 +19,6 @@
 | 2024-05-03 | Hugging Face | [Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-artificial-analysis) | `hf-r-leaderboard-artificial-analysis` |
 | 2024-04-23 | Hugging Face | [Introducing the Open Chain of Thought Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-cot) | `hf-r-leaderboard-cot` |
 | 2024-04-19 | Hugging Face | [The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-medicalllm) | `hf-r-leaderboard-medicalllm` |
-| 2024-03-20 | Allen Institute for AI | [Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B](../by-focus-area/evals-and-benchmarks.md#ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b) | `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b` |
 | 2024-03-05 | Hugging Face | [Introducing ConTextual: How well can your Multimodal model jointly reason over text and image in text-rich scenes?](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-contextual) | `hf-r-leaderboard-contextual` |
 | 2024-02-23 | Hugging Face | [Introducing the Red-Teaming Resistance Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-haizelab) | `hf-r-leaderboard-haizelab` |
 | 2024-02-20 | Hugging Face | [Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-upstage) | `hf-r-leaderboard-upstage` |
@@ -31,4 +30,4 @@
 | 2023-12-01 | Hugging Face | [Open LLM Leaderboard: DROP deep dive](../by-focus-area/evals-and-benchmarks.md#hf-r-open-llm-leaderboard-drop) | `hf-r-open-llm-leaderboard-drop` |
 | 2023-09-18 | Hugging Face | [Object Detection Leaderboard](../by-focus-area/evals-and-benchmarks.md#hf-r-object-detection-leaderboard) | `hf-r-object-detection-leaderboard` |
 | 2023-06-12 | Hugging Face | [Can foundation models label data like humans?](../by-focus-area/evals-and-benchmarks.md#hf-r-open-llm-leaderboard-rlhf) | `hf-r-open-llm-leaderboard-rlhf` |
-| 2023-02-07 | Hugging Face | [Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system](../by-focus-area/evals-and-benchmarks.md#hf-r-aivsai) | `hf-r-aivsai` |
+| ? | Allen Institute for AI | [Rewardbench The First Benchmark Leaderboard For Reward Models Used In Rlhf 1D4D7D04A90B](../by-focus-area/evals-and-benchmarks.md#ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b) | `ai2-r-rewardbench-the-first-benchmark-leaderboard-for-reward-models-used-in-rlhf-1d4d7d04a90b` |

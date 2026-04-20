@@ -2,70 +2,30 @@
 
 FP8/INT8 training, post-training quantization, distillation for size, parameter-efficient methods (LoRA/PEFT).
 
-**Post count:** 23
+**Post count:** 24
 
 **Contributors:**
 
-- Hugging Face: 15
+- Hugging Face: 14
 - Databricks Mosaic AI: 3
 - Meta AI / FAIR: 2
+- Sakana AI: 2
 - Thinking Machines: 1
 - OpenAI: 1
 - Google Research: 1
 
 **Subcategories:**
 
-- [Training-time quantization](#training-time-quantization) (1)
-- [Post-training quantization](#post-training-quantization) (4)
-- [Parameter-efficient training (LoRA/PEFT)](#parameter-efficient-training) (15)
-- [Pruning & sparsity](#pruning-and-sparsity) (3)
+- [Post-training quantization](#post-training-quantization) (3)
+- [Parameter-efficient training (LoRA/PEFT)](#parameter-efficient-training) (16)
+- [Pruning & sparsity](#pruning-and-sparsity) (2)
+- [Other efficiency](#fallback-efficiency) (3)
 
 ---
 
-## <a id="training-time-quantization"></a>Training-time quantization
-
-_1 posts_
-
-### Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8
-
-- **ID:** `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8
-- **Date:** 2024-03-21
-- **Authors:** Mihir Patel|Cheng Li|Saaketh Narayan
-- **Track:** engineering
-- **Contribution type:** empirical-study
-- **Techniques:** quantization
-
-**Summary:**
-
-- Databricks describes FP8 training optimizations in the Mosaic AI stack on NVIDIA H100s
-- Achieves 1.4x-1.5x speedup over BF16 at >50% MFU (highest reported among LLM training frameworks)
-- Shows FP8 and BF16 loss curves track closely, minimal impact on convergence
-- Covers techniques that enable scaling to thousands of GPUs
-- Matters for cost-effective large-scale pretraining
-
-
 ## <a id="post-training-quantization"></a>Post-training quantization
 
-_4 posts_
-
-### Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models
-
-- **ID:** `hf-r-intel-qwen3-agent`
-- **Company:** Hugging Face
-- **Link:** https://huggingface.co/blog/intel-qwen3-agent
-- **Date:** 2025-09-29
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-**Summary:**
-
-- Intel + HF show how to accelerate Qwen3-8B as a local agent on Intel Core Ultra using OpenVINO.GenAI speculative decoding
-- starting from 4-bit optimized OpenVINO Qwen3-8B, add a lightweight Qwen3-0.6B draft model for ~1.3x speedup, then depth-prune the draft for ~1.4x
-- demonstrates the pipeline wired into smolagents for a fast local AI agent
-- primary contribution is speculative-decoding + pruning efficiency, hence post-training quantization/efficiency.
-
+_3 posts_
 
 ### Making LLMs lighter with AutoGPTQ and transformers
 
@@ -105,24 +65,18 @@ _Summary pending — see link for details._
 
 ## <a id="parameter-efficient-training"></a>Parameter-efficient training (LoRA/PEFT)
 
-_15 posts_
+_16 posts_
 
-### Scaling Small LLMs with NVIDIA MPS
+### Instant LLM Updates with Doc-to-LoRA and Text-to-LoRA
 
-- **ID:** `dbx-r-scaling-small-llms-nvidia-mps`
-- **Company:** Databricks Mosaic AI
-- **Link:** https://www.databricks.com/blog/scaling-small-llms-nvidia-mps
-- **Date:** 2026-01-26
+- **ID:** `sk-r-doc-to-lora`
+- **Company:** Sakana AI
+- **Link:** https://sakana.ai/doc-to-lora/
+- **Date:** 2026-02-27
 - **Track:** research
-- **Contribution type:** empirical-study
+- **Contribution type:** _(uncategorized)_
 
-**Summary:**
-
-- Databricks tests NVIDIA Multi-Process Service (MPS) for serving small LLMs more efficiently on GPUs
-- MPS lets multiple inference processes share a single GPU context, overlapping kernels
-- Finds meaningful throughput wins for small models (<=3B params) with short context, prefill-only workloads, and CPU-bottlenecked engines
-- Explains wins via GPU kernel overlap when engines under-utilize compute/memory bandwidth, plus CPU-sharding benefits
-- Matters for cost-effective production serving of small LLMs
+_Summary pending — see link for details._
 
 
 ### Fast PEFT Serving at Scale
@@ -169,6 +123,18 @@ _Summary pending — see link for details._
 - **Company:** Hugging Face
 - **Link:** https://huggingface.co/blog/flux-qlora
 - **Date:** 2025-06-19
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+### Text-to-LoRA: Instant Transformer Adaption
+
+- **ID:** `sk-r-text-to-lora`
+- **Company:** Sakana AI
+- **Link:** https://sakana.ai/text-to-lora/
+- **Date:** 2025-06-12
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
@@ -297,18 +263,72 @@ _Summary pending — see link for details._
 
 ## <a id="pruning-and-sparsity"></a>Pruning & sparsity
 
-_3 posts_
+_2 posts_
 
 ### Sparsity-preserving differentially private training
 
 - **ID:** `gr-r-sparsity-preserving-differentially-private-training`
 - **Company:** Google Research
 - **Link:** https://research.google/blog/sparsity-preserving-differentially-private-training/
-- **Date:** 2023-12-08
+- **Date:** _date unknown_
 - **Track:** research
 - **Contribution type:** _(uncategorized)_
 
 _Summary pending — see link for details._
+
+
+### Training With Quantization Noise For Extreme Model Compression
+
+- **ID:** `meta-r-training-with-quantization-noise-for-extreme-model-compression`
+- **Company:** Meta AI / FAIR
+- **Link:** https://ai.meta.com/blog/training-with-quantization-noise-for-extreme-model-compression/
+- **Date:** _date unknown_
+- **Track:** research
+- **Contribution type:** _(uncategorized)_
+
+_Summary pending — see link for details._
+
+
+## <a id="fallback-efficiency"></a>Other efficiency
+
+_3 posts_
+
+### Scaling Small LLMs with NVIDIA MPS
+
+- **ID:** `dbx-r-scaling-small-llms-nvidia-mps`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/scaling-small-llms-nvidia-mps
+- **Date:** 2026-01-26
+- **Track:** research
+- **Contribution type:** empirical-study
+
+**Summary:**
+
+- Databricks tests NVIDIA Multi-Process Service (MPS) for serving small LLMs more efficiently on GPUs
+- MPS lets multiple inference processes share a single GPU context, overlapping kernels
+- Finds meaningful throughput wins for small models (<=3B params) with short context, prefill-only workloads, and CPU-bottlenecked engines
+- Explains wins via GPU kernel overlap when engines under-utilize compute/memory bandwidth, plus CPU-sharding benefits
+- Matters for cost-effective production serving of small LLMs
+
+
+### Turbocharged Training: Optimizing the Databricks Mosaic AI Stack With FP8
+
+- **ID:** `dbx-e-turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8`
+- **Company:** Databricks Mosaic AI
+- **Link:** https://www.databricks.com/blog/turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8
+- **Date:** 2024-03-21
+- **Authors:** Mihir Patel|Cheng Li|Saaketh Narayan
+- **Track:** engineering
+- **Contribution type:** empirical-study
+- **Techniques:** quantization
+
+**Summary:**
+
+- Databricks describes FP8 training optimizations in the Mosaic AI stack on NVIDIA H100s
+- Achieves 1.4x-1.5x speedup over BF16 at >50% MFU (highest reported among LLM training frameworks)
+- Shows FP8 and BF16 loss curves track closely, minimal impact on convergence
+- Covers techniques that enable scaling to thousands of GPUs
+- Matters for cost-effective large-scale pretraining
 
 
 ### Learning sparse neural networks through L₀ regularization
@@ -327,16 +347,4 @@ _Summary pending — see link for details._
 - Enables joint optimization of gates with network parameters
 - Improves generalization and allows conditional computation
 - Matters as a foundational differentiable-pruning method.
-
-
-### Training With Quantization Noise For Extreme Model Compression
-
-- **ID:** `meta-r-training-with-quantization-noise-for-extreme-model-compression`
-- **Company:** Meta AI / FAIR
-- **Link:** https://ai.meta.com/blog/training-with-quantization-noise-for-extreme-model-compression/
-- **Date:** 2020-04-23
-- **Track:** research
-- **Contribution type:** _(uncategorized)_
-
-_Summary pending — see link for details._
 

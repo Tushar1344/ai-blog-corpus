@@ -1,6 +1,6 @@
 # Judge models & eval methodology
 
-**Post count:** 10  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#judge-models-and-methodology))
+**Post count:** 13  |  **Focus area:** Evaluations & Benchmarks ([canonical](../by-focus-area/evals-and-benchmarks.md#judge-models-and-methodology))
 
 | Date | Company | Title | ID |
 |---|---|---|---|
@@ -11,6 +11,9 @@
 | 2025-06-06 | Hugging Face | [ScreenSuite - The most comprehensive evaluation suite for GUI Agents!](../by-focus-area/evals-and-benchmarks.md#hf-r-screensuite) | `hf-r-screensuite` |
 | 2024-11-19 | Hugging Face | [Judge Arena: Benchmarking LLMs as Evaluators](../by-focus-area/evals-and-benchmarks.md#hf-r-arena-atla) | `hf-r-arena-atla` |
 | 2024-10-28 | Hugging Face | [Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge](../by-focus-area/evals-and-benchmarks.md#hf-r-digital-green-llm-judge) | `hf-r-digital-green-llm-judge` |
+| 2024-06-26 | LangChain | [Aligning LLM-as-a-Judge with Human Preferences](../by-focus-area/evals-and-benchmarks.md#lc-r-aligning-llm-as-a-judge-with-human-preferences) | `lc-r-aligning-llm-as-a-judge-with-human-preferences` |
 | 2024-06-06 | Hugging Face | [Launching the Artificial Analysis Text to Image Leaderboard & Arena](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-artificial-analysis2) | `hf-r-leaderboard-artificial-analysis2` |
 | 2024-05-24 | Hugging Face | [CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models](../by-focus-area/evals-and-benchmarks.md#hf-r-leaderboard-llamaguard) | `hf-r-leaderboard-llamaguard` |
-| 2021-07-14 | Google DeepMind | [Melting Pot An Evaluation Suite For Multi Agent Reinforcement Learning](../by-focus-area/evals-and-benchmarks.md#dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning) | `dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning` |
+| ? | Google DeepMind | [Melting Pot An Evaluation Suite For Multi Agent Reinforcement Learning](../by-focus-area/evals-and-benchmarks.md#dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning) | `dm-r-melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning` |
+| ? | Mistral AI | [Llm As Rag Judge](../by-focus-area/evals-and-benchmarks.md#mt-r-llm-as-rag-judge) | `mt-r-llm-as-rag-judge` |
+| ? | AI21 Labs | [Llm Judge Models](../by-focus-area/evals-and-benchmarks.md#a21-r-llm-judge-models) | `a21-r-llm-judge-models` |

@@ -30,6 +30,12 @@ COMPANY_TITLES = {
     "huggingface": "Hugging Face",
     "ai2": "Allen Institute for AI",
     "deepseek": "DeepSeek",
+    "sakana": "Sakana AI",
+    "qwen": "Qwen (Alibaba)",
+    "mistral": "Mistral AI",
+    "ai21": "AI21 Labs",
+    "langchain": "LangChain",
+    "moonshot": "Moonshot (Kimi)",
 }
 COMPANY_FILES = {k: k.replace("_", "-") + ".md" for k in COMPANY_TITLES}
 
@@ -249,6 +255,58 @@ def generate_company_files(rows):
 
     print(f"Wrote {len(by_co)} company cross-ref files")
 
+def generate_country_files(rows):
+    """Write by-country/*.md — one file per country, grouped by focus area."""
+    out_dir = ROOT / "by-country"
+    out_dir.mkdir(exist_ok=True)
+    for old in out_dir.glob("*.md"):
+        old.unlink()
+
+    by_country = defaultdict(list)
+    for r in rows:
+        c = r.get("country", "")
+        if c:
+            by_country[c].append(r)
+
+    for country, entries in sorted(by_country.items(), key=lambda x: -len(x[1])):
+        entries.sort(key=lambda r: r["publish_date"] or "0000-00-00", reverse=True)
+        fname = norm_fname(country)
+        out = out_dir / fname
+        # Count by company within country
+        by_co = defaultdict(int)
+        for e in entries:
+            by_co[e["company"]] += 1
+        # Group by focus area
+        by_fa = defaultdict(list)
+        for e in entries:
+            by_fa[e["focus_area"]].append(e)
+
+        lines = [f"# {country}", ""]
+        lines.append(f"**Total in-scope posts:** {len(entries)}")
+        lines.append("")
+        lines.append("**Contributing organizations:**")
+        lines.append("")
+        for co, c in sorted(by_co.items(), key=lambda x: -x[1]):
+            lines.append(f"- {COMPANY_TITLES.get(co, co)}: {c}")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+        for fa in FOCUS_AREAS_ORDER:
+            sub = by_fa.get(fa, [])
+            if not sub:
+                continue
+            lines.append(f"## {FOCUS_AREA_TITLES[fa]} ({len(sub)})")
+            lines.append("")
+            lines.append("| Date | Company | Title | ID |")
+            lines.append("|---|---|---|---|")
+            for e in sub:
+                t = (e["title"] or e["id"]).replace("|", "\\|")
+                co = COMPANY_TITLES.get(e["company"], e["company"])
+                lines.append(f"| {e['publish_date'] or '?'} | {co} | [{t}](../by-focus-area/{fa}.md#{e['id']}) | `{e['id']}` |")
+            lines.append("")
+        out.write_text("\n".join(lines))
+    print(f"Wrote {len(by_country)} country files to by-country/")
+
 def generate_axis_files(rows, axis_col, out_dir, title_prefix, is_multi=False):
     """Generic cross-ref generator (same as v1)."""
     (ROOT / out_dir).mkdir(exist_ok=True)
@@ -374,6 +432,7 @@ def main():
     generate_focus_area_files(in_scope)
     generate_subcategory_files(in_scope)
     generate_company_files(in_scope)
+    generate_country_files(in_scope)
     generate_axis_files(in_scope, "contribution_type", "by-contribution-type", "Contribution type")
     generate_axis_files(in_scope, "year", "by-year", "Year")
     generate_axis_files(in_scope, "techniques", "by-technique", "Technique", is_multi=True)

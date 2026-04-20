@@ -20,8 +20,6 @@
 | 2025-04-16 | OpenAI | [OpenAI o3 and o4-mini System Card](../by-focus-area/alignment-and-safety.md#oai-r-o3-o4-mini-system-card) | `oai-r-o3-o4-mini-system-card` |
 | 2024-12-09 | OpenAI | [Sora 2 System Card](../by-focus-area/alignment-and-safety.md#oai-r-sora-2-system-card) | `oai-r-sora-2-system-card` |
 | 2024-12-06 | OpenAI | [Sora System Card](../by-focus-area/alignment-and-safety.md#oai-r-sora-system-card) | `oai-r-sora-system-card` |
-| 2024-10-03 | Meta AI / FAIR | [System Cards A New Resource For](../by-focus-area/alignment-and-safety.md#meta-r-system-cards-a-new-resource-for-) | `meta-r-system-cards-a-new-resource-for-` |
-| 2022-02-23 | Meta AI / FAIR | [System Cards A New Resource For Understanding How Ai Systems Work](../by-focus-area/alignment-and-safety.md#meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-work) | `meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-work` |
 | ? | OpenAI | [Operator System Card](../by-focus-area/alignment-and-safety.md#oai-r-operator-system-card) | `oai-r-operator-system-card` |
 | ? | OpenAI | [OpenAI o1 System Card](../by-focus-area/alignment-and-safety.md#oai-r-openai-o1-system-card) | `oai-r-openai-o1-system-card` |
 | ? | OpenAI | [OpenAI o3-mini System Card](../by-focus-area/alignment-and-safety.md#oai-r-o3-mini-system-card) | `oai-r-o3-mini-system-card` |
@@ -30,4 +28,6 @@
 | ? | OpenAI | [Addendum to GPT-4o System Card: 4o image generation](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4o-image-generation-system-card-addendum) | `oai-r-gpt-4o-image-generation-system-card-addendum` |
 | ? | OpenAI | [GPT-4o System Card](../by-focus-area/alignment-and-safety.md#oai-r-gpt-4o-system-card) | `oai-r-gpt-4o-system-card` |
 | ? | Meta AI / FAIR | [How Ai Powers Experiences Facebook Instagram System Cards](../by-focus-area/alignment-and-safety.md#meta-r-how-ai-powers-experiences-facebook-instagram-system-cards) | `meta-r-how-ai-powers-experiences-facebook-instagram-system-cards` |
+| ? | Meta AI / FAIR | [System Cards A New Resource For](../by-focus-area/alignment-and-safety.md#meta-r-system-cards-a-new-resource-for-) | `meta-r-system-cards-a-new-resource-for-` |
 | ? | Meta AI / FAIR | [System Cards A New Resource For Understanding How Ai Systems](../by-focus-area/alignment-and-safety.md#meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-) | `meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-` |
+| ? | Meta AI / FAIR | [System Cards A New Resource For Understanding How Ai Systems Work](../by-focus-area/alignment-and-safety.md#meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-work) | `meta-r-system-cards-a-new-resource-for-understanding-how-ai-systems-work` |

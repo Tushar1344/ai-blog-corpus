@@ -19,9 +19,18 @@ from collections import Counter
 
 DATA = Path(__file__).parent
 
-FIELDS = ["id", "company", "track", "title", "url", "publish_date", "authors",
+FIELDS = ["id", "company", "country", "track", "title", "url", "publish_date", "authors",
           "in_scope", "dropped_in_v2", "scope_reason", "summary", "contribution_type",
-          "technical_domain", "techniques", "focus_area", "year", "md_anchor", "notes"]
+          "technical_domain", "techniques", "focus_area", "subcategory", "year", "md_anchor", "notes"]
+
+COMPANY_COUNTRY = {
+    "anthropic": "USA", "openai": "USA", "databricks": "USA", "cursor": "USA",
+    "vercel": "USA", "cognition": "USA", "thinking-machines": "USA",
+    "google-research": "USA", "deepmind": "UK", "meta-fair": "USA",
+    "huggingface": "France", "ai2": "USA", "deepseek": "China",
+    "sakana": "Japan", "qwen": "China", "mistral": "France",
+    "ai21": "Israel", "langchain": "USA", "moonshot": "China",
+}
 
 # v2 drop patterns (same as assign_focus_area.py)
 DROP_RX = re.compile(
@@ -87,15 +96,23 @@ def classify(row):
         if re.search(rx, text, re.I):
             return (area, False, "")
 
-    # No specific rule matched — DROP as unclassifiable (don't default to pretraining)
-    # Exception: existing v1 companies keep their default behavior (they were manually reviewed)
-    if company in ("anthropic", "openai", "databricks", "cursor", "vercel", "cognition", "thinking-machines"):
-        track = row.get("track", "")
-        if track in ("engineering", "applied"):
-            return ("harness-and-context-engineering", False, "v2-default-harness")
-        return ("pretraining-and-architecture", False, "v2-default-pretraining")
-    # New companies: drop if unclassifiable
-    return (None, True, "v2-drop-unclassifiable")
+    # Company-specific defaults when no specific rule matched
+    if company == "langchain":
+        return ("harness-and-context-engineering", False, "v2-default-harness-langchain")
+    if company in ("qwen", "mistral", "moonshot", "ai21", "sakana", "deepseek"):
+        # Model labs — default to pretraining
+        return ("pretraining-and-architecture", False, "v2-default-pretraining-model-lab")
+
+    # Broad publishers (Meta FAIR, DeepMind, Google Research, HF, AI2): DROP if no FA rule matched.
+    # Their feeds include lots of non-AI content and only specifically-matched posts should be kept.
+    if company in ("meta-fair", "deepmind", "google-research", "huggingface", "ai2"):
+        return (None, True, "v2-drop-unclassifiable")
+
+    # Remaining fallback for v1: default by track
+    track = row.get("track", "")
+    if track in ("engineering", "applied"):
+        return ("harness-and-context-engineering", False, "v2-default-harness")
+    return ("pretraining-and-architecture", False, "v2-default-pretraining")
 
 def main():
     master_path = DATA / "master.csv"
@@ -109,7 +126,7 @@ def main():
 
     existing_ids = {r["id"] for r in rows}
 
-    # Merge in Tier 1 files
+    # Merge in Tier 1 + Tier 2 files
     new_files = [
         ("enum-google-research.csv", "google-research"),
         ("enum-meta-fair.csv", "meta-fair"),
@@ -117,6 +134,13 @@ def main():
         ("enum-deepseek.csv", "deepseek"),
         ("enum-deepmind.csv", "deepmind"),
         ("enum-ai2.csv", "ai2"),
+        # Tier 2
+        ("enum-sakana.csv", "sakana"),
+        ("enum-qwen.csv", "qwen"),
+        ("enum-mistral.csv", "mistral"),
+        ("enum-ai21.csv", "ai21"),
+        ("enum-langchain.csv", "langchain"),
+        ("enum-moonshot.csv", "moonshot"),
     ]
     added = 0
     for fn, co in new_files:
@@ -130,6 +154,44 @@ def main():
             out = {k: r.get(k, "") for k in FIELDS}
             out["in_scope"] = r.get("in_scope", "TRUE")
             out["dropped_in_v2"] = "FALSE"
+            # Ensure country is set
+            if not out.get("country"):
+                out["country"] = COMPANY_COUNTRY.get(out["company"], "")
+
+            # LangChain-specific filter — drop obvious out-of-scope posts by title
+            if out["company"] == "langchain":
+                title = (out["title"] or "").lower()
+                slug = out["id"].lower()
+                # STRICT drop patterns — customer stories + product/integration + company news
+                strict_drop = re.compile(
+                    r"(^rolling out|^introducing\s+(langsmith|langgraph|langchain|langchain\.js)"
+                    r"|langsmith\s+(for|with|update|v\d)|rbac|access control|"
+                    r"\bally financial\b|\bclick\b|\bstripe\b|\ba\.team\b|"
+                    r"collaborat(es|ing) with|customer (story|success|spotlight)"
+                    r"|case stud|partners?hip|joins? langchain|acqui|raise|funding|series [abc]"
+                    r"|community (spotlight|recap|highlight)|monthly (digest|recap)"
+                    r"|webinar|meetup|event\b|presenting at"
+                    r"|[a-z]+\.dev tools|tools now in|now (in|available)"
+                    r"|trusting|how .* uses? lang(chain|graph|smith)"
+                    r"|revolutioniz|medical knowledge|transform[a-z]*\s+(healthcare|finance|retail|industry))",
+                    re.I)
+                # High-confidence KEEP patterns override strict_drop
+                force_keep = re.compile(
+                    r"(agent architecture|agent engineering|agent (design|protocol|middleware|runtime|harness|evaluation|ops|primitives)"
+                    r"|deep agent|multi[- ]agent|subagent|agent primitives"
+                    r"|how we built|how we made|how we evaluate|how we train"
+                    r"|context engineering|\brag\b|retrieval[- ]augmented|long[- ]context|"
+                    r"observability|evaluat|benchmark|\bjudge\b|tracing|\btraces?\b|trajectory|"
+                    r"\beval\b|open[- ]source (alternative|framework)|state of|opinion|principle|"
+                    r"fine[- ]tun|distill|reasoning|reward|"
+                    r"\brlhf\b|\brlvr\b|post[- ]train|pretrain|"
+                    r"prompt (engineering|caching|library)|human.in.the.loop|hitl|"
+                    r"guardrail|safety|red.team|jailbreak)", re.I)
+                if strict_drop.search(title) and not force_keep.search(title):
+                    out["in_scope"] = "FALSE"
+                    out["dropped_in_v2"] = "TRUE"
+                    out["scope_reason"] = "langchain-product-or-promo"
+
             # Classify
             area, dropped, reason = classify(out)
             if dropped:
