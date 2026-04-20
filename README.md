@@ -49,9 +49,12 @@ by-country/           # Cross-reference — 6 country files (USA, China, France,
 by-contribution-type/ # Cross-reference by contribution kind
 by-year/              # Cross-reference by publish year
 by-technique/         # Cross-reference by technique tag (SAE, MoE, RLHF, etc.)
+by-signal/            # High / Medium / Low signal tiers (see signal scoring below)
+study-plans/          # Focused reading lists for specific goals (interview prep, onboarding, etc.)
 visualizations/       # Interactive heatmap dashboard (HTML) + SVG previews
 _data/                # Source CSVs + scripts
 index.md              # Master nav (focus area → subcategory → entries)
+must-read.md          # Top 50 H-signal posts ranked by priority
 ```
 
 Each post has a unique ID (`{company}-{track}-{slug}`) and appears as a full entry in exactly one `by-focus-area/*.md` file. Every other file cross-references via the ID anchor.
